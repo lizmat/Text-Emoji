@@ -1,0 +1,28 @@
+{
+  "auth": "zef:lizmat",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "blah blah blah",
+  "license": "Artistic-2.0",
+  "name": "Text::Emoji",
+  "perl": "6.d",
+  "provides": {
+    "Text::Emoji": "lib/Text/Emoji.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/lizmat/Text-Emoji.git",
+  "tags": [
+    "TEXT",
+    "EMOJI",
+    "UNICODE"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}

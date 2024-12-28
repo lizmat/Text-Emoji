@@ -1,0 +1,9 @@
+use Test;
+
+use Text::Emoji;
+
+plan 1;
+
+is to-emoji(":I: :heart: :beer:"), ":I: ❤️ 🍺", "it works!"
+
+# vim: expandtab shiftwidth=4
