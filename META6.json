@@ -7,7 +7,7 @@
   ],
   "depends": [
   ],
-  "description": "blah blah blah",
+  "description": "Provide :text: to emoji translation",
   "license": "Artistic-2.0",
   "name": "Text::Emoji",
   "perl": "6.d",

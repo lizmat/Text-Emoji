@@ -3,7 +3,7 @@
 NAME
 ====
 
-Text::Emoji - bla bla bla
+Text::Emoji - provide :text: to emoji translation
 
 SYNOPSIS
 ========
