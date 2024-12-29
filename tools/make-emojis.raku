@@ -100,11 +100,11 @@ while @lines {
         last if @lines.shift.starts-with($end);
     }
 
-    say "my constant %lookup =";
+    say "my %lookup =  # alas, 'constant' doesn't work on Windows";
     print $format("'$_.key()',", .value<emoji>) for @emojis;
     say ";";
 
-    say "my constant %reverse =";
+    say "my %reverse =  # alas, 'constant' doesn't work on Windows";
     say "  '{.key}', \$(<{.value}>)," for %reverse.sort(*.key);
     say ";";
 
