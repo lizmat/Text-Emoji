@@ -2,15 +2,18 @@ use Test;
 
 use Text::Emoji;
 
-plan 7;
+plan 14;
+
+my %direct is Map   = :love<❤️>;
+my %indirect is Map = :love<heart>;
 
 is to-emoji(":I: :heart: :beer:"),
   ":I: ❤️ 🍺",
   "it works!";
-is to-emoji(":I: :love: :beer:", %(love => "❤️")),
+is to-emoji(":I: :love: :beer:", %direct),
   ":I: ❤️ 🍺",
   "it works with direct additional!";
-is to-emoji(":I: :love: :beer:", %(love => "heart")),
+is to-emoji(":I: :love: :beer:", %indirect),
   ":I: ❤️ 🍺",
   "it works with indirect additional!";
 is to-emoji(":I: :love: :beer:", :love<❤️>),
@@ -27,5 +30,25 @@ is to-emoji("ok :+1:, not-ok :-1:"),
 is to-emoji("baby: :baby-bottle::babybottle:"),
   "baby: 🍼🍼",
   "all babies ok";
+
+is to-text(":I: ❤️ 🍺"),
+  ":I: :heart: :beer:",
+  "it works in reverse!";
+is to-text(":I: ❤️ 🍺", %direct),
+  ":I: :love: :beer:",
+  "it works in reverse with direct additional!";
+is to-text(":I: ❤️ 🍺", %indirect),
+  ":I: :love: :beer:",
+  "it works in reverse with indirect additional!";
+is to-text(":I: ❤️ 🍺", :love<❤️>),
+  ":I: :love: :beer:",
+  "it works in reverse with named direct additional!";
+is to-text(":I: ❤️ 🍺", :love<heart>),
+  ":I: :love: :beer:",
+  "it works in reverse with named indirect additional!";
+
+my $clean = "A clean string with : but without emojis";
+is to-emoji($clean), $clean, 'no text , still clean';
+is to-text($clean),  $clean, 'no emoji , still clean';
 
 # vim: expandtab shiftwidth=4

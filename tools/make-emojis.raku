@@ -7,21 +7,26 @@
 # always use highest version of Raku
 use v6.*;
 
-
 my $emojis-io := $*PROGRAM.sibling("emojis.json");
 my @emojis;
+my %reverse;
 my $width;
 
 my sub normalize(%map) {
     my @aliases;
+    my $emoji := %map<emoji>;
     for %map<aliases><> -> $alias {
         $width max= $alias.chars;
         if $alias.contains('_') {
-            @aliases.push: $alias.trans("_" => "-") => %map;
-            @aliases.push: $alias.trans("_" => "")  => %map;
+            my $hyphened := $alias.trans("_" => "-");
+            my $cleaned  := $alias.trans("_" => "");
+            @aliases.push: $hyphened => %map;
+            @aliases.push: $cleaned  => %map;
+            %reverse{$emoji}.push: $hyphened;
         }
         else {
             @aliases.push: $alias => %map;
+            %reverse{$emoji}.push: $alias;
         }
     }
     @aliases.Slip
@@ -59,6 +64,9 @@ else {
       .from-json($emojis-io.slurp).map(&normalize).sort(*.key);
 }
 
+# Make sure the shortest alternative is first
+$_ = .sort(*.chars) for %reverse.values;
+
 my $format := Format.new("  %-{$width}s'%s',\n");
 
 my $generator = $*PROGRAM-NAME;
@@ -90,9 +98,13 @@ while @lines {
         last if @lines.shift.starts-with($end);
     }
 
-    for @emojis {
-        print $format("'$_.key()',", .value<emoji>);
-    }
+    say "my constant %lookup =";
+    print $format("'$_.key()',", .value<emoji>) for @emojis;
+    say ";";
+
+    say "my constant %reverse =";
+    say "  '{.key}', \$(<{.value}>)," for %reverse.sort(*.key);
+    say ";";
 
     # we're done for this role
     say "#- PLEASE DON'T CHANGE ANYTHING ABOVE THIS LINE";

@@ -12,12 +12,14 @@ SYNOPSIS
 use Text::Emoji;
 
 say to-emoji("I :heart: :beer:");  # I ❤️ 🍺
+
+say to-text(":I: ❤️ 🍺");  # I :heart: :beer:
 ```
 
 DESCRIPTION
 ===========
 
-The `Text::Emoji` distribution exports a single subroutine `to-emoji`.
+The `Text::Emoji` distribution contains information about transforming `:text:` to emoji transliteration. As such it exports a number of subroutines.
 
 SUBROUTINES
 ===========
@@ -39,6 +41,21 @@ say to-emoji("baby: :baby-bottle::babybottle:");  # baby: 🍼🍼
 The `to-emoji` subroutine in its simplest form takes a string as the first argument and attempt to transform any known emoji strings of the form `:word:` into the associated emoji. Note that the word *may* contain hyphens, but they are optional.
 
 Additional mapping info may be specified as additional named arguments, or as a hash. The value for each additional mapping may be either the emoji directly, or the text equivalent of the emoji.
+
+to-text
+-------
+
+```raku
+say to-text("I ❤️ 🍺");                      # I :heart: :beer:
+say to-text("I ❤️ 🍺", :love<❤️>);           # I :love: :beer:
+say to-text("I ❤️ 🍺", :love<heart>);        # I :love: :beer:
+say to-text("I ❤️ 🍺", %(love => "❤️"));     # I :love: :beer:
+say to-text("I ❤️ 🍺", %(love => "heart"));  # I :love: :beer:
+```
+
+The `to-text` subroutine in its simplest form takes a string as the first argument and attempt to transform any known emojis to the shortest possible `:word:` form known for that emoji.
+
+The same type of additional map information as can be specified with `to-emoji`, can be specified with `to-text`.
 
 INSPIRATION
 ===========

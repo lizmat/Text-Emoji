@@ -12,11 +12,15 @@ use Text::Emoji;
 
 say to-emoji("I :heart: :beer:");  # I ❤️ 🍺
 
+say to-text(":I: ❤️ 🍺");  # I :heart: :beer:
+
 =end code
 
 =head1 DESCRIPTION
 
-The C<Text::Emoji> distribution exports a single subroutine C<to-emoji>.
+The C<Text::Emoji> distribution contains information about transforming
+C<:text:> to emoji transliteration.  As such it exports a number of
+subroutines.
 
 =head1 SUBROUTINES
 
@@ -43,6 +47,25 @@ contain hyphens, but they are optional.
 Additional mapping info may be specified as additional named arguments,
 or as a hash.  The value for each additional mapping may be either the
 emoji directly, or the text equivalent of the emoji.
+
+=head2 to-text
+
+=begin code :lang<raku>
+
+say to-text("I ❤️ 🍺");                      # I :heart: :beer:
+say to-text("I ❤️ 🍺", :love<❤️>);           # I :love: :beer:
+say to-text("I ❤️ 🍺", :love<heart>);        # I :love: :beer:
+say to-text("I ❤️ 🍺", %(love => "❤️"));     # I :love: :beer:
+say to-text("I ❤️ 🍺", %(love => "heart"));  # I :love: :beer:
+
+=end code
+
+The C<to-text> subroutine in its simplest form takes a string as the
+first argument and attempt to transform any known emojis to the shortest
+possible C<:word:> form known for that emoji.
+
+The same type of additional map information as can be specified with
+C<to-emoji>, can be specified with C<to-text>.
 
 =head1 INSPIRATION
 
