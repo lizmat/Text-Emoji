@@ -7,7 +7,7 @@
 # always use highest version of Raku
 use v6.*;
 
-my $emojis-io := $*PROGRAM.sibling("emojis.json");
+my $emojis-io := $*PROGRAM.parent(2).add("resources/emojis.json");
 my @emojis;
 my %reverse;
 my $width;
@@ -34,13 +34,15 @@ my sub normalize(%map) {
 
 if @*ARGS.head -> $command {
     if $command eq 'update' {
-        my $proc := run <
-          curl
-          https://raw.githubusercontent.com/github/gemoji/master/db/emoji.json
-        >, :out, :err;
+        my $proc := run <curl https://raw.githubusercontent.com/github/gemoji/master/db/emoji.json>, :out, :err;
 
-        if $proc.err.slurp -> $errors {
-            note $errors;
+        if $proc.exitcode -> $exitcode {
+            if $proc.err.slurp -> $errors {
+                note $errors;
+            }
+            else {
+                note "Exited with: $exitcode";
+            }
             exit 1;
         }
         

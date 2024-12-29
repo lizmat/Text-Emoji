@@ -15,6 +15,7 @@
     "Text::Emoji": "lib/Text/Emoji.rakumod"
   },
   "resources": [
+    "emojis.json"
   ],
   "source-url": "https://github.com/lizmat/Text-Emoji.git",
   "tags": [
@@ -24,5 +25,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.3"
+  "version": "0.0.4"
 }

@@ -2,9 +2,9 @@ use Test;
 
 use Text::Emoji;
 
-plan 14;
+plan 17;
 
-my %direct is Map   = :love<❤️>;
+my %direct   is Map = :love<❤️>;
 my %indirect is Map = :love<heart>;
 
 is to-emoji(":I: :heart: :beer:"),
@@ -49,6 +49,20 @@ is to-text(":I: ❤️ 🍺", :love<heart>),
 
 my $clean = "A clean string with : but without emojis";
 is to-emoji($clean), $clean, 'no text , still clean';
-is to-text($clean),  $clean, 'no emoji , still clean';
+is to-text( $clean), $clean, 'no emoji , still clean';
+
+my $raw := raw-emoji-data;
+isa-ok $raw, Map, 'the raw data comes as a Map';
+is $raw.elems, 1870, 'does the raw data have correct size';
+is-deeply $raw<❤️ >,
+  (:aliases($["heart"]),
+    :category("Smileys \& Emotion"),
+    :description("red heart"),
+    :emoji("❤️"),
+    :ios_version("6.0"),
+    :tags($["love"]),
+    :unicode_version(""),
+  ).Map,
+  'the raw emoji data looks ok';
 
 # vim: expandtab shiftwidth=4

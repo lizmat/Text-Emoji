@@ -1,5 +1,5 @@
 #- start of generated part of Text::Emoji
-#- Generated on 2024-12-29T12:26:12+01:00 by tools/make-emojis.raku
+#- Generated on 2024-12-29T15:14:18+01:00 by tools/make-emojis.raku
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
 my constant %lookup =
   '+1',                                   '👍',
@@ -4722,6 +4722,7 @@ my constant %reverse =
 #- PLEASE DON'T CHANGE ANYTHING ABOVE THIS LINE
 #- end of generated part of Text::Emoji
 
+#- to-emoji --------------------------------------------------------------------
 my proto sub to-emoji(|) is export {*}
 my multi sub to-emoji(Str:D $text) is default {
     $text.contains(":")
@@ -4745,6 +4746,7 @@ my multi sub to-emoji(Str:D $text, %additional) {
 }
 my multi sub to-emoji(Str:D $text, *%_) { to-emoji($text, %_) }
 
+#- to-text ---------------------------------------------------------------------
 my proto sub to-text(|) is export {*}
 my multi sub to-text(Str:D $text) is default {
     my int $from;
@@ -4804,5 +4806,18 @@ my multi sub to-text(Str:D $text, %extra) {
     }
 }
 my multi sub to-text(Str:D $text, *%_) { to-text($text, %_) }
+
+#- raw-emoji-data --------------------------------------------------------------
+my %raw;
+my sub raw-emoji-data() is export {
+    if %raw {
+        %raw
+    }
+    else {
+        %raw := my %map is Map = Rakudo::Internals::JSON.from-json(
+          %?RESOURCES<emojis.json>.slurp
+        ).map: { .<emoji> => .Map }
+    }
+}
 
 # vim: expandtab shiftwidth=4

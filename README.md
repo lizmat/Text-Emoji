@@ -57,6 +57,30 @@ The `to-text` subroutine in its simplest form takes a string as the first argume
 
 The same type of additional map information as can be specified with `to-emoji`, can be specified with `to-text`.
 
+raw-emoji-data
+--------------
+
+```raku
+say raw-emoji-data<❤️>.keys;
+# (aliases category description emoji ios_version tags unicode_version)
+```
+
+The `raw-emoji-data` subroutine returns a `Map`, keyed to the supported emojis. The value associated with is a `Map` as well, which can be best described by its JSON representation:
+
+    {
+      "emoji": "❤️",
+      "description": "red heart",
+      "category": "Smileys & Emotion",
+      "aliases": [
+        "heart"
+      ],
+      "tags": [
+        "love"
+      ],
+      "unicode_version": "",
+      "ios_version": "6.0"
+    }
+
 INSPIRATION
 ===========
 
