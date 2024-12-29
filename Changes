@@ -1,6 +1,7 @@
 Revision history for Text::Emoji
 
 {{$NEXT}}
+    - Also allow :TADA: (aka make lookup case-insensitive)
 
 0.0.6  2024-12-29T16:57:04+01:00
     - Don't use a constant lookup, for some reason this chokes

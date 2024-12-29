@@ -27,7 +27,7 @@ is to-emoji("ok :+1:, not-ok :-1:"),
   "ok 👍, not-ok 👎",
   "all ok not ok ok";
 
-is to-emoji("baby: :baby-bottle::babybottle:"),
+is to-emoji("baby: :BABY-BOTTLE::babybottle:"),
   "baby: 🍼🍼",
   "all babies ok";
 

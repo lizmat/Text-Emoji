@@ -49,7 +49,8 @@ contain hyphens, but they are optional.
 
 Additional mapping info may be specified as additional named arguments,
 or as a hash.  The value for each additional mapping may be either the
-emoji directly, or the text equivalent of the emoji.
+emoji directly, or the text equivalent of the emoji.  Note that all
+text in these additional mappings, should be in B<lowercase> only.
 
 =head2 to-text
 

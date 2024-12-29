@@ -1,3 +1,4 @@
+#- lookup tables ---------------------------------------------------------------
 #- start of generated part of Text::Emoji
 #- Generated on 2024-12-29T16:55:49+01:00 by tools/make-emojis.raku
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
@@ -4727,19 +4728,19 @@ my proto sub to-emoji(|) is export {*}
 my multi sub to-emoji(Str:D $text) is default {
     $text.contains(":")
       ?? $text.trans: / ":" <[\w+-]>+ ":" / => {
-             %lookup{$/.substr(1, *-1)} || $/.Str
+             %lookup{$/.substr(1, *-1).lc} || $/.Str
          }
       !! $text
 }
 my multi sub to-emoji(Str:D $text, %additional) {
     $text.contains(":")
       ?? $text.trans: / ":" <[\w+-]>+ ":" / => {
-             my $key = $/.substr(1, *-1);
+             my $key = $/.substr(1, *-1).lc;
              if %additional{$key} -> $value {
                  %lookup{$value} || $value
              }
              else {
-                 %lookup{$/.substr(1,*-1)} || $/.Str
+                 %lookup{$key} || $/.Str
              }
          }
       !! $text

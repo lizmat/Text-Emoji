@@ -42,7 +42,7 @@ say to-emoji("baby: :baby-bottle::babybottle:");  # baby: 🍼🍼
 
 The `to-emoji` subroutine in its simplest form takes a string as the first argument and attempt to transform any known emoji strings of the form `:word:` into the associated emoji. Note that the word *may* contain hyphens, but they are optional.
 
-Additional mapping info may be specified as additional named arguments, or as a hash. The value for each additional mapping may be either the emoji directly, or the text equivalent of the emoji.
+Additional mapping info may be specified as additional named arguments, or as a hash. The value for each additional mapping may be either the emoji directly, or the text equivalent of the emoji. Note that all text in these additional mappings, should be in **lowercase** only.
 
 to-text
 -------
