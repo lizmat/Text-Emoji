@@ -1,7 +1,10 @@
 Revision history for Text::Emoji
 
 {{$NEXT}}
+
+0.0.7  2024-12-29T21:10:49+01:00
     - Also allow :TADA: (aka make lookup case-insensitive)
+    - Remve "emoji" field in raw data: it lives in the key
 
 0.0.6  2024-12-29T16:57:04+01:00
     - Don't use a constant lookup, for some reason this chokes

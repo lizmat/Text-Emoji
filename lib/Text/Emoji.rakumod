@@ -4817,7 +4817,7 @@ my sub raw-emoji-data() is export {
     else {
         %raw := my %map is Map = Rakudo::Internals::JSON.from-json(
           %?RESOURCES<emojis.json>.slurp
-        ).map: { .<emoji> => .Map }
+        ).map: { .<emoji>:delete => .Map }
     }
 }
 

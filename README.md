@@ -70,7 +70,6 @@ say raw-emoji-data<❤️>.keys;
 The `raw-emoji-data` subroutine returns a `Map`, keyed to the supported emojis. The value associated with is a `Map` as well, which can be best described by its JSON representation:
 
     {
-      "emoji": "❤️",
       "description": "red heart",
       "category": "Smileys & Emotion",
       "aliases": [

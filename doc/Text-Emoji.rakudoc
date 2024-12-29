@@ -87,7 +87,6 @@ described by its JSON representation:
 =begin output
 
 {
-  "emoji": "❤️",
   "description": "red heart",
   "category": "Smileys & Emotion",
   "aliases": [
