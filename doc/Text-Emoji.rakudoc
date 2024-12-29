@@ -22,6 +22,9 @@ The C<Text::Emoji> distribution contains information about transforming
 C<:text:> to emoji transliteration.  As such it exports a number of
 subroutines.
 
+It also installs a convenience script C<em> that will convert to
+emojis any arguments from the command line or from standard input.
+
 =head1 SUBROUTINES
 
 =head2 to-emoji
@@ -97,6 +100,23 @@ described by its JSON representation:
 }
 
 =end output
+
+=head1 SCRIPTS
+
+=head2 em
+
+=begin output
+
+$ em I :heart: :beer:
+I ❤️ 🍺
+
+$ echo I :heart: :beer: | em
+I ❤️ 🍺
+
+=end output
+
+The C<em> script converts any text given either on the command line, or
+from STDIN, to emojis where appropriate.
 
 =head1 INSPIRATION
 

@@ -1,0 +1,7 @@
+use Text::Emoji;
+
+$*IN.t
+  ?? say to-emoji @*ARGS.join(" ")
+  !! print to-emoji $*IN.slurp
+
+# vim: expandtab shiftwidth=4

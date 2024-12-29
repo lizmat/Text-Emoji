@@ -21,6 +21,8 @@ DESCRIPTION
 
 The `Text::Emoji` distribution contains information about transforming `:text:` to emoji transliteration. As such it exports a number of subroutines.
 
+It also installs a convenience script `em` that will convert to emojis any arguments from the command line or from standard input.
+
 SUBROUTINES
 ===========
 
@@ -80,6 +82,20 @@ The `raw-emoji-data` subroutine returns a `Map`, keyed to the supported emojis. 
       "unicode_version": "",
       "ios_version": "6.0"
     }
+
+SCRIPTS
+=======
+
+em
+--
+
+    $ em I :heart: :beer:
+    I ❤️ 🍺
+
+    $ echo I :heart: :beer: | em
+    I ❤️ 🍺
+
+The `em` script converts any text given either on the command line, or from STDIN, to emojis where appropriate.
 
 INSPIRATION
 ===========
