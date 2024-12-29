@@ -2847,7 +2847,7 @@ my constant %lookup =
   'zombiewoman',                          '🧟‍♀️',
   'zzz',                                  '💤',
 ;
-my constant %reverse =
+my %reverse =
   '#️⃣', $(<hash>),
   '*️⃣', $(<asterisk>),
   '0️⃣', $(<zero>),
