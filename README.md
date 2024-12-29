@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/lizmat/Text-Emoji/actions/workflows/linux.yml/badge.svg)](https://github.com/lizmat/Text-Emoji/actions) [![Actions Status](https://github.com/lizmat/Text-Emoji/actions/workflows/macos.yml/badge.svg)](https://github.com/lizmat/Text-Emoji/actions) [![Actions Status](https://github.com/lizmat/Text-Emoji/actions/workflows/windows.yml/badge.svg)](https://github.com/lizmat/Text-Emoji/actions)
+[![Actions Status](https://github.com/lizmat/Text-Emoji/actions/workflows/linux.yml/badge.svg)](https://github.com/lizmat/Text-Emoji/actions) [![Actions Status](https://github.com/lizmat/Text-Emoji/actions/workflows/macos.yml/badge.svg)](https://github.com/lizmat/Text-Emoji/actions)
 
 NAME
 ====
