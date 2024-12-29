@@ -2850,15 +2850,27 @@ my constant %lookup =
 #- end of generated part of Text::Emoji
 ;
 
-my sub to-emoji(str $text) is export {
-    if $text.contains(":") {
-        $text.trans: / ":" <[\w-]>+ ":" / => {
-            %lookup{$/.substr(1,*-1)} || $/.Str
-        }
-    }
-    else {
-        $text
-    }
+my proto sub to-emoji(|) is export {*}
+my multi sub to-emoji(Str:D $text) is default {
+    $text.contains(":")
+      ?? $text.trans: / ":" <[\w+-]>+ ":" / => {
+             %lookup{$/.substr(1, *-1)} || $/.Str
+         }
+      !! $text
 }
+my multi sub to-emoji(Str:D $text, %additional) {
+    $text.contains(":")
+      ?? $text.trans: / ":" <[\w+-]>+ ":" / => {
+             my $key = $/.substr(1, *-1);
+             if %additional{$key} -> $value {
+                 %lookup{$value} || $value
+             }
+             else {
+                 %lookup{$/.substr(1,*-1)} || $/.Str
+             }
+         }
+      !! $text
+}
+my multi sub to-emoji(Str:D $text, *%_) { to-emoji($text, %_) }
 
 # vim: expandtab shiftwidth=4

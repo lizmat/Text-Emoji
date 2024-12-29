@@ -16,9 +16,33 @@ say to-emoji("I :heart: :beer:");  # I ❤️ 🍺
 
 =head1 DESCRIPTION
 
-The C<Text::Emoji> distribution exports a single subroutine C<to-emoji>
-which takes a single string argument.  It then attempts to translate
-any emoji text shortcuts to the actual unicode equivalent.
+The C<Text::Emoji> distribution exports a single subroutine C<to-emoji>.
+
+=head1 SUBROUTINES
+
+=head2 to-emoji
+
+=begin code :lang<raku>
+
+say to-emoji("I :heart: :beer:");                     # I ❤️ 🍺
+
+say to-emoji("I :love: :beer:", :love<❤️>);           # I ❤️ 🍺
+say to-emoji("I :love: :beer:", :love<heart>);        # I ❤️ 🍺
+say to-emoji("I :love: :beer:", %(love => "❤️"));     # I ❤️ 🍺
+say to-emoji("I :love: :beer:", %(love => "heart"));  # I ❤️ 🍺
+
+say to-emoji("baby: :baby-bottle::babybottle:");  # baby: 🍼🍼
+
+=end code
+
+The C<to-emoji> subroutine in its simplest form takes a string as the
+first argument and attempt to transform any known emoji strings of the
+form C<:word:> into the associated emoji.  Note that the word I<may>
+contain hyphens, but they are optional.
+
+Additional mapping info may be specified as additional named arguments,
+or as a hash.  The value for each additional mapping may be either the
+emoji directly, or the text equivalent of the emoji.
 
 =head1 INSPIRATION
 

@@ -2,8 +2,30 @@ use Test;
 
 use Text::Emoji;
 
-plan 1;
+plan 7;
 
-is to-emoji(":I: :heart: :beer:"), ":I: ❤️ 🍺", "it works!"
+is to-emoji(":I: :heart: :beer:"),
+  ":I: ❤️ 🍺",
+  "it works!";
+is to-emoji(":I: :love: :beer:", %(love => "❤️")),
+  ":I: ❤️ 🍺",
+  "it works with direct additional!";
+is to-emoji(":I: :love: :beer:", %(love => "heart")),
+  ":I: ❤️ 🍺",
+  "it works with indirect additional!";
+is to-emoji(":I: :love: :beer:", :love<❤️>),
+  ":I: ❤️ 🍺",
+  "it works with named direct additional!";
+is to-emoji(":I: :love: :beer:", :love<heart>),
+  ":I: ❤️ 🍺",
+  "it works with named indirect additional!";
+
+is to-emoji("ok :+1:, not-ok :-1:"),
+  "ok 👍, not-ok 👎",
+  "all ok not ok ok";
+
+is to-emoji("baby: :baby-bottle::babybottle:"),
+  "baby: 🍼🍼",
+  "all babies ok";
 
 # vim: expandtab shiftwidth=4

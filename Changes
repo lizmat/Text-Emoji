@@ -2,5 +2,8 @@ Revision history for Text::Emoji
 
 {{$NEXT}}
 
+0.0.2  2024-12-29T11:18:17+01:00
+    - Allow for additional mapping in "to-emoji"
+
 0.0.1  2024-12-28T22:12:58+01:00
     - Initial version
