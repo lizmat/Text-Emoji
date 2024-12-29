@@ -1,7 +1,7 @@
 #- start of generated part of Text::Emoji
 #- Generated on 2024-12-29T15:14:18+01:00 by tools/make-emojis.raku
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
-my constant %lookup =
+my %lookup =
   '+1',                                   '👍',
   '-1',                                   '👎',
   '100',                                  '💯',
@@ -2847,7 +2847,7 @@ my constant %lookup =
   'zombiewoman',                          '🧟‍♀️',
   'zzz',                                  '💤',
 ;
-my constant %reverse =
+my %reverse =
   '#️⃣', $(<hash>),
   '*️⃣', $(<asterisk>),
   '0️⃣', $(<zero>),
