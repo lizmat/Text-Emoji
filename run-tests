@@ -65,8 +65,8 @@ sub process($proc, $filename) {
         }
 
         if $spesh-log {
-            say "Spesh log requested, showing last 2000 lines";
-            say $spesh-log.lines(:!chomp).tail(2000).join;
+            say "\nSpesh log requested, showing last 20000 lines:";
+            say $spesh-log.lines(:!chomp).tail(20000).join;
             $spesh-log.unlink;
         }
     }
