@@ -4,6 +4,7 @@ unit sub MAIN(
   :$rmd,
   :$disable-spesh,
   :$disable-spesh-inline,
+  :$enable-spesh-log,
 );
 
 say run(<raku --version>, :out).out.slurp.chomp;
@@ -22,6 +23,15 @@ if $disable-spesh {
 if $disable-spesh-inline {
     %*ENV<MVM_SPESH_INLINE_DISABLE> := 1;
     say "MVM_SPESH_INLINE_DISABLE>=1";
+}
+
+my $spesh-log;
+if $enable-spesh-log {
+    $spesh-log = (
+      $enable-spesh-log ~~ Bool ?? "spesh-log" !! $enable-spesh-log
+    ).IO;
+    %*ENV<MVM_SPESH_LOG> := $spesh-log.absolute;
+    say "MVM_SPESH_LOG=$spesh-log.relative()";
 }
 
 say "Testing {
@@ -52,6 +62,12 @@ sub process($proc, $filename) {
         }
         else {
             say "No output received, exit-code $proc.exitcode() ($proc.signal()):\n$proc.os-error()";
+        }
+
+        if $spesh-log {
+            say "Spesh log requested, showing last 2000 lines";
+            say $spesh-log.lines(:!chomp).tail(2000).join;
+            $spesh-log.unlink;
         }
     }
 }
