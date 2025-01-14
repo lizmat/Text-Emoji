@@ -73,6 +73,7 @@ my $done   = 0;
 sub process($proc, $filename) {
     if $proc {
         $proc.out.slurp;
+        $spesh-log.unlink if $spesh-log;
     }
     else {
         @failed.push($filename);
