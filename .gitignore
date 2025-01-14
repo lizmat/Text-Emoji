@@ -1,3 +1,4 @@
 .precomp/
 /Text-Emoji-*
 /releases/
+*.rakucov

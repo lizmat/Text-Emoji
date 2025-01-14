@@ -1,7 +1,14 @@
-unit sub MAIN(:a($author), :i($install), :$rmd, :$disable-spesh);
+unit sub MAIN(
+  :a($author),
+  :i($install),
+  :$rmd,
+  :$disable-spesh,
+  :$disable-spesh-inline,
+);
 
-%*ENV<RAKUDO_MODULE_DEBUG> := 1 if $rmd;
-%*ENV<MVM_SPESH_DISABLE>   := 1 if $disable-spesh;
+%*ENV<RAKUDO_MODULE_DEBUG> := 1      if $rmd;
+%*ENV<MVM_SPESH_DISABLE>   := 1      if $disable-spesh;
+%*ENV<MVM_SPESH_INLINE_DISABLE> := 1 if $disable-spesh-inline;
 
 say run(<raku --version>, :out).out.slurp.chomp;
 say "Running on $*DISTRO.gist().\n";

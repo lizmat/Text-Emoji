@@ -1,8 +1,8 @@
 #- lookup tables ---------------------------------------------------------------
 #- start of generated part of Text::Emoji
-#- Generated on 2024-12-29T16:55:49+01:00 by tools/make-emojis.raku
+#- Generated on 2025-01-14T17:01:10+01:00 by tools/make-emojis.raku
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
-my constant %lookup =  # alas, 'constant' doesn't work on Windows
+my constant %lookup =
   '+1',                                   '👍',
   '-1',                                   '👎',
   '100',                                  '💯',
@@ -2848,7 +2848,7 @@ my constant %lookup =  # alas, 'constant' doesn't work on Windows
   'zombiewoman',                          '🧟‍♀️',
   'zzz',                                  '💤',
 ;
-my constant %reverse =  # alas, 'constant' doesn't work on Windows
+my constant %reverse =
   '#️⃣', $(<hash>),
   '*️⃣', $(<asterisk>),
   '0️⃣', $(<zero>),
