@@ -6,12 +6,23 @@ unit sub MAIN(
   :$disable-spesh-inline,
 );
 
-%*ENV<RAKUDO_MODULE_DEBUG> := 1      if $rmd;
-%*ENV<MVM_SPESH_DISABLE>   := 1      if $disable-spesh;
-%*ENV<MVM_SPESH_INLINE_DISABLE> := 1 if $disable-spesh-inline;
-
 say run(<raku --version>, :out).out.slurp.chomp;
 say "Running on $*DISTRO.gist().\n";
+
+if $rmd {
+    %*ENV<RAKUDO_MODULE_DEBUG> := 1;
+    say "RAKUDO_MODULE_DEBUG=1";
+}
+
+if $disable-spesh {
+    %*ENV<MVM_SPESH_DISABLE> := 1;
+    say "MVM_SPESH_DISABLE>=1";
+}
+
+if $disable-spesh-inline {
+    %*ENV<MVM_SPESH_INLINE_DISABLE> := 1;
+    say "MVM_SPESH_INLINE_DISABLE>=1";
+}
 
 say "Testing {
     "dist.ini".IO.lines.head.substr(7)
