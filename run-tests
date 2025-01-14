@@ -37,6 +37,8 @@ sub process($proc, $filename) {
 
 sub install() {
     my $zef  := $*DISTRO.is-win ?? 'zef.bat' !! 'zef';
+    temp %*ENV;
+    %*ENV<RAKUD_MODULE_DEBUG> := 1;
     my $proc := run $zef, "install", ".", "--verbose", "--/test", :out,:err,:merge;
     process($proc, "*installation*");
 }
