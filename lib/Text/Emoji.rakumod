@@ -1,4729 +1,4725 @@
 #- lookup tables ---------------------------------------------------------------
 #- start of generated part of Text::Emoji
-#- Generated on 2025-01-14T18:20:52+01:00 by tools/make-emojis.raku
+#- Generated on 2025-01-14T17:01:10+01:00 by tools/make-emojis.raku
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
-my %lookup := BEGIN {
-    my %h;
-    %h<+1> := '👍';
-    %h<-1> := '👎';
-    %h<100> := '💯';
-    %h<1234> := '🔢';
-    %h<1st-place-medal> := '🥇';
-    %h<1stplacemedal> := '🥇';
-    %h<2nd-place-medal> := '🥈';
-    %h<2ndplacemedal> := '🥈';
-    %h<3rd-place-medal> := '🥉';
-    %h<3rdplacemedal> := '🥉';
-    %h<8ball> := '🎱';
-    %h<a> := '🅰️';
-    %h<ab> := '🆎';
-    %h<abacus> := '🧮';
-    %h<abc> := '🔤';
-    %h<abcd> := '🔡';
-    %h<accept> := '🉑';
-    %h<accordion> := '🪗';
-    %h<adhesive-bandage> := '🩹';
-    %h<adhesivebandage> := '🩹';
-    %h<adult> := '🧑';
-    %h<aerial-tramway> := '🚡';
-    %h<aerialtramway> := '🚡';
-    %h<afghanistan> := '🇦🇫';
-    %h<airplane> := '✈️';
-    %h<aland-islands> := '🇦🇽';
-    %h<alandislands> := '🇦🇽';
-    %h<alarm-clock> := '⏰';
-    %h<alarmclock> := '⏰';
-    %h<albania> := '🇦🇱';
-    %h<alembic> := '⚗️';
-    %h<algeria> := '🇩🇿';
-    %h<alien> := '👽';
-    %h<ambulance> := '🚑';
-    %h<american-samoa> := '🇦🇸';
-    %h<americansamoa> := '🇦🇸';
-    %h<amphora> := '🏺';
-    %h<anatomical-heart> := '🫀';
-    %h<anatomicalheart> := '🫀';
-    %h<anchor> := '⚓';
-    %h<andorra> := '🇦🇩';
-    %h<angel> := '👼';
-    %h<anger> := '💢';
-    %h<angola> := '🇦🇴';
-    %h<angry> := '😠';
-    %h<anguilla> := '🇦🇮';
-    %h<anguished> := '😧';
-    %h<ant> := '🐜';
-    %h<antarctica> := '🇦🇶';
-    %h<antigua-barbuda> := '🇦🇬';
-    %h<antiguabarbuda> := '🇦🇬';
-    %h<apple> := '🍎';
-    %h<aquarius> := '♒';
-    %h<argentina> := '🇦🇷';
-    %h<aries> := '♈';
-    %h<armenia> := '🇦🇲';
-    %h<arrow-backward> := '◀️';
-    %h<arrow-double-down> := '⏬';
-    %h<arrow-double-up> := '⏫';
-    %h<arrow-down> := '⬇️';
-    %h<arrow-down-small> := '🔽';
-    %h<arrow-forward> := '▶️';
-    %h<arrow-heading-down> := '⤵️';
-    %h<arrow-heading-up> := '⤴️';
-    %h<arrow-left> := '⬅️';
-    %h<arrow-lower-left> := '↙️';
-    %h<arrow-lower-right> := '↘️';
-    %h<arrow-right> := '➡️';
-    %h<arrow-right-hook> := '↪️';
-    %h<arrow-up> := '⬆️';
-    %h<arrow-up-down> := '↕️';
-    %h<arrow-up-small> := '🔼';
-    %h<arrow-upper-left> := '↖️';
-    %h<arrow-upper-right> := '↗️';
-    %h<arrowbackward> := '◀️';
-    %h<arrowdoubledown> := '⏬';
-    %h<arrowdoubleup> := '⏫';
-    %h<arrowdown> := '⬇️';
-    %h<arrowdownsmall> := '🔽';
-    %h<arrowforward> := '▶️';
-    %h<arrowheadingdown> := '⤵️';
-    %h<arrowheadingup> := '⤴️';
-    %h<arrowleft> := '⬅️';
-    %h<arrowlowerleft> := '↙️';
-    %h<arrowlowerright> := '↘️';
-    %h<arrowright> := '➡️';
-    %h<arrowrighthook> := '↪️';
-    %h<arrows-clockwise> := '🔃';
-    %h<arrows-counterclockwise> := '🔄';
-    %h<arrowsclockwise> := '🔃';
-    %h<arrowscounterclockwise> := '🔄';
-    %h<arrowup> := '⬆️';
-    %h<arrowupdown> := '↕️';
-    %h<arrowupperleft> := '↖️';
-    %h<arrowupperright> := '↗️';
-    %h<arrowupsmall> := '🔼';
-    %h<art> := '🎨';
-    %h<articulated-lorry> := '🚛';
-    %h<articulatedlorry> := '🚛';
-    %h<artificial-satellite> := '🛰️';
-    %h<artificialsatellite> := '🛰️';
-    %h<artist> := '🧑‍🎨';
-    %h<aruba> := '🇦🇼';
-    %h<ascension-island> := '🇦🇨';
-    %h<ascensionisland> := '🇦🇨';
-    %h<asterisk> := '*️⃣';
-    %h<astonished> := '😲';
-    %h<astronaut> := '🧑‍🚀';
-    %h<athletic-shoe> := '👟';
-    %h<athleticshoe> := '👟';
-    %h<atm> := '🏧';
-    %h<atom-symbol> := '⚛️';
-    %h<atomsymbol> := '⚛️';
-    %h<australia> := '🇦🇺';
-    %h<austria> := '🇦🇹';
-    %h<auto-rickshaw> := '🛺';
-    %h<autorickshaw> := '🛺';
-    %h<avocado> := '🥑';
-    %h<axe> := '🪓';
-    %h<azerbaijan> := '🇦🇿';
-    %h<b> := '🅱️';
-    %h<baby> := '👶';
-    %h<baby-bottle> := '🍼';
-    %h<baby-chick> := '🐤';
-    %h<baby-symbol> := '🚼';
-    %h<babybottle> := '🍼';
-    %h<babychick> := '🐤';
-    %h<babysymbol> := '🚼';
-    %h<back> := '🔙';
-    %h<bacon> := '🥓';
-    %h<badger> := '🦡';
-    %h<badminton> := '🏸';
-    %h<bagel> := '🥯';
-    %h<baggage-claim> := '🛄';
-    %h<baggageclaim> := '🛄';
-    %h<baguette-bread> := '🥖';
-    %h<baguettebread> := '🥖';
-    %h<bahamas> := '🇧🇸';
-    %h<bahrain> := '🇧🇭';
-    %h<balance-scale> := '⚖️';
-    %h<balancescale> := '⚖️';
-    %h<bald-man> := '👨‍🦲';
-    %h<bald-woman> := '👩‍🦲';
-    %h<baldman> := '👨‍🦲';
-    %h<baldwoman> := '👩‍🦲';
-    %h<ballet-shoes> := '🩰';
-    %h<balletshoes> := '🩰';
-    %h<balloon> := '🎈';
-    %h<ballot-box> := '🗳️';
-    %h<ballot-box-with-check> := '☑️';
-    %h<ballotbox> := '🗳️';
-    %h<ballotboxwithcheck> := '☑️';
-    %h<bamboo> := '🎍';
-    %h<banana> := '🍌';
-    %h<bangbang> := '‼️';
-    %h<bangladesh> := '🇧🇩';
-    %h<banjo> := '🪕';
-    %h<bank> := '🏦';
-    %h<bar-chart> := '📊';
-    %h<barbados> := '🇧🇧';
-    %h<barber> := '💈';
-    %h<barchart> := '📊';
-    %h<baseball> := '⚾';
-    %h<basket> := '🧺';
-    %h<basketball> := '🏀';
-    %h<basketball-man> := '⛹️‍♂️';
-    %h<basketball-woman> := '⛹️‍♀️';
-    %h<basketballman> := '⛹️‍♂️';
-    %h<basketballwoman> := '⛹️‍♀️';
-    %h<bat> := '🦇';
-    %h<bath> := '🛀';
-    %h<bathtub> := '🛁';
-    %h<battery> := '🔋';
-    %h<beach-umbrella> := '🏖️';
-    %h<beachumbrella> := '🏖️';
-    %h<beans> := '🫘';
-    %h<bear> := '🐻';
-    %h<bearded-person> := '🧔';
-    %h<beardedperson> := '🧔';
-    %h<beaver> := '🦫';
-    %h<bed> := '🛏️';
-    %h<bee> := '🐝';
-    %h<beer> := '🍺';
-    %h<beers> := '🍻';
-    %h<beetle> := '🪲';
-    %h<beginner> := '🔰';
-    %h<belarus> := '🇧🇾';
-    %h<belgium> := '🇧🇪';
-    %h<belize> := '🇧🇿';
-    %h<bell> := '🔔';
-    %h<bell-pepper> := '🫑';
-    %h<bellhop-bell> := '🛎️';
-    %h<bellhopbell> := '🛎️';
-    %h<bellpepper> := '🫑';
-    %h<benin> := '🇧🇯';
-    %h<bento> := '🍱';
-    %h<bermuda> := '🇧🇲';
-    %h<beverage-box> := '🧃';
-    %h<beveragebox> := '🧃';
-    %h<bhutan> := '🇧🇹';
-    %h<bicyclist> := '🚴';
-    %h<bike> := '🚲';
-    %h<biking-man> := '🚴‍♂️';
-    %h<biking-woman> := '🚴‍♀️';
-    %h<bikingman> := '🚴‍♂️';
-    %h<bikingwoman> := '🚴‍♀️';
-    %h<bikini> := '👙';
-    %h<billed-cap> := '🧢';
-    %h<billedcap> := '🧢';
-    %h<biohazard> := '☣️';
-    %h<bird> := '🐦';
-    %h<birthday> := '🎂';
-    %h<bison> := '🦬';
-    %h<biting-lip> := '🫦';
-    %h<bitinglip> := '🫦';
-    %h<black-bird> := '🐦‍⬛';
-    %h<black-cat> := '🐈‍⬛';
-    %h<black-circle> := '⚫';
-    %h<black-flag> := '🏴';
-    %h<black-heart> := '🖤';
-    %h<black-joker> := '🃏';
-    %h<black-large-square> := '⬛';
-    %h<black-medium-small-square> := '◾';
-    %h<black-medium-square> := '◼️';
-    %h<black-nib> := '✒️';
-    %h<black-small-square> := '▪️';
-    %h<black-square-button> := '🔲';
-    %h<blackbird> := '🐦‍⬛';
-    %h<blackcat> := '🐈‍⬛';
-    %h<blackcircle> := '⚫';
-    %h<blackflag> := '🏴';
-    %h<blackheart> := '🖤';
-    %h<blackjoker> := '🃏';
-    %h<blacklargesquare> := '⬛';
-    %h<blackmediumsmallsquare> := '◾';
-    %h<blackmediumsquare> := '◼️';
-    %h<blacknib> := '✒️';
-    %h<blacksmallsquare> := '▪️';
-    %h<blacksquarebutton> := '🔲';
-    %h<blond-haired-man> := '👱‍♂️';
-    %h<blond-haired-person> := '👱';
-    %h<blond-haired-woman> := '👱‍♀️';
-    %h<blonde-woman> := '👱‍♀️';
-    %h<blondewoman> := '👱‍♀️';
-    %h<blondhairedman> := '👱‍♂️';
-    %h<blondhairedperson> := '👱';
-    %h<blondhairedwoman> := '👱‍♀️';
-    %h<blossom> := '🌼';
-    %h<blowfish> := '🐡';
-    %h<blue-book> := '📘';
-    %h<blue-car> := '🚙';
-    %h<blue-heart> := '💙';
-    %h<blue-square> := '🟦';
-    %h<blueberries> := '🫐';
-    %h<bluebook> := '📘';
-    %h<bluecar> := '🚙';
-    %h<blueheart> := '💙';
-    %h<bluesquare> := '🟦';
-    %h<blush> := '😊';
-    %h<boar> := '🐗';
-    %h<boat> := '⛵';
-    %h<bolivia> := '🇧🇴';
-    %h<bomb> := '💣';
-    %h<bone> := '🦴';
-    %h<book> := '📖';
-    %h<bookmark> := '🔖';
-    %h<bookmark-tabs> := '📑';
-    %h<bookmarktabs> := '📑';
-    %h<books> := '📚';
-    %h<boom> := '💥';
-    %h<boomerang> := '🪃';
-    %h<boot> := '👢';
-    %h<bosnia-herzegovina> := '🇧🇦';
-    %h<bosniaherzegovina> := '🇧🇦';
-    %h<botswana> := '🇧🇼';
-    %h<bouncing-ball-man> := '⛹️‍♂️';
-    %h<bouncing-ball-person> := '⛹️';
-    %h<bouncing-ball-woman> := '⛹️‍♀️';
-    %h<bouncingballman> := '⛹️‍♂️';
-    %h<bouncingballperson> := '⛹️';
-    %h<bouncingballwoman> := '⛹️‍♀️';
-    %h<bouquet> := '💐';
-    %h<bouvet-island> := '🇧🇻';
-    %h<bouvetisland> := '🇧🇻';
-    %h<bow> := '🙇';
-    %h<bow-and-arrow> := '🏹';
-    %h<bowandarrow> := '🏹';
-    %h<bowing-man> := '🙇‍♂️';
-    %h<bowing-woman> := '🙇‍♀️';
-    %h<bowingman> := '🙇‍♂️';
-    %h<bowingwoman> := '🙇‍♀️';
-    %h<bowl-with-spoon> := '🥣';
-    %h<bowling> := '🎳';
-    %h<bowlwithspoon> := '🥣';
-    %h<boxing-glove> := '🥊';
-    %h<boxingglove> := '🥊';
-    %h<boy> := '👦';
-    %h<brain> := '🧠';
-    %h<brazil> := '🇧🇷';
-    %h<bread> := '🍞';
-    %h<breast-feeding> := '🤱';
-    %h<breastfeeding> := '🤱';
-    %h<bricks> := '🧱';
-    %h<bride-with-veil> := '👰‍♀️';
-    %h<bridewithveil> := '👰‍♀️';
-    %h<bridge-at-night> := '🌉';
-    %h<bridgeatnight> := '🌉';
-    %h<briefcase> := '💼';
-    %h<british-indian-ocean-territory> := '🇮🇴';
-    %h<british-virgin-islands> := '🇻🇬';
-    %h<britishindianoceanterritory> := '🇮🇴';
-    %h<britishvirginislands> := '🇻🇬';
-    %h<broccoli> := '🥦';
-    %h<broken-heart> := '💔';
-    %h<brokenheart> := '💔';
-    %h<broom> := '🧹';
-    %h<brown-circle> := '🟤';
-    %h<brown-heart> := '🤎';
-    %h<brown-square> := '🟫';
-    %h<browncircle> := '🟤';
-    %h<brownheart> := '🤎';
-    %h<brownsquare> := '🟫';
-    %h<brunei> := '🇧🇳';
-    %h<bubble-tea> := '🧋';
-    %h<bubbles> := '🫧';
-    %h<bubbletea> := '🧋';
-    %h<bucket> := '🪣';
-    %h<bug> := '🐛';
-    %h<building-construction> := '🏗️';
-    %h<buildingconstruction> := '🏗️';
-    %h<bulb> := '💡';
-    %h<bulgaria> := '🇧🇬';
-    %h<bullettrain-front> := '🚅';
-    %h<bullettrain-side> := '🚄';
-    %h<bullettrainfront> := '🚅';
-    %h<bullettrainside> := '🚄';
-    %h<burkina-faso> := '🇧🇫';
-    %h<burkinafaso> := '🇧🇫';
-    %h<burrito> := '🌯';
-    %h<burundi> := '🇧🇮';
-    %h<bus> := '🚌';
-    %h<business-suit-levitating> := '🕴️';
-    %h<businesssuitlevitating> := '🕴️';
-    %h<busstop> := '🚏';
-    %h<bust-in-silhouette> := '👤';
-    %h<bustinsilhouette> := '👤';
-    %h<busts-in-silhouette> := '👥';
-    %h<bustsinsilhouette> := '👥';
-    %h<butter> := '🧈';
-    %h<butterfly> := '🦋';
-    %h<cactus> := '🌵';
-    %h<cake> := '🍰';
-    %h<calendar> := '📆';
-    %h<call-me-hand> := '🤙';
-    %h<calling> := '📲';
-    %h<callmehand> := '🤙';
-    %h<cambodia> := '🇰🇭';
-    %h<camel> := '🐫';
-    %h<camera> := '📷';
-    %h<camera-flash> := '📸';
-    %h<cameraflash> := '📸';
-    %h<cameroon> := '🇨🇲';
-    %h<camping> := '🏕️';
-    %h<canada> := '🇨🇦';
-    %h<canary-islands> := '🇮🇨';
-    %h<canaryislands> := '🇮🇨';
-    %h<cancer> := '♋';
-    %h<candle> := '🕯️';
-    %h<candy> := '🍬';
-    %h<canned-food> := '🥫';
-    %h<cannedfood> := '🥫';
-    %h<canoe> := '🛶';
-    %h<cape-verde> := '🇨🇻';
-    %h<capeverde> := '🇨🇻';
-    %h<capital-abcd> := '🔠';
-    %h<capitalabcd> := '🔠';
-    %h<capricorn> := '♑';
-    %h<car> := '🚗';
-    %h<card-file-box> := '🗃️';
-    %h<card-index> := '📇';
-    %h<card-index-dividers> := '🗂️';
-    %h<cardfilebox> := '🗃️';
-    %h<cardindex> := '📇';
-    %h<cardindexdividers> := '🗂️';
-    %h<caribbean-netherlands> := '🇧🇶';
-    %h<caribbeannetherlands> := '🇧🇶';
-    %h<carousel-horse> := '🎠';
-    %h<carouselhorse> := '🎠';
-    %h<carpentry-saw> := '🪚';
-    %h<carpentrysaw> := '🪚';
-    %h<carrot> := '🥕';
-    %h<cartwheeling> := '🤸';
-    %h<cat> := '🐱';
-    %h<cat2> := '🐈';
-    %h<cayman-islands> := '🇰🇾';
-    %h<caymanislands> := '🇰🇾';
-    %h<cd> := '💿';
-    %h<central-african-republic> := '🇨🇫';
-    %h<centralafricanrepublic> := '🇨🇫';
-    %h<ceuta-melilla> := '🇪🇦';
-    %h<ceutamelilla> := '🇪🇦';
-    %h<chad> := '🇹🇩';
-    %h<chains> := '⛓️';
-    %h<chair> := '🪑';
-    %h<champagne> := '🍾';
-    %h<chart> := '💹';
-    %h<chart-with-downwards-trend> := '📉';
-    %h<chart-with-upwards-trend> := '📈';
-    %h<chartwithdownwardstrend> := '📉';
-    %h<chartwithupwardstrend> := '📈';
-    %h<checkered-flag> := '🏁';
-    %h<checkeredflag> := '🏁';
-    %h<cheese> := '🧀';
-    %h<cherries> := '🍒';
-    %h<cherry-blossom> := '🌸';
-    %h<cherryblossom> := '🌸';
-    %h<chess-pawn> := '♟️';
-    %h<chesspawn> := '♟️';
-    %h<chestnut> := '🌰';
-    %h<chicken> := '🐔';
-    %h<child> := '🧒';
-    %h<children-crossing> := '🚸';
-    %h<childrencrossing> := '🚸';
-    %h<chile> := '🇨🇱';
-    %h<chipmunk> := '🐿️';
-    %h<chocolate-bar> := '🍫';
-    %h<chocolatebar> := '🍫';
-    %h<chopsticks> := '🥢';
-    %h<christmas-island> := '🇨🇽';
-    %h<christmas-tree> := '🎄';
-    %h<christmasisland> := '🇨🇽';
-    %h<christmastree> := '🎄';
-    %h<church> := '⛪';
-    %h<cinema> := '🎦';
-    %h<circus-tent> := '🎪';
-    %h<circustent> := '🎪';
-    %h<city-sunrise> := '🌇';
-    %h<city-sunset> := '🌆';
-    %h<cityscape> := '🏙️';
-    %h<citysunrise> := '🌇';
-    %h<citysunset> := '🌆';
-    %h<cl> := '🆑';
-    %h<clamp> := '🗜️';
-    %h<clap> := '👏';
-    %h<clapper> := '🎬';
-    %h<classical-building> := '🏛️';
-    %h<classicalbuilding> := '🏛️';
-    %h<climbing> := '🧗';
-    %h<climbing-man> := '🧗‍♂️';
-    %h<climbing-woman> := '🧗‍♀️';
-    %h<climbingman> := '🧗‍♂️';
-    %h<climbingwoman> := '🧗‍♀️';
-    %h<clinking-glasses> := '🥂';
-    %h<clinkingglasses> := '🥂';
-    %h<clipboard> := '📋';
-    %h<clipperton-island> := '🇨🇵';
-    %h<clippertonisland> := '🇨🇵';
-    %h<clock1> := '🕐';
-    %h<clock10> := '🕙';
-    %h<clock1030> := '🕥';
-    %h<clock11> := '🕚';
-    %h<clock1130> := '🕦';
-    %h<clock12> := '🕛';
-    %h<clock1230> := '🕧';
-    %h<clock130> := '🕜';
-    %h<clock2> := '🕑';
-    %h<clock230> := '🕝';
-    %h<clock3> := '🕒';
-    %h<clock330> := '🕞';
-    %h<clock4> := '🕓';
-    %h<clock430> := '🕟';
-    %h<clock5> := '🕔';
-    %h<clock530> := '🕠';
-    %h<clock6> := '🕕';
-    %h<clock630> := '🕡';
-    %h<clock7> := '🕖';
-    %h<clock730> := '🕢';
-    %h<clock8> := '🕗';
-    %h<clock830> := '🕣';
-    %h<clock9> := '🕘';
-    %h<clock930> := '🕤';
-    %h<closed-book> := '📕';
-    %h<closed-lock-with-key> := '🔐';
-    %h<closed-umbrella> := '🌂';
-    %h<closedbook> := '📕';
-    %h<closedlockwithkey> := '🔐';
-    %h<closedumbrella> := '🌂';
-    %h<cloud> := '☁️';
-    %h<cloud-with-lightning> := '🌩️';
-    %h<cloud-with-lightning-and-rain> := '⛈️';
-    %h<cloud-with-rain> := '🌧️';
-    %h<cloud-with-snow> := '🌨️';
-    %h<cloudwithlightning> := '🌩️';
-    %h<cloudwithlightningandrain> := '⛈️';
-    %h<cloudwithrain> := '🌧️';
-    %h<cloudwithsnow> := '🌨️';
-    %h<clown-face> := '🤡';
-    %h<clownface> := '🤡';
-    %h<clubs> := '♣️';
-    %h<cn> := '🇨🇳';
-    %h<coat> := '🧥';
-    %h<cockroach> := '🪳';
-    %h<cocktail> := '🍸';
-    %h<coconut> := '🥥';
-    %h<cocos-islands> := '🇨🇨';
-    %h<cocosislands> := '🇨🇨';
-    %h<coffee> := '☕';
-    %h<coffin> := '⚰️';
-    %h<coin> := '🪙';
-    %h<cold-face> := '🥶';
-    %h<cold-sweat> := '😰';
-    %h<coldface> := '🥶';
-    %h<coldsweat> := '😰';
-    %h<collision> := '💥';
-    %h<colombia> := '🇨🇴';
-    %h<comet> := '☄️';
-    %h<comoros> := '🇰🇲';
-    %h<compass> := '🧭';
-    %h<computer> := '💻';
-    %h<computer-mouse> := '🖱️';
-    %h<computermouse> := '🖱️';
-    %h<confetti-ball> := '🎊';
-    %h<confettiball> := '🎊';
-    %h<confounded> := '😖';
-    %h<confused> := '😕';
-    %h<congo-brazzaville> := '🇨🇬';
-    %h<congo-kinshasa> := '🇨🇩';
-    %h<congobrazzaville> := '🇨🇬';
-    %h<congokinshasa> := '🇨🇩';
-    %h<congratulations> := '㊗️';
-    %h<construction> := '🚧';
-    %h<construction-worker> := '👷';
-    %h<construction-worker-man> := '👷‍♂️';
-    %h<construction-worker-woman> := '👷‍♀️';
-    %h<constructionworker> := '👷';
-    %h<constructionworkerman> := '👷‍♂️';
-    %h<constructionworkerwoman> := '👷‍♀️';
-    %h<control-knobs> := '🎛️';
-    %h<controlknobs> := '🎛️';
-    %h<convenience-store> := '🏪';
-    %h<conveniencestore> := '🏪';
-    %h<cook> := '🧑‍🍳';
-    %h<cook-islands> := '🇨🇰';
-    %h<cookie> := '🍪';
-    %h<cookislands> := '🇨🇰';
-    %h<cool> := '🆒';
-    %h<cop> := '👮';
-    %h<copyright> := '©️';
-    %h<coral> := '🪸';
-    %h<corn> := '🌽';
-    %h<costa-rica> := '🇨🇷';
-    %h<costarica> := '🇨🇷';
-    %h<cote-divoire> := '🇨🇮';
-    %h<cotedivoire> := '🇨🇮';
-    %h<couch-and-lamp> := '🛋️';
-    %h<couchandlamp> := '🛋️';
-    %h<couple> := '👫';
-    %h<couple-with-heart> := '💑';
-    %h<couple-with-heart-man-man> := '👨‍❤️‍👨';
-    %h<couple-with-heart-woman-man> := '👩‍❤️‍👨';
-    %h<couple-with-heart-woman-woman> := '👩‍❤️‍👩';
-    %h<couplekiss> := '💏';
-    %h<couplekiss-man-man> := '👨‍❤️‍💋‍👨';
-    %h<couplekiss-man-woman> := '👩‍❤️‍💋‍👨';
-    %h<couplekiss-woman-woman> := '👩‍❤️‍💋‍👩';
-    %h<couplekissmanman> := '👨‍❤️‍💋‍👨';
-    %h<couplekissmanwoman> := '👩‍❤️‍💋‍👨';
-    %h<couplekisswomanwoman> := '👩‍❤️‍💋‍👩';
-    %h<couplewithheart> := '💑';
-    %h<couplewithheartmanman> := '👨‍❤️‍👨';
-    %h<couplewithheartwomanman> := '👩‍❤️‍👨';
-    %h<couplewithheartwomanwoman> := '👩‍❤️‍👩';
-    %h<cow> := '🐮';
-    %h<cow2> := '🐄';
-    %h<cowboy-hat-face> := '🤠';
-    %h<cowboyhatface> := '🤠';
-    %h<crab> := '🦀';
-    %h<crayon> := '🖍️';
-    %h<credit-card> := '💳';
-    %h<creditcard> := '💳';
-    %h<crescent-moon> := '🌙';
-    %h<crescentmoon> := '🌙';
-    %h<cricket> := '🦗';
-    %h<cricket-game> := '🏏';
-    %h<cricketgame> := '🏏';
-    %h<croatia> := '🇭🇷';
-    %h<crocodile> := '🐊';
-    %h<croissant> := '🥐';
-    %h<crossed-fingers> := '🤞';
-    %h<crossed-flags> := '🎌';
-    %h<crossed-swords> := '⚔️';
-    %h<crossedfingers> := '🤞';
-    %h<crossedflags> := '🎌';
-    %h<crossedswords> := '⚔️';
-    %h<crown> := '👑';
-    %h<crutch> := '🩼';
-    %h<cry> := '😢';
-    %h<crying-cat-face> := '😿';
-    %h<cryingcatface> := '😿';
-    %h<crystal-ball> := '🔮';
-    %h<crystalball> := '🔮';
-    %h<cuba> := '🇨🇺';
-    %h<cucumber> := '🥒';
-    %h<cup-with-straw> := '🥤';
-    %h<cupcake> := '🧁';
-    %h<cupid> := '💘';
-    %h<cupwithstraw> := '🥤';
-    %h<curacao> := '🇨🇼';
-    %h<curling-stone> := '🥌';
-    %h<curlingstone> := '🥌';
-    %h<curly-haired-man> := '👨‍🦱';
-    %h<curly-haired-woman> := '👩‍🦱';
-    %h<curly-loop> := '➰';
-    %h<curlyhairedman> := '👨‍🦱';
-    %h<curlyhairedwoman> := '👩‍🦱';
-    %h<curlyloop> := '➰';
-    %h<currency-exchange> := '💱';
-    %h<currencyexchange> := '💱';
-    %h<curry> := '🍛';
-    %h<cursing-face> := '🤬';
-    %h<cursingface> := '🤬';
-    %h<custard> := '🍮';
-    %h<customs> := '🛃';
-    %h<cut-of-meat> := '🥩';
-    %h<cutofmeat> := '🥩';
-    %h<cyclone> := '🌀';
-    %h<cyprus> := '🇨🇾';
-    %h<czech-republic> := '🇨🇿';
-    %h<czechrepublic> := '🇨🇿';
-    %h<dagger> := '🗡️';
-    %h<dancer> := '💃';
-    %h<dancers> := '👯';
-    %h<dancing-men> := '👯‍♂️';
-    %h<dancing-women> := '👯‍♀️';
-    %h<dancingmen> := '👯‍♂️';
-    %h<dancingwomen> := '👯‍♀️';
-    %h<dango> := '🍡';
-    %h<dark-sunglasses> := '🕶️';
-    %h<darksunglasses> := '🕶️';
-    %h<dart> := '🎯';
-    %h<dash> := '💨';
-    %h<date> := '📅';
-    %h<de> := '🇩🇪';
-    %h<deaf-man> := '🧏‍♂️';
-    %h<deaf-person> := '🧏';
-    %h<deaf-woman> := '🧏‍♀️';
-    %h<deafman> := '🧏‍♂️';
-    %h<deafperson> := '🧏';
-    %h<deafwoman> := '🧏‍♀️';
-    %h<deciduous-tree> := '🌳';
-    %h<deciduoustree> := '🌳';
-    %h<deer> := '🦌';
-    %h<denmark> := '🇩🇰';
-    %h<department-store> := '🏬';
-    %h<departmentstore> := '🏬';
-    %h<derelict-house> := '🏚️';
-    %h<derelicthouse> := '🏚️';
-    %h<desert> := '🏜️';
-    %h<desert-island> := '🏝️';
-    %h<desertisland> := '🏝️';
-    %h<desktop-computer> := '🖥️';
-    %h<desktopcomputer> := '🖥️';
-    %h<detective> := '🕵️';
-    %h<diamond-shape-with-a-dot-inside> := '💠';
-    %h<diamonds> := '♦️';
-    %h<diamondshapewithadotinside> := '💠';
-    %h<diego-garcia> := '🇩🇬';
-    %h<diegogarcia> := '🇩🇬';
-    %h<disappointed> := '😞';
-    %h<disappointed-relieved> := '😥';
-    %h<disappointedrelieved> := '😥';
-    %h<disguised-face> := '🥸';
-    %h<disguisedface> := '🥸';
-    %h<diving-mask> := '🤿';
-    %h<divingmask> := '🤿';
-    %h<diya-lamp> := '🪔';
-    %h<diyalamp> := '🪔';
-    %h<dizzy> := '💫';
-    %h<dizzy-face> := '😵';
-    %h<dizzyface> := '😵';
-    %h<djibouti> := '🇩🇯';
-    %h<dna> := '🧬';
-    %h<do-not-litter> := '🚯';
-    %h<dodo> := '🦤';
-    %h<dog> := '🐶';
-    %h<dog2> := '🐕';
-    %h<dollar> := '💵';
-    %h<dolls> := '🎎';
-    %h<dolphin> := '🐬';
-    %h<dominica> := '🇩🇲';
-    %h<dominican-republic> := '🇩🇴';
-    %h<dominicanrepublic> := '🇩🇴';
-    %h<donkey> := '🫏';
-    %h<donotlitter> := '🚯';
-    %h<door> := '🚪';
-    %h<dotted-line-face> := '🫥';
-    %h<dottedlineface> := '🫥';
-    %h<doughnut> := '🍩';
-    %h<dove> := '🕊️';
-    %h<dragon> := '🐉';
-    %h<dragon-face> := '🐲';
-    %h<dragonface> := '🐲';
-    %h<dress> := '👗';
-    %h<dromedary-camel> := '🐪';
-    %h<dromedarycamel> := '🐪';
-    %h<drooling-face> := '🤤';
-    %h<droolingface> := '🤤';
-    %h<drop-of-blood> := '🩸';
-    %h<droplet> := '💧';
-    %h<dropofblood> := '🩸';
-    %h<drum> := '🥁';
-    %h<duck> := '🦆';
-    %h<dumpling> := '🥟';
-    %h<dvd> := '📀';
-    %h<e-mail> := '📧';
-    %h<eagle> := '🦅';
-    %h<ear> := '👂';
-    %h<ear-of-rice> := '🌾';
-    %h<ear-with-hearing-aid> := '🦻';
-    %h<earofrice> := '🌾';
-    %h<earth-africa> := '🌍';
-    %h<earth-americas> := '🌎';
-    %h<earth-asia> := '🌏';
-    %h<earthafrica> := '🌍';
-    %h<earthamericas> := '🌎';
-    %h<earthasia> := '🌏';
-    %h<earwithhearingaid> := '🦻';
-    %h<ecuador> := '🇪🇨';
-    %h<egg> := '🥚';
-    %h<eggplant> := '🍆';
-    %h<egypt> := '🇪🇬';
-    %h<eight> := '8️⃣';
-    %h<eight-pointed-black-star> := '✴️';
-    %h<eight-spoked-asterisk> := '✳️';
-    %h<eightpointedblackstar> := '✴️';
-    %h<eightspokedasterisk> := '✳️';
-    %h<eject-button> := '⏏️';
-    %h<ejectbutton> := '⏏️';
-    %h<el-salvador> := '🇸🇻';
-    %h<electric-plug> := '🔌';
-    %h<electricplug> := '🔌';
-    %h<elephant> := '🐘';
-    %h<elevator> := '🛗';
-    %h<elf> := '🧝';
-    %h<elf-man> := '🧝‍♂️';
-    %h<elf-woman> := '🧝‍♀️';
-    %h<elfman> := '🧝‍♂️';
-    %h<elfwoman> := '🧝‍♀️';
-    %h<elsalvador> := '🇸🇻';
-    %h<email> := '📧';
-    %h<empty-nest> := '🪹';
-    %h<emptynest> := '🪹';
-    %h<end> := '🔚';
-    %h<england> := '🏴󠁧󠁢󠁥󠁮󠁧󠁿';
-    %h<envelope> := '✉️';
-    %h<envelope-with-arrow> := '📩';
-    %h<envelopewitharrow> := '📩';
-    %h<equatorial-guinea> := '🇬🇶';
-    %h<equatorialguinea> := '🇬🇶';
-    %h<eritrea> := '🇪🇷';
-    %h<es> := '🇪🇸';
-    %h<estonia> := '🇪🇪';
-    %h<ethiopia> := '🇪🇹';
-    %h<eu> := '🇪🇺';
-    %h<euro> := '💶';
-    %h<european-castle> := '🏰';
-    %h<european-post-office> := '🏤';
-    %h<european-union> := '🇪🇺';
-    %h<europeancastle> := '🏰';
-    %h<europeanpostoffice> := '🏤';
-    %h<europeanunion> := '🇪🇺';
-    %h<evergreen-tree> := '🌲';
-    %h<evergreentree> := '🌲';
-    %h<exclamation> := '❗';
-    %h<exploding-head> := '🤯';
-    %h<explodinghead> := '🤯';
-    %h<expressionless> := '😑';
-    %h<eye> := '👁️';
-    %h<eye-speech-bubble> := '👁️‍🗨️';
-    %h<eyeglasses> := '👓';
-    %h<eyes> := '👀';
-    %h<eyespeechbubble> := '👁️‍🗨️';
-    %h<face-exhaling> := '😮‍💨';
-    %h<face-holding-back-tears> := '🥹';
-    %h<face-in-clouds> := '😶‍🌫️';
-    %h<face-with-diagonal-mouth> := '🫤';
-    %h<face-with-head-bandage> := '🤕';
-    %h<face-with-open-eyes-and-hand-over-mouth> := '🫢';
-    %h<face-with-peeking-eye> := '🫣';
-    %h<face-with-spiral-eyes> := '😵‍💫';
-    %h<face-with-thermometer> := '🤒';
-    %h<faceexhaling> := '😮‍💨';
-    %h<faceholdingbacktears> := '🥹';
-    %h<faceinclouds> := '😶‍🌫️';
-    %h<facepalm> := '🤦';
-    %h<facepunch> := '👊';
-    %h<facewithdiagonalmouth> := '🫤';
-    %h<facewithheadbandage> := '🤕';
-    %h<facewithopeneyesandhandovermouth> := '🫢';
-    %h<facewithpeekingeye> := '🫣';
-    %h<facewithspiraleyes> := '😵‍💫';
-    %h<facewiththermometer> := '🤒';
-    %h<factory> := '🏭';
-    %h<factory-worker> := '🧑‍🏭';
-    %h<factoryworker> := '🧑‍🏭';
-    %h<fairy> := '🧚';
-    %h<fairy-man> := '🧚‍♂️';
-    %h<fairy-woman> := '🧚‍♀️';
-    %h<fairyman> := '🧚‍♂️';
-    %h<fairywoman> := '🧚‍♀️';
-    %h<falafel> := '🧆';
-    %h<falkland-islands> := '🇫🇰';
-    %h<falklandislands> := '🇫🇰';
-    %h<fallen-leaf> := '🍂';
-    %h<fallenleaf> := '🍂';
-    %h<family> := '👪';
-    %h<family-man-boy> := '👨‍👦';
-    %h<family-man-boy-boy> := '👨‍👦‍👦';
-    %h<family-man-girl> := '👨‍👧';
-    %h<family-man-girl-boy> := '👨‍👧‍👦';
-    %h<family-man-girl-girl> := '👨‍👧‍👧';
-    %h<family-man-man-boy> := '👨‍👨‍👦';
-    %h<family-man-man-boy-boy> := '👨‍👨‍👦‍👦';
-    %h<family-man-man-girl> := '👨‍👨‍👧';
-    %h<family-man-man-girl-boy> := '👨‍👨‍👧‍👦';
-    %h<family-man-man-girl-girl> := '👨‍👨‍👧‍👧';
-    %h<family-man-woman-boy> := '👨‍👩‍👦';
-    %h<family-man-woman-boy-boy> := '👨‍👩‍👦‍👦';
-    %h<family-man-woman-girl> := '👨‍👩‍👧';
-    %h<family-man-woman-girl-boy> := '👨‍👩‍👧‍👦';
-    %h<family-man-woman-girl-girl> := '👨‍👩‍👧‍👧';
-    %h<family-woman-boy> := '👩‍👦';
-    %h<family-woman-boy-boy> := '👩‍👦‍👦';
-    %h<family-woman-girl> := '👩‍👧';
-    %h<family-woman-girl-boy> := '👩‍👧‍👦';
-    %h<family-woman-girl-girl> := '👩‍👧‍👧';
-    %h<family-woman-woman-boy> := '👩‍👩‍👦';
-    %h<family-woman-woman-boy-boy> := '👩‍👩‍👦‍👦';
-    %h<family-woman-woman-girl> := '👩‍👩‍👧';
-    %h<family-woman-woman-girl-boy> := '👩‍👩‍👧‍👦';
-    %h<family-woman-woman-girl-girl> := '👩‍👩‍👧‍👧';
-    %h<familymanboy> := '👨‍👦';
-    %h<familymanboyboy> := '👨‍👦‍👦';
-    %h<familymangirl> := '👨‍👧';
-    %h<familymangirlboy> := '👨‍👧‍👦';
-    %h<familymangirlgirl> := '👨‍👧‍👧';
-    %h<familymanmanboy> := '👨‍👨‍👦';
-    %h<familymanmanboyboy> := '👨‍👨‍👦‍👦';
-    %h<familymanmangirl> := '👨‍👨‍👧';
-    %h<familymanmangirlboy> := '👨‍👨‍👧‍👦';
-    %h<familymanmangirlgirl> := '👨‍👨‍👧‍👧';
-    %h<familymanwomanboy> := '👨‍👩‍👦';
-    %h<familymanwomanboyboy> := '👨‍👩‍👦‍👦';
-    %h<familymanwomangirl> := '👨‍👩‍👧';
-    %h<familymanwomangirlboy> := '👨‍👩‍👧‍👦';
-    %h<familymanwomangirlgirl> := '👨‍👩‍👧‍👧';
-    %h<familywomanboy> := '👩‍👦';
-    %h<familywomanboyboy> := '👩‍👦‍👦';
-    %h<familywomangirl> := '👩‍👧';
-    %h<familywomangirlboy> := '👩‍👧‍👦';
-    %h<familywomangirlgirl> := '👩‍👧‍👧';
-    %h<familywomanwomanboy> := '👩‍👩‍👦';
-    %h<familywomanwomanboyboy> := '👩‍👩‍👦‍👦';
-    %h<familywomanwomangirl> := '👩‍👩‍👧';
-    %h<familywomanwomangirlboy> := '👩‍👩‍👧‍👦';
-    %h<familywomanwomangirlgirl> := '👩‍👩‍👧‍👧';
-    %h<farmer> := '🧑‍🌾';
-    %h<faroe-islands> := '🇫🇴';
-    %h<faroeislands> := '🇫🇴';
-    %h<fast-forward> := '⏩';
-    %h<fastforward> := '⏩';
-    %h<fax> := '📠';
-    %h<fearful> := '😨';
-    %h<feather> := '🪶';
-    %h<feet> := '🐾';
-    %h<female-detective> := '🕵️‍♀️';
-    %h<female-sign> := '♀️';
-    %h<femaledetective> := '🕵️‍♀️';
-    %h<femalesign> := '♀️';
-    %h<ferris-wheel> := '🎡';
-    %h<ferriswheel> := '🎡';
-    %h<ferry> := '⛴️';
-    %h<field-hockey> := '🏑';
-    %h<fieldhockey> := '🏑';
-    %h<fiji> := '🇫🇯';
-    %h<file-cabinet> := '🗄️';
-    %h<file-folder> := '📁';
-    %h<filecabinet> := '🗄️';
-    %h<filefolder> := '📁';
-    %h<film-projector> := '📽️';
-    %h<film-strip> := '🎞️';
-    %h<filmprojector> := '📽️';
-    %h<filmstrip> := '🎞️';
-    %h<finland> := '🇫🇮';
-    %h<fire> := '🔥';
-    %h<fire-engine> := '🚒';
-    %h<fire-extinguisher> := '🧯';
-    %h<firecracker> := '🧨';
-    %h<fireengine> := '🚒';
-    %h<fireextinguisher> := '🧯';
-    %h<firefighter> := '🧑‍🚒';
-    %h<fireworks> := '🎆';
-    %h<first-quarter-moon> := '🌓';
-    %h<first-quarter-moon-with-face> := '🌛';
-    %h<firstquartermoon> := '🌓';
-    %h<firstquartermoonwithface> := '🌛';
-    %h<fish> := '🐟';
-    %h<fish-cake> := '🍥';
-    %h<fishcake> := '🍥';
-    %h<fishing-pole-and-fish> := '🎣';
-    %h<fishingpoleandfish> := '🎣';
-    %h<fist> := '✊';
-    %h<fist-left> := '🤛';
-    %h<fist-oncoming> := '👊';
-    %h<fist-raised> := '✊';
-    %h<fist-right> := '🤜';
-    %h<fistleft> := '🤛';
-    %h<fistoncoming> := '👊';
-    %h<fistraised> := '✊';
-    %h<fistright> := '🤜';
-    %h<five> := '5️⃣';
-    %h<flags> := '🎏';
-    %h<flamingo> := '🦩';
-    %h<flashlight> := '🔦';
-    %h<flat-shoe> := '🥿';
-    %h<flatbread> := '🫓';
-    %h<flatshoe> := '🥿';
-    %h<fleur-de-lis> := '⚜️';
-    %h<fleurdelis> := '⚜️';
-    %h<flight-arrival> := '🛬';
-    %h<flight-departure> := '🛫';
-    %h<flightarrival> := '🛬';
-    %h<flightdeparture> := '🛫';
-    %h<flipper> := '🐬';
-    %h<floppy-disk> := '💾';
-    %h<floppydisk> := '💾';
-    %h<flower-playing-cards> := '🎴';
-    %h<flowerplayingcards> := '🎴';
-    %h<flushed> := '😳';
-    %h<flute> := '🪈';
-    %h<fly> := '🪰';
-    %h<flying-disc> := '🥏';
-    %h<flying-saucer> := '🛸';
-    %h<flyingdisc> := '🥏';
-    %h<flyingsaucer> := '🛸';
-    %h<fog> := '🌫️';
-    %h<foggy> := '🌁';
-    %h<folding-hand-fan> := '🪭';
-    %h<foldinghandfan> := '🪭';
-    %h<fondue> := '🫕';
-    %h<foot> := '🦶';
-    %h<football> := '🏈';
-    %h<footprints> := '👣';
-    %h<fork-and-knife> := '🍴';
-    %h<forkandknife> := '🍴';
-    %h<fortune-cookie> := '🥠';
-    %h<fortunecookie> := '🥠';
-    %h<fountain> := '⛲';
-    %h<fountain-pen> := '🖋️';
-    %h<fountainpen> := '🖋️';
-    %h<four> := '4️⃣';
-    %h<four-leaf-clover> := '🍀';
-    %h<fourleafclover> := '🍀';
-    %h<fox-face> := '🦊';
-    %h<foxface> := '🦊';
-    %h<fr> := '🇫🇷';
-    %h<framed-picture> := '🖼️';
-    %h<framedpicture> := '🖼️';
-    %h<free> := '🆓';
-    %h<french-guiana> := '🇬🇫';
-    %h<french-polynesia> := '🇵🇫';
-    %h<french-southern-territories> := '🇹🇫';
-    %h<frenchguiana> := '🇬🇫';
-    %h<frenchpolynesia> := '🇵🇫';
-    %h<frenchsouthernterritories> := '🇹🇫';
-    %h<fried-egg> := '🍳';
-    %h<fried-shrimp> := '🍤';
-    %h<friedegg> := '🍳';
-    %h<friedshrimp> := '🍤';
-    %h<fries> := '🍟';
-    %h<frog> := '🐸';
-    %h<frowning> := '😦';
-    %h<frowning-face> := '☹️';
-    %h<frowning-man> := '🙍‍♂️';
-    %h<frowning-person> := '🙍';
-    %h<frowning-woman> := '🙍‍♀️';
-    %h<frowningface> := '☹️';
-    %h<frowningman> := '🙍‍♂️';
-    %h<frowningperson> := '🙍';
-    %h<frowningwoman> := '🙍‍♀️';
-    %h<fu> := '🖕';
-    %h<fuelpump> := '⛽';
-    %h<full-moon> := '🌕';
-    %h<full-moon-with-face> := '🌝';
-    %h<fullmoon> := '🌕';
-    %h<fullmoonwithface> := '🌝';
-    %h<funeral-urn> := '⚱️';
-    %h<funeralurn> := '⚱️';
-    %h<gabon> := '🇬🇦';
-    %h<gambia> := '🇬🇲';
-    %h<game-die> := '🎲';
-    %h<gamedie> := '🎲';
-    %h<garlic> := '🧄';
-    %h<gb> := '🇬🇧';
-    %h<gear> := '⚙️';
-    %h<gem> := '💎';
-    %h<gemini> := '♊';
-    %h<genie> := '🧞';
-    %h<genie-man> := '🧞‍♂️';
-    %h<genie-woman> := '🧞‍♀️';
-    %h<genieman> := '🧞‍♂️';
-    %h<geniewoman> := '🧞‍♀️';
-    %h<georgia> := '🇬🇪';
-    %h<ghana> := '🇬🇭';
-    %h<ghost> := '👻';
-    %h<gibraltar> := '🇬🇮';
-    %h<gift> := '🎁';
-    %h<gift-heart> := '💝';
-    %h<giftheart> := '💝';
-    %h<ginger-root> := '🫚';
-    %h<gingerroot> := '🫚';
-    %h<giraffe> := '🦒';
-    %h<girl> := '👧';
-    %h<globe-with-meridians> := '🌐';
-    %h<globewithmeridians> := '🌐';
-    %h<gloves> := '🧤';
-    %h<goal-net> := '🥅';
-    %h<goalnet> := '🥅';
-    %h<goat> := '🐐';
-    %h<goggles> := '🥽';
-    %h<golf> := '⛳';
-    %h<golfing> := '🏌️';
-    %h<golfing-man> := '🏌️‍♂️';
-    %h<golfing-woman> := '🏌️‍♀️';
-    %h<golfingman> := '🏌️‍♂️';
-    %h<golfingwoman> := '🏌️‍♀️';
-    %h<goose> := '🪿';
-    %h<gorilla> := '🦍';
-    %h<grapes> := '🍇';
-    %h<greece> := '🇬🇷';
-    %h<green-apple> := '🍏';
-    %h<green-book> := '📗';
-    %h<green-circle> := '🟢';
-    %h<green-heart> := '💚';
-    %h<green-salad> := '🥗';
-    %h<green-square> := '🟩';
-    %h<greenapple> := '🍏';
-    %h<greenbook> := '📗';
-    %h<greencircle> := '🟢';
-    %h<greenheart> := '💚';
-    %h<greenland> := '🇬🇱';
-    %h<greensalad> := '🥗';
-    %h<greensquare> := '🟩';
-    %h<grenada> := '🇬🇩';
-    %h<grey-exclamation> := '❕';
-    %h<grey-heart> := '🩶';
-    %h<grey-question> := '❔';
-    %h<greyexclamation> := '❕';
-    %h<greyheart> := '🩶';
-    %h<greyquestion> := '❔';
-    %h<grimacing> := '😬';
-    %h<grin> := '😁';
-    %h<grinning> := '😀';
-    %h<guadeloupe> := '🇬🇵';
-    %h<guam> := '🇬🇺';
-    %h<guard> := '💂';
-    %h<guardsman> := '💂‍♂️';
-    %h<guardswoman> := '💂‍♀️';
-    %h<guatemala> := '🇬🇹';
-    %h<guernsey> := '🇬🇬';
-    %h<guide-dog> := '🦮';
-    %h<guidedog> := '🦮';
-    %h<guinea> := '🇬🇳';
-    %h<guinea-bissau> := '🇬🇼';
-    %h<guineabissau> := '🇬🇼';
-    %h<guitar> := '🎸';
-    %h<gun> := '🔫';
-    %h<guyana> := '🇬🇾';
-    %h<hair-pick> := '🪮';
-    %h<haircut> := '💇';
-    %h<haircut-man> := '💇‍♂️';
-    %h<haircut-woman> := '💇‍♀️';
-    %h<haircutman> := '💇‍♂️';
-    %h<haircutwoman> := '💇‍♀️';
-    %h<hairpick> := '🪮';
-    %h<haiti> := '🇭🇹';
-    %h<hamburger> := '🍔';
-    %h<hammer> := '🔨';
-    %h<hammer-and-pick> := '⚒️';
-    %h<hammer-and-wrench> := '🛠️';
-    %h<hammerandpick> := '⚒️';
-    %h<hammerandwrench> := '🛠️';
-    %h<hamsa> := '🪬';
-    %h<hamster> := '🐹';
-    %h<hand> := '✋';
-    %h<hand-over-mouth> := '🤭';
-    %h<hand-with-index-finger-and-thumb-crossed> := '🫰';
-    %h<handbag> := '👜';
-    %h<handball-person> := '🤾';
-    %h<handballperson> := '🤾';
-    %h<handovermouth> := '🤭';
-    %h<handshake> := '🤝';
-    %h<handwithindexfingerandthumbcrossed> := '🫰';
-    %h<hankey> := '💩';
-    %h<hash> := '#️⃣';
-    %h<hatched-chick> := '🐥';
-    %h<hatchedchick> := '🐥';
-    %h<hatching-chick> := '🐣';
-    %h<hatchingchick> := '🐣';
-    %h<headphones> := '🎧';
-    %h<headstone> := '🪦';
-    %h<health-worker> := '🧑‍⚕️';
-    %h<healthworker> := '🧑‍⚕️';
-    %h<hear-no-evil> := '🙉';
-    %h<heard-mcdonald-islands> := '🇭🇲';
-    %h<heardmcdonaldislands> := '🇭🇲';
-    %h<hearnoevil> := '🙉';
-    %h<heart> := '❤️';
-    %h<heart-decoration> := '💟';
-    %h<heart-eyes> := '😍';
-    %h<heart-eyes-cat> := '😻';
-    %h<heart-hands> := '🫶';
-    %h<heart-on-fire> := '❤️‍🔥';
-    %h<heartbeat> := '💓';
-    %h<heartdecoration> := '💟';
-    %h<hearteyes> := '😍';
-    %h<hearteyescat> := '😻';
-    %h<hearthands> := '🫶';
-    %h<heartonfire> := '❤️‍🔥';
-    %h<heartpulse> := '💗';
-    %h<hearts> := '♥️';
-    %h<heavy-check-mark> := '✔️';
-    %h<heavy-division-sign> := '➗';
-    %h<heavy-dollar-sign> := '💲';
-    %h<heavy-equals-sign> := '🟰';
-    %h<heavy-exclamation-mark> := '❗';
-    %h<heavy-heart-exclamation> := '❣️';
-    %h<heavy-minus-sign> := '➖';
-    %h<heavy-multiplication-x> := '✖️';
-    %h<heavy-plus-sign> := '➕';
-    %h<heavycheckmark> := '✔️';
-    %h<heavydivisionsign> := '➗';
-    %h<heavydollarsign> := '💲';
-    %h<heavyequalssign> := '🟰';
-    %h<heavyexclamationmark> := '❗';
-    %h<heavyheartexclamation> := '❣️';
-    %h<heavyminussign> := '➖';
-    %h<heavymultiplicationx> := '✖️';
-    %h<heavyplussign> := '➕';
-    %h<hedgehog> := '🦔';
-    %h<helicopter> := '🚁';
-    %h<herb> := '🌿';
-    %h<hibiscus> := '🌺';
-    %h<high-brightness> := '🔆';
-    %h<high-heel> := '👠';
-    %h<highbrightness> := '🔆';
-    %h<highheel> := '👠';
-    %h<hiking-boot> := '🥾';
-    %h<hikingboot> := '🥾';
-    %h<hindu-temple> := '🛕';
-    %h<hindutemple> := '🛕';
-    %h<hippopotamus> := '🦛';
-    %h<hocho> := '🔪';
-    %h<hole> := '🕳️';
-    %h<honduras> := '🇭🇳';
-    %h<honey-pot> := '🍯';
-    %h<honeybee> := '🐝';
-    %h<honeypot> := '🍯';
-    %h<hong-kong> := '🇭🇰';
-    %h<hongkong> := '🇭🇰';
-    %h<hook> := '🪝';
-    %h<horse> := '🐴';
-    %h<horse-racing> := '🏇';
-    %h<horseracing> := '🏇';
-    %h<hospital> := '🏥';
-    %h<hot-face> := '🥵';
-    %h<hot-pepper> := '🌶️';
-    %h<hotdog> := '🌭';
-    %h<hotel> := '🏨';
-    %h<hotface> := '🥵';
-    %h<hotpepper> := '🌶️';
-    %h<hotsprings> := '♨️';
-    %h<hourglass> := '⌛';
-    %h<hourglass-flowing-sand> := '⏳';
-    %h<hourglassflowingsand> := '⏳';
-    %h<house> := '🏠';
-    %h<house-with-garden> := '🏡';
-    %h<houses> := '🏘️';
-    %h<housewithgarden> := '🏡';
-    %h<hugs> := '🤗';
-    %h<hungary> := '🇭🇺';
-    %h<hushed> := '😯';
-    %h<hut> := '🛖';
-    %h<hyacinth> := '🪻';
-    %h<ice-cream> := '🍨';
-    %h<ice-cube> := '🧊';
-    %h<ice-hockey> := '🏒';
-    %h<ice-skate> := '⛸️';
-    %h<icecream> := '🍦';
-    %h<icecream> := '🍨';
-    %h<icecube> := '🧊';
-    %h<icehockey> := '🏒';
-    %h<iceland> := '🇮🇸';
-    %h<iceskate> := '⛸️';
-    %h<id> := '🆔';
-    %h<identification-card> := '🪪';
-    %h<identificationcard> := '🪪';
-    %h<ideograph-advantage> := '🉐';
-    %h<ideographadvantage> := '🉐';
-    %h<imp> := '👿';
-    %h<inbox-tray> := '📥';
-    %h<inboxtray> := '📥';
-    %h<incoming-envelope> := '📨';
-    %h<incomingenvelope> := '📨';
-    %h<index-pointing-at-the-viewer> := '🫵';
-    %h<indexpointingattheviewer> := '🫵';
-    %h<india> := '🇮🇳';
-    %h<indonesia> := '🇮🇩';
-    %h<infinity> := '♾️';
-    %h<information-desk-person> := '💁';
-    %h<information-source> := 'ℹ️';
-    %h<informationdeskperson> := '💁';
-    %h<informationsource> := 'ℹ️';
-    %h<innocent> := '😇';
-    %h<interrobang> := '⁉️';
-    %h<iphone> := '📱';
-    %h<iran> := '🇮🇷';
-    %h<iraq> := '🇮🇶';
-    %h<ireland> := '🇮🇪';
-    %h<isle-of-man> := '🇮🇲';
-    %h<isleofman> := '🇮🇲';
-    %h<israel> := '🇮🇱';
-    %h<it> := '🇮🇹';
-    %h<izakaya-lantern> := '🏮';
-    %h<izakayalantern> := '🏮';
-    %h<jack-o-lantern> := '🎃';
-    %h<jackolantern> := '🎃';
-    %h<jamaica> := '🇯🇲';
-    %h<japan> := '🗾';
-    %h<japanese-castle> := '🏯';
-    %h<japanese-goblin> := '👺';
-    %h<japanese-ogre> := '👹';
-    %h<japanesecastle> := '🏯';
-    %h<japanesegoblin> := '👺';
-    %h<japaneseogre> := '👹';
-    %h<jar> := '🫙';
-    %h<jeans> := '👖';
-    %h<jellyfish> := '🪼';
-    %h<jersey> := '🇯🇪';
-    %h<jigsaw> := '🧩';
-    %h<jordan> := '🇯🇴';
-    %h<joy> := '😂';
-    %h<joy-cat> := '😹';
-    %h<joycat> := '😹';
-    %h<joystick> := '🕹️';
-    %h<jp> := '🇯🇵';
-    %h<judge> := '🧑‍⚖️';
-    %h<juggling-person> := '🤹';
-    %h<jugglingperson> := '🤹';
-    %h<kaaba> := '🕋';
-    %h<kangaroo> := '🦘';
-    %h<kazakhstan> := '🇰🇿';
-    %h<kenya> := '🇰🇪';
-    %h<key> := '🔑';
-    %h<keyboard> := '⌨️';
-    %h<keycap-ten> := '🔟';
-    %h<keycapten> := '🔟';
-    %h<khanda> := '🪯';
-    %h<kick-scooter> := '🛴';
-    %h<kickscooter> := '🛴';
-    %h<kimono> := '👘';
-    %h<kiribati> := '🇰🇮';
-    %h<kiss> := '💋';
-    %h<kissing> := '😗';
-    %h<kissing-cat> := '😽';
-    %h<kissing-closed-eyes> := '😚';
-    %h<kissing-heart> := '😘';
-    %h<kissing-smiling-eyes> := '😙';
-    %h<kissingcat> := '😽';
-    %h<kissingclosedeyes> := '😚';
-    %h<kissingheart> := '😘';
-    %h<kissingsmilingeyes> := '😙';
-    %h<kite> := '🪁';
-    %h<kiwi-fruit> := '🥝';
-    %h<kiwifruit> := '🥝';
-    %h<kneeling-man> := '🧎‍♂️';
-    %h<kneeling-person> := '🧎';
-    %h<kneeling-woman> := '🧎‍♀️';
-    %h<kneelingman> := '🧎‍♂️';
-    %h<kneelingperson> := '🧎';
-    %h<kneelingwoman> := '🧎‍♀️';
-    %h<knife> := '🔪';
-    %h<knot> := '🪢';
-    %h<koala> := '🐨';
-    %h<koko> := '🈁';
-    %h<kosovo> := '🇽🇰';
-    %h<kr> := '🇰🇷';
-    %h<kuwait> := '🇰🇼';
-    %h<kyrgyzstan> := '🇰🇬';
-    %h<lab-coat> := '🥼';
-    %h<labcoat> := '🥼';
-    %h<label> := '🏷️';
-    %h<lacrosse> := '🥍';
-    %h<ladder> := '🪜';
-    %h<lady-beetle> := '🐞';
-    %h<ladybeetle> := '🐞';
-    %h<lantern> := '🏮';
-    %h<laos> := '🇱🇦';
-    %h<large-blue-circle> := '🔵';
-    %h<large-blue-diamond> := '🔷';
-    %h<large-orange-diamond> := '🔶';
-    %h<largebluecircle> := '🔵';
-    %h<largebluediamond> := '🔷';
-    %h<largeorangediamond> := '🔶';
-    %h<last-quarter-moon> := '🌗';
-    %h<last-quarter-moon-with-face> := '🌜';
-    %h<lastquartermoon> := '🌗';
-    %h<lastquartermoonwithface> := '🌜';
-    %h<latin-cross> := '✝️';
-    %h<latincross> := '✝️';
-    %h<latvia> := '🇱🇻';
-    %h<laughing> := '😆';
-    %h<leafy-green> := '🥬';
-    %h<leafygreen> := '🥬';
-    %h<leaves> := '🍃';
-    %h<lebanon> := '🇱🇧';
-    %h<ledger> := '📒';
-    %h<left-luggage> := '🛅';
-    %h<left-right-arrow> := '↔️';
-    %h<left-speech-bubble> := '🗨️';
-    %h<leftluggage> := '🛅';
-    %h<leftrightarrow> := '↔️';
-    %h<leftspeechbubble> := '🗨️';
-    %h<leftwards-arrow-with-hook> := '↩️';
-    %h<leftwards-hand> := '🫲';
-    %h<leftwards-pushing-hand> := '🫷';
-    %h<leftwardsarrowwithhook> := '↩️';
-    %h<leftwardshand> := '🫲';
-    %h<leftwardspushinghand> := '🫷';
-    %h<leg> := '🦵';
-    %h<lemon> := '🍋';
-    %h<leo> := '♌';
-    %h<leopard> := '🐆';
-    %h<lesotho> := '🇱🇸';
-    %h<level-slider> := '🎚️';
-    %h<levelslider> := '🎚️';
-    %h<liberia> := '🇱🇷';
-    %h<libra> := '♎';
-    %h<libya> := '🇱🇾';
-    %h<liechtenstein> := '🇱🇮';
-    %h<light-blue-heart> := '🩵';
-    %h<light-rail> := '🚈';
-    %h<lightblueheart> := '🩵';
-    %h<lightrail> := '🚈';
-    %h<link> := '🔗';
-    %h<lion> := '🦁';
-    %h<lips> := '👄';
-    %h<lipstick> := '💄';
-    %h<lithuania> := '🇱🇹';
-    %h<lizard> := '🦎';
-    %h<llama> := '🦙';
-    %h<lobster> := '🦞';
-    %h<lock> := '🔒';
-    %h<lock-with-ink-pen> := '🔏';
-    %h<lockwithinkpen> := '🔏';
-    %h<lollipop> := '🍭';
-    %h<long-drum> := '🪘';
-    %h<longdrum> := '🪘';
-    %h<loop> := '➿';
-    %h<lotion-bottle> := '🧴';
-    %h<lotionbottle> := '🧴';
-    %h<lotus> := '🪷';
-    %h<lotus-position> := '🧘';
-    %h<lotus-position-man> := '🧘‍♂️';
-    %h<lotus-position-woman> := '🧘‍♀️';
-    %h<lotusposition> := '🧘';
-    %h<lotuspositionman> := '🧘‍♂️';
-    %h<lotuspositionwoman> := '🧘‍♀️';
-    %h<loud-sound> := '🔊';
-    %h<loudsound> := '🔊';
-    %h<loudspeaker> := '📢';
-    %h<love-hotel> := '🏩';
-    %h<love-letter> := '💌';
-    %h<love-you-gesture> := '🤟';
-    %h<lovehotel> := '🏩';
-    %h<loveletter> := '💌';
-    %h<loveyougesture> := '🤟';
-    %h<low-battery> := '🪫';
-    %h<low-brightness> := '🔅';
-    %h<lowbattery> := '🪫';
-    %h<lowbrightness> := '🔅';
-    %h<luggage> := '🧳';
-    %h<lungs> := '🫁';
-    %h<luxembourg> := '🇱🇺';
-    %h<lying-face> := '🤥';
-    %h<lyingface> := '🤥';
-    %h<m> := 'Ⓜ️';
-    %h<macau> := '🇲🇴';
-    %h<macedonia> := '🇲🇰';
-    %h<madagascar> := '🇲🇬';
-    %h<mag> := '🔍';
-    %h<mag-right> := '🔎';
-    %h<mage> := '🧙';
-    %h<mage-man> := '🧙‍♂️';
-    %h<mage-woman> := '🧙‍♀️';
-    %h<mageman> := '🧙‍♂️';
-    %h<magewoman> := '🧙‍♀️';
-    %h<magic-wand> := '🪄';
-    %h<magicwand> := '🪄';
-    %h<magnet> := '🧲';
-    %h<magright> := '🔎';
-    %h<mahjong> := '🀄';
-    %h<mailbox> := '📫';
-    %h<mailbox-closed> := '📪';
-    %h<mailbox-with-mail> := '📬';
-    %h<mailbox-with-no-mail> := '📭';
-    %h<mailboxclosed> := '📪';
-    %h<mailboxwithmail> := '📬';
-    %h<mailboxwithnomail> := '📭';
-    %h<malawi> := '🇲🇼';
-    %h<malaysia> := '🇲🇾';
-    %h<maldives> := '🇲🇻';
-    %h<male-detective> := '🕵️‍♂️';
-    %h<male-sign> := '♂️';
-    %h<maledetective> := '🕵️‍♂️';
-    %h<malesign> := '♂️';
-    %h<mali> := '🇲🇱';
-    %h<malta> := '🇲🇹';
-    %h<mammoth> := '🦣';
-    %h<man> := '👨';
-    %h<man-artist> := '👨‍🎨';
-    %h<man-astronaut> := '👨‍🚀';
-    %h<man-beard> := '🧔‍♂️';
-    %h<man-cartwheeling> := '🤸‍♂️';
-    %h<man-cook> := '👨‍🍳';
-    %h<man-dancing> := '🕺';
-    %h<man-facepalming> := '🤦‍♂️';
-    %h<man-factory-worker> := '👨‍🏭';
-    %h<man-farmer> := '👨‍🌾';
-    %h<man-feeding-baby> := '👨‍🍼';
-    %h<man-firefighter> := '👨‍🚒';
-    %h<man-health-worker> := '👨‍⚕️';
-    %h<man-in-manual-wheelchair> := '👨‍🦽';
-    %h<man-in-motorized-wheelchair> := '👨‍🦼';
-    %h<man-in-tuxedo> := '🤵‍♂️';
-    %h<man-judge> := '👨‍⚖️';
-    %h<man-juggling> := '🤹‍♂️';
-    %h<man-mechanic> := '👨‍🔧';
-    %h<man-office-worker> := '👨‍💼';
-    %h<man-pilot> := '👨‍✈️';
-    %h<man-playing-handball> := '🤾‍♂️';
-    %h<man-playing-water-polo> := '🤽‍♂️';
-    %h<man-scientist> := '👨‍🔬';
-    %h<man-shrugging> := '🤷‍♂️';
-    %h<man-singer> := '👨‍🎤';
-    %h<man-student> := '👨‍🎓';
-    %h<man-teacher> := '👨‍🏫';
-    %h<man-technologist> := '👨‍💻';
-    %h<man-with-gua-pi-mao> := '👲';
-    %h<man-with-probing-cane> := '👨‍🦯';
-    %h<man-with-turban> := '👳‍♂️';
-    %h<man-with-veil> := '👰‍♂️';
-    %h<manartist> := '👨‍🎨';
-    %h<manastronaut> := '👨‍🚀';
-    %h<manbeard> := '🧔‍♂️';
-    %h<mancartwheeling> := '🤸‍♂️';
-    %h<mancook> := '👨‍🍳';
-    %h<mandancing> := '🕺';
-    %h<mandarin> := '🍊';
-    %h<manfacepalming> := '🤦‍♂️';
-    %h<manfactoryworker> := '👨‍🏭';
-    %h<manfarmer> := '👨‍🌾';
-    %h<manfeedingbaby> := '👨‍🍼';
-    %h<manfirefighter> := '👨‍🚒';
-    %h<mango> := '🥭';
-    %h<manhealthworker> := '👨‍⚕️';
-    %h<maninmanualwheelchair> := '👨‍🦽';
-    %h<maninmotorizedwheelchair> := '👨‍🦼';
-    %h<manintuxedo> := '🤵‍♂️';
-    %h<manjudge> := '👨‍⚖️';
-    %h<manjuggling> := '🤹‍♂️';
-    %h<manmechanic> := '👨‍🔧';
-    %h<manofficeworker> := '👨‍💼';
-    %h<manpilot> := '👨‍✈️';
-    %h<manplayinghandball> := '🤾‍♂️';
-    %h<manplayingwaterpolo> := '🤽‍♂️';
-    %h<mans-shoe> := '👞';
-    %h<manscientist> := '👨‍🔬';
-    %h<manshrugging> := '🤷‍♂️';
-    %h<mansinger> := '👨‍🎤';
-    %h<mansshoe> := '👞';
-    %h<manstudent> := '👨‍🎓';
-    %h<manteacher> := '👨‍🏫';
-    %h<mantechnologist> := '👨‍💻';
-    %h<mantelpiece-clock> := '🕰️';
-    %h<mantelpiececlock> := '🕰️';
-    %h<manual-wheelchair> := '🦽';
-    %h<manualwheelchair> := '🦽';
-    %h<manwithguapimao> := '👲';
-    %h<manwithprobingcane> := '👨‍🦯';
-    %h<manwithturban> := '👳‍♂️';
-    %h<manwithveil> := '👰‍♂️';
-    %h<maple-leaf> := '🍁';
-    %h<mapleleaf> := '🍁';
-    %h<maracas> := '🪇';
-    %h<marshall-islands> := '🇲🇭';
-    %h<marshallislands> := '🇲🇭';
-    %h<martial-arts-uniform> := '🥋';
-    %h<martialartsuniform> := '🥋';
-    %h<martinique> := '🇲🇶';
-    %h<mask> := '😷';
-    %h<massage> := '💆';
-    %h<massage-man> := '💆‍♂️';
-    %h<massage-woman> := '💆‍♀️';
-    %h<massageman> := '💆‍♂️';
-    %h<massagewoman> := '💆‍♀️';
-    %h<mate> := '🧉';
-    %h<mauritania> := '🇲🇷';
-    %h<mauritius> := '🇲🇺';
-    %h<mayotte> := '🇾🇹';
-    %h<meat-on-bone> := '🍖';
-    %h<meatonbone> := '🍖';
-    %h<mechanic> := '🧑‍🔧';
-    %h<mechanical-arm> := '🦾';
-    %h<mechanical-leg> := '🦿';
-    %h<mechanicalarm> := '🦾';
-    %h<mechanicalleg> := '🦿';
-    %h<medal-military> := '🎖️';
-    %h<medal-sports> := '🏅';
-    %h<medalmilitary> := '🎖️';
-    %h<medalsports> := '🏅';
-    %h<medical-symbol> := '⚕️';
-    %h<medicalsymbol> := '⚕️';
-    %h<mega> := '📣';
-    %h<melon> := '🍈';
-    %h<melting-face> := '🫠';
-    %h<meltingface> := '🫠';
-    %h<memo> := '📝';
-    %h<men-wrestling> := '🤼‍♂️';
-    %h<mending-heart> := '❤️‍🩹';
-    %h<mendingheart> := '❤️‍🩹';
-    %h<menorah> := '🕎';
-    %h<mens> := '🚹';
-    %h<menwrestling> := '🤼‍♂️';
-    %h<mermaid> := '🧜‍♀️';
-    %h<merman> := '🧜‍♂️';
-    %h<merperson> := '🧜';
-    %h<metal> := '🤘';
-    %h<metro> := '🚇';
-    %h<mexico> := '🇲🇽';
-    %h<microbe> := '🦠';
-    %h<micronesia> := '🇫🇲';
-    %h<microphone> := '🎤';
-    %h<microscope> := '🔬';
-    %h<middle-finger> := '🖕';
-    %h<middlefinger> := '🖕';
-    %h<military-helmet> := '🪖';
-    %h<militaryhelmet> := '🪖';
-    %h<milk-glass> := '🥛';
-    %h<milkglass> := '🥛';
-    %h<milky-way> := '🌌';
-    %h<milkyway> := '🌌';
-    %h<minibus> := '🚐';
-    %h<minidisc> := '💽';
-    %h<mirror> := '🪞';
-    %h<mirror-ball> := '🪩';
-    %h<mirrorball> := '🪩';
-    %h<mobile-phone-off> := '📴';
-    %h<mobilephoneoff> := '📴';
-    %h<moldova> := '🇲🇩';
-    %h<monaco> := '🇲🇨';
-    %h<money-mouth-face> := '🤑';
-    %h<money-with-wings> := '💸';
-    %h<moneybag> := '💰';
-    %h<moneymouthface> := '🤑';
-    %h<moneywithwings> := '💸';
-    %h<mongolia> := '🇲🇳';
-    %h<monkey> := '🐒';
-    %h<monkey-face> := '🐵';
-    %h<monkeyface> := '🐵';
-    %h<monocle-face> := '🧐';
-    %h<monocleface> := '🧐';
-    %h<monorail> := '🚝';
-    %h<montenegro> := '🇲🇪';
-    %h<montserrat> := '🇲🇸';
-    %h<moon> := '🌔';
-    %h<moon-cake> := '🥮';
-    %h<mooncake> := '🥮';
-    %h<moose> := '🫎';
-    %h<morocco> := '🇲🇦';
-    %h<mortar-board> := '🎓';
-    %h<mortarboard> := '🎓';
-    %h<mosque> := '🕌';
-    %h<mosquito> := '🦟';
-    %h<motor-boat> := '🛥️';
-    %h<motor-scooter> := '🛵';
-    %h<motorboat> := '🛥️';
-    %h<motorcycle> := '🏍️';
-    %h<motorized-wheelchair> := '🦼';
-    %h<motorizedwheelchair> := '🦼';
-    %h<motorscooter> := '🛵';
-    %h<motorway> := '🛣️';
-    %h<mount-fuji> := '🗻';
-    %h<mountain> := '⛰️';
-    %h<mountain-bicyclist> := '🚵';
-    %h<mountain-biking-man> := '🚵‍♂️';
-    %h<mountain-biking-woman> := '🚵‍♀️';
-    %h<mountain-cableway> := '🚠';
-    %h<mountain-railway> := '🚞';
-    %h<mountain-snow> := '🏔️';
-    %h<mountainbicyclist> := '🚵';
-    %h<mountainbikingman> := '🚵‍♂️';
-    %h<mountainbikingwoman> := '🚵‍♀️';
-    %h<mountaincableway> := '🚠';
-    %h<mountainrailway> := '🚞';
-    %h<mountainsnow> := '🏔️';
-    %h<mountfuji> := '🗻';
-    %h<mouse> := '🐭';
-    %h<mouse-trap> := '🪤';
-    %h<mouse2> := '🐁';
-    %h<mousetrap> := '🪤';
-    %h<movie-camera> := '🎥';
-    %h<moviecamera> := '🎥';
-    %h<moyai> := '🗿';
-    %h<mozambique> := '🇲🇿';
-    %h<mrs-claus> := '🤶';
-    %h<mrsclaus> := '🤶';
-    %h<muscle> := '💪';
-    %h<mushroom> := '🍄';
-    %h<musical-keyboard> := '🎹';
-    %h<musical-note> := '🎵';
-    %h<musical-score> := '🎼';
-    %h<musicalkeyboard> := '🎹';
-    %h<musicalnote> := '🎵';
-    %h<musicalscore> := '🎼';
-    %h<mute> := '🔇';
-    %h<mx-claus> := '🧑‍🎄';
-    %h<mxclaus> := '🧑‍🎄';
-    %h<myanmar> := '🇲🇲';
-    %h<nail-care> := '💅';
-    %h<nailcare> := '💅';
-    %h<name-badge> := '📛';
-    %h<namebadge> := '📛';
-    %h<namibia> := '🇳🇦';
-    %h<national-park> := '🏞️';
-    %h<nationalpark> := '🏞️';
-    %h<nauru> := '🇳🇷';
-    %h<nauseated-face> := '🤢';
-    %h<nauseatedface> := '🤢';
-    %h<nazar-amulet> := '🧿';
-    %h<nazaramulet> := '🧿';
-    %h<necktie> := '👔';
-    %h<negative-squared-cross-mark> := '❎';
-    %h<negativesquaredcrossmark> := '❎';
-    %h<nepal> := '🇳🇵';
-    %h<nerd-face> := '🤓';
-    %h<nerdface> := '🤓';
-    %h<nest-with-eggs> := '🪺';
-    %h<nesting-dolls> := '🪆';
-    %h<nestingdolls> := '🪆';
-    %h<nestwitheggs> := '🪺';
-    %h<netherlands> := '🇳🇱';
-    %h<neutral-face> := '😐';
-    %h<neutralface> := '😐';
-    %h<new> := '🆕';
-    %h<new-caledonia> := '🇳🇨';
-    %h<new-moon> := '🌑';
-    %h<new-moon-with-face> := '🌚';
-    %h<new-zealand> := '🇳🇿';
-    %h<newcaledonia> := '🇳🇨';
-    %h<newmoon> := '🌑';
-    %h<newmoonwithface> := '🌚';
-    %h<newspaper> := '📰';
-    %h<newspaper-roll> := '🗞️';
-    %h<newspaperroll> := '🗞️';
-    %h<newzealand> := '🇳🇿';
-    %h<next-track-button> := '⏭️';
-    %h<nexttrackbutton> := '⏭️';
-    %h<ng> := '🆖';
-    %h<ng-man> := '🙅‍♂️';
-    %h<ng-woman> := '🙅‍♀️';
-    %h<ngman> := '🙅‍♂️';
-    %h<ngwoman> := '🙅‍♀️';
-    %h<nicaragua> := '🇳🇮';
-    %h<niger> := '🇳🇪';
-    %h<nigeria> := '🇳🇬';
-    %h<night-with-stars> := '🌃';
-    %h<nightwithstars> := '🌃';
-    %h<nine> := '9️⃣';
-    %h<ninja> := '🥷';
-    %h<niue> := '🇳🇺';
-    %h<no-bell> := '🔕';
-    %h<no-bicycles> := '🚳';
-    %h<no-entry> := '⛔';
-    %h<no-entry-sign> := '🚫';
-    %h<no-good> := '🙅';
-    %h<no-good-man> := '🙅‍♂️';
-    %h<no-good-woman> := '🙅‍♀️';
-    %h<no-mobile-phones> := '📵';
-    %h<no-mouth> := '😶';
-    %h<no-pedestrians> := '🚷';
-    %h<no-smoking> := '🚭';
-    %h<nobell> := '🔕';
-    %h<nobicycles> := '🚳';
-    %h<noentry> := '⛔';
-    %h<noentrysign> := '🚫';
-    %h<nogood> := '🙅';
-    %h<nogoodman> := '🙅‍♂️';
-    %h<nogoodwoman> := '🙅‍♀️';
-    %h<nomobilephones> := '📵';
-    %h<nomouth> := '😶';
-    %h<non-potable-water> := '🚱';
-    %h<non-potablewater> := '🚱';
-    %h<nopedestrians> := '🚷';
-    %h<norfolk-island> := '🇳🇫';
-    %h<norfolkisland> := '🇳🇫';
-    %h<north-korea> := '🇰🇵';
-    %h<northern-mariana-islands> := '🇲🇵';
-    %h<northernmarianaislands> := '🇲🇵';
-    %h<northkorea> := '🇰🇵';
-    %h<norway> := '🇳🇴';
-    %h<nose> := '👃';
-    %h<nosmoking> := '🚭';
-    %h<notebook> := '📓';
-    %h<notebook-with-decorative-cover> := '📔';
-    %h<notebookwithdecorativecover> := '📔';
-    %h<notes> := '🎶';
-    %h<nut-and-bolt> := '🔩';
-    %h<nutandbolt> := '🔩';
-    %h<o> := '⭕';
-    %h<o2> := '🅾️';
-    %h<ocean> := '🌊';
-    %h<octopus> := '🐙';
-    %h<oden> := '🍢';
-    %h<office> := '🏢';
-    %h<office-worker> := '🧑‍💼';
-    %h<officeworker> := '🧑‍💼';
-    %h<oil-drum> := '🛢️';
-    %h<oildrum> := '🛢️';
-    %h<ok> := '🆗';
-    %h<ok-hand> := '👌';
-    %h<ok-man> := '🙆‍♂️';
-    %h<ok-person> := '🙆';
-    %h<ok-woman> := '🙆‍♀️';
-    %h<okhand> := '👌';
-    %h<okman> := '🙆‍♂️';
-    %h<okperson> := '🙆';
-    %h<okwoman> := '🙆‍♀️';
-    %h<old-key> := '🗝️';
-    %h<older-adult> := '🧓';
-    %h<older-man> := '👴';
-    %h<older-woman> := '👵';
-    %h<olderadult> := '🧓';
-    %h<olderman> := '👴';
-    %h<olderwoman> := '👵';
-    %h<oldkey> := '🗝️';
-    %h<olive> := '🫒';
-    %h<om> := '🕉️';
-    %h<oman> := '🇴🇲';
-    %h<on> := '🔛';
-    %h<oncoming-automobile> := '🚘';
-    %h<oncoming-bus> := '🚍';
-    %h<oncoming-police-car> := '🚔';
-    %h<oncoming-taxi> := '🚖';
-    %h<oncomingautomobile> := '🚘';
-    %h<oncomingbus> := '🚍';
-    %h<oncomingpolicecar> := '🚔';
-    %h<oncomingtaxi> := '🚖';
-    %h<one> := '1️⃣';
-    %h<one-piece-swimsuit> := '🩱';
-    %h<onepieceswimsuit> := '🩱';
-    %h<onion> := '🧅';
-    %h<open-book> := '📖';
-    %h<open-file-folder> := '📂';
-    %h<open-hands> := '👐';
-    %h<open-mouth> := '😮';
-    %h<open-umbrella> := '☂️';
-    %h<openbook> := '📖';
-    %h<openfilefolder> := '📂';
-    %h<openhands> := '👐';
-    %h<openmouth> := '😮';
-    %h<openumbrella> := '☂️';
-    %h<ophiuchus> := '⛎';
-    %h<orange> := '🍊';
-    %h<orange-book> := '📙';
-    %h<orange-circle> := '🟠';
-    %h<orange-heart> := '🧡';
-    %h<orange-square> := '🟧';
-    %h<orangebook> := '📙';
-    %h<orangecircle> := '🟠';
-    %h<orangeheart> := '🧡';
-    %h<orangesquare> := '🟧';
-    %h<orangutan> := '🦧';
-    %h<orthodox-cross> := '☦️';
-    %h<orthodoxcross> := '☦️';
-    %h<otter> := '🦦';
-    %h<outbox-tray> := '📤';
-    %h<outboxtray> := '📤';
-    %h<owl> := '🦉';
-    %h<ox> := '🐂';
-    %h<oyster> := '🦪';
-    %h<package> := '📦';
-    %h<page-facing-up> := '📄';
-    %h<page-with-curl> := '📃';
-    %h<pagefacingup> := '📄';
-    %h<pager> := '📟';
-    %h<pagewithcurl> := '📃';
-    %h<paintbrush> := '🖌️';
-    %h<pakistan> := '🇵🇰';
-    %h<palau> := '🇵🇼';
-    %h<palestinian-territories> := '🇵🇸';
-    %h<palestinianterritories> := '🇵🇸';
-    %h<palm-down-hand> := '🫳';
-    %h<palm-tree> := '🌴';
-    %h<palm-up-hand> := '🫴';
-    %h<palmdownhand> := '🫳';
-    %h<palms-up-together> := '🤲';
-    %h<palmsuptogether> := '🤲';
-    %h<palmtree> := '🌴';
-    %h<palmuphand> := '🫴';
-    %h<panama> := '🇵🇦';
-    %h<pancakes> := '🥞';
-    %h<panda-face> := '🐼';
-    %h<pandaface> := '🐼';
-    %h<paperclip> := '📎';
-    %h<paperclips> := '🖇️';
-    %h<papua-new-guinea> := '🇵🇬';
-    %h<papuanewguinea> := '🇵🇬';
-    %h<parachute> := '🪂';
-    %h<paraguay> := '🇵🇾';
-    %h<parasol-on-ground> := '⛱️';
-    %h<parasolonground> := '⛱️';
-    %h<parking> := '🅿️';
-    %h<parrot> := '🦜';
-    %h<part-alternation-mark> := '〽️';
-    %h<partalternationmark> := '〽️';
-    %h<partly-sunny> := '⛅';
-    %h<partlysunny> := '⛅';
-    %h<partying-face> := '🥳';
-    %h<partyingface> := '🥳';
-    %h<passenger-ship> := '🛳️';
-    %h<passengership> := '🛳️';
-    %h<passport-control> := '🛂';
-    %h<passportcontrol> := '🛂';
-    %h<pause-button> := '⏸️';
-    %h<pausebutton> := '⏸️';
-    %h<paw-prints> := '🐾';
-    %h<pawprints> := '🐾';
-    %h<pea-pod> := '🫛';
-    %h<peace-symbol> := '☮️';
-    %h<peacesymbol> := '☮️';
-    %h<peach> := '🍑';
-    %h<peacock> := '🦚';
-    %h<peanuts> := '🥜';
-    %h<peapod> := '🫛';
-    %h<pear> := '🍐';
-    %h<pen> := '🖊️';
-    %h<pencil> := '📝';
-    %h<pencil2> := '✏️';
-    %h<penguin> := '🐧';
-    %h<pensive> := '😔';
-    %h<people-holding-hands> := '🧑‍🤝‍🧑';
-    %h<people-hugging> := '🫂';
-    %h<peopleholdinghands> := '🧑‍🤝‍🧑';
-    %h<peoplehugging> := '🫂';
-    %h<performing-arts> := '🎭';
-    %h<performingarts> := '🎭';
-    %h<persevere> := '😣';
-    %h<person-bald> := '🧑‍🦲';
-    %h<person-curly-hair> := '🧑‍🦱';
-    %h<person-feeding-baby> := '🧑‍🍼';
-    %h<person-fencing> := '🤺';
-    %h<person-in-manual-wheelchair> := '🧑‍🦽';
-    %h<person-in-motorized-wheelchair> := '🧑‍🦼';
-    %h<person-in-tuxedo> := '🤵';
-    %h<person-red-hair> := '🧑‍🦰';
-    %h<person-white-hair> := '🧑‍🦳';
-    %h<person-with-crown> := '🫅';
-    %h<person-with-probing-cane> := '🧑‍🦯';
-    %h<person-with-turban> := '👳';
-    %h<person-with-veil> := '👰';
-    %h<personbald> := '🧑‍🦲';
-    %h<personcurlyhair> := '🧑‍🦱';
-    %h<personfeedingbaby> := '🧑‍🍼';
-    %h<personfencing> := '🤺';
-    %h<personinmanualwheelchair> := '🧑‍🦽';
-    %h<personinmotorizedwheelchair> := '🧑‍🦼';
-    %h<personintuxedo> := '🤵';
-    %h<personredhair> := '🧑‍🦰';
-    %h<personwhitehair> := '🧑‍🦳';
-    %h<personwithcrown> := '🫅';
-    %h<personwithprobingcane> := '🧑‍🦯';
-    %h<personwithturban> := '👳';
-    %h<personwithveil> := '👰';
-    %h<peru> := '🇵🇪';
-    %h<petri-dish> := '🧫';
-    %h<petridish> := '🧫';
-    %h<philippines> := '🇵🇭';
-    %h<phone> := '☎️';
-    %h<pick> := '⛏️';
-    %h<pickup-truck> := '🛻';
-    %h<pickuptruck> := '🛻';
-    %h<pie> := '🥧';
-    %h<pig> := '🐷';
-    %h<pig-nose> := '🐽';
-    %h<pig2> := '🐖';
-    %h<pignose> := '🐽';
-    %h<pill> := '💊';
-    %h<pilot> := '🧑‍✈️';
-    %h<pinata> := '🪅';
-    %h<pinched-fingers> := '🤌';
-    %h<pinchedfingers> := '🤌';
-    %h<pinching-hand> := '🤏';
-    %h<pinchinghand> := '🤏';
-    %h<pineapple> := '🍍';
-    %h<ping-pong> := '🏓';
-    %h<pingpong> := '🏓';
-    %h<pink-heart> := '🩷';
-    %h<pinkheart> := '🩷';
-    %h<pirate-flag> := '🏴‍☠️';
-    %h<pirateflag> := '🏴‍☠️';
-    %h<pisces> := '♓';
-    %h<pitcairn-islands> := '🇵🇳';
-    %h<pitcairnislands> := '🇵🇳';
-    %h<pizza> := '🍕';
-    %h<placard> := '🪧';
-    %h<place-of-worship> := '🛐';
-    %h<placeofworship> := '🛐';
-    %h<plate-with-cutlery> := '🍽️';
-    %h<platewithcutlery> := '🍽️';
-    %h<play-or-pause-button> := '⏯️';
-    %h<playground-slide> := '🛝';
-    %h<playgroundslide> := '🛝';
-    %h<playorpausebutton> := '⏯️';
-    %h<pleading-face> := '🥺';
-    %h<pleadingface> := '🥺';
-    %h<plunger> := '🪠';
-    %h<point-down> := '👇';
-    %h<point-left> := '👈';
-    %h<point-right> := '👉';
-    %h<point-up> := '☝️';
-    %h<point-up-2> := '👆';
-    %h<pointdown> := '👇';
-    %h<pointleft> := '👈';
-    %h<pointright> := '👉';
-    %h<pointup> := '☝️';
-    %h<pointup2> := '👆';
-    %h<poland> := '🇵🇱';
-    %h<polar-bear> := '🐻‍❄️';
-    %h<polarbear> := '🐻‍❄️';
-    %h<police-car> := '🚓';
-    %h<police-officer> := '👮';
-    %h<policecar> := '🚓';
-    %h<policeman> := '👮‍♂️';
-    %h<policeofficer> := '👮';
-    %h<policewoman> := '👮‍♀️';
-    %h<poodle> := '🐩';
-    %h<poop> := '💩';
-    %h<popcorn> := '🍿';
-    %h<portugal> := '🇵🇹';
-    %h<post-office> := '🏣';
-    %h<postal-horn> := '📯';
-    %h<postalhorn> := '📯';
-    %h<postbox> := '📮';
-    %h<postoffice> := '🏣';
-    %h<potable-water> := '🚰';
-    %h<potablewater> := '🚰';
-    %h<potato> := '🥔';
-    %h<potted-plant> := '🪴';
-    %h<pottedplant> := '🪴';
-    %h<pouch> := '👝';
-    %h<poultry-leg> := '🍗';
-    %h<poultryleg> := '🍗';
-    %h<pound> := '💷';
-    %h<pouring-liquid> := '🫗';
-    %h<pouringliquid> := '🫗';
-    %h<pout> := '😡';
-    %h<pouting-cat> := '😾';
-    %h<pouting-face> := '🙎';
-    %h<pouting-man> := '🙎‍♂️';
-    %h<pouting-woman> := '🙎‍♀️';
-    %h<poutingcat> := '😾';
-    %h<poutingface> := '🙎';
-    %h<poutingman> := '🙎‍♂️';
-    %h<poutingwoman> := '🙎‍♀️';
-    %h<pray> := '🙏';
-    %h<prayer-beads> := '📿';
-    %h<prayerbeads> := '📿';
-    %h<pregnant-man> := '🫃';
-    %h<pregnant-person> := '🫄';
-    %h<pregnant-woman> := '🤰';
-    %h<pregnantman> := '🫃';
-    %h<pregnantperson> := '🫄';
-    %h<pregnantwoman> := '🤰';
-    %h<pretzel> := '🥨';
-    %h<previous-track-button> := '⏮️';
-    %h<previoustrackbutton> := '⏮️';
-    %h<prince> := '🤴';
-    %h<princess> := '👸';
-    %h<printer> := '🖨️';
-    %h<probing-cane> := '🦯';
-    %h<probingcane> := '🦯';
-    %h<puerto-rico> := '🇵🇷';
-    %h<puertorico> := '🇵🇷';
-    %h<punch> := '👊';
-    %h<purple-circle> := '🟣';
-    %h<purple-heart> := '💜';
-    %h<purple-square> := '🟪';
-    %h<purplecircle> := '🟣';
-    %h<purpleheart> := '💜';
-    %h<purplesquare> := '🟪';
-    %h<purse> := '👛';
-    %h<pushpin> := '📌';
-    %h<put-litter-in-its-place> := '🚮';
-    %h<putlitterinitsplace> := '🚮';
-    %h<qatar> := '🇶🇦';
-    %h<question> := '❓';
-    %h<rabbit> := '🐰';
-    %h<rabbit2> := '🐇';
-    %h<raccoon> := '🦝';
-    %h<racehorse> := '🐎';
-    %h<racing-car> := '🏎️';
-    %h<racingcar> := '🏎️';
-    %h<radio> := '📻';
-    %h<radio-button> := '🔘';
-    %h<radioactive> := '☢️';
-    %h<radiobutton> := '🔘';
-    %h<rage> := '😡';
-    %h<railway-car> := '🚃';
-    %h<railway-track> := '🛤️';
-    %h<railwaycar> := '🚃';
-    %h<railwaytrack> := '🛤️';
-    %h<rainbow> := '🌈';
-    %h<rainbow-flag> := '🏳️‍🌈';
-    %h<rainbowflag> := '🏳️‍🌈';
-    %h<raised-back-of-hand> := '🤚';
-    %h<raised-eyebrow> := '🤨';
-    %h<raised-hand> := '✋';
-    %h<raised-hand-with-fingers-splayed> := '🖐️';
-    %h<raised-hands> := '🙌';
-    %h<raisedbackofhand> := '🤚';
-    %h<raisedeyebrow> := '🤨';
-    %h<raisedhand> := '✋';
-    %h<raisedhands> := '🙌';
-    %h<raisedhandwithfingerssplayed> := '🖐️';
-    %h<raising-hand> := '🙋';
-    %h<raising-hand-man> := '🙋‍♂️';
-    %h<raising-hand-woman> := '🙋‍♀️';
-    %h<raisinghand> := '🙋';
-    %h<raisinghandman> := '🙋‍♂️';
-    %h<raisinghandwoman> := '🙋‍♀️';
-    %h<ram> := '🐏';
-    %h<ramen> := '🍜';
-    %h<rat> := '🐀';
-    %h<razor> := '🪒';
-    %h<receipt> := '🧾';
-    %h<record-button> := '⏺️';
-    %h<recordbutton> := '⏺️';
-    %h<recycle> := '♻️';
-    %h<red-car> := '🚗';
-    %h<red-circle> := '🔴';
-    %h<red-envelope> := '🧧';
-    %h<red-haired-man> := '👨‍🦰';
-    %h<red-haired-woman> := '👩‍🦰';
-    %h<red-square> := '🟥';
-    %h<redcar> := '🚗';
-    %h<redcircle> := '🔴';
-    %h<redenvelope> := '🧧';
-    %h<redhairedman> := '👨‍🦰';
-    %h<redhairedwoman> := '👩‍🦰';
-    %h<redsquare> := '🟥';
-    %h<registered> := '®️';
-    %h<relaxed> := '☺️';
-    %h<relieved> := '😌';
-    %h<reminder-ribbon> := '🎗️';
-    %h<reminderribbon> := '🎗️';
-    %h<repeat> := '🔁';
-    %h<repeat-one> := '🔂';
-    %h<repeatone> := '🔂';
-    %h<rescue-worker-helmet> := '⛑️';
-    %h<rescueworkerhelmet> := '⛑️';
-    %h<restroom> := '🚻';
-    %h<reunion> := '🇷🇪';
-    %h<revolving-hearts> := '💞';
-    %h<revolvinghearts> := '💞';
-    %h<rewind> := '⏪';
-    %h<rhinoceros> := '🦏';
-    %h<ribbon> := '🎀';
-    %h<rice> := '🍚';
-    %h<rice-ball> := '🍙';
-    %h<rice-cracker> := '🍘';
-    %h<rice-scene> := '🎑';
-    %h<riceball> := '🍙';
-    %h<ricecracker> := '🍘';
-    %h<ricescene> := '🎑';
-    %h<right-anger-bubble> := '🗯️';
-    %h<rightangerbubble> := '🗯️';
-    %h<rightwards-hand> := '🫱';
-    %h<rightwards-pushing-hand> := '🫸';
-    %h<rightwardshand> := '🫱';
-    %h<rightwardspushinghand> := '🫸';
-    %h<ring> := '💍';
-    %h<ring-buoy> := '🛟';
-    %h<ringbuoy> := '🛟';
-    %h<ringed-planet> := '🪐';
-    %h<ringedplanet> := '🪐';
-    %h<robot> := '🤖';
-    %h<rock> := '🪨';
-    %h<rocket> := '🚀';
-    %h<rofl> := '🤣';
-    %h<roll-eyes> := '🙄';
-    %h<roll-of-paper> := '🧻';
-    %h<roller-coaster> := '🎢';
-    %h<roller-skate> := '🛼';
-    %h<rollercoaster> := '🎢';
-    %h<rollerskate> := '🛼';
-    %h<rolleyes> := '🙄';
-    %h<rollofpaper> := '🧻';
-    %h<romania> := '🇷🇴';
-    %h<rooster> := '🐓';
-    %h<rose> := '🌹';
-    %h<rosette> := '🏵️';
-    %h<rotating-light> := '🚨';
-    %h<rotatinglight> := '🚨';
-    %h<round-pushpin> := '📍';
-    %h<roundpushpin> := '📍';
-    %h<rowboat> := '🚣';
-    %h<rowing-man> := '🚣‍♂️';
-    %h<rowing-woman> := '🚣‍♀️';
-    %h<rowingman> := '🚣‍♂️';
-    %h<rowingwoman> := '🚣‍♀️';
-    %h<ru> := '🇷🇺';
-    %h<rugby-football> := '🏉';
-    %h<rugbyfootball> := '🏉';
-    %h<runner> := '🏃';
-    %h<running> := '🏃';
-    %h<running-man> := '🏃‍♂️';
-    %h<running-shirt-with-sash> := '🎽';
-    %h<running-woman> := '🏃‍♀️';
-    %h<runningman> := '🏃‍♂️';
-    %h<runningshirtwithsash> := '🎽';
-    %h<runningwoman> := '🏃‍♀️';
-    %h<rwanda> := '🇷🇼';
-    %h<sa> := '🈂️';
-    %h<safety-pin> := '🧷';
-    %h<safety-vest> := '🦺';
-    %h<safetypin> := '🧷';
-    %h<safetyvest> := '🦺';
-    %h<sagittarius> := '♐';
-    %h<sailboat> := '⛵';
-    %h<sake> := '🍶';
-    %h<salt> := '🧂';
-    %h<saluting-face> := '🫡';
-    %h<salutingface> := '🫡';
-    %h<samoa> := '🇼🇸';
-    %h<san-marino> := '🇸🇲';
-    %h<sandal> := '👡';
-    %h<sandwich> := '🥪';
-    %h<sanmarino> := '🇸🇲';
-    %h<santa> := '🎅';
-    %h<sao-tome-principe> := '🇸🇹';
-    %h<saotomeprincipe> := '🇸🇹';
-    %h<sari> := '🥻';
-    %h<sassy-man> := '💁‍♂️';
-    %h<sassy-woman> := '💁‍♀️';
-    %h<sassyman> := '💁‍♂️';
-    %h<sassywoman> := '💁‍♀️';
-    %h<satellite> := '📡';
-    %h<satisfied> := '😆';
-    %h<saudi-arabia> := '🇸🇦';
-    %h<saudiarabia> := '🇸🇦';
-    %h<sauna-man> := '🧖‍♂️';
-    %h<sauna-person> := '🧖';
-    %h<sauna-woman> := '🧖‍♀️';
-    %h<saunaman> := '🧖‍♂️';
-    %h<saunaperson> := '🧖';
-    %h<saunawoman> := '🧖‍♀️';
-    %h<sauropod> := '🦕';
-    %h<saxophone> := '🎷';
-    %h<scarf> := '🧣';
-    %h<school> := '🏫';
-    %h<school-satchel> := '🎒';
-    %h<schoolsatchel> := '🎒';
-    %h<scientist> := '🧑‍🔬';
-    %h<scissors> := '✂️';
-    %h<scorpion> := '🦂';
-    %h<scorpius> := '♏';
-    %h<scotland> := '🏴󠁧󠁢󠁳󠁣󠁴󠁿';
-    %h<scream> := '😱';
-    %h<scream-cat> := '🙀';
-    %h<screamcat> := '🙀';
-    %h<screwdriver> := '🪛';
-    %h<scroll> := '📜';
-    %h<seal> := '🦭';
-    %h<seat> := '💺';
-    %h<secret> := '㊙️';
-    %h<see-no-evil> := '🙈';
-    %h<seedling> := '🌱';
-    %h<seenoevil> := '🙈';
-    %h<selfie> := '🤳';
-    %h<senegal> := '🇸🇳';
-    %h<serbia> := '🇷🇸';
-    %h<service-dog> := '🐕‍🦺';
-    %h<servicedog> := '🐕‍🦺';
-    %h<seven> := '7️⃣';
-    %h<sewing-needle> := '🪡';
-    %h<sewingneedle> := '🪡';
-    %h<seychelles> := '🇸🇨';
-    %h<shaking-face> := '🫨';
-    %h<shakingface> := '🫨';
-    %h<shallow-pan-of-food> := '🥘';
-    %h<shallowpanoffood> := '🥘';
-    %h<shamrock> := '☘️';
-    %h<shark> := '🦈';
-    %h<shaved-ice> := '🍧';
-    %h<shavedice> := '🍧';
-    %h<sheep> := '🐑';
-    %h<shell> := '🐚';
-    %h<shield> := '🛡️';
-    %h<shinto-shrine> := '⛩️';
-    %h<shintoshrine> := '⛩️';
-    %h<ship> := '🚢';
-    %h<shirt> := '👕';
-    %h<shit> := '💩';
-    %h<shoe> := '👞';
-    %h<shopping> := '🛍️';
-    %h<shopping-cart> := '🛒';
-    %h<shoppingcart> := '🛒';
-    %h<shorts> := '🩳';
-    %h<shower> := '🚿';
-    %h<shrimp> := '🦐';
-    %h<shrug> := '🤷';
-    %h<shushing-face> := '🤫';
-    %h<shushingface> := '🤫';
-    %h<sierra-leone> := '🇸🇱';
-    %h<sierraleone> := '🇸🇱';
-    %h<signal-strength> := '📶';
-    %h<signalstrength> := '📶';
-    %h<singapore> := '🇸🇬';
-    %h<singer> := '🧑‍🎤';
-    %h<sint-maarten> := '🇸🇽';
-    %h<sintmaarten> := '🇸🇽';
-    %h<six> := '6️⃣';
-    %h<six-pointed-star> := '🔯';
-    %h<sixpointedstar> := '🔯';
-    %h<skateboard> := '🛹';
-    %h<ski> := '🎿';
-    %h<skier> := '⛷️';
-    %h<skull> := '💀';
-    %h<skull-and-crossbones> := '☠️';
-    %h<skullandcrossbones> := '☠️';
-    %h<skunk> := '🦨';
-    %h<sled> := '🛷';
-    %h<sleeping> := '😴';
-    %h<sleeping-bed> := '🛌';
-    %h<sleepingbed> := '🛌';
-    %h<sleepy> := '😪';
-    %h<slightly-frowning-face> := '🙁';
-    %h<slightly-smiling-face> := '🙂';
-    %h<slightlyfrowningface> := '🙁';
-    %h<slightlysmilingface> := '🙂';
-    %h<slot-machine> := '🎰';
-    %h<sloth> := '🦥';
-    %h<slotmachine> := '🎰';
-    %h<slovakia> := '🇸🇰';
-    %h<slovenia> := '🇸🇮';
-    %h<small-airplane> := '🛩️';
-    %h<small-blue-diamond> := '🔹';
-    %h<small-orange-diamond> := '🔸';
-    %h<small-red-triangle> := '🔺';
-    %h<small-red-triangle-down> := '🔻';
-    %h<smallairplane> := '🛩️';
-    %h<smallbluediamond> := '🔹';
-    %h<smallorangediamond> := '🔸';
-    %h<smallredtriangle> := '🔺';
-    %h<smallredtriangledown> := '🔻';
-    %h<smile> := '😄';
-    %h<smile-cat> := '😸';
-    %h<smilecat> := '😸';
-    %h<smiley> := '😃';
-    %h<smiley-cat> := '😺';
-    %h<smileycat> := '😺';
-    %h<smiling-face-with-tear> := '🥲';
-    %h<smiling-face-with-three-hearts> := '🥰';
-    %h<smiling-imp> := '😈';
-    %h<smilingfacewithtear> := '🥲';
-    %h<smilingfacewiththreehearts> := '🥰';
-    %h<smilingimp> := '😈';
-    %h<smirk> := '😏';
-    %h<smirk-cat> := '😼';
-    %h<smirkcat> := '😼';
-    %h<smoking> := '🚬';
-    %h<snail> := '🐌';
-    %h<snake> := '🐍';
-    %h<sneezing-face> := '🤧';
-    %h<sneezingface> := '🤧';
-    %h<snowboarder> := '🏂';
-    %h<snowflake> := '❄️';
-    %h<snowman> := '⛄';
-    %h<snowman-with-snow> := '☃️';
-    %h<snowmanwithsnow> := '☃️';
-    %h<soap> := '🧼';
-    %h<sob> := '😭';
-    %h<soccer> := '⚽';
-    %h<socks> := '🧦';
-    %h<softball> := '🥎';
-    %h<solomon-islands> := '🇸🇧';
-    %h<solomonislands> := '🇸🇧';
-    %h<somalia> := '🇸🇴';
-    %h<soon> := '🔜';
-    %h<sos> := '🆘';
-    %h<sound> := '🔉';
-    %h<south-africa> := '🇿🇦';
-    %h<south-georgia-south-sandwich-islands> := '🇬🇸';
-    %h<south-sudan> := '🇸🇸';
-    %h<southafrica> := '🇿🇦';
-    %h<southgeorgiasouthsandwichislands> := '🇬🇸';
-    %h<southsudan> := '🇸🇸';
-    %h<space-invader> := '👾';
-    %h<spaceinvader> := '👾';
-    %h<spades> := '♠️';
-    %h<spaghetti> := '🍝';
-    %h<sparkle> := '❇️';
-    %h<sparkler> := '🎇';
-    %h<sparkles> := '✨';
-    %h<sparkling-heart> := '💖';
-    %h<sparklingheart> := '💖';
-    %h<speak-no-evil> := '🙊';
-    %h<speaker> := '🔈';
-    %h<speaking-head> := '🗣️';
-    %h<speakinghead> := '🗣️';
-    %h<speaknoevil> := '🙊';
-    %h<speech-balloon> := '💬';
-    %h<speechballoon> := '💬';
-    %h<speedboat> := '🚤';
-    %h<spider> := '🕷️';
-    %h<spider-web> := '🕸️';
-    %h<spiderweb> := '🕸️';
-    %h<spiral-calendar> := '🗓️';
-    %h<spiral-notepad> := '🗒️';
-    %h<spiralcalendar> := '🗓️';
-    %h<spiralnotepad> := '🗒️';
-    %h<sponge> := '🧽';
-    %h<spoon> := '🥄';
-    %h<squid> := '🦑';
-    %h<sri-lanka> := '🇱🇰';
-    %h<srilanka> := '🇱🇰';
-    %h<st-barthelemy> := '🇧🇱';
-    %h<st-helena> := '🇸🇭';
-    %h<st-kitts-nevis> := '🇰🇳';
-    %h<st-lucia> := '🇱🇨';
-    %h<st-martin> := '🇲🇫';
-    %h<st-pierre-miquelon> := '🇵🇲';
-    %h<st-vincent-grenadines> := '🇻🇨';
-    %h<stadium> := '🏟️';
-    %h<standing-man> := '🧍‍♂️';
-    %h<standing-person> := '🧍';
-    %h<standing-woman> := '🧍‍♀️';
-    %h<standingman> := '🧍‍♂️';
-    %h<standingperson> := '🧍';
-    %h<standingwoman> := '🧍‍♀️';
-    %h<star> := '⭐';
-    %h<star-and-crescent> := '☪️';
-    %h<star-of-david> := '✡️';
-    %h<star-struck> := '🤩';
-    %h<star2> := '🌟';
-    %h<starandcrescent> := '☪️';
-    %h<starofdavid> := '✡️';
-    %h<stars> := '🌠';
-    %h<starstruck> := '🤩';
-    %h<station> := '🚉';
-    %h<statue-of-liberty> := '🗽';
-    %h<statueofliberty> := '🗽';
-    %h<stbarthelemy> := '🇧🇱';
-    %h<steam-locomotive> := '🚂';
-    %h<steamlocomotive> := '🚂';
-    %h<stethoscope> := '🩺';
-    %h<stew> := '🍲';
-    %h<sthelena> := '🇸🇭';
-    %h<stkittsnevis> := '🇰🇳';
-    %h<stlucia> := '🇱🇨';
-    %h<stmartin> := '🇲🇫';
-    %h<stop-button> := '⏹️';
-    %h<stop-sign> := '🛑';
-    %h<stopbutton> := '⏹️';
-    %h<stopsign> := '🛑';
-    %h<stopwatch> := '⏱️';
-    %h<stpierremiquelon> := '🇵🇲';
-    %h<straight-ruler> := '📏';
-    %h<straightruler> := '📏';
-    %h<strawberry> := '🍓';
-    %h<stuck-out-tongue> := '😛';
-    %h<stuck-out-tongue-closed-eyes> := '😝';
-    %h<stuck-out-tongue-winking-eye> := '😜';
-    %h<stuckouttongue> := '😛';
-    %h<stuckouttongueclosedeyes> := '😝';
-    %h<stuckouttonguewinkingeye> := '😜';
-    %h<student> := '🧑‍🎓';
-    %h<studio-microphone> := '🎙️';
-    %h<studiomicrophone> := '🎙️';
-    %h<stuffed-flatbread> := '🥙';
-    %h<stuffedflatbread> := '🥙';
-    %h<stvincentgrenadines> := '🇻🇨';
-    %h<sudan> := '🇸🇩';
-    %h<sun-behind-large-cloud> := '🌥️';
-    %h<sun-behind-rain-cloud> := '🌦️';
-    %h<sun-behind-small-cloud> := '🌤️';
-    %h<sun-with-face> := '🌞';
-    %h<sunbehindlargecloud> := '🌥️';
-    %h<sunbehindraincloud> := '🌦️';
-    %h<sunbehindsmallcloud> := '🌤️';
-    %h<sunflower> := '🌻';
-    %h<sunglasses> := '😎';
-    %h<sunny> := '☀️';
-    %h<sunrise> := '🌅';
-    %h<sunrise-over-mountains> := '🌄';
-    %h<sunriseovermountains> := '🌄';
-    %h<sunwithface> := '🌞';
-    %h<superhero> := '🦸';
-    %h<superhero-man> := '🦸‍♂️';
-    %h<superhero-woman> := '🦸‍♀️';
-    %h<superheroman> := '🦸‍♂️';
-    %h<superherowoman> := '🦸‍♀️';
-    %h<supervillain> := '🦹';
-    %h<supervillain-man> := '🦹‍♂️';
-    %h<supervillain-woman> := '🦹‍♀️';
-    %h<supervillainman> := '🦹‍♂️';
-    %h<supervillainwoman> := '🦹‍♀️';
-    %h<surfer> := '🏄';
-    %h<surfing-man> := '🏄‍♂️';
-    %h<surfing-woman> := '🏄‍♀️';
-    %h<surfingman> := '🏄‍♂️';
-    %h<surfingwoman> := '🏄‍♀️';
-    %h<suriname> := '🇸🇷';
-    %h<sushi> := '🍣';
-    %h<suspension-railway> := '🚟';
-    %h<suspensionrailway> := '🚟';
-    %h<svalbard-jan-mayen> := '🇸🇯';
-    %h<svalbardjanmayen> := '🇸🇯';
-    %h<swan> := '🦢';
-    %h<swaziland> := '🇸🇿';
-    %h<sweat> := '😓';
-    %h<sweat-drops> := '💦';
-    %h<sweat-smile> := '😅';
-    %h<sweatdrops> := '💦';
-    %h<sweatsmile> := '😅';
-    %h<sweden> := '🇸🇪';
-    %h<sweet-potato> := '🍠';
-    %h<sweetpotato> := '🍠';
-    %h<swim-brief> := '🩲';
-    %h<swimbrief> := '🩲';
-    %h<swimmer> := '🏊';
-    %h<swimming-man> := '🏊‍♂️';
-    %h<swimming-woman> := '🏊‍♀️';
-    %h<swimmingman> := '🏊‍♂️';
-    %h<swimmingwoman> := '🏊‍♀️';
-    %h<switzerland> := '🇨🇭';
-    %h<symbols> := '🔣';
-    %h<synagogue> := '🕍';
-    %h<syria> := '🇸🇾';
-    %h<syringe> := '💉';
-    %h<t-rex> := '🦖';
-    %h<taco> := '🌮';
-    %h<tada> := '🎉';
-    %h<taiwan> := '🇹🇼';
-    %h<tajikistan> := '🇹🇯';
-    %h<takeout-box> := '🥡';
-    %h<takeoutbox> := '🥡';
-    %h<tamale> := '🫔';
-    %h<tanabata-tree> := '🎋';
-    %h<tanabatatree> := '🎋';
-    %h<tangerine> := '🍊';
-    %h<tanzania> := '🇹🇿';
-    %h<taurus> := '♉';
-    %h<taxi> := '🚕';
-    %h<tea> := '🍵';
-    %h<teacher> := '🧑‍🏫';
-    %h<teapot> := '🫖';
-    %h<technologist> := '🧑‍💻';
-    %h<teddy-bear> := '🧸';
-    %h<teddybear> := '🧸';
-    %h<telephone> := '☎️';
-    %h<telephone-receiver> := '📞';
-    %h<telephonereceiver> := '📞';
-    %h<telescope> := '🔭';
-    %h<tennis> := '🎾';
-    %h<tent> := '⛺';
-    %h<test-tube> := '🧪';
-    %h<testtube> := '🧪';
-    %h<thailand> := '🇹🇭';
-    %h<thermometer> := '🌡️';
-    %h<thinking> := '🤔';
-    %h<thong-sandal> := '🩴';
-    %h<thongsandal> := '🩴';
-    %h<thought-balloon> := '💭';
-    %h<thoughtballoon> := '💭';
-    %h<thread> := '🧵';
-    %h<three> := '3️⃣';
-    %h<thumbsdown> := '👎';
-    %h<thumbsup> := '👍';
-    %h<ticket> := '🎫';
-    %h<tickets> := '🎟️';
-    %h<tiger> := '🐯';
-    %h<tiger2> := '🐅';
-    %h<timer-clock> := '⏲️';
-    %h<timerclock> := '⏲️';
-    %h<timor-leste> := '🇹🇱';
-    %h<timorleste> := '🇹🇱';
-    %h<tipping-hand-man> := '💁‍♂️';
-    %h<tipping-hand-person> := '💁';
-    %h<tipping-hand-woman> := '💁‍♀️';
-    %h<tippinghandman> := '💁‍♂️';
-    %h<tippinghandperson> := '💁';
-    %h<tippinghandwoman> := '💁‍♀️';
-    %h<tired-face> := '😫';
-    %h<tiredface> := '😫';
-    %h<tm> := '™️';
-    %h<togo> := '🇹🇬';
-    %h<toilet> := '🚽';
-    %h<tokelau> := '🇹🇰';
-    %h<tokyo-tower> := '🗼';
-    %h<tokyotower> := '🗼';
-    %h<tomato> := '🍅';
-    %h<tonga> := '🇹🇴';
-    %h<tongue> := '👅';
-    %h<toolbox> := '🧰';
-    %h<tooth> := '🦷';
-    %h<toothbrush> := '🪥';
-    %h<top> := '🔝';
-    %h<tophat> := '🎩';
-    %h<tornado> := '🌪️';
-    %h<tr> := '🇹🇷';
-    %h<trackball> := '🖲️';
-    %h<tractor> := '🚜';
-    %h<traffic-light> := '🚥';
-    %h<trafficlight> := '🚥';
-    %h<train> := '🚋';
-    %h<train2> := '🚆';
-    %h<tram> := '🚊';
-    %h<transgender-flag> := '🏳️‍⚧️';
-    %h<transgender-symbol> := '⚧️';
-    %h<transgenderflag> := '🏳️‍⚧️';
-    %h<transgendersymbol> := '⚧️';
-    %h<triangular-flag-on-post> := '🚩';
-    %h<triangular-ruler> := '📐';
-    %h<triangularflagonpost> := '🚩';
-    %h<triangularruler> := '📐';
-    %h<trident> := '🔱';
-    %h<trinidad-tobago> := '🇹🇹';
-    %h<trinidadtobago> := '🇹🇹';
-    %h<tristan-da-cunha> := '🇹🇦';
-    %h<tristandacunha> := '🇹🇦';
-    %h<triumph> := '😤';
-    %h<troll> := '🧌';
-    %h<trolleybus> := '🚎';
-    %h<trophy> := '🏆';
-    %h<tropical-drink> := '🍹';
-    %h<tropical-fish> := '🐠';
-    %h<tropicaldrink> := '🍹';
-    %h<tropicalfish> := '🐠';
-    %h<truck> := '🚚';
-    %h<trumpet> := '🎺';
-    %h<tshirt> := '👕';
-    %h<tulip> := '🌷';
-    %h<tumbler-glass> := '🥃';
-    %h<tumblerglass> := '🥃';
-    %h<tunisia> := '🇹🇳';
-    %h<turkey> := '🦃';
-    %h<turkmenistan> := '🇹🇲';
-    %h<turks-caicos-islands> := '🇹🇨';
-    %h<turkscaicosislands> := '🇹🇨';
-    %h<turtle> := '🐢';
-    %h<tuvalu> := '🇹🇻';
-    %h<tv> := '📺';
-    %h<twisted-rightwards-arrows> := '🔀';
-    %h<twistedrightwardsarrows> := '🔀';
-    %h<two> := '2️⃣';
-    %h<two-hearts> := '💕';
-    %h<two-men-holding-hands> := '👬';
-    %h<two-women-holding-hands> := '👭';
-    %h<twohearts> := '💕';
-    %h<twomenholdinghands> := '👬';
-    %h<twowomenholdinghands> := '👭';
-    %h<u5272> := '🈹';
-    %h<u5408> := '🈴';
-    %h<u55b6> := '🈺';
-    %h<u6307> := '🈯';
-    %h<u6708> := '🈷️';
-    %h<u6709> := '🈶';
-    %h<u6e80> := '🈵';
-    %h<u7121> := '🈚';
-    %h<u7533> := '🈸';
-    %h<u7981> := '🈲';
-    %h<u7a7a> := '🈳';
-    %h<uganda> := '🇺🇬';
-    %h<uk> := '🇬🇧';
-    %h<ukraine> := '🇺🇦';
-    %h<umbrella> := '☔';
-    %h<unamused> := '😒';
-    %h<underage> := '🔞';
-    %h<unicorn> := '🦄';
-    %h<united-arab-emirates> := '🇦🇪';
-    %h<united-nations> := '🇺🇳';
-    %h<unitedarabemirates> := '🇦🇪';
-    %h<unitednations> := '🇺🇳';
-    %h<unlock> := '🔓';
-    %h<up> := '🆙';
-    %h<upside-down-face> := '🙃';
-    %h<upsidedownface> := '🙃';
-    %h<uruguay> := '🇺🇾';
-    %h<us> := '🇺🇸';
-    %h<us-outlying-islands> := '🇺🇲';
-    %h<us-virgin-islands> := '🇻🇮';
-    %h<usoutlyingislands> := '🇺🇲';
-    %h<usvirginislands> := '🇻🇮';
-    %h<uzbekistan> := '🇺🇿';
-    %h<v> := '✌️';
-    %h<vampire> := '🧛';
-    %h<vampire-man> := '🧛‍♂️';
-    %h<vampire-woman> := '🧛‍♀️';
-    %h<vampireman> := '🧛‍♂️';
-    %h<vampirewoman> := '🧛‍♀️';
-    %h<vanuatu> := '🇻🇺';
-    %h<vatican-city> := '🇻🇦';
-    %h<vaticancity> := '🇻🇦';
-    %h<venezuela> := '🇻🇪';
-    %h<vertical-traffic-light> := '🚦';
-    %h<verticaltrafficlight> := '🚦';
-    %h<vhs> := '📼';
-    %h<vibration-mode> := '📳';
-    %h<vibrationmode> := '📳';
-    %h<video-camera> := '📹';
-    %h<video-game> := '🎮';
-    %h<videocamera> := '📹';
-    %h<videogame> := '🎮';
-    %h<vietnam> := '🇻🇳';
-    %h<violin> := '🎻';
-    %h<virgo> := '♍';
-    %h<volcano> := '🌋';
-    %h<volleyball> := '🏐';
-    %h<vomiting-face> := '🤮';
-    %h<vomitingface> := '🤮';
-    %h<vs> := '🆚';
-    %h<vulcan-salute> := '🖖';
-    %h<vulcansalute> := '🖖';
-    %h<waffle> := '🧇';
-    %h<wales> := '🏴󠁧󠁢󠁷󠁬󠁳󠁿';
-    %h<walking> := '🚶';
-    %h<walking-man> := '🚶‍♂️';
-    %h<walking-woman> := '🚶‍♀️';
-    %h<walkingman> := '🚶‍♂️';
-    %h<walkingwoman> := '🚶‍♀️';
-    %h<wallis-futuna> := '🇼🇫';
-    %h<wallisfutuna> := '🇼🇫';
-    %h<waning-crescent-moon> := '🌘';
-    %h<waning-gibbous-moon> := '🌖';
-    %h<waningcrescentmoon> := '🌘';
-    %h<waninggibbousmoon> := '🌖';
-    %h<warning> := '⚠️';
-    %h<wastebasket> := '🗑️';
-    %h<watch> := '⌚';
-    %h<water-buffalo> := '🐃';
-    %h<water-polo> := '🤽';
-    %h<waterbuffalo> := '🐃';
-    %h<watermelon> := '🍉';
-    %h<waterpolo> := '🤽';
-    %h<wave> := '👋';
-    %h<wavy-dash> := '〰️';
-    %h<wavydash> := '〰️';
-    %h<waxing-crescent-moon> := '🌒';
-    %h<waxing-gibbous-moon> := '🌔';
-    %h<waxingcrescentmoon> := '🌒';
-    %h<waxinggibbousmoon> := '🌔';
-    %h<wc> := '🚾';
-    %h<weary> := '😩';
-    %h<wedding> := '💒';
-    %h<weight-lifting> := '🏋️';
-    %h<weight-lifting-man> := '🏋️‍♂️';
-    %h<weight-lifting-woman> := '🏋️‍♀️';
-    %h<weightlifting> := '🏋️';
-    %h<weightliftingman> := '🏋️‍♂️';
-    %h<weightliftingwoman> := '🏋️‍♀️';
-    %h<western-sahara> := '🇪🇭';
-    %h<westernsahara> := '🇪🇭';
-    %h<whale> := '🐳';
-    %h<whale2> := '🐋';
-    %h<wheel> := '🛞';
-    %h<wheel-of-dharma> := '☸️';
-    %h<wheelchair> := '♿';
-    %h<wheelofdharma> := '☸️';
-    %h<white-check-mark> := '✅';
-    %h<white-circle> := '⚪';
-    %h<white-flag> := '🏳️';
-    %h<white-flower> := '💮';
-    %h<white-haired-man> := '👨‍🦳';
-    %h<white-haired-woman> := '👩‍🦳';
-    %h<white-heart> := '🤍';
-    %h<white-large-square> := '⬜';
-    %h<white-medium-small-square> := '◽';
-    %h<white-medium-square> := '◻️';
-    %h<white-small-square> := '▫️';
-    %h<white-square-button> := '🔳';
-    %h<whitecheckmark> := '✅';
-    %h<whitecircle> := '⚪';
-    %h<whiteflag> := '🏳️';
-    %h<whiteflower> := '💮';
-    %h<whitehairedman> := '👨‍🦳';
-    %h<whitehairedwoman> := '👩‍🦳';
-    %h<whiteheart> := '🤍';
-    %h<whitelargesquare> := '⬜';
-    %h<whitemediumsmallsquare> := '◽';
-    %h<whitemediumsquare> := '◻️';
-    %h<whitesmallsquare> := '▫️';
-    %h<whitesquarebutton> := '🔳';
-    %h<wilted-flower> := '🥀';
-    %h<wiltedflower> := '🥀';
-    %h<wind-chime> := '🎐';
-    %h<wind-face> := '🌬️';
-    %h<windchime> := '🎐';
-    %h<windface> := '🌬️';
-    %h<window> := '🪟';
-    %h<wine-glass> := '🍷';
-    %h<wineglass> := '🍷';
-    %h<wing> := '🪽';
-    %h<wink> := '😉';
-    %h<wireless> := '🛜';
-    %h<wolf> := '🐺';
-    %h<woman> := '👩';
-    %h<woman-artist> := '👩‍🎨';
-    %h<woman-astronaut> := '👩‍🚀';
-    %h<woman-beard> := '🧔‍♀️';
-    %h<woman-cartwheeling> := '🤸‍♀️';
-    %h<woman-cook> := '👩‍🍳';
-    %h<woman-dancing> := '💃';
-    %h<woman-facepalming> := '🤦‍♀️';
-    %h<woman-factory-worker> := '👩‍🏭';
-    %h<woman-farmer> := '👩‍🌾';
-    %h<woman-feeding-baby> := '👩‍🍼';
-    %h<woman-firefighter> := '👩‍🚒';
-    %h<woman-health-worker> := '👩‍⚕️';
-    %h<woman-in-manual-wheelchair> := '👩‍🦽';
-    %h<woman-in-motorized-wheelchair> := '👩‍🦼';
-    %h<woman-in-tuxedo> := '🤵‍♀️';
-    %h<woman-judge> := '👩‍⚖️';
-    %h<woman-juggling> := '🤹‍♀️';
-    %h<woman-mechanic> := '👩‍🔧';
-    %h<woman-office-worker> := '👩‍💼';
-    %h<woman-pilot> := '👩‍✈️';
-    %h<woman-playing-handball> := '🤾‍♀️';
-    %h<woman-playing-water-polo> := '🤽‍♀️';
-    %h<woman-scientist> := '👩‍🔬';
-    %h<woman-shrugging> := '🤷‍♀️';
-    %h<woman-singer> := '👩‍🎤';
-    %h<woman-student> := '👩‍🎓';
-    %h<woman-teacher> := '👩‍🏫';
-    %h<woman-technologist> := '👩‍💻';
-    %h<woman-with-headscarf> := '🧕';
-    %h<woman-with-probing-cane> := '👩‍🦯';
-    %h<woman-with-turban> := '👳‍♀️';
-    %h<woman-with-veil> := '👰‍♀️';
-    %h<womanartist> := '👩‍🎨';
-    %h<womanastronaut> := '👩‍🚀';
-    %h<womanbeard> := '🧔‍♀️';
-    %h<womancartwheeling> := '🤸‍♀️';
-    %h<womancook> := '👩‍🍳';
-    %h<womandancing> := '💃';
-    %h<womanfacepalming> := '🤦‍♀️';
-    %h<womanfactoryworker> := '👩‍🏭';
-    %h<womanfarmer> := '👩‍🌾';
-    %h<womanfeedingbaby> := '👩‍🍼';
-    %h<womanfirefighter> := '👩‍🚒';
-    %h<womanhealthworker> := '👩‍⚕️';
-    %h<womaninmanualwheelchair> := '👩‍🦽';
-    %h<womaninmotorizedwheelchair> := '👩‍🦼';
-    %h<womanintuxedo> := '🤵‍♀️';
-    %h<womanjudge> := '👩‍⚖️';
-    %h<womanjuggling> := '🤹‍♀️';
-    %h<womanmechanic> := '👩‍🔧';
-    %h<womanofficeworker> := '👩‍💼';
-    %h<womanpilot> := '👩‍✈️';
-    %h<womanplayinghandball> := '🤾‍♀️';
-    %h<womanplayingwaterpolo> := '🤽‍♀️';
-    %h<womans-clothes> := '👚';
-    %h<womans-hat> := '👒';
-    %h<womanscientist> := '👩‍🔬';
-    %h<womansclothes> := '👚';
-    %h<womanshat> := '👒';
-    %h<womanshrugging> := '🤷‍♀️';
-    %h<womansinger> := '👩‍🎤';
-    %h<womanstudent> := '👩‍🎓';
-    %h<womanteacher> := '👩‍🏫';
-    %h<womantechnologist> := '👩‍💻';
-    %h<womanwithheadscarf> := '🧕';
-    %h<womanwithprobingcane> := '👩‍🦯';
-    %h<womanwithturban> := '👳‍♀️';
-    %h<womanwithveil> := '👰‍♀️';
-    %h<women-wrestling> := '🤼‍♀️';
-    %h<womens> := '🚺';
-    %h<womenwrestling> := '🤼‍♀️';
-    %h<wood> := '🪵';
-    %h<woozy-face> := '🥴';
-    %h<woozyface> := '🥴';
-    %h<world-map> := '🗺️';
-    %h<worldmap> := '🗺️';
-    %h<worm> := '🪱';
-    %h<worried> := '😟';
-    %h<wrench> := '🔧';
-    %h<wrestling> := '🤼';
-    %h<writing-hand> := '✍️';
-    %h<writinghand> := '✍️';
-    %h<x> := '❌';
-    %h<x-ray> := '🩻';
-    %h<xray> := '🩻';
-    %h<yarn> := '🧶';
-    %h<yawning-face> := '🥱';
-    %h<yawningface> := '🥱';
-    %h<yellow-circle> := '🟡';
-    %h<yellow-heart> := '💛';
-    %h<yellow-square> := '🟨';
-    %h<yellowcircle> := '🟡';
-    %h<yellowheart> := '💛';
-    %h<yellowsquare> := '🟨';
-    %h<yemen> := '🇾🇪';
-    %h<yen> := '💴';
-    %h<yin-yang> := '☯️';
-    %h<yinyang> := '☯️';
-    %h<yo-yo> := '🪀';
-    %h<yoyo> := '🪀';
-    %h<yum> := '😋';
-    %h<zambia> := '🇿🇲';
-    %h<zany-face> := '🤪';
-    %h<zanyface> := '🤪';
-    %h<zap> := '⚡';
-    %h<zebra> := '🦓';
-    %h<zero> := '0️⃣';
-    %h<zimbabwe> := '🇿🇼';
-    %h<zipper-mouth-face> := '🤐';
-    %h<zippermouthface> := '🤐';
-    %h<zombie> := '🧟';
-    %h<zombie-man> := '🧟‍♂️';
-    %h<zombie-woman> := '🧟‍♀️';
-    %h<zombieman> := '🧟‍♂️';
-    %h<zombiewoman> := '🧟‍♀️';
-    %h<zzz> := '💤';
-    %h.Map
-}
-my %reverse := BEGIN {
-    my %h;
-    %h<#️⃣> := <hash>;
-    %h<*️⃣> := <asterisk>;
-    %h<0️⃣> := <zero>;
-    %h<1️⃣> := <one>;
-    %h<2️⃣> := <two>;
-    %h<3️⃣> := <three>;
-    %h<4️⃣> := <four>;
-    %h<5️⃣> := <five>;
-    %h<6️⃣> := <six>;
-    %h<7️⃣> := <seven>;
-    %h<8️⃣> := <eight>;
-    %h<9️⃣> := <nine>;
-    %h<©️> := <copyright>;
-    %h<®️> := <registered>;
-    %h<‼️> := <bangbang>;
-    %h<⁉️> := <interrobang>;
-    %h<™️> := <tm>;
-    %h<ℹ️> := <information-source>;
-    %h<↔️> := <left-right-arrow>;
-    %h<↕️> := <arrow-up-down>;
-    %h<↖️> := <arrow-upper-left>;
-    %h<↗️> := <arrow-upper-right>;
-    %h<↘️> := <arrow-lower-right>;
-    %h<↙️> := <arrow-lower-left>;
-    %h<↩️> := <leftwards-arrow-with-hook>;
-    %h<↪️> := <arrow-right-hook>;
-    %h<⌚> := <watch>;
-    %h<⌛> := <hourglass>;
-    %h<⌨️> := <keyboard>;
-    %h<⏏️> := <eject-button>;
-    %h<⏩> := <fast-forward>;
-    %h<⏪> := <rewind>;
-    %h<⏫> := <arrow-double-up>;
-    %h<⏬> := <arrow-double-down>;
-    %h<⏭️> := <next-track-button>;
-    %h<⏮️> := <previous-track-button>;
-    %h<⏯️> := <play-or-pause-button>;
-    %h<⏰> := <alarm-clock>;
-    %h<⏱️> := <stopwatch>;
-    %h<⏲️> := <timer-clock>;
-    %h<⏳> := <hourglass-flowing-sand>;
-    %h<⏸️> := <pause-button>;
-    %h<⏹️> := <stop-button>;
-    %h<⏺️> := <record-button>;
-    %h<Ⓜ️> := <m>;
-    %h<▪️> := <black-small-square>;
-    %h<▫️> := <white-small-square>;
-    %h<▶️> := <arrow-forward>;
-    %h<◀️> := <arrow-backward>;
-    %h<◻️> := <white-medium-square>;
-    %h<◼️> := <black-medium-square>;
-    %h<◽> := <white-medium-small-square>;
-    %h<◾> := <black-medium-small-square>;
-    %h<☀️> := <sunny>;
-    %h<☁️> := <cloud>;
-    %h<☂️> := <open-umbrella>;
-    %h<☃️> := <snowman-with-snow>;
-    %h<☄️> := <comet>;
-    %h<☎️> := <phone telephone>;
-    %h<☑️> := <ballot-box-with-check>;
-    %h<☔> := <umbrella>;
-    %h<☕> := <coffee>;
-    %h<☘️> := <shamrock>;
-    %h<☝️> := <point-up>;
-    %h<☠️> := <skull-and-crossbones>;
-    %h<☢️> := <radioactive>;
-    %h<☣️> := <biohazard>;
-    %h<☦️> := <orthodox-cross>;
-    %h<☪️> := <star-and-crescent>;
-    %h<☮️> := <peace-symbol>;
-    %h<☯️> := <yin-yang>;
-    %h<☸️> := <wheel-of-dharma>;
-    %h<☹️> := <frowning-face>;
-    %h<☺️> := <relaxed>;
-    %h<♀️> := <female-sign>;
-    %h<♂️> := <male-sign>;
-    %h<♈> := <aries>;
-    %h<♉> := <taurus>;
-    %h<♊> := <gemini>;
-    %h<♋> := <cancer>;
-    %h<♌> := <leo>;
-    %h<♍> := <virgo>;
-    %h<♎> := <libra>;
-    %h<♏> := <scorpius>;
-    %h<♐> := <sagittarius>;
-    %h<♑> := <capricorn>;
-    %h<♒> := <aquarius>;
-    %h<♓> := <pisces>;
-    %h<♟️> := <chess-pawn>;
-    %h<♠️> := <spades>;
-    %h<♣️> := <clubs>;
-    %h<♥️> := <hearts>;
-    %h<♦️> := <diamonds>;
-    %h<♨️> := <hotsprings>;
-    %h<♻️> := <recycle>;
-    %h<♾️> := <infinity>;
-    %h<♿> := <wheelchair>;
-    %h<⚒️> := <hammer-and-pick>;
-    %h<⚓> := <anchor>;
-    %h<⚔️> := <crossed-swords>;
-    %h<⚕️> := <medical-symbol>;
-    %h<⚖️> := <balance-scale>;
-    %h<⚗️> := <alembic>;
-    %h<⚙️> := <gear>;
-    %h<⚛️> := <atom-symbol>;
-    %h<⚜️> := <fleur-de-lis>;
-    %h<⚠️> := <warning>;
-    %h<⚡> := <zap>;
-    %h<⚧️> := <transgender-symbol>;
-    %h<⚪> := <white-circle>;
-    %h<⚫> := <black-circle>;
-    %h<⚰️> := <coffin>;
-    %h<⚱️> := <funeral-urn>;
-    %h<⚽> := <soccer>;
-    %h<⚾> := <baseball>;
-    %h<⛄> := <snowman>;
-    %h<⛅> := <partly-sunny>;
-    %h<⛈️> := <cloud-with-lightning-and-rain>;
-    %h<⛎> := <ophiuchus>;
-    %h<⛏️> := <pick>;
-    %h<⛑️> := <rescue-worker-helmet>;
-    %h<⛓️> := <chains>;
-    %h<⛔> := <no-entry>;
-    %h<⛩️> := <shinto-shrine>;
-    %h<⛪> := <church>;
-    %h<⛰️> := <mountain>;
-    %h<⛱️> := <parasol-on-ground>;
-    %h<⛲> := <fountain>;
-    %h<⛳> := <golf>;
-    %h<⛴️> := <ferry>;
-    %h<⛵> := <boat sailboat>;
-    %h<⛷️> := <skier>;
-    %h<⛸️> := <ice-skate>;
-    %h<⛹️> := <bouncing-ball-person>;
-    %h<⛹️‍♀️> := <basketball-woman bouncing-ball-woman>;
-    %h<⛹️‍♂️> := <basketball-man bouncing-ball-man>;
-    %h<⛺> := <tent>;
-    %h<⛽> := <fuelpump>;
-    %h<✂️> := <scissors>;
-    %h<✅> := <white-check-mark>;
-    %h<✈️> := <airplane>;
-    %h<✉️> := <envelope>;
-    %h<✊> := <fist fist-raised>;
-    %h<✋> := <hand raised-hand>;
-    %h<✌️> := <v>;
-    %h<✍️> := <writing-hand>;
-    %h<✏️> := <pencil2>;
-    %h<✒️> := <black-nib>;
-    %h<✔️> := <heavy-check-mark>;
-    %h<✖️> := <heavy-multiplication-x>;
-    %h<✝️> := <latin-cross>;
-    %h<✡️> := <star-of-david>;
-    %h<✨> := <sparkles>;
-    %h<✳️> := <eight-spoked-asterisk>;
-    %h<✴️> := <eight-pointed-black-star>;
-    %h<❄️> := <snowflake>;
-    %h<❇️> := <sparkle>;
-    %h<❌> := <x>;
-    %h<❎> := <negative-squared-cross-mark>;
-    %h<❓> := <question>;
-    %h<❔> := <grey-question>;
-    %h<❕> := <grey-exclamation>;
-    %h<❗> := <exclamation heavy-exclamation-mark>;
-    %h<❣️> := <heavy-heart-exclamation>;
-    %h<❤️> := <heart>;
-    %h<❤️‍🔥> := <heart-on-fire>;
-    %h<❤️‍🩹> := <mending-heart>;
-    %h<➕> := <heavy-plus-sign>;
-    %h<➖> := <heavy-minus-sign>;
-    %h<➗> := <heavy-division-sign>;
-    %h<➡️> := <arrow-right>;
-    %h<➰> := <curly-loop>;
-    %h<➿> := <loop>;
-    %h<⤴️> := <arrow-heading-up>;
-    %h<⤵️> := <arrow-heading-down>;
-    %h<⬅️> := <arrow-left>;
-    %h<⬆️> := <arrow-up>;
-    %h<⬇️> := <arrow-down>;
-    %h<⬛> := <black-large-square>;
-    %h<⬜> := <white-large-square>;
-    %h<⭐> := <star>;
-    %h<⭕> := <o>;
-    %h<〰️> := <wavy-dash>;
-    %h<〽️> := <part-alternation-mark>;
-    %h<㊗️> := <congratulations>;
-    %h<㊙️> := <secret>;
-    %h<🀄> := <mahjong>;
-    %h<🃏> := <black-joker>;
-    %h<🅰️> := <a>;
-    %h<🅱️> := <b>;
-    %h<🅾️> := <o2>;
-    %h<🅿️> := <parking>;
-    %h<🆎> := <ab>;
-    %h<🆑> := <cl>;
-    %h<🆒> := <cool>;
-    %h<🆓> := <free>;
-    %h<🆔> := <id>;
-    %h<🆕> := <new>;
-    %h<🆖> := <ng>;
-    %h<🆗> := <ok>;
-    %h<🆘> := <sos>;
-    %h<🆙> := <up>;
-    %h<🆚> := <vs>;
-    %h<🇦🇨> := <ascension-island>;
-    %h<🇦🇩> := <andorra>;
-    %h<🇦🇪> := <united-arab-emirates>;
-    %h<🇦🇫> := <afghanistan>;
-    %h<🇦🇬> := <antigua-barbuda>;
-    %h<🇦🇮> := <anguilla>;
-    %h<🇦🇱> := <albania>;
-    %h<🇦🇲> := <armenia>;
-    %h<🇦🇴> := <angola>;
-    %h<🇦🇶> := <antarctica>;
-    %h<🇦🇷> := <argentina>;
-    %h<🇦🇸> := <american-samoa>;
-    %h<🇦🇹> := <austria>;
-    %h<🇦🇺> := <australia>;
-    %h<🇦🇼> := <aruba>;
-    %h<🇦🇽> := <aland-islands>;
-    %h<🇦🇿> := <azerbaijan>;
-    %h<🇧🇦> := <bosnia-herzegovina>;
-    %h<🇧🇧> := <barbados>;
-    %h<🇧🇩> := <bangladesh>;
-    %h<🇧🇪> := <belgium>;
-    %h<🇧🇫> := <burkina-faso>;
-    %h<🇧🇬> := <bulgaria>;
-    %h<🇧🇭> := <bahrain>;
-    %h<🇧🇮> := <burundi>;
-    %h<🇧🇯> := <benin>;
-    %h<🇧🇱> := <st-barthelemy>;
-    %h<🇧🇲> := <bermuda>;
-    %h<🇧🇳> := <brunei>;
-    %h<🇧🇴> := <bolivia>;
-    %h<🇧🇶> := <caribbean-netherlands>;
-    %h<🇧🇷> := <brazil>;
-    %h<🇧🇸> := <bahamas>;
-    %h<🇧🇹> := <bhutan>;
-    %h<🇧🇻> := <bouvet-island>;
-    %h<🇧🇼> := <botswana>;
-    %h<🇧🇾> := <belarus>;
-    %h<🇧🇿> := <belize>;
-    %h<🇨🇦> := <canada>;
-    %h<🇨🇨> := <cocos-islands>;
-    %h<🇨🇩> := <congo-kinshasa>;
-    %h<🇨🇫> := <central-african-republic>;
-    %h<🇨🇬> := <congo-brazzaville>;
-    %h<🇨🇭> := <switzerland>;
-    %h<🇨🇮> := <cote-divoire>;
-    %h<🇨🇰> := <cook-islands>;
-    %h<🇨🇱> := <chile>;
-    %h<🇨🇲> := <cameroon>;
-    %h<🇨🇳> := <cn>;
-    %h<🇨🇴> := <colombia>;
-    %h<🇨🇵> := <clipperton-island>;
-    %h<🇨🇷> := <costa-rica>;
-    %h<🇨🇺> := <cuba>;
-    %h<🇨🇻> := <cape-verde>;
-    %h<🇨🇼> := <curacao>;
-    %h<🇨🇽> := <christmas-island>;
-    %h<🇨🇾> := <cyprus>;
-    %h<🇨🇿> := <czech-republic>;
-    %h<🇩🇪> := <de>;
-    %h<🇩🇬> := <diego-garcia>;
-    %h<🇩🇯> := <djibouti>;
-    %h<🇩🇰> := <denmark>;
-    %h<🇩🇲> := <dominica>;
-    %h<🇩🇴> := <dominican-republic>;
-    %h<🇩🇿> := <algeria>;
-    %h<🇪🇦> := <ceuta-melilla>;
-    %h<🇪🇨> := <ecuador>;
-    %h<🇪🇪> := <estonia>;
-    %h<🇪🇬> := <egypt>;
-    %h<🇪🇭> := <western-sahara>;
-    %h<🇪🇷> := <eritrea>;
-    %h<🇪🇸> := <es>;
-    %h<🇪🇹> := <ethiopia>;
-    %h<🇪🇺> := <eu european-union>;
-    %h<🇫🇮> := <finland>;
-    %h<🇫🇯> := <fiji>;
-    %h<🇫🇰> := <falkland-islands>;
-    %h<🇫🇲> := <micronesia>;
-    %h<🇫🇴> := <faroe-islands>;
-    %h<🇫🇷> := <fr>;
-    %h<🇬🇦> := <gabon>;
-    %h<🇬🇧> := <gb uk>;
-    %h<🇬🇩> := <grenada>;
-    %h<🇬🇪> := <georgia>;
-    %h<🇬🇫> := <french-guiana>;
-    %h<🇬🇬> := <guernsey>;
-    %h<🇬🇭> := <ghana>;
-    %h<🇬🇮> := <gibraltar>;
-    %h<🇬🇱> := <greenland>;
-    %h<🇬🇲> := <gambia>;
-    %h<🇬🇳> := <guinea>;
-    %h<🇬🇵> := <guadeloupe>;
-    %h<🇬🇶> := <equatorial-guinea>;
-    %h<🇬🇷> := <greece>;
-    %h<🇬🇸> := <south-georgia-south-sandwich-islands>;
-    %h<🇬🇹> := <guatemala>;
-    %h<🇬🇺> := <guam>;
-    %h<🇬🇼> := <guinea-bissau>;
-    %h<🇬🇾> := <guyana>;
-    %h<🇭🇰> := <hong-kong>;
-    %h<🇭🇲> := <heard-mcdonald-islands>;
-    %h<🇭🇳> := <honduras>;
-    %h<🇭🇷> := <croatia>;
-    %h<🇭🇹> := <haiti>;
-    %h<🇭🇺> := <hungary>;
-    %h<🇮🇨> := <canary-islands>;
-    %h<🇮🇩> := <indonesia>;
-    %h<🇮🇪> := <ireland>;
-    %h<🇮🇱> := <israel>;
-    %h<🇮🇲> := <isle-of-man>;
-    %h<🇮🇳> := <india>;
-    %h<🇮🇴> := <british-indian-ocean-territory>;
-    %h<🇮🇶> := <iraq>;
-    %h<🇮🇷> := <iran>;
-    %h<🇮🇸> := <iceland>;
-    %h<🇮🇹> := <it>;
-    %h<🇯🇪> := <jersey>;
-    %h<🇯🇲> := <jamaica>;
-    %h<🇯🇴> := <jordan>;
-    %h<🇯🇵> := <jp>;
-    %h<🇰🇪> := <kenya>;
-    %h<🇰🇬> := <kyrgyzstan>;
-    %h<🇰🇭> := <cambodia>;
-    %h<🇰🇮> := <kiribati>;
-    %h<🇰🇲> := <comoros>;
-    %h<🇰🇳> := <st-kitts-nevis>;
-    %h<🇰🇵> := <north-korea>;
-    %h<🇰🇷> := <kr>;
-    %h<🇰🇼> := <kuwait>;
-    %h<🇰🇾> := <cayman-islands>;
-    %h<🇰🇿> := <kazakhstan>;
-    %h<🇱🇦> := <laos>;
-    %h<🇱🇧> := <lebanon>;
-    %h<🇱🇨> := <st-lucia>;
-    %h<🇱🇮> := <liechtenstein>;
-    %h<🇱🇰> := <sri-lanka>;
-    %h<🇱🇷> := <liberia>;
-    %h<🇱🇸> := <lesotho>;
-    %h<🇱🇹> := <lithuania>;
-    %h<🇱🇺> := <luxembourg>;
-    %h<🇱🇻> := <latvia>;
-    %h<🇱🇾> := <libya>;
-    %h<🇲🇦> := <morocco>;
-    %h<🇲🇨> := <monaco>;
-    %h<🇲🇩> := <moldova>;
-    %h<🇲🇪> := <montenegro>;
-    %h<🇲🇫> := <st-martin>;
-    %h<🇲🇬> := <madagascar>;
-    %h<🇲🇭> := <marshall-islands>;
-    %h<🇲🇰> := <macedonia>;
-    %h<🇲🇱> := <mali>;
-    %h<🇲🇲> := <myanmar>;
-    %h<🇲🇳> := <mongolia>;
-    %h<🇲🇴> := <macau>;
-    %h<🇲🇵> := <northern-mariana-islands>;
-    %h<🇲🇶> := <martinique>;
-    %h<🇲🇷> := <mauritania>;
-    %h<🇲🇸> := <montserrat>;
-    %h<🇲🇹> := <malta>;
-    %h<🇲🇺> := <mauritius>;
-    %h<🇲🇻> := <maldives>;
-    %h<🇲🇼> := <malawi>;
-    %h<🇲🇽> := <mexico>;
-    %h<🇲🇾> := <malaysia>;
-    %h<🇲🇿> := <mozambique>;
-    %h<🇳🇦> := <namibia>;
-    %h<🇳🇨> := <new-caledonia>;
-    %h<🇳🇪> := <niger>;
-    %h<🇳🇫> := <norfolk-island>;
-    %h<🇳🇬> := <nigeria>;
-    %h<🇳🇮> := <nicaragua>;
-    %h<🇳🇱> := <netherlands>;
-    %h<🇳🇴> := <norway>;
-    %h<🇳🇵> := <nepal>;
-    %h<🇳🇷> := <nauru>;
-    %h<🇳🇺> := <niue>;
-    %h<🇳🇿> := <new-zealand>;
-    %h<🇴🇲> := <oman>;
-    %h<🇵🇦> := <panama>;
-    %h<🇵🇪> := <peru>;
-    %h<🇵🇫> := <french-polynesia>;
-    %h<🇵🇬> := <papua-new-guinea>;
-    %h<🇵🇭> := <philippines>;
-    %h<🇵🇰> := <pakistan>;
-    %h<🇵🇱> := <poland>;
-    %h<🇵🇲> := <st-pierre-miquelon>;
-    %h<🇵🇳> := <pitcairn-islands>;
-    %h<🇵🇷> := <puerto-rico>;
-    %h<🇵🇸> := <palestinian-territories>;
-    %h<🇵🇹> := <portugal>;
-    %h<🇵🇼> := <palau>;
-    %h<🇵🇾> := <paraguay>;
-    %h<🇶🇦> := <qatar>;
-    %h<🇷🇪> := <reunion>;
-    %h<🇷🇴> := <romania>;
-    %h<🇷🇸> := <serbia>;
-    %h<🇷🇺> := <ru>;
-    %h<🇷🇼> := <rwanda>;
-    %h<🇸🇦> := <saudi-arabia>;
-    %h<🇸🇧> := <solomon-islands>;
-    %h<🇸🇨> := <seychelles>;
-    %h<🇸🇩> := <sudan>;
-    %h<🇸🇪> := <sweden>;
-    %h<🇸🇬> := <singapore>;
-    %h<🇸🇭> := <st-helena>;
-    %h<🇸🇮> := <slovenia>;
-    %h<🇸🇯> := <svalbard-jan-mayen>;
-    %h<🇸🇰> := <slovakia>;
-    %h<🇸🇱> := <sierra-leone>;
-    %h<🇸🇲> := <san-marino>;
-    %h<🇸🇳> := <senegal>;
-    %h<🇸🇴> := <somalia>;
-    %h<🇸🇷> := <suriname>;
-    %h<🇸🇸> := <south-sudan>;
-    %h<🇸🇹> := <sao-tome-principe>;
-    %h<🇸🇻> := <el-salvador>;
-    %h<🇸🇽> := <sint-maarten>;
-    %h<🇸🇾> := <syria>;
-    %h<🇸🇿> := <swaziland>;
-    %h<🇹🇦> := <tristan-da-cunha>;
-    %h<🇹🇨> := <turks-caicos-islands>;
-    %h<🇹🇩> := <chad>;
-    %h<🇹🇫> := <french-southern-territories>;
-    %h<🇹🇬> := <togo>;
-    %h<🇹🇭> := <thailand>;
-    %h<🇹🇯> := <tajikistan>;
-    %h<🇹🇰> := <tokelau>;
-    %h<🇹🇱> := <timor-leste>;
-    %h<🇹🇲> := <turkmenistan>;
-    %h<🇹🇳> := <tunisia>;
-    %h<🇹🇴> := <tonga>;
-    %h<🇹🇷> := <tr>;
-    %h<🇹🇹> := <trinidad-tobago>;
-    %h<🇹🇻> := <tuvalu>;
-    %h<🇹🇼> := <taiwan>;
-    %h<🇹🇿> := <tanzania>;
-    %h<🇺🇦> := <ukraine>;
-    %h<🇺🇬> := <uganda>;
-    %h<🇺🇲> := <us-outlying-islands>;
-    %h<🇺🇳> := <united-nations>;
-    %h<🇺🇸> := <us>;
-    %h<🇺🇾> := <uruguay>;
-    %h<🇺🇿> := <uzbekistan>;
-    %h<🇻🇦> := <vatican-city>;
-    %h<🇻🇨> := <st-vincent-grenadines>;
-    %h<🇻🇪> := <venezuela>;
-    %h<🇻🇬> := <british-virgin-islands>;
-    %h<🇻🇮> := <us-virgin-islands>;
-    %h<🇻🇳> := <vietnam>;
-    %h<🇻🇺> := <vanuatu>;
-    %h<🇼🇫> := <wallis-futuna>;
-    %h<🇼🇸> := <samoa>;
-    %h<🇽🇰> := <kosovo>;
-    %h<🇾🇪> := <yemen>;
-    %h<🇾🇹> := <mayotte>;
-    %h<🇿🇦> := <south-africa>;
-    %h<🇿🇲> := <zambia>;
-    %h<🇿🇼> := <zimbabwe>;
-    %h<🈁> := <koko>;
-    %h<🈂️> := <sa>;
-    %h<🈚> := <u7121>;
-    %h<🈯> := <u6307>;
-    %h<🈲> := <u7981>;
-    %h<🈳> := <u7a7a>;
-    %h<🈴> := <u5408>;
-    %h<🈵> := <u6e80>;
-    %h<🈶> := <u6709>;
-    %h<🈷️> := <u6708>;
-    %h<🈸> := <u7533>;
-    %h<🈹> := <u5272>;
-    %h<🈺> := <u55b6>;
-    %h<🉐> := <ideograph-advantage>;
-    %h<🉑> := <accept>;
-    %h<🌀> := <cyclone>;
-    %h<🌁> := <foggy>;
-    %h<🌂> := <closed-umbrella>;
-    %h<🌃> := <night-with-stars>;
-    %h<🌄> := <sunrise-over-mountains>;
-    %h<🌅> := <sunrise>;
-    %h<🌆> := <city-sunset>;
-    %h<🌇> := <city-sunrise>;
-    %h<🌈> := <rainbow>;
-    %h<🌉> := <bridge-at-night>;
-    %h<🌊> := <ocean>;
-    %h<🌋> := <volcano>;
-    %h<🌌> := <milky-way>;
-    %h<🌍> := <earth-africa>;
-    %h<🌎> := <earth-americas>;
-    %h<🌏> := <earth-asia>;
-    %h<🌐> := <globe-with-meridians>;
-    %h<🌑> := <new-moon>;
-    %h<🌒> := <waxing-crescent-moon>;
-    %h<🌓> := <first-quarter-moon>;
-    %h<🌔> := <moon waxing-gibbous-moon>;
-    %h<🌕> := <full-moon>;
-    %h<🌖> := <waning-gibbous-moon>;
-    %h<🌗> := <last-quarter-moon>;
-    %h<🌘> := <waning-crescent-moon>;
-    %h<🌙> := <crescent-moon>;
-    %h<🌚> := <new-moon-with-face>;
-    %h<🌛> := <first-quarter-moon-with-face>;
-    %h<🌜> := <last-quarter-moon-with-face>;
-    %h<🌝> := <full-moon-with-face>;
-    %h<🌞> := <sun-with-face>;
-    %h<🌟> := <star2>;
-    %h<🌠> := <stars>;
-    %h<🌡️> := <thermometer>;
-    %h<🌤️> := <sun-behind-small-cloud>;
-    %h<🌥️> := <sun-behind-large-cloud>;
-    %h<🌦️> := <sun-behind-rain-cloud>;
-    %h<🌧️> := <cloud-with-rain>;
-    %h<🌨️> := <cloud-with-snow>;
-    %h<🌩️> := <cloud-with-lightning>;
-    %h<🌪️> := <tornado>;
-    %h<🌫️> := <fog>;
-    %h<🌬️> := <wind-face>;
-    %h<🌭> := <hotdog>;
-    %h<🌮> := <taco>;
-    %h<🌯> := <burrito>;
-    %h<🌰> := <chestnut>;
-    %h<🌱> := <seedling>;
-    %h<🌲> := <evergreen-tree>;
-    %h<🌳> := <deciduous-tree>;
-    %h<🌴> := <palm-tree>;
-    %h<🌵> := <cactus>;
-    %h<🌶️> := <hot-pepper>;
-    %h<🌷> := <tulip>;
-    %h<🌸> := <cherry-blossom>;
-    %h<🌹> := <rose>;
-    %h<🌺> := <hibiscus>;
-    %h<🌻> := <sunflower>;
-    %h<🌼> := <blossom>;
-    %h<🌽> := <corn>;
-    %h<🌾> := <ear-of-rice>;
-    %h<🌿> := <herb>;
-    %h<🍀> := <four-leaf-clover>;
-    %h<🍁> := <maple-leaf>;
-    %h<🍂> := <fallen-leaf>;
-    %h<🍃> := <leaves>;
-    %h<🍄> := <mushroom>;
-    %h<🍅> := <tomato>;
-    %h<🍆> := <eggplant>;
-    %h<🍇> := <grapes>;
-    %h<🍈> := <melon>;
-    %h<🍉> := <watermelon>;
-    %h<🍊> := <orange mandarin tangerine>;
-    %h<🍋> := <lemon>;
-    %h<🍌> := <banana>;
-    %h<🍍> := <pineapple>;
-    %h<🍎> := <apple>;
-    %h<🍏> := <green-apple>;
-    %h<🍐> := <pear>;
-    %h<🍑> := <peach>;
-    %h<🍒> := <cherries>;
-    %h<🍓> := <strawberry>;
-    %h<🍔> := <hamburger>;
-    %h<🍕> := <pizza>;
-    %h<🍖> := <meat-on-bone>;
-    %h<🍗> := <poultry-leg>;
-    %h<🍘> := <rice-cracker>;
-    %h<🍙> := <rice-ball>;
-    %h<🍚> := <rice>;
-    %h<🍛> := <curry>;
-    %h<🍜> := <ramen>;
-    %h<🍝> := <spaghetti>;
-    %h<🍞> := <bread>;
-    %h<🍟> := <fries>;
-    %h<🍠> := <sweet-potato>;
-    %h<🍡> := <dango>;
-    %h<🍢> := <oden>;
-    %h<🍣> := <sushi>;
-    %h<🍤> := <fried-shrimp>;
-    %h<🍥> := <fish-cake>;
-    %h<🍦> := <icecream>;
-    %h<🍧> := <shaved-ice>;
-    %h<🍨> := <ice-cream>;
-    %h<🍩> := <doughnut>;
-    %h<🍪> := <cookie>;
-    %h<🍫> := <chocolate-bar>;
-    %h<🍬> := <candy>;
-    %h<🍭> := <lollipop>;
-    %h<🍮> := <custard>;
-    %h<🍯> := <honey-pot>;
-    %h<🍰> := <cake>;
-    %h<🍱> := <bento>;
-    %h<🍲> := <stew>;
-    %h<🍳> := <fried-egg>;
-    %h<🍴> := <fork-and-knife>;
-    %h<🍵> := <tea>;
-    %h<🍶> := <sake>;
-    %h<🍷> := <wine-glass>;
-    %h<🍸> := <cocktail>;
-    %h<🍹> := <tropical-drink>;
-    %h<🍺> := <beer>;
-    %h<🍻> := <beers>;
-    %h<🍼> := <baby-bottle>;
-    %h<🍽️> := <plate-with-cutlery>;
-    %h<🍾> := <champagne>;
-    %h<🍿> := <popcorn>;
-    %h<🎀> := <ribbon>;
-    %h<🎁> := <gift>;
-    %h<🎂> := <birthday>;
-    %h<🎃> := <jack-o-lantern>;
-    %h<🎄> := <christmas-tree>;
-    %h<🎅> := <santa>;
-    %h<🎆> := <fireworks>;
-    %h<🎇> := <sparkler>;
-    %h<🎈> := <balloon>;
-    %h<🎉> := <tada>;
-    %h<🎊> := <confetti-ball>;
-    %h<🎋> := <tanabata-tree>;
-    %h<🎌> := <crossed-flags>;
-    %h<🎍> := <bamboo>;
-    %h<🎎> := <dolls>;
-    %h<🎏> := <flags>;
-    %h<🎐> := <wind-chime>;
-    %h<🎑> := <rice-scene>;
-    %h<🎒> := <school-satchel>;
-    %h<🎓> := <mortar-board>;
-    %h<🎖️> := <medal-military>;
-    %h<🎗️> := <reminder-ribbon>;
-    %h<🎙️> := <studio-microphone>;
-    %h<🎚️> := <level-slider>;
-    %h<🎛️> := <control-knobs>;
-    %h<🎞️> := <film-strip>;
-    %h<🎟️> := <tickets>;
-    %h<🎠> := <carousel-horse>;
-    %h<🎡> := <ferris-wheel>;
-    %h<🎢> := <roller-coaster>;
-    %h<🎣> := <fishing-pole-and-fish>;
-    %h<🎤> := <microphone>;
-    %h<🎥> := <movie-camera>;
-    %h<🎦> := <cinema>;
-    %h<🎧> := <headphones>;
-    %h<🎨> := <art>;
-    %h<🎩> := <tophat>;
-    %h<🎪> := <circus-tent>;
-    %h<🎫> := <ticket>;
-    %h<🎬> := <clapper>;
-    %h<🎭> := <performing-arts>;
-    %h<🎮> := <video-game>;
-    %h<🎯> := <dart>;
-    %h<🎰> := <slot-machine>;
-    %h<🎱> := <8ball>;
-    %h<🎲> := <game-die>;
-    %h<🎳> := <bowling>;
-    %h<🎴> := <flower-playing-cards>;
-    %h<🎵> := <musical-note>;
-    %h<🎶> := <notes>;
-    %h<🎷> := <saxophone>;
-    %h<🎸> := <guitar>;
-    %h<🎹> := <musical-keyboard>;
-    %h<🎺> := <trumpet>;
-    %h<🎻> := <violin>;
-    %h<🎼> := <musical-score>;
-    %h<🎽> := <running-shirt-with-sash>;
-    %h<🎾> := <tennis>;
-    %h<🎿> := <ski>;
-    %h<🏀> := <basketball>;
-    %h<🏁> := <checkered-flag>;
-    %h<🏂> := <snowboarder>;
-    %h<🏃> := <runner running>;
-    %h<🏃‍♀️> := <running-woman>;
-    %h<🏃‍♂️> := <running-man>;
-    %h<🏄> := <surfer>;
-    %h<🏄‍♀️> := <surfing-woman>;
-    %h<🏄‍♂️> := <surfing-man>;
-    %h<🏅> := <medal-sports>;
-    %h<🏆> := <trophy>;
-    %h<🏇> := <horse-racing>;
-    %h<🏈> := <football>;
-    %h<🏉> := <rugby-football>;
-    %h<🏊> := <swimmer>;
-    %h<🏊‍♀️> := <swimming-woman>;
-    %h<🏊‍♂️> := <swimming-man>;
-    %h<🏋️> := <weight-lifting>;
-    %h<🏋️‍♀️> := <weight-lifting-woman>;
-    %h<🏋️‍♂️> := <weight-lifting-man>;
-    %h<🏌️> := <golfing>;
-    %h<🏌️‍♀️> := <golfing-woman>;
-    %h<🏌️‍♂️> := <golfing-man>;
-    %h<🏍️> := <motorcycle>;
-    %h<🏎️> := <racing-car>;
-    %h<🏏> := <cricket-game>;
-    %h<🏐> := <volleyball>;
-    %h<🏑> := <field-hockey>;
-    %h<🏒> := <ice-hockey>;
-    %h<🏓> := <ping-pong>;
-    %h<🏔️> := <mountain-snow>;
-    %h<🏕️> := <camping>;
-    %h<🏖️> := <beach-umbrella>;
-    %h<🏗️> := <building-construction>;
-    %h<🏘️> := <houses>;
-    %h<🏙️> := <cityscape>;
-    %h<🏚️> := <derelict-house>;
-    %h<🏛️> := <classical-building>;
-    %h<🏜️> := <desert>;
-    %h<🏝️> := <desert-island>;
-    %h<🏞️> := <national-park>;
-    %h<🏟️> := <stadium>;
-    %h<🏠> := <house>;
-    %h<🏡> := <house-with-garden>;
-    %h<🏢> := <office>;
-    %h<🏣> := <post-office>;
-    %h<🏤> := <european-post-office>;
-    %h<🏥> := <hospital>;
-    %h<🏦> := <bank>;
-    %h<🏧> := <atm>;
-    %h<🏨> := <hotel>;
-    %h<🏩> := <love-hotel>;
-    %h<🏪> := <convenience-store>;
-    %h<🏫> := <school>;
-    %h<🏬> := <department-store>;
-    %h<🏭> := <factory>;
-    %h<🏮> := <lantern izakaya-lantern>;
-    %h<🏯> := <japanese-castle>;
-    %h<🏰> := <european-castle>;
-    %h<🏳️> := <white-flag>;
-    %h<🏳️‍⚧️> := <transgender-flag>;
-    %h<🏳️‍🌈> := <rainbow-flag>;
-    %h<🏴> := <black-flag>;
-    %h<🏴‍☠️> := <pirate-flag>;
-    %h<🏴󠁧󠁢󠁥󠁮󠁧󠁿> := <england>;
-    %h<🏴󠁧󠁢󠁳󠁣󠁴󠁿> := <scotland>;
-    %h<🏴󠁧󠁢󠁷󠁬󠁳󠁿> := <wales>;
-    %h<🏵️> := <rosette>;
-    %h<🏷️> := <label>;
-    %h<🏸> := <badminton>;
-    %h<🏹> := <bow-and-arrow>;
-    %h<🏺> := <amphora>;
-    %h<🐀> := <rat>;
-    %h<🐁> := <mouse2>;
-    %h<🐂> := <ox>;
-    %h<🐃> := <water-buffalo>;
-    %h<🐄> := <cow2>;
-    %h<🐅> := <tiger2>;
-    %h<🐆> := <leopard>;
-    %h<🐇> := <rabbit2>;
-    %h<🐈> := <cat2>;
-    %h<🐈‍⬛> := <black-cat>;
-    %h<🐉> := <dragon>;
-    %h<🐊> := <crocodile>;
-    %h<🐋> := <whale2>;
-    %h<🐌> := <snail>;
-    %h<🐍> := <snake>;
-    %h<🐎> := <racehorse>;
-    %h<🐏> := <ram>;
-    %h<🐐> := <goat>;
-    %h<🐑> := <sheep>;
-    %h<🐒> := <monkey>;
-    %h<🐓> := <rooster>;
-    %h<🐔> := <chicken>;
-    %h<🐕> := <dog2>;
-    %h<🐕‍🦺> := <service-dog>;
-    %h<🐖> := <pig2>;
-    %h<🐗> := <boar>;
-    %h<🐘> := <elephant>;
-    %h<🐙> := <octopus>;
-    %h<🐚> := <shell>;
-    %h<🐛> := <bug>;
-    %h<🐜> := <ant>;
-    %h<🐝> := <bee honeybee>;
-    %h<🐞> := <lady-beetle>;
-    %h<🐟> := <fish>;
-    %h<🐠> := <tropical-fish>;
-    %h<🐡> := <blowfish>;
-    %h<🐢> := <turtle>;
-    %h<🐣> := <hatching-chick>;
-    %h<🐤> := <baby-chick>;
-    %h<🐥> := <hatched-chick>;
-    %h<🐦> := <bird>;
-    %h<🐦‍⬛> := <black-bird>;
-    %h<🐧> := <penguin>;
-    %h<🐨> := <koala>;
-    %h<🐩> := <poodle>;
-    %h<🐪> := <dromedary-camel>;
-    %h<🐫> := <camel>;
-    %h<🐬> := <dolphin flipper>;
-    %h<🐭> := <mouse>;
-    %h<🐮> := <cow>;
-    %h<🐯> := <tiger>;
-    %h<🐰> := <rabbit>;
-    %h<🐱> := <cat>;
-    %h<🐲> := <dragon-face>;
-    %h<🐳> := <whale>;
-    %h<🐴> := <horse>;
-    %h<🐵> := <monkey-face>;
-    %h<🐶> := <dog>;
-    %h<🐷> := <pig>;
-    %h<🐸> := <frog>;
-    %h<🐹> := <hamster>;
-    %h<🐺> := <wolf>;
-    %h<🐻> := <bear>;
-    %h<🐻‍❄️> := <polar-bear>;
-    %h<🐼> := <panda-face>;
-    %h<🐽> := <pig-nose>;
-    %h<🐾> := <feet paw-prints>;
-    %h<🐿️> := <chipmunk>;
-    %h<👀> := <eyes>;
-    %h<👁️> := <eye>;
-    %h<👁️‍🗨️> := <eye-speech-bubble>;
-    %h<👂> := <ear>;
-    %h<👃> := <nose>;
-    %h<👄> := <lips>;
-    %h<👅> := <tongue>;
-    %h<👆> := <point-up-2>;
-    %h<👇> := <point-down>;
-    %h<👈> := <point-left>;
-    %h<👉> := <point-right>;
-    %h<👊> := <punch facepunch fist-oncoming>;
-    %h<👋> := <wave>;
-    %h<👌> := <ok-hand>;
-    %h<👍> := <+1 thumbsup>;
-    %h<👎> := <-1 thumbsdown>;
-    %h<👏> := <clap>;
-    %h<👐> := <open-hands>;
-    %h<👑> := <crown>;
-    %h<👒> := <womans-hat>;
-    %h<👓> := <eyeglasses>;
-    %h<👔> := <necktie>;
-    %h<👕> := <shirt tshirt>;
-    %h<👖> := <jeans>;
-    %h<👗> := <dress>;
-    %h<👘> := <kimono>;
-    %h<👙> := <bikini>;
-    %h<👚> := <womans-clothes>;
-    %h<👛> := <purse>;
-    %h<👜> := <handbag>;
-    %h<👝> := <pouch>;
-    %h<👞> := <shoe mans-shoe>;
-    %h<👟> := <athletic-shoe>;
-    %h<👠> := <high-heel>;
-    %h<👡> := <sandal>;
-    %h<👢> := <boot>;
-    %h<👣> := <footprints>;
-    %h<👤> := <bust-in-silhouette>;
-    %h<👥> := <busts-in-silhouette>;
-    %h<👦> := <boy>;
-    %h<👧> := <girl>;
-    %h<👨> := <man>;
-    %h<👨‍⚕️> := <man-health-worker>;
-    %h<👨‍⚖️> := <man-judge>;
-    %h<👨‍✈️> := <man-pilot>;
-    %h<👨‍❤️‍👨> := <couple-with-heart-man-man>;
-    %h<👨‍❤️‍💋‍👨> := <couplekiss-man-man>;
-    %h<👨‍🌾> := <man-farmer>;
-    %h<👨‍🍳> := <man-cook>;
-    %h<👨‍🍼> := <man-feeding-baby>;
-    %h<👨‍🎓> := <man-student>;
-    %h<👨‍🎤> := <man-singer>;
-    %h<👨‍🎨> := <man-artist>;
-    %h<👨‍🏫> := <man-teacher>;
-    %h<👨‍🏭> := <man-factory-worker>;
-    %h<👨‍👦> := <family-man-boy>;
-    %h<👨‍👦‍👦> := <family-man-boy-boy>;
-    %h<👨‍👧> := <family-man-girl>;
-    %h<👨‍👧‍👦> := <family-man-girl-boy>;
-    %h<👨‍👧‍👧> := <family-man-girl-girl>;
-    %h<👨‍👨‍👦> := <family-man-man-boy>;
-    %h<👨‍👨‍👦‍👦> := <family-man-man-boy-boy>;
-    %h<👨‍👨‍👧> := <family-man-man-girl>;
-    %h<👨‍👨‍👧‍👦> := <family-man-man-girl-boy>;
-    %h<👨‍👨‍👧‍👧> := <family-man-man-girl-girl>;
-    %h<👨‍👩‍👦> := <family-man-woman-boy>;
-    %h<👨‍👩‍👦‍👦> := <family-man-woman-boy-boy>;
-    %h<👨‍👩‍👧> := <family-man-woman-girl>;
-    %h<👨‍👩‍👧‍👦> := <family-man-woman-girl-boy>;
-    %h<👨‍👩‍👧‍👧> := <family-man-woman-girl-girl>;
-    %h<👨‍💻> := <man-technologist>;
-    %h<👨‍💼> := <man-office-worker>;
-    %h<👨‍🔧> := <man-mechanic>;
-    %h<👨‍🔬> := <man-scientist>;
-    %h<👨‍🚀> := <man-astronaut>;
-    %h<👨‍🚒> := <man-firefighter>;
-    %h<👨‍🦯> := <man-with-probing-cane>;
-    %h<👨‍🦰> := <red-haired-man>;
-    %h<👨‍🦱> := <curly-haired-man>;
-    %h<👨‍🦲> := <bald-man>;
-    %h<👨‍🦳> := <white-haired-man>;
-    %h<👨‍🦼> := <man-in-motorized-wheelchair>;
-    %h<👨‍🦽> := <man-in-manual-wheelchair>;
-    %h<👩> := <woman>;
-    %h<👩‍⚕️> := <woman-health-worker>;
-    %h<👩‍⚖️> := <woman-judge>;
-    %h<👩‍✈️> := <woman-pilot>;
-    %h<👩‍❤️‍👨> := <couple-with-heart-woman-man>;
-    %h<👩‍❤️‍👩> := <couple-with-heart-woman-woman>;
-    %h<👩‍❤️‍💋‍👨> := <couplekiss-man-woman>;
-    %h<👩‍❤️‍💋‍👩> := <couplekiss-woman-woman>;
-    %h<👩‍🌾> := <woman-farmer>;
-    %h<👩‍🍳> := <woman-cook>;
-    %h<👩‍🍼> := <woman-feeding-baby>;
-    %h<👩‍🎓> := <woman-student>;
-    %h<👩‍🎤> := <woman-singer>;
-    %h<👩‍🎨> := <woman-artist>;
-    %h<👩‍🏫> := <woman-teacher>;
-    %h<👩‍🏭> := <woman-factory-worker>;
-    %h<👩‍👦> := <family-woman-boy>;
-    %h<👩‍👦‍👦> := <family-woman-boy-boy>;
-    %h<👩‍👧> := <family-woman-girl>;
-    %h<👩‍👧‍👦> := <family-woman-girl-boy>;
-    %h<👩‍👧‍👧> := <family-woman-girl-girl>;
-    %h<👩‍👩‍👦> := <family-woman-woman-boy>;
-    %h<👩‍👩‍👦‍👦> := <family-woman-woman-boy-boy>;
-    %h<👩‍👩‍👧> := <family-woman-woman-girl>;
-    %h<👩‍👩‍👧‍👦> := <family-woman-woman-girl-boy>;
-    %h<👩‍👩‍👧‍👧> := <family-woman-woman-girl-girl>;
-    %h<👩‍💻> := <woman-technologist>;
-    %h<👩‍💼> := <woman-office-worker>;
-    %h<👩‍🔧> := <woman-mechanic>;
-    %h<👩‍🔬> := <woman-scientist>;
-    %h<👩‍🚀> := <woman-astronaut>;
-    %h<👩‍🚒> := <woman-firefighter>;
-    %h<👩‍🦯> := <woman-with-probing-cane>;
-    %h<👩‍🦰> := <red-haired-woman>;
-    %h<👩‍🦱> := <curly-haired-woman>;
-    %h<👩‍🦲> := <bald-woman>;
-    %h<👩‍🦳> := <white-haired-woman>;
-    %h<👩‍🦼> := <woman-in-motorized-wheelchair>;
-    %h<👩‍🦽> := <woman-in-manual-wheelchair>;
-    %h<👪> := <family>;
-    %h<👫> := <couple>;
-    %h<👬> := <two-men-holding-hands>;
-    %h<👭> := <two-women-holding-hands>;
-    %h<👮> := <cop police-officer>;
-    %h<👮‍♀️> := <policewoman>;
-    %h<👮‍♂️> := <policeman>;
-    %h<👯> := <dancers>;
-    %h<👯‍♀️> := <dancing-women>;
-    %h<👯‍♂️> := <dancing-men>;
-    %h<👰> := <person-with-veil>;
-    %h<👰‍♀️> := <woman-with-veil bride-with-veil>;
-    %h<👰‍♂️> := <man-with-veil>;
-    %h<👱> := <blond-haired-person>;
-    %h<👱‍♀️> := <blonde-woman blond-haired-woman>;
-    %h<👱‍♂️> := <blond-haired-man>;
-    %h<👲> := <man-with-gua-pi-mao>;
-    %h<👳> := <person-with-turban>;
-    %h<👳‍♀️> := <woman-with-turban>;
-    %h<👳‍♂️> := <man-with-turban>;
-    %h<👴> := <older-man>;
-    %h<👵> := <older-woman>;
-    %h<👶> := <baby>;
-    %h<👷> := <construction-worker>;
-    %h<👷‍♀️> := <construction-worker-woman>;
-    %h<👷‍♂️> := <construction-worker-man>;
-    %h<👸> := <princess>;
-    %h<👹> := <japanese-ogre>;
-    %h<👺> := <japanese-goblin>;
-    %h<👻> := <ghost>;
-    %h<👼> := <angel>;
-    %h<👽> := <alien>;
-    %h<👾> := <space-invader>;
-    %h<👿> := <imp>;
-    %h<💀> := <skull>;
-    %h<💁> := <tipping-hand-person information-desk-person>;
-    %h<💁‍♀️> := <sassy-woman tipping-hand-woman>;
-    %h<💁‍♂️> := <sassy-man tipping-hand-man>;
-    %h<💂> := <guard>;
-    %h<💂‍♀️> := <guardswoman>;
-    %h<💂‍♂️> := <guardsman>;
-    %h<💃> := <dancer woman-dancing>;
-    %h<💄> := <lipstick>;
-    %h<💅> := <nail-care>;
-    %h<💆> := <massage>;
-    %h<💆‍♀️> := <massage-woman>;
-    %h<💆‍♂️> := <massage-man>;
-    %h<💇> := <haircut>;
-    %h<💇‍♀️> := <haircut-woman>;
-    %h<💇‍♂️> := <haircut-man>;
-    %h<💈> := <barber>;
-    %h<💉> := <syringe>;
-    %h<💊> := <pill>;
-    %h<💋> := <kiss>;
-    %h<💌> := <love-letter>;
-    %h<💍> := <ring>;
-    %h<💎> := <gem>;
-    %h<💏> := <couplekiss>;
-    %h<💐> := <bouquet>;
-    %h<💑> := <couple-with-heart>;
-    %h<💒> := <wedding>;
-    %h<💓> := <heartbeat>;
-    %h<💔> := <broken-heart>;
-    %h<💕> := <two-hearts>;
-    %h<💖> := <sparkling-heart>;
-    %h<💗> := <heartpulse>;
-    %h<💘> := <cupid>;
-    %h<💙> := <blue-heart>;
-    %h<💚> := <green-heart>;
-    %h<💛> := <yellow-heart>;
-    %h<💜> := <purple-heart>;
-    %h<💝> := <gift-heart>;
-    %h<💞> := <revolving-hearts>;
-    %h<💟> := <heart-decoration>;
-    %h<💠> := <diamond-shape-with-a-dot-inside>;
-    %h<💡> := <bulb>;
-    %h<💢> := <anger>;
-    %h<💣> := <bomb>;
-    %h<💤> := <zzz>;
-    %h<💥> := <boom collision>;
-    %h<💦> := <sweat-drops>;
-    %h<💧> := <droplet>;
-    %h<💨> := <dash>;
-    %h<💩> := <poop shit hankey>;
-    %h<💪> := <muscle>;
-    %h<💫> := <dizzy>;
-    %h<💬> := <speech-balloon>;
-    %h<💭> := <thought-balloon>;
-    %h<💮> := <white-flower>;
-    %h<💯> := <100>;
-    %h<💰> := <moneybag>;
-    %h<💱> := <currency-exchange>;
-    %h<💲> := <heavy-dollar-sign>;
-    %h<💳> := <credit-card>;
-    %h<💴> := <yen>;
-    %h<💵> := <dollar>;
-    %h<💶> := <euro>;
-    %h<💷> := <pound>;
-    %h<💸> := <money-with-wings>;
-    %h<💹> := <chart>;
-    %h<💺> := <seat>;
-    %h<💻> := <computer>;
-    %h<💼> := <briefcase>;
-    %h<💽> := <minidisc>;
-    %h<💾> := <floppy-disk>;
-    %h<💿> := <cd>;
-    %h<📀> := <dvd>;
-    %h<📁> := <file-folder>;
-    %h<📂> := <open-file-folder>;
-    %h<📃> := <page-with-curl>;
-    %h<📄> := <page-facing-up>;
-    %h<📅> := <date>;
-    %h<📆> := <calendar>;
-    %h<📇> := <card-index>;
-    %h<📈> := <chart-with-upwards-trend>;
-    %h<📉> := <chart-with-downwards-trend>;
-    %h<📊> := <bar-chart>;
-    %h<📋> := <clipboard>;
-    %h<📌> := <pushpin>;
-    %h<📍> := <round-pushpin>;
-    %h<📎> := <paperclip>;
-    %h<📏> := <straight-ruler>;
-    %h<📐> := <triangular-ruler>;
-    %h<📑> := <bookmark-tabs>;
-    %h<📒> := <ledger>;
-    %h<📓> := <notebook>;
-    %h<📔> := <notebook-with-decorative-cover>;
-    %h<📕> := <closed-book>;
-    %h<📖> := <book open-book>;
-    %h<📗> := <green-book>;
-    %h<📘> := <blue-book>;
-    %h<📙> := <orange-book>;
-    %h<📚> := <books>;
-    %h<📛> := <name-badge>;
-    %h<📜> := <scroll>;
-    %h<📝> := <memo pencil>;
-    %h<📞> := <telephone-receiver>;
-    %h<📟> := <pager>;
-    %h<📠> := <fax>;
-    %h<📡> := <satellite>;
-    %h<📢> := <loudspeaker>;
-    %h<📣> := <mega>;
-    %h<📤> := <outbox-tray>;
-    %h<📥> := <inbox-tray>;
-    %h<📦> := <package>;
-    %h<📧> := <email e-mail>;
-    %h<📨> := <incoming-envelope>;
-    %h<📩> := <envelope-with-arrow>;
-    %h<📪> := <mailbox-closed>;
-    %h<📫> := <mailbox>;
-    %h<📬> := <mailbox-with-mail>;
-    %h<📭> := <mailbox-with-no-mail>;
-    %h<📮> := <postbox>;
-    %h<📯> := <postal-horn>;
-    %h<📰> := <newspaper>;
-    %h<📱> := <iphone>;
-    %h<📲> := <calling>;
-    %h<📳> := <vibration-mode>;
-    %h<📴> := <mobile-phone-off>;
-    %h<📵> := <no-mobile-phones>;
-    %h<📶> := <signal-strength>;
-    %h<📷> := <camera>;
-    %h<📸> := <camera-flash>;
-    %h<📹> := <video-camera>;
-    %h<📺> := <tv>;
-    %h<📻> := <radio>;
-    %h<📼> := <vhs>;
-    %h<📽️> := <film-projector>;
-    %h<📿> := <prayer-beads>;
-    %h<🔀> := <twisted-rightwards-arrows>;
-    %h<🔁> := <repeat>;
-    %h<🔂> := <repeat-one>;
-    %h<🔃> := <arrows-clockwise>;
-    %h<🔄> := <arrows-counterclockwise>;
-    %h<🔅> := <low-brightness>;
-    %h<🔆> := <high-brightness>;
-    %h<🔇> := <mute>;
-    %h<🔈> := <speaker>;
-    %h<🔉> := <sound>;
-    %h<🔊> := <loud-sound>;
-    %h<🔋> := <battery>;
-    %h<🔌> := <electric-plug>;
-    %h<🔍> := <mag>;
-    %h<🔎> := <mag-right>;
-    %h<🔏> := <lock-with-ink-pen>;
-    %h<🔐> := <closed-lock-with-key>;
-    %h<🔑> := <key>;
-    %h<🔒> := <lock>;
-    %h<🔓> := <unlock>;
-    %h<🔔> := <bell>;
-    %h<🔕> := <no-bell>;
-    %h<🔖> := <bookmark>;
-    %h<🔗> := <link>;
-    %h<🔘> := <radio-button>;
-    %h<🔙> := <back>;
-    %h<🔚> := <end>;
-    %h<🔛> := <on>;
-    %h<🔜> := <soon>;
-    %h<🔝> := <top>;
-    %h<🔞> := <underage>;
-    %h<🔟> := <keycap-ten>;
-    %h<🔠> := <capital-abcd>;
-    %h<🔡> := <abcd>;
-    %h<🔢> := <1234>;
-    %h<🔣> := <symbols>;
-    %h<🔤> := <abc>;
-    %h<🔥> := <fire>;
-    %h<🔦> := <flashlight>;
-    %h<🔧> := <wrench>;
-    %h<🔨> := <hammer>;
-    %h<🔩> := <nut-and-bolt>;
-    %h<🔪> := <hocho knife>;
-    %h<🔫> := <gun>;
-    %h<🔬> := <microscope>;
-    %h<🔭> := <telescope>;
-    %h<🔮> := <crystal-ball>;
-    %h<🔯> := <six-pointed-star>;
-    %h<🔰> := <beginner>;
-    %h<🔱> := <trident>;
-    %h<🔲> := <black-square-button>;
-    %h<🔳> := <white-square-button>;
-    %h<🔴> := <red-circle>;
-    %h<🔵> := <large-blue-circle>;
-    %h<🔶> := <large-orange-diamond>;
-    %h<🔷> := <large-blue-diamond>;
-    %h<🔸> := <small-orange-diamond>;
-    %h<🔹> := <small-blue-diamond>;
-    %h<🔺> := <small-red-triangle>;
-    %h<🔻> := <small-red-triangle-down>;
-    %h<🔼> := <arrow-up-small>;
-    %h<🔽> := <arrow-down-small>;
-    %h<🕉️> := <om>;
-    %h<🕊️> := <dove>;
-    %h<🕋> := <kaaba>;
-    %h<🕌> := <mosque>;
-    %h<🕍> := <synagogue>;
-    %h<🕎> := <menorah>;
-    %h<🕐> := <clock1>;
-    %h<🕑> := <clock2>;
-    %h<🕒> := <clock3>;
-    %h<🕓> := <clock4>;
-    %h<🕔> := <clock5>;
-    %h<🕕> := <clock6>;
-    %h<🕖> := <clock7>;
-    %h<🕗> := <clock8>;
-    %h<🕘> := <clock9>;
-    %h<🕙> := <clock10>;
-    %h<🕚> := <clock11>;
-    %h<🕛> := <clock12>;
-    %h<🕜> := <clock130>;
-    %h<🕝> := <clock230>;
-    %h<🕞> := <clock330>;
-    %h<🕟> := <clock430>;
-    %h<🕠> := <clock530>;
-    %h<🕡> := <clock630>;
-    %h<🕢> := <clock730>;
-    %h<🕣> := <clock830>;
-    %h<🕤> := <clock930>;
-    %h<🕥> := <clock1030>;
-    %h<🕦> := <clock1130>;
-    %h<🕧> := <clock1230>;
-    %h<🕯️> := <candle>;
-    %h<🕰️> := <mantelpiece-clock>;
-    %h<🕳️> := <hole>;
-    %h<🕴️> := <business-suit-levitating>;
-    %h<🕵️> := <detective>;
-    %h<🕵️‍♀️> := <female-detective>;
-    %h<🕵️‍♂️> := <male-detective>;
-    %h<🕶️> := <dark-sunglasses>;
-    %h<🕷️> := <spider>;
-    %h<🕸️> := <spider-web>;
-    %h<🕹️> := <joystick>;
-    %h<🕺> := <man-dancing>;
-    %h<🖇️> := <paperclips>;
-    %h<🖊️> := <pen>;
-    %h<🖋️> := <fountain-pen>;
-    %h<🖌️> := <paintbrush>;
-    %h<🖍️> := <crayon>;
-    %h<🖐️> := <raised-hand-with-fingers-splayed>;
-    %h<🖕> := <fu middle-finger>;
-    %h<🖖> := <vulcan-salute>;
-    %h<🖤> := <black-heart>;
-    %h<🖥️> := <desktop-computer>;
-    %h<🖨️> := <printer>;
-    %h<🖱️> := <computer-mouse>;
-    %h<🖲️> := <trackball>;
-    %h<🖼️> := <framed-picture>;
-    %h<🗂️> := <card-index-dividers>;
-    %h<🗃️> := <card-file-box>;
-    %h<🗄️> := <file-cabinet>;
-    %h<🗑️> := <wastebasket>;
-    %h<🗒️> := <spiral-notepad>;
-    %h<🗓️> := <spiral-calendar>;
-    %h<🗜️> := <clamp>;
-    %h<🗝️> := <old-key>;
-    %h<🗞️> := <newspaper-roll>;
-    %h<🗡️> := <dagger>;
-    %h<🗣️> := <speaking-head>;
-    %h<🗨️> := <left-speech-bubble>;
-    %h<🗯️> := <right-anger-bubble>;
-    %h<🗳️> := <ballot-box>;
-    %h<🗺️> := <world-map>;
-    %h<🗻> := <mount-fuji>;
-    %h<🗼> := <tokyo-tower>;
-    %h<🗽> := <statue-of-liberty>;
-    %h<🗾> := <japan>;
-    %h<🗿> := <moyai>;
-    %h<😀> := <grinning>;
-    %h<😁> := <grin>;
-    %h<😂> := <joy>;
-    %h<😃> := <smiley>;
-    %h<😄> := <smile>;
-    %h<😅> := <sweat-smile>;
-    %h<😆> := <laughing satisfied>;
-    %h<😇> := <innocent>;
-    %h<😈> := <smiling-imp>;
-    %h<😉> := <wink>;
-    %h<😊> := <blush>;
-    %h<😋> := <yum>;
-    %h<😌> := <relieved>;
-    %h<😍> := <heart-eyes>;
-    %h<😎> := <sunglasses>;
-    %h<😏> := <smirk>;
-    %h<😐> := <neutral-face>;
-    %h<😑> := <expressionless>;
-    %h<😒> := <unamused>;
-    %h<😓> := <sweat>;
-    %h<😔> := <pensive>;
-    %h<😕> := <confused>;
-    %h<😖> := <confounded>;
-    %h<😗> := <kissing>;
-    %h<😘> := <kissing-heart>;
-    %h<😙> := <kissing-smiling-eyes>;
-    %h<😚> := <kissing-closed-eyes>;
-    %h<😛> := <stuck-out-tongue>;
-    %h<😜> := <stuck-out-tongue-winking-eye>;
-    %h<😝> := <stuck-out-tongue-closed-eyes>;
-    %h<😞> := <disappointed>;
-    %h<😟> := <worried>;
-    %h<😠> := <angry>;
-    %h<😡> := <rage pout>;
-    %h<😢> := <cry>;
-    %h<😣> := <persevere>;
-    %h<😤> := <triumph>;
-    %h<😥> := <disappointed-relieved>;
-    %h<😦> := <frowning>;
-    %h<😧> := <anguished>;
-    %h<😨> := <fearful>;
-    %h<😩> := <weary>;
-    %h<😪> := <sleepy>;
-    %h<😫> := <tired-face>;
-    %h<😬> := <grimacing>;
-    %h<😭> := <sob>;
-    %h<😮> := <open-mouth>;
-    %h<😮‍💨> := <face-exhaling>;
-    %h<😯> := <hushed>;
-    %h<😰> := <cold-sweat>;
-    %h<😱> := <scream>;
-    %h<😲> := <astonished>;
-    %h<😳> := <flushed>;
-    %h<😴> := <sleeping>;
-    %h<😵> := <dizzy-face>;
-    %h<😵‍💫> := <face-with-spiral-eyes>;
-    %h<😶> := <no-mouth>;
-    %h<😶‍🌫️> := <face-in-clouds>;
-    %h<😷> := <mask>;
-    %h<😸> := <smile-cat>;
-    %h<😹> := <joy-cat>;
-    %h<😺> := <smiley-cat>;
-    %h<😻> := <heart-eyes-cat>;
-    %h<😼> := <smirk-cat>;
-    %h<😽> := <kissing-cat>;
-    %h<😾> := <pouting-cat>;
-    %h<😿> := <crying-cat-face>;
-    %h<🙀> := <scream-cat>;
-    %h<🙁> := <slightly-frowning-face>;
-    %h<🙂> := <slightly-smiling-face>;
-    %h<🙃> := <upside-down-face>;
-    %h<🙄> := <roll-eyes>;
-    %h<🙅> := <no-good>;
-    %h<🙅‍♀️> := <ng-woman no-good-woman>;
-    %h<🙅‍♂️> := <ng-man no-good-man>;
-    %h<🙆> := <ok-person>;
-    %h<🙆‍♀️> := <ok-woman>;
-    %h<🙆‍♂️> := <ok-man>;
-    %h<🙇> := <bow>;
-    %h<🙇‍♀️> := <bowing-woman>;
-    %h<🙇‍♂️> := <bowing-man>;
-    %h<🙈> := <see-no-evil>;
-    %h<🙉> := <hear-no-evil>;
-    %h<🙊> := <speak-no-evil>;
-    %h<🙋> := <raising-hand>;
-    %h<🙋‍♀️> := <raising-hand-woman>;
-    %h<🙋‍♂️> := <raising-hand-man>;
-    %h<🙌> := <raised-hands>;
-    %h<🙍> := <frowning-person>;
-    %h<🙍‍♀️> := <frowning-woman>;
-    %h<🙍‍♂️> := <frowning-man>;
-    %h<🙎> := <pouting-face>;
-    %h<🙎‍♀️> := <pouting-woman>;
-    %h<🙎‍♂️> := <pouting-man>;
-    %h<🙏> := <pray>;
-    %h<🚀> := <rocket>;
-    %h<🚁> := <helicopter>;
-    %h<🚂> := <steam-locomotive>;
-    %h<🚃> := <railway-car>;
-    %h<🚄> := <bullettrain-side>;
-    %h<🚅> := <bullettrain-front>;
-    %h<🚆> := <train2>;
-    %h<🚇> := <metro>;
-    %h<🚈> := <light-rail>;
-    %h<🚉> := <station>;
-    %h<🚊> := <tram>;
-    %h<🚋> := <train>;
-    %h<🚌> := <bus>;
-    %h<🚍> := <oncoming-bus>;
-    %h<🚎> := <trolleybus>;
-    %h<🚏> := <busstop>;
-    %h<🚐> := <minibus>;
-    %h<🚑> := <ambulance>;
-    %h<🚒> := <fire-engine>;
-    %h<🚓> := <police-car>;
-    %h<🚔> := <oncoming-police-car>;
-    %h<🚕> := <taxi>;
-    %h<🚖> := <oncoming-taxi>;
-    %h<🚗> := <car red-car>;
-    %h<🚘> := <oncoming-automobile>;
-    %h<🚙> := <blue-car>;
-    %h<🚚> := <truck>;
-    %h<🚛> := <articulated-lorry>;
-    %h<🚜> := <tractor>;
-    %h<🚝> := <monorail>;
-    %h<🚞> := <mountain-railway>;
-    %h<🚟> := <suspension-railway>;
-    %h<🚠> := <mountain-cableway>;
-    %h<🚡> := <aerial-tramway>;
-    %h<🚢> := <ship>;
-    %h<🚣> := <rowboat>;
-    %h<🚣‍♀️> := <rowing-woman>;
-    %h<🚣‍♂️> := <rowing-man>;
-    %h<🚤> := <speedboat>;
-    %h<🚥> := <traffic-light>;
-    %h<🚦> := <vertical-traffic-light>;
-    %h<🚧> := <construction>;
-    %h<🚨> := <rotating-light>;
-    %h<🚩> := <triangular-flag-on-post>;
-    %h<🚪> := <door>;
-    %h<🚫> := <no-entry-sign>;
-    %h<🚬> := <smoking>;
-    %h<🚭> := <no-smoking>;
-    %h<🚮> := <put-litter-in-its-place>;
-    %h<🚯> := <do-not-litter>;
-    %h<🚰> := <potable-water>;
-    %h<🚱> := <non-potable-water>;
-    %h<🚲> := <bike>;
-    %h<🚳> := <no-bicycles>;
-    %h<🚴> := <bicyclist>;
-    %h<🚴‍♀️> := <biking-woman>;
-    %h<🚴‍♂️> := <biking-man>;
-    %h<🚵> := <mountain-bicyclist>;
-    %h<🚵‍♀️> := <mountain-biking-woman>;
-    %h<🚵‍♂️> := <mountain-biking-man>;
-    %h<🚶> := <walking>;
-    %h<🚶‍♀️> := <walking-woman>;
-    %h<🚶‍♂️> := <walking-man>;
-    %h<🚷> := <no-pedestrians>;
-    %h<🚸> := <children-crossing>;
-    %h<🚹> := <mens>;
-    %h<🚺> := <womens>;
-    %h<🚻> := <restroom>;
-    %h<🚼> := <baby-symbol>;
-    %h<🚽> := <toilet>;
-    %h<🚾> := <wc>;
-    %h<🚿> := <shower>;
-    %h<🛀> := <bath>;
-    %h<🛁> := <bathtub>;
-    %h<🛂> := <passport-control>;
-    %h<🛃> := <customs>;
-    %h<🛄> := <baggage-claim>;
-    %h<🛅> := <left-luggage>;
-    %h<🛋️> := <couch-and-lamp>;
-    %h<🛌> := <sleeping-bed>;
-    %h<🛍️> := <shopping>;
-    %h<🛎️> := <bellhop-bell>;
-    %h<🛏️> := <bed>;
-    %h<🛐> := <place-of-worship>;
-    %h<🛑> := <stop-sign>;
-    %h<🛒> := <shopping-cart>;
-    %h<🛕> := <hindu-temple>;
-    %h<🛖> := <hut>;
-    %h<🛗> := <elevator>;
-    %h<🛜> := <wireless>;
-    %h<🛝> := <playground-slide>;
-    %h<🛞> := <wheel>;
-    %h<🛟> := <ring-buoy>;
-    %h<🛠️> := <hammer-and-wrench>;
-    %h<🛡️> := <shield>;
-    %h<🛢️> := <oil-drum>;
-    %h<🛣️> := <motorway>;
-    %h<🛤️> := <railway-track>;
-    %h<🛥️> := <motor-boat>;
-    %h<🛩️> := <small-airplane>;
-    %h<🛫> := <flight-departure>;
-    %h<🛬> := <flight-arrival>;
-    %h<🛰️> := <artificial-satellite>;
-    %h<🛳️> := <passenger-ship>;
-    %h<🛴> := <kick-scooter>;
-    %h<🛵> := <motor-scooter>;
-    %h<🛶> := <canoe>;
-    %h<🛷> := <sled>;
-    %h<🛸> := <flying-saucer>;
-    %h<🛹> := <skateboard>;
-    %h<🛺> := <auto-rickshaw>;
-    %h<🛻> := <pickup-truck>;
-    %h<🛼> := <roller-skate>;
-    %h<🟠> := <orange-circle>;
-    %h<🟡> := <yellow-circle>;
-    %h<🟢> := <green-circle>;
-    %h<🟣> := <purple-circle>;
-    %h<🟤> := <brown-circle>;
-    %h<🟥> := <red-square>;
-    %h<🟦> := <blue-square>;
-    %h<🟧> := <orange-square>;
-    %h<🟨> := <yellow-square>;
-    %h<🟩> := <green-square>;
-    %h<🟪> := <purple-square>;
-    %h<🟫> := <brown-square>;
-    %h<🟰> := <heavy-equals-sign>;
-    %h<🤌> := <pinched-fingers>;
-    %h<🤍> := <white-heart>;
-    %h<🤎> := <brown-heart>;
-    %h<🤏> := <pinching-hand>;
-    %h<🤐> := <zipper-mouth-face>;
-    %h<🤑> := <money-mouth-face>;
-    %h<🤒> := <face-with-thermometer>;
-    %h<🤓> := <nerd-face>;
-    %h<🤔> := <thinking>;
-    %h<🤕> := <face-with-head-bandage>;
-    %h<🤖> := <robot>;
-    %h<🤗> := <hugs>;
-    %h<🤘> := <metal>;
-    %h<🤙> := <call-me-hand>;
-    %h<🤚> := <raised-back-of-hand>;
-    %h<🤛> := <fist-left>;
-    %h<🤜> := <fist-right>;
-    %h<🤝> := <handshake>;
-    %h<🤞> := <crossed-fingers>;
-    %h<🤟> := <love-you-gesture>;
-    %h<🤠> := <cowboy-hat-face>;
-    %h<🤡> := <clown-face>;
-    %h<🤢> := <nauseated-face>;
-    %h<🤣> := <rofl>;
-    %h<🤤> := <drooling-face>;
-    %h<🤥> := <lying-face>;
-    %h<🤦> := <facepalm>;
-    %h<🤦‍♀️> := <woman-facepalming>;
-    %h<🤦‍♂️> := <man-facepalming>;
-    %h<🤧> := <sneezing-face>;
-    %h<🤨> := <raised-eyebrow>;
-    %h<🤩> := <star-struck>;
-    %h<🤪> := <zany-face>;
-    %h<🤫> := <shushing-face>;
-    %h<🤬> := <cursing-face>;
-    %h<🤭> := <hand-over-mouth>;
-    %h<🤮> := <vomiting-face>;
-    %h<🤯> := <exploding-head>;
-    %h<🤰> := <pregnant-woman>;
-    %h<🤱> := <breast-feeding>;
-    %h<🤲> := <palms-up-together>;
-    %h<🤳> := <selfie>;
-    %h<🤴> := <prince>;
-    %h<🤵> := <person-in-tuxedo>;
-    %h<🤵‍♀️> := <woman-in-tuxedo>;
-    %h<🤵‍♂️> := <man-in-tuxedo>;
-    %h<🤶> := <mrs-claus>;
-    %h<🤷> := <shrug>;
-    %h<🤷‍♀️> := <woman-shrugging>;
-    %h<🤷‍♂️> := <man-shrugging>;
-    %h<🤸> := <cartwheeling>;
-    %h<🤸‍♀️> := <woman-cartwheeling>;
-    %h<🤸‍♂️> := <man-cartwheeling>;
-    %h<🤹> := <juggling-person>;
-    %h<🤹‍♀️> := <woman-juggling>;
-    %h<🤹‍♂️> := <man-juggling>;
-    %h<🤺> := <person-fencing>;
-    %h<🤼> := <wrestling>;
-    %h<🤼‍♀️> := <women-wrestling>;
-    %h<🤼‍♂️> := <men-wrestling>;
-    %h<🤽> := <water-polo>;
-    %h<🤽‍♀️> := <woman-playing-water-polo>;
-    %h<🤽‍♂️> := <man-playing-water-polo>;
-    %h<🤾> := <handball-person>;
-    %h<🤾‍♀️> := <woman-playing-handball>;
-    %h<🤾‍♂️> := <man-playing-handball>;
-    %h<🤿> := <diving-mask>;
-    %h<🥀> := <wilted-flower>;
-    %h<🥁> := <drum>;
-    %h<🥂> := <clinking-glasses>;
-    %h<🥃> := <tumbler-glass>;
-    %h<🥄> := <spoon>;
-    %h<🥅> := <goal-net>;
-    %h<🥇> := <1st-place-medal>;
-    %h<🥈> := <2nd-place-medal>;
-    %h<🥉> := <3rd-place-medal>;
-    %h<🥊> := <boxing-glove>;
-    %h<🥋> := <martial-arts-uniform>;
-    %h<🥌> := <curling-stone>;
-    %h<🥍> := <lacrosse>;
-    %h<🥎> := <softball>;
-    %h<🥏> := <flying-disc>;
-    %h<🥐> := <croissant>;
-    %h<🥑> := <avocado>;
-    %h<🥒> := <cucumber>;
-    %h<🥓> := <bacon>;
-    %h<🥔> := <potato>;
-    %h<🥕> := <carrot>;
-    %h<🥖> := <baguette-bread>;
-    %h<🥗> := <green-salad>;
-    %h<🥘> := <shallow-pan-of-food>;
-    %h<🥙> := <stuffed-flatbread>;
-    %h<🥚> := <egg>;
-    %h<🥛> := <milk-glass>;
-    %h<🥜> := <peanuts>;
-    %h<🥝> := <kiwi-fruit>;
-    %h<🥞> := <pancakes>;
-    %h<🥟> := <dumpling>;
-    %h<🥠> := <fortune-cookie>;
-    %h<🥡> := <takeout-box>;
-    %h<🥢> := <chopsticks>;
-    %h<🥣> := <bowl-with-spoon>;
-    %h<🥤> := <cup-with-straw>;
-    %h<🥥> := <coconut>;
-    %h<🥦> := <broccoli>;
-    %h<🥧> := <pie>;
-    %h<🥨> := <pretzel>;
-    %h<🥩> := <cut-of-meat>;
-    %h<🥪> := <sandwich>;
-    %h<🥫> := <canned-food>;
-    %h<🥬> := <leafy-green>;
-    %h<🥭> := <mango>;
-    %h<🥮> := <moon-cake>;
-    %h<🥯> := <bagel>;
-    %h<🥰> := <smiling-face-with-three-hearts>;
-    %h<🥱> := <yawning-face>;
-    %h<🥲> := <smiling-face-with-tear>;
-    %h<🥳> := <partying-face>;
-    %h<🥴> := <woozy-face>;
-    %h<🥵> := <hot-face>;
-    %h<🥶> := <cold-face>;
-    %h<🥷> := <ninja>;
-    %h<🥸> := <disguised-face>;
-    %h<🥹> := <face-holding-back-tears>;
-    %h<🥺> := <pleading-face>;
-    %h<🥻> := <sari>;
-    %h<🥼> := <lab-coat>;
-    %h<🥽> := <goggles>;
-    %h<🥾> := <hiking-boot>;
-    %h<🥿> := <flat-shoe>;
-    %h<🦀> := <crab>;
-    %h<🦁> := <lion>;
-    %h<🦂> := <scorpion>;
-    %h<🦃> := <turkey>;
-    %h<🦄> := <unicorn>;
-    %h<🦅> := <eagle>;
-    %h<🦆> := <duck>;
-    %h<🦇> := <bat>;
-    %h<🦈> := <shark>;
-    %h<🦉> := <owl>;
-    %h<🦊> := <fox-face>;
-    %h<🦋> := <butterfly>;
-    %h<🦌> := <deer>;
-    %h<🦍> := <gorilla>;
-    %h<🦎> := <lizard>;
-    %h<🦏> := <rhinoceros>;
-    %h<🦐> := <shrimp>;
-    %h<🦑> := <squid>;
-    %h<🦒> := <giraffe>;
-    %h<🦓> := <zebra>;
-    %h<🦔> := <hedgehog>;
-    %h<🦕> := <sauropod>;
-    %h<🦖> := <t-rex>;
-    %h<🦗> := <cricket>;
-    %h<🦘> := <kangaroo>;
-    %h<🦙> := <llama>;
-    %h<🦚> := <peacock>;
-    %h<🦛> := <hippopotamus>;
-    %h<🦜> := <parrot>;
-    %h<🦝> := <raccoon>;
-    %h<🦞> := <lobster>;
-    %h<🦟> := <mosquito>;
-    %h<🦠> := <microbe>;
-    %h<🦡> := <badger>;
-    %h<🦢> := <swan>;
-    %h<🦣> := <mammoth>;
-    %h<🦤> := <dodo>;
-    %h<🦥> := <sloth>;
-    %h<🦦> := <otter>;
-    %h<🦧> := <orangutan>;
-    %h<🦨> := <skunk>;
-    %h<🦩> := <flamingo>;
-    %h<🦪> := <oyster>;
-    %h<🦫> := <beaver>;
-    %h<🦬> := <bison>;
-    %h<🦭> := <seal>;
-    %h<🦮> := <guide-dog>;
-    %h<🦯> := <probing-cane>;
-    %h<🦴> := <bone>;
-    %h<🦵> := <leg>;
-    %h<🦶> := <foot>;
-    %h<🦷> := <tooth>;
-    %h<🦸> := <superhero>;
-    %h<🦸‍♀️> := <superhero-woman>;
-    %h<🦸‍♂️> := <superhero-man>;
-    %h<🦹> := <supervillain>;
-    %h<🦹‍♀️> := <supervillain-woman>;
-    %h<🦹‍♂️> := <supervillain-man>;
-    %h<🦺> := <safety-vest>;
-    %h<🦻> := <ear-with-hearing-aid>;
-    %h<🦼> := <motorized-wheelchair>;
-    %h<🦽> := <manual-wheelchair>;
-    %h<🦾> := <mechanical-arm>;
-    %h<🦿> := <mechanical-leg>;
-    %h<🧀> := <cheese>;
-    %h<🧁> := <cupcake>;
-    %h<🧂> := <salt>;
-    %h<🧃> := <beverage-box>;
-    %h<🧄> := <garlic>;
-    %h<🧅> := <onion>;
-    %h<🧆> := <falafel>;
-    %h<🧇> := <waffle>;
-    %h<🧈> := <butter>;
-    %h<🧉> := <mate>;
-    %h<🧊> := <ice-cube>;
-    %h<🧋> := <bubble-tea>;
-    %h<🧌> := <troll>;
-    %h<🧍> := <standing-person>;
-    %h<🧍‍♀️> := <standing-woman>;
-    %h<🧍‍♂️> := <standing-man>;
-    %h<🧎> := <kneeling-person>;
-    %h<🧎‍♀️> := <kneeling-woman>;
-    %h<🧎‍♂️> := <kneeling-man>;
-    %h<🧏> := <deaf-person>;
-    %h<🧏‍♀️> := <deaf-woman>;
-    %h<🧏‍♂️> := <deaf-man>;
-    %h<🧐> := <monocle-face>;
-    %h<🧑> := <adult>;
-    %h<🧑‍⚕️> := <health-worker>;
-    %h<🧑‍⚖️> := <judge>;
-    %h<🧑‍✈️> := <pilot>;
-    %h<🧑‍🌾> := <farmer>;
-    %h<🧑‍🍳> := <cook>;
-    %h<🧑‍🍼> := <person-feeding-baby>;
-    %h<🧑‍🎄> := <mx-claus>;
-    %h<🧑‍🎓> := <student>;
-    %h<🧑‍🎤> := <singer>;
-    %h<🧑‍🎨> := <artist>;
-    %h<🧑‍🏫> := <teacher>;
-    %h<🧑‍🏭> := <factory-worker>;
-    %h<🧑‍💻> := <technologist>;
-    %h<🧑‍💼> := <office-worker>;
-    %h<🧑‍🔧> := <mechanic>;
-    %h<🧑‍🔬> := <scientist>;
-    %h<🧑‍🚀> := <astronaut>;
-    %h<🧑‍🚒> := <firefighter>;
-    %h<🧑‍🤝‍🧑> := <people-holding-hands>;
-    %h<🧑‍🦯> := <person-with-probing-cane>;
-    %h<🧑‍🦰> := <person-red-hair>;
-    %h<🧑‍🦱> := <person-curly-hair>;
-    %h<🧑‍🦲> := <person-bald>;
-    %h<🧑‍🦳> := <person-white-hair>;
-    %h<🧑‍🦼> := <person-in-motorized-wheelchair>;
-    %h<🧑‍🦽> := <person-in-manual-wheelchair>;
-    %h<🧒> := <child>;
-    %h<🧓> := <older-adult>;
-    %h<🧔> := <bearded-person>;
-    %h<🧔‍♀️> := <woman-beard>;
-    %h<🧔‍♂️> := <man-beard>;
-    %h<🧕> := <woman-with-headscarf>;
-    %h<🧖> := <sauna-person>;
-    %h<🧖‍♀️> := <sauna-woman>;
-    %h<🧖‍♂️> := <sauna-man>;
-    %h<🧗> := <climbing>;
-    %h<🧗‍♀️> := <climbing-woman>;
-    %h<🧗‍♂️> := <climbing-man>;
-    %h<🧘> := <lotus-position>;
-    %h<🧘‍♀️> := <lotus-position-woman>;
-    %h<🧘‍♂️> := <lotus-position-man>;
-    %h<🧙> := <mage>;
-    %h<🧙‍♀️> := <mage-woman>;
-    %h<🧙‍♂️> := <mage-man>;
-    %h<🧚> := <fairy>;
-    %h<🧚‍♀️> := <fairy-woman>;
-    %h<🧚‍♂️> := <fairy-man>;
-    %h<🧛> := <vampire>;
-    %h<🧛‍♀️> := <vampire-woman>;
-    %h<🧛‍♂️> := <vampire-man>;
-    %h<🧜> := <merperson>;
-    %h<🧜‍♀️> := <mermaid>;
-    %h<🧜‍♂️> := <merman>;
-    %h<🧝> := <elf>;
-    %h<🧝‍♀️> := <elf-woman>;
-    %h<🧝‍♂️> := <elf-man>;
-    %h<🧞> := <genie>;
-    %h<🧞‍♀️> := <genie-woman>;
-    %h<🧞‍♂️> := <genie-man>;
-    %h<🧟> := <zombie>;
-    %h<🧟‍♀️> := <zombie-woman>;
-    %h<🧟‍♂️> := <zombie-man>;
-    %h<🧠> := <brain>;
-    %h<🧡> := <orange-heart>;
-    %h<🧢> := <billed-cap>;
-    %h<🧣> := <scarf>;
-    %h<🧤> := <gloves>;
-    %h<🧥> := <coat>;
-    %h<🧦> := <socks>;
-    %h<🧧> := <red-envelope>;
-    %h<🧨> := <firecracker>;
-    %h<🧩> := <jigsaw>;
-    %h<🧪> := <test-tube>;
-    %h<🧫> := <petri-dish>;
-    %h<🧬> := <dna>;
-    %h<🧭> := <compass>;
-    %h<🧮> := <abacus>;
-    %h<🧯> := <fire-extinguisher>;
-    %h<🧰> := <toolbox>;
-    %h<🧱> := <bricks>;
-    %h<🧲> := <magnet>;
-    %h<🧳> := <luggage>;
-    %h<🧴> := <lotion-bottle>;
-    %h<🧵> := <thread>;
-    %h<🧶> := <yarn>;
-    %h<🧷> := <safety-pin>;
-    %h<🧸> := <teddy-bear>;
-    %h<🧹> := <broom>;
-    %h<🧺> := <basket>;
-    %h<🧻> := <roll-of-paper>;
-    %h<🧼> := <soap>;
-    %h<🧽> := <sponge>;
-    %h<🧾> := <receipt>;
-    %h<🧿> := <nazar-amulet>;
-    %h<🩰> := <ballet-shoes>;
-    %h<🩱> := <one-piece-swimsuit>;
-    %h<🩲> := <swim-brief>;
-    %h<🩳> := <shorts>;
-    %h<🩴> := <thong-sandal>;
-    %h<🩵> := <light-blue-heart>;
-    %h<🩶> := <grey-heart>;
-    %h<🩷> := <pink-heart>;
-    %h<🩸> := <drop-of-blood>;
-    %h<🩹> := <adhesive-bandage>;
-    %h<🩺> := <stethoscope>;
-    %h<🩻> := <x-ray>;
-    %h<🩼> := <crutch>;
-    %h<🪀> := <yo-yo>;
-    %h<🪁> := <kite>;
-    %h<🪂> := <parachute>;
-    %h<🪃> := <boomerang>;
-    %h<🪄> := <magic-wand>;
-    %h<🪅> := <pinata>;
-    %h<🪆> := <nesting-dolls>;
-    %h<🪇> := <maracas>;
-    %h<🪈> := <flute>;
-    %h<🪐> := <ringed-planet>;
-    %h<🪑> := <chair>;
-    %h<🪒> := <razor>;
-    %h<🪓> := <axe>;
-    %h<🪔> := <diya-lamp>;
-    %h<🪕> := <banjo>;
-    %h<🪖> := <military-helmet>;
-    %h<🪗> := <accordion>;
-    %h<🪘> := <long-drum>;
-    %h<🪙> := <coin>;
-    %h<🪚> := <carpentry-saw>;
-    %h<🪛> := <screwdriver>;
-    %h<🪜> := <ladder>;
-    %h<🪝> := <hook>;
-    %h<🪞> := <mirror>;
-    %h<🪟> := <window>;
-    %h<🪠> := <plunger>;
-    %h<🪡> := <sewing-needle>;
-    %h<🪢> := <knot>;
-    %h<🪣> := <bucket>;
-    %h<🪤> := <mouse-trap>;
-    %h<🪥> := <toothbrush>;
-    %h<🪦> := <headstone>;
-    %h<🪧> := <placard>;
-    %h<🪨> := <rock>;
-    %h<🪩> := <mirror-ball>;
-    %h<🪪> := <identification-card>;
-    %h<🪫> := <low-battery>;
-    %h<🪬> := <hamsa>;
-    %h<🪭> := <folding-hand-fan>;
-    %h<🪮> := <hair-pick>;
-    %h<🪯> := <khanda>;
-    %h<🪰> := <fly>;
-    %h<🪱> := <worm>;
-    %h<🪲> := <beetle>;
-    %h<🪳> := <cockroach>;
-    %h<🪴> := <potted-plant>;
-    %h<🪵> := <wood>;
-    %h<🪶> := <feather>;
-    %h<🪷> := <lotus>;
-    %h<🪸> := <coral>;
-    %h<🪹> := <empty-nest>;
-    %h<🪺> := <nest-with-eggs>;
-    %h<🪻> := <hyacinth>;
-    %h<🪼> := <jellyfish>;
-    %h<🪽> := <wing>;
-    %h<🪿> := <goose>;
-    %h<🫀> := <anatomical-heart>;
-    %h<🫁> := <lungs>;
-    %h<🫂> := <people-hugging>;
-    %h<🫃> := <pregnant-man>;
-    %h<🫄> := <pregnant-person>;
-    %h<🫅> := <person-with-crown>;
-    %h<🫎> := <moose>;
-    %h<🫏> := <donkey>;
-    %h<🫐> := <blueberries>;
-    %h<🫑> := <bell-pepper>;
-    %h<🫒> := <olive>;
-    %h<🫓> := <flatbread>;
-    %h<🫔> := <tamale>;
-    %h<🫕> := <fondue>;
-    %h<🫖> := <teapot>;
-    %h<🫗> := <pouring-liquid>;
-    %h<🫘> := <beans>;
-    %h<🫙> := <jar>;
-    %h<🫚> := <ginger-root>;
-    %h<🫛> := <pea-pod>;
-    %h<🫠> := <melting-face>;
-    %h<🫡> := <saluting-face>;
-    %h<🫢> := <face-with-open-eyes-and-hand-over-mouth>;
-    %h<🫣> := <face-with-peeking-eye>;
-    %h<🫤> := <face-with-diagonal-mouth>;
-    %h<🫥> := <dotted-line-face>;
-    %h<🫦> := <biting-lip>;
-    %h<🫧> := <bubbles>;
-    %h<🫨> := <shaking-face>;
-    %h<🫰> := <hand-with-index-finger-and-thumb-crossed>;
-    %h<🫱> := <rightwards-hand>;
-    %h<🫲> := <leftwards-hand>;
-    %h<🫳> := <palm-down-hand>;
-    %h<🫴> := <palm-up-hand>;
-    %h<🫵> := <index-pointing-at-the-viewer>;
-    %h<🫶> := <heart-hands>;
-    %h<🫷> := <leftwards-pushing-hand>;
-    %h<🫸> := <rightwards-pushing-hand>;
-    %h.Map
-}
+my constant %lookup =
+  '+1',                                   '👍',
+  '-1',                                   '👎',
+  '100',                                  '💯',
+  '1234',                                 '🔢',
+  '1st-place-medal',                      '🥇',
+  '1stplacemedal',                        '🥇',
+  '2nd-place-medal',                      '🥈',
+  '2ndplacemedal',                        '🥈',
+  '3rd-place-medal',                      '🥉',
+  '3rdplacemedal',                        '🥉',
+  '8ball',                                '🎱',
+  'a',                                    '🅰️',
+  'ab',                                   '🆎',
+  'abacus',                               '🧮',
+  'abc',                                  '🔤',
+  'abcd',                                 '🔡',
+  'accept',                               '🉑',
+  'accordion',                            '🪗',
+  'adhesive-bandage',                     '🩹',
+  'adhesivebandage',                      '🩹',
+  'adult',                                '🧑',
+  'aerial-tramway',                       '🚡',
+  'aerialtramway',                        '🚡',
+  'afghanistan',                          '🇦🇫',
+  'airplane',                             '✈️',
+  'aland-islands',                        '🇦🇽',
+  'alandislands',                         '🇦🇽',
+  'alarm-clock',                          '⏰',
+  'alarmclock',                           '⏰',
+  'albania',                              '🇦🇱',
+  'alembic',                              '⚗️',
+  'algeria',                              '🇩🇿',
+  'alien',                                '👽',
+  'ambulance',                            '🚑',
+  'american-samoa',                       '🇦🇸',
+  'americansamoa',                        '🇦🇸',
+  'amphora',                              '🏺',
+  'anatomical-heart',                     '🫀',
+  'anatomicalheart',                      '🫀',
+  'anchor',                               '⚓',
+  'andorra',                              '🇦🇩',
+  'angel',                                '👼',
+  'anger',                                '💢',
+  'angola',                               '🇦🇴',
+  'angry',                                '😠',
+  'anguilla',                             '🇦🇮',
+  'anguished',                            '😧',
+  'ant',                                  '🐜',
+  'antarctica',                           '🇦🇶',
+  'antigua-barbuda',                      '🇦🇬',
+  'antiguabarbuda',                       '🇦🇬',
+  'apple',                                '🍎',
+  'aquarius',                             '♒',
+  'argentina',                            '🇦🇷',
+  'aries',                                '♈',
+  'armenia',                              '🇦🇲',
+  'arrow-backward',                       '◀️',
+  'arrow-double-down',                    '⏬',
+  'arrow-double-up',                      '⏫',
+  'arrow-down',                           '⬇️',
+  'arrow-down-small',                     '🔽',
+  'arrow-forward',                        '▶️',
+  'arrow-heading-down',                   '⤵️',
+  'arrow-heading-up',                     '⤴️',
+  'arrow-left',                           '⬅️',
+  'arrow-lower-left',                     '↙️',
+  'arrow-lower-right',                    '↘️',
+  'arrow-right',                          '➡️',
+  'arrow-right-hook',                     '↪️',
+  'arrow-up',                             '⬆️',
+  'arrow-up-down',                        '↕️',
+  'arrow-up-small',                       '🔼',
+  'arrow-upper-left',                     '↖️',
+  'arrow-upper-right',                    '↗️',
+  'arrowbackward',                        '◀️',
+  'arrowdoubledown',                      '⏬',
+  'arrowdoubleup',                        '⏫',
+  'arrowdown',                            '⬇️',
+  'arrowdownsmall',                       '🔽',
+  'arrowforward',                         '▶️',
+  'arrowheadingdown',                     '⤵️',
+  'arrowheadingup',                       '⤴️',
+  'arrowleft',                            '⬅️',
+  'arrowlowerleft',                       '↙️',
+  'arrowlowerright',                      '↘️',
+  'arrowright',                           '➡️',
+  'arrowrighthook',                       '↪️',
+  'arrows-clockwise',                     '🔃',
+  'arrows-counterclockwise',              '🔄',
+  'arrowsclockwise',                      '🔃',
+  'arrowscounterclockwise',               '🔄',
+  'arrowup',                              '⬆️',
+  'arrowupdown',                          '↕️',
+  'arrowupperleft',                       '↖️',
+  'arrowupperright',                      '↗️',
+  'arrowupsmall',                         '🔼',
+  'art',                                  '🎨',
+  'articulated-lorry',                    '🚛',
+  'articulatedlorry',                     '🚛',
+  'artificial-satellite',                 '🛰️',
+  'artificialsatellite',                  '🛰️',
+  'artist',                               '🧑‍🎨',
+  'aruba',                                '🇦🇼',
+  'ascension-island',                     '🇦🇨',
+  'ascensionisland',                      '🇦🇨',
+  'asterisk',                             '*️⃣',
+  'astonished',                           '😲',
+  'astronaut',                            '🧑‍🚀',
+  'athletic-shoe',                        '👟',
+  'athleticshoe',                         '👟',
+  'atm',                                  '🏧',
+  'atom-symbol',                          '⚛️',
+  'atomsymbol',                           '⚛️',
+  'australia',                            '🇦🇺',
+  'austria',                              '🇦🇹',
+  'auto-rickshaw',                        '🛺',
+  'autorickshaw',                         '🛺',
+  'avocado',                              '🥑',
+  'axe',                                  '🪓',
+  'azerbaijan',                           '🇦🇿',
+  'b',                                    '🅱️',
+  'baby',                                 '👶',
+  'baby-bottle',                          '🍼',
+  'baby-chick',                           '🐤',
+  'baby-symbol',                          '🚼',
+  'babybottle',                           '🍼',
+  'babychick',                            '🐤',
+  'babysymbol',                           '🚼',
+  'back',                                 '🔙',
+  'bacon',                                '🥓',
+  'badger',                               '🦡',
+  'badminton',                            '🏸',
+  'bagel',                                '🥯',
+  'baggage-claim',                        '🛄',
+  'baggageclaim',                         '🛄',
+  'baguette-bread',                       '🥖',
+  'baguettebread',                        '🥖',
+  'bahamas',                              '🇧🇸',
+  'bahrain',                              '🇧🇭',
+  'balance-scale',                        '⚖️',
+  'balancescale',                         '⚖️',
+  'bald-man',                             '👨‍🦲',
+  'bald-woman',                           '👩‍🦲',
+  'baldman',                              '👨‍🦲',
+  'baldwoman',                            '👩‍🦲',
+  'ballet-shoes',                         '🩰',
+  'balletshoes',                          '🩰',
+  'balloon',                              '🎈',
+  'ballot-box',                           '🗳️',
+  'ballot-box-with-check',                '☑️',
+  'ballotbox',                            '🗳️',
+  'ballotboxwithcheck',                   '☑️',
+  'bamboo',                               '🎍',
+  'banana',                               '🍌',
+  'bangbang',                             '‼️',
+  'bangladesh',                           '🇧🇩',
+  'banjo',                                '🪕',
+  'bank',                                 '🏦',
+  'bar-chart',                            '📊',
+  'barbados',                             '🇧🇧',
+  'barber',                               '💈',
+  'barchart',                             '📊',
+  'baseball',                             '⚾',
+  'basket',                               '🧺',
+  'basketball',                           '🏀',
+  'basketball-man',                       '⛹️‍♂️',
+  'basketball-woman',                     '⛹️‍♀️',
+  'basketballman',                        '⛹️‍♂️',
+  'basketballwoman',                      '⛹️‍♀️',
+  'bat',                                  '🦇',
+  'bath',                                 '🛀',
+  'bathtub',                              '🛁',
+  'battery',                              '🔋',
+  'beach-umbrella',                       '🏖️',
+  'beachumbrella',                        '🏖️',
+  'beans',                                '🫘',
+  'bear',                                 '🐻',
+  'bearded-person',                       '🧔',
+  'beardedperson',                        '🧔',
+  'beaver',                               '🦫',
+  'bed',                                  '🛏️',
+  'bee',                                  '🐝',
+  'beer',                                 '🍺',
+  'beers',                                '🍻',
+  'beetle',                               '🪲',
+  'beginner',                             '🔰',
+  'belarus',                              '🇧🇾',
+  'belgium',                              '🇧🇪',
+  'belize',                               '🇧🇿',
+  'bell',                                 '🔔',
+  'bell-pepper',                          '🫑',
+  'bellhop-bell',                         '🛎️',
+  'bellhopbell',                          '🛎️',
+  'bellpepper',                           '🫑',
+  'benin',                                '🇧🇯',
+  'bento',                                '🍱',
+  'bermuda',                              '🇧🇲',
+  'beverage-box',                         '🧃',
+  'beveragebox',                          '🧃',
+  'bhutan',                               '🇧🇹',
+  'bicyclist',                            '🚴',
+  'bike',                                 '🚲',
+  'biking-man',                           '🚴‍♂️',
+  'biking-woman',                         '🚴‍♀️',
+  'bikingman',                            '🚴‍♂️',
+  'bikingwoman',                          '🚴‍♀️',
+  'bikini',                               '👙',
+  'billed-cap',                           '🧢',
+  'billedcap',                            '🧢',
+  'biohazard',                            '☣️',
+  'bird',                                 '🐦',
+  'birthday',                             '🎂',
+  'bison',                                '🦬',
+  'biting-lip',                           '🫦',
+  'bitinglip',                            '🫦',
+  'black-bird',                           '🐦‍⬛',
+  'black-cat',                            '🐈‍⬛',
+  'black-circle',                         '⚫',
+  'black-flag',                           '🏴',
+  'black-heart',                          '🖤',
+  'black-joker',                          '🃏',
+  'black-large-square',                   '⬛',
+  'black-medium-small-square',            '◾',
+  'black-medium-square',                  '◼️',
+  'black-nib',                            '✒️',
+  'black-small-square',                   '▪️',
+  'black-square-button',                  '🔲',
+  'blackbird',                            '🐦‍⬛',
+  'blackcat',                             '🐈‍⬛',
+  'blackcircle',                          '⚫',
+  'blackflag',                            '🏴',
+  'blackheart',                           '🖤',
+  'blackjoker',                           '🃏',
+  'blacklargesquare',                     '⬛',
+  'blackmediumsmallsquare',               '◾',
+  'blackmediumsquare',                    '◼️',
+  'blacknib',                             '✒️',
+  'blacksmallsquare',                     '▪️',
+  'blacksquarebutton',                    '🔲',
+  'blond-haired-man',                     '👱‍♂️',
+  'blond-haired-person',                  '👱',
+  'blond-haired-woman',                   '👱‍♀️',
+  'blonde-woman',                         '👱‍♀️',
+  'blondewoman',                          '👱‍♀️',
+  'blondhairedman',                       '👱‍♂️',
+  'blondhairedperson',                    '👱',
+  'blondhairedwoman',                     '👱‍♀️',
+  'blossom',                              '🌼',
+  'blowfish',                             '🐡',
+  'blue-book',                            '📘',
+  'blue-car',                             '🚙',
+  'blue-heart',                           '💙',
+  'blue-square',                          '🟦',
+  'blueberries',                          '🫐',
+  'bluebook',                             '📘',
+  'bluecar',                              '🚙',
+  'blueheart',                            '💙',
+  'bluesquare',                           '🟦',
+  'blush',                                '😊',
+  'boar',                                 '🐗',
+  'boat',                                 '⛵',
+  'bolivia',                              '🇧🇴',
+  'bomb',                                 '💣',
+  'bone',                                 '🦴',
+  'book',                                 '📖',
+  'bookmark',                             '🔖',
+  'bookmark-tabs',                        '📑',
+  'bookmarktabs',                         '📑',
+  'books',                                '📚',
+  'boom',                                 '💥',
+  'boomerang',                            '🪃',
+  'boot',                                 '👢',
+  'bosnia-herzegovina',                   '🇧🇦',
+  'bosniaherzegovina',                    '🇧🇦',
+  'botswana',                             '🇧🇼',
+  'bouncing-ball-man',                    '⛹️‍♂️',
+  'bouncing-ball-person',                 '⛹️',
+  'bouncing-ball-woman',                  '⛹️‍♀️',
+  'bouncingballman',                      '⛹️‍♂️',
+  'bouncingballperson',                   '⛹️',
+  'bouncingballwoman',                    '⛹️‍♀️',
+  'bouquet',                              '💐',
+  'bouvet-island',                        '🇧🇻',
+  'bouvetisland',                         '🇧🇻',
+  'bow',                                  '🙇',
+  'bow-and-arrow',                        '🏹',
+  'bowandarrow',                          '🏹',
+  'bowing-man',                           '🙇‍♂️',
+  'bowing-woman',                         '🙇‍♀️',
+  'bowingman',                            '🙇‍♂️',
+  'bowingwoman',                          '🙇‍♀️',
+  'bowl-with-spoon',                      '🥣',
+  'bowling',                              '🎳',
+  'bowlwithspoon',                        '🥣',
+  'boxing-glove',                         '🥊',
+  'boxingglove',                          '🥊',
+  'boy',                                  '👦',
+  'brain',                                '🧠',
+  'brazil',                               '🇧🇷',
+  'bread',                                '🍞',
+  'breast-feeding',                       '🤱',
+  'breastfeeding',                        '🤱',
+  'bricks',                               '🧱',
+  'bride-with-veil',                      '👰‍♀️',
+  'bridewithveil',                        '👰‍♀️',
+  'bridge-at-night',                      '🌉',
+  'bridgeatnight',                        '🌉',
+  'briefcase',                            '💼',
+  'british-indian-ocean-territory',       '🇮🇴',
+  'british-virgin-islands',               '🇻🇬',
+  'britishindianoceanterritory',          '🇮🇴',
+  'britishvirginislands',                 '🇻🇬',
+  'broccoli',                             '🥦',
+  'broken-heart',                         '💔',
+  'brokenheart',                          '💔',
+  'broom',                                '🧹',
+  'brown-circle',                         '🟤',
+  'brown-heart',                          '🤎',
+  'brown-square',                         '🟫',
+  'browncircle',                          '🟤',
+  'brownheart',                           '🤎',
+  'brownsquare',                          '🟫',
+  'brunei',                               '🇧🇳',
+  'bubble-tea',                           '🧋',
+  'bubbles',                              '🫧',
+  'bubbletea',                            '🧋',
+  'bucket',                               '🪣',
+  'bug',                                  '🐛',
+  'building-construction',                '🏗️',
+  'buildingconstruction',                 '🏗️',
+  'bulb',                                 '💡',
+  'bulgaria',                             '🇧🇬',
+  'bullettrain-front',                    '🚅',
+  'bullettrain-side',                     '🚄',
+  'bullettrainfront',                     '🚅',
+  'bullettrainside',                      '🚄',
+  'burkina-faso',                         '🇧🇫',
+  'burkinafaso',                          '🇧🇫',
+  'burrito',                              '🌯',
+  'burundi',                              '🇧🇮',
+  'bus',                                  '🚌',
+  'business-suit-levitating',             '🕴️',
+  'businesssuitlevitating',               '🕴️',
+  'busstop',                              '🚏',
+  'bust-in-silhouette',                   '👤',
+  'bustinsilhouette',                     '👤',
+  'busts-in-silhouette',                  '👥',
+  'bustsinsilhouette',                    '👥',
+  'butter',                               '🧈',
+  'butterfly',                            '🦋',
+  'cactus',                               '🌵',
+  'cake',                                 '🍰',
+  'calendar',                             '📆',
+  'call-me-hand',                         '🤙',
+  'calling',                              '📲',
+  'callmehand',                           '🤙',
+  'cambodia',                             '🇰🇭',
+  'camel',                                '🐫',
+  'camera',                               '📷',
+  'camera-flash',                         '📸',
+  'cameraflash',                          '📸',
+  'cameroon',                             '🇨🇲',
+  'camping',                              '🏕️',
+  'canada',                               '🇨🇦',
+  'canary-islands',                       '🇮🇨',
+  'canaryislands',                        '🇮🇨',
+  'cancer',                               '♋',
+  'candle',                               '🕯️',
+  'candy',                                '🍬',
+  'canned-food',                          '🥫',
+  'cannedfood',                           '🥫',
+  'canoe',                                '🛶',
+  'cape-verde',                           '🇨🇻',
+  'capeverde',                            '🇨🇻',
+  'capital-abcd',                         '🔠',
+  'capitalabcd',                          '🔠',
+  'capricorn',                            '♑',
+  'car',                                  '🚗',
+  'card-file-box',                        '🗃️',
+  'card-index',                           '📇',
+  'card-index-dividers',                  '🗂️',
+  'cardfilebox',                          '🗃️',
+  'cardindex',                            '📇',
+  'cardindexdividers',                    '🗂️',
+  'caribbean-netherlands',                '🇧🇶',
+  'caribbeannetherlands',                 '🇧🇶',
+  'carousel-horse',                       '🎠',
+  'carouselhorse',                        '🎠',
+  'carpentry-saw',                        '🪚',
+  'carpentrysaw',                         '🪚',
+  'carrot',                               '🥕',
+  'cartwheeling',                         '🤸',
+  'cat',                                  '🐱',
+  'cat2',                                 '🐈',
+  'cayman-islands',                       '🇰🇾',
+  'caymanislands',                        '🇰🇾',
+  'cd',                                   '💿',
+  'central-african-republic',             '🇨🇫',
+  'centralafricanrepublic',               '🇨🇫',
+  'ceuta-melilla',                        '🇪🇦',
+  'ceutamelilla',                         '🇪🇦',
+  'chad',                                 '🇹🇩',
+  'chains',                               '⛓️',
+  'chair',                                '🪑',
+  'champagne',                            '🍾',
+  'chart',                                '💹',
+  'chart-with-downwards-trend',           '📉',
+  'chart-with-upwards-trend',             '📈',
+  'chartwithdownwardstrend',              '📉',
+  'chartwithupwardstrend',                '📈',
+  'checkered-flag',                       '🏁',
+  'checkeredflag',                        '🏁',
+  'cheese',                               '🧀',
+  'cherries',                             '🍒',
+  'cherry-blossom',                       '🌸',
+  'cherryblossom',                        '🌸',
+  'chess-pawn',                           '♟️',
+  'chesspawn',                            '♟️',
+  'chestnut',                             '🌰',
+  'chicken',                              '🐔',
+  'child',                                '🧒',
+  'children-crossing',                    '🚸',
+  'childrencrossing',                     '🚸',
+  'chile',                                '🇨🇱',
+  'chipmunk',                             '🐿️',
+  'chocolate-bar',                        '🍫',
+  'chocolatebar',                         '🍫',
+  'chopsticks',                           '🥢',
+  'christmas-island',                     '🇨🇽',
+  'christmas-tree',                       '🎄',
+  'christmasisland',                      '🇨🇽',
+  'christmastree',                        '🎄',
+  'church',                               '⛪',
+  'cinema',                               '🎦',
+  'circus-tent',                          '🎪',
+  'circustent',                           '🎪',
+  'city-sunrise',                         '🌇',
+  'city-sunset',                          '🌆',
+  'cityscape',                            '🏙️',
+  'citysunrise',                          '🌇',
+  'citysunset',                           '🌆',
+  'cl',                                   '🆑',
+  'clamp',                                '🗜️',
+  'clap',                                 '👏',
+  'clapper',                              '🎬',
+  'classical-building',                   '🏛️',
+  'classicalbuilding',                    '🏛️',
+  'climbing',                             '🧗',
+  'climbing-man',                         '🧗‍♂️',
+  'climbing-woman',                       '🧗‍♀️',
+  'climbingman',                          '🧗‍♂️',
+  'climbingwoman',                        '🧗‍♀️',
+  'clinking-glasses',                     '🥂',
+  'clinkingglasses',                      '🥂',
+  'clipboard',                            '📋',
+  'clipperton-island',                    '🇨🇵',
+  'clippertonisland',                     '🇨🇵',
+  'clock1',                               '🕐',
+  'clock10',                              '🕙',
+  'clock1030',                            '🕥',
+  'clock11',                              '🕚',
+  'clock1130',                            '🕦',
+  'clock12',                              '🕛',
+  'clock1230',                            '🕧',
+  'clock130',                             '🕜',
+  'clock2',                               '🕑',
+  'clock230',                             '🕝',
+  'clock3',                               '🕒',
+  'clock330',                             '🕞',
+  'clock4',                               '🕓',
+  'clock430',                             '🕟',
+  'clock5',                               '🕔',
+  'clock530',                             '🕠',
+  'clock6',                               '🕕',
+  'clock630',                             '🕡',
+  'clock7',                               '🕖',
+  'clock730',                             '🕢',
+  'clock8',                               '🕗',
+  'clock830',                             '🕣',
+  'clock9',                               '🕘',
+  'clock930',                             '🕤',
+  'closed-book',                          '📕',
+  'closed-lock-with-key',                 '🔐',
+  'closed-umbrella',                      '🌂',
+  'closedbook',                           '📕',
+  'closedlockwithkey',                    '🔐',
+  'closedumbrella',                       '🌂',
+  'cloud',                                '☁️',
+  'cloud-with-lightning',                 '🌩️',
+  'cloud-with-lightning-and-rain',        '⛈️',
+  'cloud-with-rain',                      '🌧️',
+  'cloud-with-snow',                      '🌨️',
+  'cloudwithlightning',                   '🌩️',
+  'cloudwithlightningandrain',            '⛈️',
+  'cloudwithrain',                        '🌧️',
+  'cloudwithsnow',                        '🌨️',
+  'clown-face',                           '🤡',
+  'clownface',                            '🤡',
+  'clubs',                                '♣️',
+  'cn',                                   '🇨🇳',
+  'coat',                                 '🧥',
+  'cockroach',                            '🪳',
+  'cocktail',                             '🍸',
+  'coconut',                              '🥥',
+  'cocos-islands',                        '🇨🇨',
+  'cocosislands',                         '🇨🇨',
+  'coffee',                               '☕',
+  'coffin',                               '⚰️',
+  'coin',                                 '🪙',
+  'cold-face',                            '🥶',
+  'cold-sweat',                           '😰',
+  'coldface',                             '🥶',
+  'coldsweat',                            '😰',
+  'collision',                            '💥',
+  'colombia',                             '🇨🇴',
+  'comet',                                '☄️',
+  'comoros',                              '🇰🇲',
+  'compass',                              '🧭',
+  'computer',                             '💻',
+  'computer-mouse',                       '🖱️',
+  'computermouse',                        '🖱️',
+  'confetti-ball',                        '🎊',
+  'confettiball',                         '🎊',
+  'confounded',                           '😖',
+  'confused',                             '😕',
+  'congo-brazzaville',                    '🇨🇬',
+  'congo-kinshasa',                       '🇨🇩',
+  'congobrazzaville',                     '🇨🇬',
+  'congokinshasa',                        '🇨🇩',
+  'congratulations',                      '㊗️',
+  'construction',                         '🚧',
+  'construction-worker',                  '👷',
+  'construction-worker-man',              '👷‍♂️',
+  'construction-worker-woman',            '👷‍♀️',
+  'constructionworker',                   '👷',
+  'constructionworkerman',                '👷‍♂️',
+  'constructionworkerwoman',              '👷‍♀️',
+  'control-knobs',                        '🎛️',
+  'controlknobs',                         '🎛️',
+  'convenience-store',                    '🏪',
+  'conveniencestore',                     '🏪',
+  'cook',                                 '🧑‍🍳',
+  'cook-islands',                         '🇨🇰',
+  'cookie',                               '🍪',
+  'cookislands',                          '🇨🇰',
+  'cool',                                 '🆒',
+  'cop',                                  '👮',
+  'copyright',                            '©️',
+  'coral',                                '🪸',
+  'corn',                                 '🌽',
+  'costa-rica',                           '🇨🇷',
+  'costarica',                            '🇨🇷',
+  'cote-divoire',                         '🇨🇮',
+  'cotedivoire',                          '🇨🇮',
+  'couch-and-lamp',                       '🛋️',
+  'couchandlamp',                         '🛋️',
+  'couple',                               '👫',
+  'couple-with-heart',                    '💑',
+  'couple-with-heart-man-man',            '👨‍❤️‍👨',
+  'couple-with-heart-woman-man',          '👩‍❤️‍👨',
+  'couple-with-heart-woman-woman',        '👩‍❤️‍👩',
+  'couplekiss',                           '💏',
+  'couplekiss-man-man',                   '👨‍❤️‍💋‍👨',
+  'couplekiss-man-woman',                 '👩‍❤️‍💋‍👨',
+  'couplekiss-woman-woman',               '👩‍❤️‍💋‍👩',
+  'couplekissmanman',                     '👨‍❤️‍💋‍👨',
+  'couplekissmanwoman',                   '👩‍❤️‍💋‍👨',
+  'couplekisswomanwoman',                 '👩‍❤️‍💋‍👩',
+  'couplewithheart',                      '💑',
+  'couplewithheartmanman',                '👨‍❤️‍👨',
+  'couplewithheartwomanman',              '👩‍❤️‍👨',
+  'couplewithheartwomanwoman',            '👩‍❤️‍👩',
+  'cow',                                  '🐮',
+  'cow2',                                 '🐄',
+  'cowboy-hat-face',                      '🤠',
+  'cowboyhatface',                        '🤠',
+  'crab',                                 '🦀',
+  'crayon',                               '🖍️',
+  'credit-card',                          '💳',
+  'creditcard',                           '💳',
+  'crescent-moon',                        '🌙',
+  'crescentmoon',                         '🌙',
+  'cricket',                              '🦗',
+  'cricket-game',                         '🏏',
+  'cricketgame',                          '🏏',
+  'croatia',                              '🇭🇷',
+  'crocodile',                            '🐊',
+  'croissant',                            '🥐',
+  'crossed-fingers',                      '🤞',
+  'crossed-flags',                        '🎌',
+  'crossed-swords',                       '⚔️',
+  'crossedfingers',                       '🤞',
+  'crossedflags',                         '🎌',
+  'crossedswords',                        '⚔️',
+  'crown',                                '👑',
+  'crutch',                               '🩼',
+  'cry',                                  '😢',
+  'crying-cat-face',                      '😿',
+  'cryingcatface',                        '😿',
+  'crystal-ball',                         '🔮',
+  'crystalball',                          '🔮',
+  'cuba',                                 '🇨🇺',
+  'cucumber',                             '🥒',
+  'cup-with-straw',                       '🥤',
+  'cupcake',                              '🧁',
+  'cupid',                                '💘',
+  'cupwithstraw',                         '🥤',
+  'curacao',                              '🇨🇼',
+  'curling-stone',                        '🥌',
+  'curlingstone',                         '🥌',
+  'curly-haired-man',                     '👨‍🦱',
+  'curly-haired-woman',                   '👩‍🦱',
+  'curly-loop',                           '➰',
+  'curlyhairedman',                       '👨‍🦱',
+  'curlyhairedwoman',                     '👩‍🦱',
+  'curlyloop',                            '➰',
+  'currency-exchange',                    '💱',
+  'currencyexchange',                     '💱',
+  'curry',                                '🍛',
+  'cursing-face',                         '🤬',
+  'cursingface',                          '🤬',
+  'custard',                              '🍮',
+  'customs',                              '🛃',
+  'cut-of-meat',                          '🥩',
+  'cutofmeat',                            '🥩',
+  'cyclone',                              '🌀',
+  'cyprus',                               '🇨🇾',
+  'czech-republic',                       '🇨🇿',
+  'czechrepublic',                        '🇨🇿',
+  'dagger',                               '🗡️',
+  'dancer',                               '💃',
+  'dancers',                              '👯',
+  'dancing-men',                          '👯‍♂️',
+  'dancing-women',                        '👯‍♀️',
+  'dancingmen',                           '👯‍♂️',
+  'dancingwomen',                         '👯‍♀️',
+  'dango',                                '🍡',
+  'dark-sunglasses',                      '🕶️',
+  'darksunglasses',                       '🕶️',
+  'dart',                                 '🎯',
+  'dash',                                 '💨',
+  'date',                                 '📅',
+  'de',                                   '🇩🇪',
+  'deaf-man',                             '🧏‍♂️',
+  'deaf-person',                          '🧏',
+  'deaf-woman',                           '🧏‍♀️',
+  'deafman',                              '🧏‍♂️',
+  'deafperson',                           '🧏',
+  'deafwoman',                            '🧏‍♀️',
+  'deciduous-tree',                       '🌳',
+  'deciduoustree',                        '🌳',
+  'deer',                                 '🦌',
+  'denmark',                              '🇩🇰',
+  'department-store',                     '🏬',
+  'departmentstore',                      '🏬',
+  'derelict-house',                       '🏚️',
+  'derelicthouse',                        '🏚️',
+  'desert',                               '🏜️',
+  'desert-island',                        '🏝️',
+  'desertisland',                         '🏝️',
+  'desktop-computer',                     '🖥️',
+  'desktopcomputer',                      '🖥️',
+  'detective',                            '🕵️',
+  'diamond-shape-with-a-dot-inside',      '💠',
+  'diamonds',                             '♦️',
+  'diamondshapewithadotinside',           '💠',
+  'diego-garcia',                         '🇩🇬',
+  'diegogarcia',                          '🇩🇬',
+  'disappointed',                         '😞',
+  'disappointed-relieved',                '😥',
+  'disappointedrelieved',                 '😥',
+  'disguised-face',                       '🥸',
+  'disguisedface',                        '🥸',
+  'diving-mask',                          '🤿',
+  'divingmask',                           '🤿',
+  'diya-lamp',                            '🪔',
+  'diyalamp',                             '🪔',
+  'dizzy',                                '💫',
+  'dizzy-face',                           '😵',
+  'dizzyface',                            '😵',
+  'djibouti',                             '🇩🇯',
+  'dna',                                  '🧬',
+  'do-not-litter',                        '🚯',
+  'dodo',                                 '🦤',
+  'dog',                                  '🐶',
+  'dog2',                                 '🐕',
+  'dollar',                               '💵',
+  'dolls',                                '🎎',
+  'dolphin',                              '🐬',
+  'dominica',                             '🇩🇲',
+  'dominican-republic',                   '🇩🇴',
+  'dominicanrepublic',                    '🇩🇴',
+  'donkey',                               '🫏',
+  'donotlitter',                          '🚯',
+  'door',                                 '🚪',
+  'dotted-line-face',                     '🫥',
+  'dottedlineface',                       '🫥',
+  'doughnut',                             '🍩',
+  'dove',                                 '🕊️',
+  'dragon',                               '🐉',
+  'dragon-face',                          '🐲',
+  'dragonface',                           '🐲',
+  'dress',                                '👗',
+  'dromedary-camel',                      '🐪',
+  'dromedarycamel',                       '🐪',
+  'drooling-face',                        '🤤',
+  'droolingface',                         '🤤',
+  'drop-of-blood',                        '🩸',
+  'droplet',                              '💧',
+  'dropofblood',                          '🩸',
+  'drum',                                 '🥁',
+  'duck',                                 '🦆',
+  'dumpling',                             '🥟',
+  'dvd',                                  '📀',
+  'e-mail',                               '📧',
+  'eagle',                                '🦅',
+  'ear',                                  '👂',
+  'ear-of-rice',                          '🌾',
+  'ear-with-hearing-aid',                 '🦻',
+  'earofrice',                            '🌾',
+  'earth-africa',                         '🌍',
+  'earth-americas',                       '🌎',
+  'earth-asia',                           '🌏',
+  'earthafrica',                          '🌍',
+  'earthamericas',                        '🌎',
+  'earthasia',                            '🌏',
+  'earwithhearingaid',                    '🦻',
+  'ecuador',                              '🇪🇨',
+  'egg',                                  '🥚',
+  'eggplant',                             '🍆',
+  'egypt',                                '🇪🇬',
+  'eight',                                '8️⃣',
+  'eight-pointed-black-star',             '✴️',
+  'eight-spoked-asterisk',                '✳️',
+  'eightpointedblackstar',                '✴️',
+  'eightspokedasterisk',                  '✳️',
+  'eject-button',                         '⏏️',
+  'ejectbutton',                          '⏏️',
+  'el-salvador',                          '🇸🇻',
+  'electric-plug',                        '🔌',
+  'electricplug',                         '🔌',
+  'elephant',                             '🐘',
+  'elevator',                             '🛗',
+  'elf',                                  '🧝',
+  'elf-man',                              '🧝‍♂️',
+  'elf-woman',                            '🧝‍♀️',
+  'elfman',                               '🧝‍♂️',
+  'elfwoman',                             '🧝‍♀️',
+  'elsalvador',                           '🇸🇻',
+  'email',                                '📧',
+  'empty-nest',                           '🪹',
+  'emptynest',                            '🪹',
+  'end',                                  '🔚',
+  'england',                              '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+  'envelope',                             '✉️',
+  'envelope-with-arrow',                  '📩',
+  'envelopewitharrow',                    '📩',
+  'equatorial-guinea',                    '🇬🇶',
+  'equatorialguinea',                     '🇬🇶',
+  'eritrea',                              '🇪🇷',
+  'es',                                   '🇪🇸',
+  'estonia',                              '🇪🇪',
+  'ethiopia',                             '🇪🇹',
+  'eu',                                   '🇪🇺',
+  'euro',                                 '💶',
+  'european-castle',                      '🏰',
+  'european-post-office',                 '🏤',
+  'european-union',                       '🇪🇺',
+  'europeancastle',                       '🏰',
+  'europeanpostoffice',                   '🏤',
+  'europeanunion',                        '🇪🇺',
+  'evergreen-tree',                       '🌲',
+  'evergreentree',                        '🌲',
+  'exclamation',                          '❗',
+  'exploding-head',                       '🤯',
+  'explodinghead',                        '🤯',
+  'expressionless',                       '😑',
+  'eye',                                  '👁️',
+  'eye-speech-bubble',                    '👁️‍🗨️',
+  'eyeglasses',                           '👓',
+  'eyes',                                 '👀',
+  'eyespeechbubble',                      '👁️‍🗨️',
+  'face-exhaling',                        '😮‍💨',
+  'face-holding-back-tears',              '🥹',
+  'face-in-clouds',                       '😶‍🌫️',
+  'face-with-diagonal-mouth',             '🫤',
+  'face-with-head-bandage',               '🤕',
+  'face-with-open-eyes-and-hand-over-mouth','🫢',
+  'face-with-peeking-eye',                '🫣',
+  'face-with-spiral-eyes',                '😵‍💫',
+  'face-with-thermometer',                '🤒',
+  'faceexhaling',                         '😮‍💨',
+  'faceholdingbacktears',                 '🥹',
+  'faceinclouds',                         '😶‍🌫️',
+  'facepalm',                             '🤦',
+  'facepunch',                            '👊',
+  'facewithdiagonalmouth',                '🫤',
+  'facewithheadbandage',                  '🤕',
+  'facewithopeneyesandhandovermouth',     '🫢',
+  'facewithpeekingeye',                   '🫣',
+  'facewithspiraleyes',                   '😵‍💫',
+  'facewiththermometer',                  '🤒',
+  'factory',                              '🏭',
+  'factory-worker',                       '🧑‍🏭',
+  'factoryworker',                        '🧑‍🏭',
+  'fairy',                                '🧚',
+  'fairy-man',                            '🧚‍♂️',
+  'fairy-woman',                          '🧚‍♀️',
+  'fairyman',                             '🧚‍♂️',
+  'fairywoman',                           '🧚‍♀️',
+  'falafel',                              '🧆',
+  'falkland-islands',                     '🇫🇰',
+  'falklandislands',                      '🇫🇰',
+  'fallen-leaf',                          '🍂',
+  'fallenleaf',                           '🍂',
+  'family',                               '👪',
+  'family-man-boy',                       '👨‍👦',
+  'family-man-boy-boy',                   '👨‍👦‍👦',
+  'family-man-girl',                      '👨‍👧',
+  'family-man-girl-boy',                  '👨‍👧‍👦',
+  'family-man-girl-girl',                 '👨‍👧‍👧',
+  'family-man-man-boy',                   '👨‍👨‍👦',
+  'family-man-man-boy-boy',               '👨‍👨‍👦‍👦',
+  'family-man-man-girl',                  '👨‍👨‍👧',
+  'family-man-man-girl-boy',              '👨‍👨‍👧‍👦',
+  'family-man-man-girl-girl',             '👨‍👨‍👧‍👧',
+  'family-man-woman-boy',                 '👨‍👩‍👦',
+  'family-man-woman-boy-boy',             '👨‍👩‍👦‍👦',
+  'family-man-woman-girl',                '👨‍👩‍👧',
+  'family-man-woman-girl-boy',            '👨‍👩‍👧‍👦',
+  'family-man-woman-girl-girl',           '👨‍👩‍👧‍👧',
+  'family-woman-boy',                     '👩‍👦',
+  'family-woman-boy-boy',                 '👩‍👦‍👦',
+  'family-woman-girl',                    '👩‍👧',
+  'family-woman-girl-boy',                '👩‍👧‍👦',
+  'family-woman-girl-girl',               '👩‍👧‍👧',
+  'family-woman-woman-boy',               '👩‍👩‍👦',
+  'family-woman-woman-boy-boy',           '👩‍👩‍👦‍👦',
+  'family-woman-woman-girl',              '👩‍👩‍👧',
+  'family-woman-woman-girl-boy',          '👩‍👩‍👧‍👦',
+  'family-woman-woman-girl-girl',         '👩‍👩‍👧‍👧',
+  'familymanboy',                         '👨‍👦',
+  'familymanboyboy',                      '👨‍👦‍👦',
+  'familymangirl',                        '👨‍👧',
+  'familymangirlboy',                     '👨‍👧‍👦',
+  'familymangirlgirl',                    '👨‍👧‍👧',
+  'familymanmanboy',                      '👨‍👨‍👦',
+  'familymanmanboyboy',                   '👨‍👨‍👦‍👦',
+  'familymanmangirl',                     '👨‍👨‍👧',
+  'familymanmangirlboy',                  '👨‍👨‍👧‍👦',
+  'familymanmangirlgirl',                 '👨‍👨‍👧‍👧',
+  'familymanwomanboy',                    '👨‍👩‍👦',
+  'familymanwomanboyboy',                 '👨‍👩‍👦‍👦',
+  'familymanwomangirl',                   '👨‍👩‍👧',
+  'familymanwomangirlboy',                '👨‍👩‍👧‍👦',
+  'familymanwomangirlgirl',               '👨‍👩‍👧‍👧',
+  'familywomanboy',                       '👩‍👦',
+  'familywomanboyboy',                    '👩‍👦‍👦',
+  'familywomangirl',                      '👩‍👧',
+  'familywomangirlboy',                   '👩‍👧‍👦',
+  'familywomangirlgirl',                  '👩‍👧‍👧',
+  'familywomanwomanboy',                  '👩‍👩‍👦',
+  'familywomanwomanboyboy',               '👩‍👩‍👦‍👦',
+  'familywomanwomangirl',                 '👩‍👩‍👧',
+  'familywomanwomangirlboy',              '👩‍👩‍👧‍👦',
+  'familywomanwomangirlgirl',             '👩‍👩‍👧‍👧',
+  'farmer',                               '🧑‍🌾',
+  'faroe-islands',                        '🇫🇴',
+  'faroeislands',                         '🇫🇴',
+  'fast-forward',                         '⏩',
+  'fastforward',                          '⏩',
+  'fax',                                  '📠',
+  'fearful',                              '😨',
+  'feather',                              '🪶',
+  'feet',                                 '🐾',
+  'female-detective',                     '🕵️‍♀️',
+  'female-sign',                          '♀️',
+  'femaledetective',                      '🕵️‍♀️',
+  'femalesign',                           '♀️',
+  'ferris-wheel',                         '🎡',
+  'ferriswheel',                          '🎡',
+  'ferry',                                '⛴️',
+  'field-hockey',                         '🏑',
+  'fieldhockey',                          '🏑',
+  'fiji',                                 '🇫🇯',
+  'file-cabinet',                         '🗄️',
+  'file-folder',                          '📁',
+  'filecabinet',                          '🗄️',
+  'filefolder',                           '📁',
+  'film-projector',                       '📽️',
+  'film-strip',                           '🎞️',
+  'filmprojector',                        '📽️',
+  'filmstrip',                            '🎞️',
+  'finland',                              '🇫🇮',
+  'fire',                                 '🔥',
+  'fire-engine',                          '🚒',
+  'fire-extinguisher',                    '🧯',
+  'firecracker',                          '🧨',
+  'fireengine',                           '🚒',
+  'fireextinguisher',                     '🧯',
+  'firefighter',                          '🧑‍🚒',
+  'fireworks',                            '🎆',
+  'first-quarter-moon',                   '🌓',
+  'first-quarter-moon-with-face',         '🌛',
+  'firstquartermoon',                     '🌓',
+  'firstquartermoonwithface',             '🌛',
+  'fish',                                 '🐟',
+  'fish-cake',                            '🍥',
+  'fishcake',                             '🍥',
+  'fishing-pole-and-fish',                '🎣',
+  'fishingpoleandfish',                   '🎣',
+  'fist',                                 '✊',
+  'fist-left',                            '🤛',
+  'fist-oncoming',                        '👊',
+  'fist-raised',                          '✊',
+  'fist-right',                           '🤜',
+  'fistleft',                             '🤛',
+  'fistoncoming',                         '👊',
+  'fistraised',                           '✊',
+  'fistright',                            '🤜',
+  'five',                                 '5️⃣',
+  'flags',                                '🎏',
+  'flamingo',                             '🦩',
+  'flashlight',                           '🔦',
+  'flat-shoe',                            '🥿',
+  'flatbread',                            '🫓',
+  'flatshoe',                             '🥿',
+  'fleur-de-lis',                         '⚜️',
+  'fleurdelis',                           '⚜️',
+  'flight-arrival',                       '🛬',
+  'flight-departure',                     '🛫',
+  'flightarrival',                        '🛬',
+  'flightdeparture',                      '🛫',
+  'flipper',                              '🐬',
+  'floppy-disk',                          '💾',
+  'floppydisk',                           '💾',
+  'flower-playing-cards',                 '🎴',
+  'flowerplayingcards',                   '🎴',
+  'flushed',                              '😳',
+  'flute',                                '🪈',
+  'fly',                                  '🪰',
+  'flying-disc',                          '🥏',
+  'flying-saucer',                        '🛸',
+  'flyingdisc',                           '🥏',
+  'flyingsaucer',                         '🛸',
+  'fog',                                  '🌫️',
+  'foggy',                                '🌁',
+  'folding-hand-fan',                     '🪭',
+  'foldinghandfan',                       '🪭',
+  'fondue',                               '🫕',
+  'foot',                                 '🦶',
+  'football',                             '🏈',
+  'footprints',                           '👣',
+  'fork-and-knife',                       '🍴',
+  'forkandknife',                         '🍴',
+  'fortune-cookie',                       '🥠',
+  'fortunecookie',                        '🥠',
+  'fountain',                             '⛲',
+  'fountain-pen',                         '🖋️',
+  'fountainpen',                          '🖋️',
+  'four',                                 '4️⃣',
+  'four-leaf-clover',                     '🍀',
+  'fourleafclover',                       '🍀',
+  'fox-face',                             '🦊',
+  'foxface',                              '🦊',
+  'fr',                                   '🇫🇷',
+  'framed-picture',                       '🖼️',
+  'framedpicture',                        '🖼️',
+  'free',                                 '🆓',
+  'french-guiana',                        '🇬🇫',
+  'french-polynesia',                     '🇵🇫',
+  'french-southern-territories',          '🇹🇫',
+  'frenchguiana',                         '🇬🇫',
+  'frenchpolynesia',                      '🇵🇫',
+  'frenchsouthernterritories',            '🇹🇫',
+  'fried-egg',                            '🍳',
+  'fried-shrimp',                         '🍤',
+  'friedegg',                             '🍳',
+  'friedshrimp',                          '🍤',
+  'fries',                                '🍟',
+  'frog',                                 '🐸',
+  'frowning',                             '😦',
+  'frowning-face',                        '☹️',
+  'frowning-man',                         '🙍‍♂️',
+  'frowning-person',                      '🙍',
+  'frowning-woman',                       '🙍‍♀️',
+  'frowningface',                         '☹️',
+  'frowningman',                          '🙍‍♂️',
+  'frowningperson',                       '🙍',
+  'frowningwoman',                        '🙍‍♀️',
+  'fu',                                   '🖕',
+  'fuelpump',                             '⛽',
+  'full-moon',                            '🌕',
+  'full-moon-with-face',                  '🌝',
+  'fullmoon',                             '🌕',
+  'fullmoonwithface',                     '🌝',
+  'funeral-urn',                          '⚱️',
+  'funeralurn',                           '⚱️',
+  'gabon',                                '🇬🇦',
+  'gambia',                               '🇬🇲',
+  'game-die',                             '🎲',
+  'gamedie',                              '🎲',
+  'garlic',                               '🧄',
+  'gb',                                   '🇬🇧',
+  'gear',                                 '⚙️',
+  'gem',                                  '💎',
+  'gemini',                               '♊',
+  'genie',                                '🧞',
+  'genie-man',                            '🧞‍♂️',
+  'genie-woman',                          '🧞‍♀️',
+  'genieman',                             '🧞‍♂️',
+  'geniewoman',                           '🧞‍♀️',
+  'georgia',                              '🇬🇪',
+  'ghana',                                '🇬🇭',
+  'ghost',                                '👻',
+  'gibraltar',                            '🇬🇮',
+  'gift',                                 '🎁',
+  'gift-heart',                           '💝',
+  'giftheart',                            '💝',
+  'ginger-root',                          '🫚',
+  'gingerroot',                           '🫚',
+  'giraffe',                              '🦒',
+  'girl',                                 '👧',
+  'globe-with-meridians',                 '🌐',
+  'globewithmeridians',                   '🌐',
+  'gloves',                               '🧤',
+  'goal-net',                             '🥅',
+  'goalnet',                              '🥅',
+  'goat',                                 '🐐',
+  'goggles',                              '🥽',
+  'golf',                                 '⛳',
+  'golfing',                              '🏌️',
+  'golfing-man',                          '🏌️‍♂️',
+  'golfing-woman',                        '🏌️‍♀️',
+  'golfingman',                           '🏌️‍♂️',
+  'golfingwoman',                         '🏌️‍♀️',
+  'goose',                                '🪿',
+  'gorilla',                              '🦍',
+  'grapes',                               '🍇',
+  'greece',                               '🇬🇷',
+  'green-apple',                          '🍏',
+  'green-book',                           '📗',
+  'green-circle',                         '🟢',
+  'green-heart',                          '💚',
+  'green-salad',                          '🥗',
+  'green-square',                         '🟩',
+  'greenapple',                           '🍏',
+  'greenbook',                            '📗',
+  'greencircle',                          '🟢',
+  'greenheart',                           '💚',
+  'greenland',                            '🇬🇱',
+  'greensalad',                           '🥗',
+  'greensquare',                          '🟩',
+  'grenada',                              '🇬🇩',
+  'grey-exclamation',                     '❕',
+  'grey-heart',                           '🩶',
+  'grey-question',                        '❔',
+  'greyexclamation',                      '❕',
+  'greyheart',                            '🩶',
+  'greyquestion',                         '❔',
+  'grimacing',                            '😬',
+  'grin',                                 '😁',
+  'grinning',                             '😀',
+  'guadeloupe',                           '🇬🇵',
+  'guam',                                 '🇬🇺',
+  'guard',                                '💂',
+  'guardsman',                            '💂‍♂️',
+  'guardswoman',                          '💂‍♀️',
+  'guatemala',                            '🇬🇹',
+  'guernsey',                             '🇬🇬',
+  'guide-dog',                            '🦮',
+  'guidedog',                             '🦮',
+  'guinea',                               '🇬🇳',
+  'guinea-bissau',                        '🇬🇼',
+  'guineabissau',                         '🇬🇼',
+  'guitar',                               '🎸',
+  'gun',                                  '🔫',
+  'guyana',                               '🇬🇾',
+  'hair-pick',                            '🪮',
+  'haircut',                              '💇',
+  'haircut-man',                          '💇‍♂️',
+  'haircut-woman',                        '💇‍♀️',
+  'haircutman',                           '💇‍♂️',
+  'haircutwoman',                         '💇‍♀️',
+  'hairpick',                             '🪮',
+  'haiti',                                '🇭🇹',
+  'hamburger',                            '🍔',
+  'hammer',                               '🔨',
+  'hammer-and-pick',                      '⚒️',
+  'hammer-and-wrench',                    '🛠️',
+  'hammerandpick',                        '⚒️',
+  'hammerandwrench',                      '🛠️',
+  'hamsa',                                '🪬',
+  'hamster',                              '🐹',
+  'hand',                                 '✋',
+  'hand-over-mouth',                      '🤭',
+  'hand-with-index-finger-and-thumb-crossed','🫰',
+  'handbag',                              '👜',
+  'handball-person',                      '🤾',
+  'handballperson',                       '🤾',
+  'handovermouth',                        '🤭',
+  'handshake',                            '🤝',
+  'handwithindexfingerandthumbcrossed',   '🫰',
+  'hankey',                               '💩',
+  'hash',                                 '#️⃣',
+  'hatched-chick',                        '🐥',
+  'hatchedchick',                         '🐥',
+  'hatching-chick',                       '🐣',
+  'hatchingchick',                        '🐣',
+  'headphones',                           '🎧',
+  'headstone',                            '🪦',
+  'health-worker',                        '🧑‍⚕️',
+  'healthworker',                         '🧑‍⚕️',
+  'hear-no-evil',                         '🙉',
+  'heard-mcdonald-islands',               '🇭🇲',
+  'heardmcdonaldislands',                 '🇭🇲',
+  'hearnoevil',                           '🙉',
+  'heart',                                '❤️',
+  'heart-decoration',                     '💟',
+  'heart-eyes',                           '😍',
+  'heart-eyes-cat',                       '😻',
+  'heart-hands',                          '🫶',
+  'heart-on-fire',                        '❤️‍🔥',
+  'heartbeat',                            '💓',
+  'heartdecoration',                      '💟',
+  'hearteyes',                            '😍',
+  'hearteyescat',                         '😻',
+  'hearthands',                           '🫶',
+  'heartonfire',                          '❤️‍🔥',
+  'heartpulse',                           '💗',
+  'hearts',                               '♥️',
+  'heavy-check-mark',                     '✔️',
+  'heavy-division-sign',                  '➗',
+  'heavy-dollar-sign',                    '💲',
+  'heavy-equals-sign',                    '🟰',
+  'heavy-exclamation-mark',               '❗',
+  'heavy-heart-exclamation',              '❣️',
+  'heavy-minus-sign',                     '➖',
+  'heavy-multiplication-x',               '✖️',
+  'heavy-plus-sign',                      '➕',
+  'heavycheckmark',                       '✔️',
+  'heavydivisionsign',                    '➗',
+  'heavydollarsign',                      '💲',
+  'heavyequalssign',                      '🟰',
+  'heavyexclamationmark',                 '❗',
+  'heavyheartexclamation',                '❣️',
+  'heavyminussign',                       '➖',
+  'heavymultiplicationx',                 '✖️',
+  'heavyplussign',                        '➕',
+  'hedgehog',                             '🦔',
+  'helicopter',                           '🚁',
+  'herb',                                 '🌿',
+  'hibiscus',                             '🌺',
+  'high-brightness',                      '🔆',
+  'high-heel',                            '👠',
+  'highbrightness',                       '🔆',
+  'highheel',                             '👠',
+  'hiking-boot',                          '🥾',
+  'hikingboot',                           '🥾',
+  'hindu-temple',                         '🛕',
+  'hindutemple',                          '🛕',
+  'hippopotamus',                         '🦛',
+  'hocho',                                '🔪',
+  'hole',                                 '🕳️',
+  'honduras',                             '🇭🇳',
+  'honey-pot',                            '🍯',
+  'honeybee',                             '🐝',
+  'honeypot',                             '🍯',
+  'hong-kong',                            '🇭🇰',
+  'hongkong',                             '🇭🇰',
+  'hook',                                 '🪝',
+  'horse',                                '🐴',
+  'horse-racing',                         '🏇',
+  'horseracing',                          '🏇',
+  'hospital',                             '🏥',
+  'hot-face',                             '🥵',
+  'hot-pepper',                           '🌶️',
+  'hotdog',                               '🌭',
+  'hotel',                                '🏨',
+  'hotface',                              '🥵',
+  'hotpepper',                            '🌶️',
+  'hotsprings',                           '♨️',
+  'hourglass',                            '⌛',
+  'hourglass-flowing-sand',               '⏳',
+  'hourglassflowingsand',                 '⏳',
+  'house',                                '🏠',
+  'house-with-garden',                    '🏡',
+  'houses',                               '🏘️',
+  'housewithgarden',                      '🏡',
+  'hugs',                                 '🤗',
+  'hungary',                              '🇭🇺',
+  'hushed',                               '😯',
+  'hut',                                  '🛖',
+  'hyacinth',                             '🪻',
+  'ice-cream',                            '🍨',
+  'ice-cube',                             '🧊',
+  'ice-hockey',                           '🏒',
+  'ice-skate',                            '⛸️',
+  'icecream',                             '🍦',
+  'icecream',                             '🍨',
+  'icecube',                              '🧊',
+  'icehockey',                            '🏒',
+  'iceland',                              '🇮🇸',
+  'iceskate',                             '⛸️',
+  'id',                                   '🆔',
+  'identification-card',                  '🪪',
+  'identificationcard',                   '🪪',
+  'ideograph-advantage',                  '🉐',
+  'ideographadvantage',                   '🉐',
+  'imp',                                  '👿',
+  'inbox-tray',                           '📥',
+  'inboxtray',                            '📥',
+  'incoming-envelope',                    '📨',
+  'incomingenvelope',                     '📨',
+  'index-pointing-at-the-viewer',         '🫵',
+  'indexpointingattheviewer',             '🫵',
+  'india',                                '🇮🇳',
+  'indonesia',                            '🇮🇩',
+  'infinity',                             '♾️',
+  'information-desk-person',              '💁',
+  'information-source',                   'ℹ️',
+  'informationdeskperson',                '💁',
+  'informationsource',                    'ℹ️',
+  'innocent',                             '😇',
+  'interrobang',                          '⁉️',
+  'iphone',                               '📱',
+  'iran',                                 '🇮🇷',
+  'iraq',                                 '🇮🇶',
+  'ireland',                              '🇮🇪',
+  'isle-of-man',                          '🇮🇲',
+  'isleofman',                            '🇮🇲',
+  'israel',                               '🇮🇱',
+  'it',                                   '🇮🇹',
+  'izakaya-lantern',                      '🏮',
+  'izakayalantern',                       '🏮',
+  'jack-o-lantern',                       '🎃',
+  'jackolantern',                         '🎃',
+  'jamaica',                              '🇯🇲',
+  'japan',                                '🗾',
+  'japanese-castle',                      '🏯',
+  'japanese-goblin',                      '👺',
+  'japanese-ogre',                        '👹',
+  'japanesecastle',                       '🏯',
+  'japanesegoblin',                       '👺',
+  'japaneseogre',                         '👹',
+  'jar',                                  '🫙',
+  'jeans',                                '👖',
+  'jellyfish',                            '🪼',
+  'jersey',                               '🇯🇪',
+  'jigsaw',                               '🧩',
+  'jordan',                               '🇯🇴',
+  'joy',                                  '😂',
+  'joy-cat',                              '😹',
+  'joycat',                               '😹',
+  'joystick',                             '🕹️',
+  'jp',                                   '🇯🇵',
+  'judge',                                '🧑‍⚖️',
+  'juggling-person',                      '🤹',
+  'jugglingperson',                       '🤹',
+  'kaaba',                                '🕋',
+  'kangaroo',                             '🦘',
+  'kazakhstan',                           '🇰🇿',
+  'kenya',                                '🇰🇪',
+  'key',                                  '🔑',
+  'keyboard',                             '⌨️',
+  'keycap-ten',                           '🔟',
+  'keycapten',                            '🔟',
+  'khanda',                               '🪯',
+  'kick-scooter',                         '🛴',
+  'kickscooter',                          '🛴',
+  'kimono',                               '👘',
+  'kiribati',                             '🇰🇮',
+  'kiss',                                 '💋',
+  'kissing',                              '😗',
+  'kissing-cat',                          '😽',
+  'kissing-closed-eyes',                  '😚',
+  'kissing-heart',                        '😘',
+  'kissing-smiling-eyes',                 '😙',
+  'kissingcat',                           '😽',
+  'kissingclosedeyes',                    '😚',
+  'kissingheart',                         '😘',
+  'kissingsmilingeyes',                   '😙',
+  'kite',                                 '🪁',
+  'kiwi-fruit',                           '🥝',
+  'kiwifruit',                            '🥝',
+  'kneeling-man',                         '🧎‍♂️',
+  'kneeling-person',                      '🧎',
+  'kneeling-woman',                       '🧎‍♀️',
+  'kneelingman',                          '🧎‍♂️',
+  'kneelingperson',                       '🧎',
+  'kneelingwoman',                        '🧎‍♀️',
+  'knife',                                '🔪',
+  'knot',                                 '🪢',
+  'koala',                                '🐨',
+  'koko',                                 '🈁',
+  'kosovo',                               '🇽🇰',
+  'kr',                                   '🇰🇷',
+  'kuwait',                               '🇰🇼',
+  'kyrgyzstan',                           '🇰🇬',
+  'lab-coat',                             '🥼',
+  'labcoat',                              '🥼',
+  'label',                                '🏷️',
+  'lacrosse',                             '🥍',
+  'ladder',                               '🪜',
+  'lady-beetle',                          '🐞',
+  'ladybeetle',                           '🐞',
+  'lantern',                              '🏮',
+  'laos',                                 '🇱🇦',
+  'large-blue-circle',                    '🔵',
+  'large-blue-diamond',                   '🔷',
+  'large-orange-diamond',                 '🔶',
+  'largebluecircle',                      '🔵',
+  'largebluediamond',                     '🔷',
+  'largeorangediamond',                   '🔶',
+  'last-quarter-moon',                    '🌗',
+  'last-quarter-moon-with-face',          '🌜',
+  'lastquartermoon',                      '🌗',
+  'lastquartermoonwithface',              '🌜',
+  'latin-cross',                          '✝️',
+  'latincross',                           '✝️',
+  'latvia',                               '🇱🇻',
+  'laughing',                             '😆',
+  'leafy-green',                          '🥬',
+  'leafygreen',                           '🥬',
+  'leaves',                               '🍃',
+  'lebanon',                              '🇱🇧',
+  'ledger',                               '📒',
+  'left-luggage',                         '🛅',
+  'left-right-arrow',                     '↔️',
+  'left-speech-bubble',                   '🗨️',
+  'leftluggage',                          '🛅',
+  'leftrightarrow',                       '↔️',
+  'leftspeechbubble',                     '🗨️',
+  'leftwards-arrow-with-hook',            '↩️',
+  'leftwards-hand',                       '🫲',
+  'leftwards-pushing-hand',               '🫷',
+  'leftwardsarrowwithhook',               '↩️',
+  'leftwardshand',                        '🫲',
+  'leftwardspushinghand',                 '🫷',
+  'leg',                                  '🦵',
+  'lemon',                                '🍋',
+  'leo',                                  '♌',
+  'leopard',                              '🐆',
+  'lesotho',                              '🇱🇸',
+  'level-slider',                         '🎚️',
+  'levelslider',                          '🎚️',
+  'liberia',                              '🇱🇷',
+  'libra',                                '♎',
+  'libya',                                '🇱🇾',
+  'liechtenstein',                        '🇱🇮',
+  'light-blue-heart',                     '🩵',
+  'light-rail',                           '🚈',
+  'lightblueheart',                       '🩵',
+  'lightrail',                            '🚈',
+  'link',                                 '🔗',
+  'lion',                                 '🦁',
+  'lips',                                 '👄',
+  'lipstick',                             '💄',
+  'lithuania',                            '🇱🇹',
+  'lizard',                               '🦎',
+  'llama',                                '🦙',
+  'lobster',                              '🦞',
+  'lock',                                 '🔒',
+  'lock-with-ink-pen',                    '🔏',
+  'lockwithinkpen',                       '🔏',
+  'lollipop',                             '🍭',
+  'long-drum',                            '🪘',
+  'longdrum',                             '🪘',
+  'loop',                                 '➿',
+  'lotion-bottle',                        '🧴',
+  'lotionbottle',                         '🧴',
+  'lotus',                                '🪷',
+  'lotus-position',                       '🧘',
+  'lotus-position-man',                   '🧘‍♂️',
+  'lotus-position-woman',                 '🧘‍♀️',
+  'lotusposition',                        '🧘',
+  'lotuspositionman',                     '🧘‍♂️',
+  'lotuspositionwoman',                   '🧘‍♀️',
+  'loud-sound',                           '🔊',
+  'loudsound',                            '🔊',
+  'loudspeaker',                          '📢',
+  'love-hotel',                           '🏩',
+  'love-letter',                          '💌',
+  'love-you-gesture',                     '🤟',
+  'lovehotel',                            '🏩',
+  'loveletter',                           '💌',
+  'loveyougesture',                       '🤟',
+  'low-battery',                          '🪫',
+  'low-brightness',                       '🔅',
+  'lowbattery',                           '🪫',
+  'lowbrightness',                        '🔅',
+  'luggage',                              '🧳',
+  'lungs',                                '🫁',
+  'luxembourg',                           '🇱🇺',
+  'lying-face',                           '🤥',
+  'lyingface',                            '🤥',
+  'm',                                    'Ⓜ️',
+  'macau',                                '🇲🇴',
+  'macedonia',                            '🇲🇰',
+  'madagascar',                           '🇲🇬',
+  'mag',                                  '🔍',
+  'mag-right',                            '🔎',
+  'mage',                                 '🧙',
+  'mage-man',                             '🧙‍♂️',
+  'mage-woman',                           '🧙‍♀️',
+  'mageman',                              '🧙‍♂️',
+  'magewoman',                            '🧙‍♀️',
+  'magic-wand',                           '🪄',
+  'magicwand',                            '🪄',
+  'magnet',                               '🧲',
+  'magright',                             '🔎',
+  'mahjong',                              '🀄',
+  'mailbox',                              '📫',
+  'mailbox-closed',                       '📪',
+  'mailbox-with-mail',                    '📬',
+  'mailbox-with-no-mail',                 '📭',
+  'mailboxclosed',                        '📪',
+  'mailboxwithmail',                      '📬',
+  'mailboxwithnomail',                    '📭',
+  'malawi',                               '🇲🇼',
+  'malaysia',                             '🇲🇾',
+  'maldives',                             '🇲🇻',
+  'male-detective',                       '🕵️‍♂️',
+  'male-sign',                            '♂️',
+  'maledetective',                        '🕵️‍♂️',
+  'malesign',                             '♂️',
+  'mali',                                 '🇲🇱',
+  'malta',                                '🇲🇹',
+  'mammoth',                              '🦣',
+  'man',                                  '👨',
+  'man-artist',                           '👨‍🎨',
+  'man-astronaut',                        '👨‍🚀',
+  'man-beard',                            '🧔‍♂️',
+  'man-cartwheeling',                     '🤸‍♂️',
+  'man-cook',                             '👨‍🍳',
+  'man-dancing',                          '🕺',
+  'man-facepalming',                      '🤦‍♂️',
+  'man-factory-worker',                   '👨‍🏭',
+  'man-farmer',                           '👨‍🌾',
+  'man-feeding-baby',                     '👨‍🍼',
+  'man-firefighter',                      '👨‍🚒',
+  'man-health-worker',                    '👨‍⚕️',
+  'man-in-manual-wheelchair',             '👨‍🦽',
+  'man-in-motorized-wheelchair',          '👨‍🦼',
+  'man-in-tuxedo',                        '🤵‍♂️',
+  'man-judge',                            '👨‍⚖️',
+  'man-juggling',                         '🤹‍♂️',
+  'man-mechanic',                         '👨‍🔧',
+  'man-office-worker',                    '👨‍💼',
+  'man-pilot',                            '👨‍✈️',
+  'man-playing-handball',                 '🤾‍♂️',
+  'man-playing-water-polo',               '🤽‍♂️',
+  'man-scientist',                        '👨‍🔬',
+  'man-shrugging',                        '🤷‍♂️',
+  'man-singer',                           '👨‍🎤',
+  'man-student',                          '👨‍🎓',
+  'man-teacher',                          '👨‍🏫',
+  'man-technologist',                     '👨‍💻',
+  'man-with-gua-pi-mao',                  '👲',
+  'man-with-probing-cane',                '👨‍🦯',
+  'man-with-turban',                      '👳‍♂️',
+  'man-with-veil',                        '👰‍♂️',
+  'manartist',                            '👨‍🎨',
+  'manastronaut',                         '👨‍🚀',
+  'manbeard',                             '🧔‍♂️',
+  'mancartwheeling',                      '🤸‍♂️',
+  'mancook',                              '👨‍🍳',
+  'mandancing',                           '🕺',
+  'mandarin',                             '🍊',
+  'manfacepalming',                       '🤦‍♂️',
+  'manfactoryworker',                     '👨‍🏭',
+  'manfarmer',                            '👨‍🌾',
+  'manfeedingbaby',                       '👨‍🍼',
+  'manfirefighter',                       '👨‍🚒',
+  'mango',                                '🥭',
+  'manhealthworker',                      '👨‍⚕️',
+  'maninmanualwheelchair',                '👨‍🦽',
+  'maninmotorizedwheelchair',             '👨‍🦼',
+  'manintuxedo',                          '🤵‍♂️',
+  'manjudge',                             '👨‍⚖️',
+  'manjuggling',                          '🤹‍♂️',
+  'manmechanic',                          '👨‍🔧',
+  'manofficeworker',                      '👨‍💼',
+  'manpilot',                             '👨‍✈️',
+  'manplayinghandball',                   '🤾‍♂️',
+  'manplayingwaterpolo',                  '🤽‍♂️',
+  'mans-shoe',                            '👞',
+  'manscientist',                         '👨‍🔬',
+  'manshrugging',                         '🤷‍♂️',
+  'mansinger',                            '👨‍🎤',
+  'mansshoe',                             '👞',
+  'manstudent',                           '👨‍🎓',
+  'manteacher',                           '👨‍🏫',
+  'mantechnologist',                      '👨‍💻',
+  'mantelpiece-clock',                    '🕰️',
+  'mantelpiececlock',                     '🕰️',
+  'manual-wheelchair',                    '🦽',
+  'manualwheelchair',                     '🦽',
+  'manwithguapimao',                      '👲',
+  'manwithprobingcane',                   '👨‍🦯',
+  'manwithturban',                        '👳‍♂️',
+  'manwithveil',                          '👰‍♂️',
+  'maple-leaf',                           '🍁',
+  'mapleleaf',                            '🍁',
+  'maracas',                              '🪇',
+  'marshall-islands',                     '🇲🇭',
+  'marshallislands',                      '🇲🇭',
+  'martial-arts-uniform',                 '🥋',
+  'martialartsuniform',                   '🥋',
+  'martinique',                           '🇲🇶',
+  'mask',                                 '😷',
+  'massage',                              '💆',
+  'massage-man',                          '💆‍♂️',
+  'massage-woman',                        '💆‍♀️',
+  'massageman',                           '💆‍♂️',
+  'massagewoman',                         '💆‍♀️',
+  'mate',                                 '🧉',
+  'mauritania',                           '🇲🇷',
+  'mauritius',                            '🇲🇺',
+  'mayotte',                              '🇾🇹',
+  'meat-on-bone',                         '🍖',
+  'meatonbone',                           '🍖',
+  'mechanic',                             '🧑‍🔧',
+  'mechanical-arm',                       '🦾',
+  'mechanical-leg',                       '🦿',
+  'mechanicalarm',                        '🦾',
+  'mechanicalleg',                        '🦿',
+  'medal-military',                       '🎖️',
+  'medal-sports',                         '🏅',
+  'medalmilitary',                        '🎖️',
+  'medalsports',                          '🏅',
+  'medical-symbol',                       '⚕️',
+  'medicalsymbol',                        '⚕️',
+  'mega',                                 '📣',
+  'melon',                                '🍈',
+  'melting-face',                         '🫠',
+  'meltingface',                          '🫠',
+  'memo',                                 '📝',
+  'men-wrestling',                        '🤼‍♂️',
+  'mending-heart',                        '❤️‍🩹',
+  'mendingheart',                         '❤️‍🩹',
+  'menorah',                              '🕎',
+  'mens',                                 '🚹',
+  'menwrestling',                         '🤼‍♂️',
+  'mermaid',                              '🧜‍♀️',
+  'merman',                               '🧜‍♂️',
+  'merperson',                            '🧜',
+  'metal',                                '🤘',
+  'metro',                                '🚇',
+  'mexico',                               '🇲🇽',
+  'microbe',                              '🦠',
+  'micronesia',                           '🇫🇲',
+  'microphone',                           '🎤',
+  'microscope',                           '🔬',
+  'middle-finger',                        '🖕',
+  'middlefinger',                         '🖕',
+  'military-helmet',                      '🪖',
+  'militaryhelmet',                       '🪖',
+  'milk-glass',                           '🥛',
+  'milkglass',                            '🥛',
+  'milky-way',                            '🌌',
+  'milkyway',                             '🌌',
+  'minibus',                              '🚐',
+  'minidisc',                             '💽',
+  'mirror',                               '🪞',
+  'mirror-ball',                          '🪩',
+  'mirrorball',                           '🪩',
+  'mobile-phone-off',                     '📴',
+  'mobilephoneoff',                       '📴',
+  'moldova',                              '🇲🇩',
+  'monaco',                               '🇲🇨',
+  'money-mouth-face',                     '🤑',
+  'money-with-wings',                     '💸',
+  'moneybag',                             '💰',
+  'moneymouthface',                       '🤑',
+  'moneywithwings',                       '💸',
+  'mongolia',                             '🇲🇳',
+  'monkey',                               '🐒',
+  'monkey-face',                          '🐵',
+  'monkeyface',                           '🐵',
+  'monocle-face',                         '🧐',
+  'monocleface',                          '🧐',
+  'monorail',                             '🚝',
+  'montenegro',                           '🇲🇪',
+  'montserrat',                           '🇲🇸',
+  'moon',                                 '🌔',
+  'moon-cake',                            '🥮',
+  'mooncake',                             '🥮',
+  'moose',                                '🫎',
+  'morocco',                              '🇲🇦',
+  'mortar-board',                         '🎓',
+  'mortarboard',                          '🎓',
+  'mosque',                               '🕌',
+  'mosquito',                             '🦟',
+  'motor-boat',                           '🛥️',
+  'motor-scooter',                        '🛵',
+  'motorboat',                            '🛥️',
+  'motorcycle',                           '🏍️',
+  'motorized-wheelchair',                 '🦼',
+  'motorizedwheelchair',                  '🦼',
+  'motorscooter',                         '🛵',
+  'motorway',                             '🛣️',
+  'mount-fuji',                           '🗻',
+  'mountain',                             '⛰️',
+  'mountain-bicyclist',                   '🚵',
+  'mountain-biking-man',                  '🚵‍♂️',
+  'mountain-biking-woman',                '🚵‍♀️',
+  'mountain-cableway',                    '🚠',
+  'mountain-railway',                     '🚞',
+  'mountain-snow',                        '🏔️',
+  'mountainbicyclist',                    '🚵',
+  'mountainbikingman',                    '🚵‍♂️',
+  'mountainbikingwoman',                  '🚵‍♀️',
+  'mountaincableway',                     '🚠',
+  'mountainrailway',                      '🚞',
+  'mountainsnow',                         '🏔️',
+  'mountfuji',                            '🗻',
+  'mouse',                                '🐭',
+  'mouse-trap',                           '🪤',
+  'mouse2',                               '🐁',
+  'mousetrap',                            '🪤',
+  'movie-camera',                         '🎥',
+  'moviecamera',                          '🎥',
+  'moyai',                                '🗿',
+  'mozambique',                           '🇲🇿',
+  'mrs-claus',                            '🤶',
+  'mrsclaus',                             '🤶',
+  'muscle',                               '💪',
+  'mushroom',                             '🍄',
+  'musical-keyboard',                     '🎹',
+  'musical-note',                         '🎵',
+  'musical-score',                        '🎼',
+  'musicalkeyboard',                      '🎹',
+  'musicalnote',                          '🎵',
+  'musicalscore',                         '🎼',
+  'mute',                                 '🔇',
+  'mx-claus',                             '🧑‍🎄',
+  'mxclaus',                              '🧑‍🎄',
+  'myanmar',                              '🇲🇲',
+  'nail-care',                            '💅',
+  'nailcare',                             '💅',
+  'name-badge',                           '📛',
+  'namebadge',                            '📛',
+  'namibia',                              '🇳🇦',
+  'national-park',                        '🏞️',
+  'nationalpark',                         '🏞️',
+  'nauru',                                '🇳🇷',
+  'nauseated-face',                       '🤢',
+  'nauseatedface',                        '🤢',
+  'nazar-amulet',                         '🧿',
+  'nazaramulet',                          '🧿',
+  'necktie',                              '👔',
+  'negative-squared-cross-mark',          '❎',
+  'negativesquaredcrossmark',             '❎',
+  'nepal',                                '🇳🇵',
+  'nerd-face',                            '🤓',
+  'nerdface',                             '🤓',
+  'nest-with-eggs',                       '🪺',
+  'nesting-dolls',                        '🪆',
+  'nestingdolls',                         '🪆',
+  'nestwitheggs',                         '🪺',
+  'netherlands',                          '🇳🇱',
+  'neutral-face',                         '😐',
+  'neutralface',                          '😐',
+  'new',                                  '🆕',
+  'new-caledonia',                        '🇳🇨',
+  'new-moon',                             '🌑',
+  'new-moon-with-face',                   '🌚',
+  'new-zealand',                          '🇳🇿',
+  'newcaledonia',                         '🇳🇨',
+  'newmoon',                              '🌑',
+  'newmoonwithface',                      '🌚',
+  'newspaper',                            '📰',
+  'newspaper-roll',                       '🗞️',
+  'newspaperroll',                        '🗞️',
+  'newzealand',                           '🇳🇿',
+  'next-track-button',                    '⏭️',
+  'nexttrackbutton',                      '⏭️',
+  'ng',                                   '🆖',
+  'ng-man',                               '🙅‍♂️',
+  'ng-woman',                             '🙅‍♀️',
+  'ngman',                                '🙅‍♂️',
+  'ngwoman',                              '🙅‍♀️',
+  'nicaragua',                            '🇳🇮',
+  'niger',                                '🇳🇪',
+  'nigeria',                              '🇳🇬',
+  'night-with-stars',                     '🌃',
+  'nightwithstars',                       '🌃',
+  'nine',                                 '9️⃣',
+  'ninja',                                '🥷',
+  'niue',                                 '🇳🇺',
+  'no-bell',                              '🔕',
+  'no-bicycles',                          '🚳',
+  'no-entry',                             '⛔',
+  'no-entry-sign',                        '🚫',
+  'no-good',                              '🙅',
+  'no-good-man',                          '🙅‍♂️',
+  'no-good-woman',                        '🙅‍♀️',
+  'no-mobile-phones',                     '📵',
+  'no-mouth',                             '😶',
+  'no-pedestrians',                       '🚷',
+  'no-smoking',                           '🚭',
+  'nobell',                               '🔕',
+  'nobicycles',                           '🚳',
+  'noentry',                              '⛔',
+  'noentrysign',                          '🚫',
+  'nogood',                               '🙅',
+  'nogoodman',                            '🙅‍♂️',
+  'nogoodwoman',                          '🙅‍♀️',
+  'nomobilephones',                       '📵',
+  'nomouth',                              '😶',
+  'non-potable-water',                    '🚱',
+  'non-potablewater',                     '🚱',
+  'nopedestrians',                        '🚷',
+  'norfolk-island',                       '🇳🇫',
+  'norfolkisland',                        '🇳🇫',
+  'north-korea',                          '🇰🇵',
+  'northern-mariana-islands',             '🇲🇵',
+  'northernmarianaislands',               '🇲🇵',
+  'northkorea',                           '🇰🇵',
+  'norway',                               '🇳🇴',
+  'nose',                                 '👃',
+  'nosmoking',                            '🚭',
+  'notebook',                             '📓',
+  'notebook-with-decorative-cover',       '📔',
+  'notebookwithdecorativecover',          '📔',
+  'notes',                                '🎶',
+  'nut-and-bolt',                         '🔩',
+  'nutandbolt',                           '🔩',
+  'o',                                    '⭕',
+  'o2',                                   '🅾️',
+  'ocean',                                '🌊',
+  'octopus',                              '🐙',
+  'oden',                                 '🍢',
+  'office',                               '🏢',
+  'office-worker',                        '🧑‍💼',
+  'officeworker',                         '🧑‍💼',
+  'oil-drum',                             '🛢️',
+  'oildrum',                              '🛢️',
+  'ok',                                   '🆗',
+  'ok-hand',                              '👌',
+  'ok-man',                               '🙆‍♂️',
+  'ok-person',                            '🙆',
+  'ok-woman',                             '🙆‍♀️',
+  'okhand',                               '👌',
+  'okman',                                '🙆‍♂️',
+  'okperson',                             '🙆',
+  'okwoman',                              '🙆‍♀️',
+  'old-key',                              '🗝️',
+  'older-adult',                          '🧓',
+  'older-man',                            '👴',
+  'older-woman',                          '👵',
+  'olderadult',                           '🧓',
+  'olderman',                             '👴',
+  'olderwoman',                           '👵',
+  'oldkey',                               '🗝️',
+  'olive',                                '🫒',
+  'om',                                   '🕉️',
+  'oman',                                 '🇴🇲',
+  'on',                                   '🔛',
+  'oncoming-automobile',                  '🚘',
+  'oncoming-bus',                         '🚍',
+  'oncoming-police-car',                  '🚔',
+  'oncoming-taxi',                        '🚖',
+  'oncomingautomobile',                   '🚘',
+  'oncomingbus',                          '🚍',
+  'oncomingpolicecar',                    '🚔',
+  'oncomingtaxi',                         '🚖',
+  'one',                                  '1️⃣',
+  'one-piece-swimsuit',                   '🩱',
+  'onepieceswimsuit',                     '🩱',
+  'onion',                                '🧅',
+  'open-book',                            '📖',
+  'open-file-folder',                     '📂',
+  'open-hands',                           '👐',
+  'open-mouth',                           '😮',
+  'open-umbrella',                        '☂️',
+  'openbook',                             '📖',
+  'openfilefolder',                       '📂',
+  'openhands',                            '👐',
+  'openmouth',                            '😮',
+  'openumbrella',                         '☂️',
+  'ophiuchus',                            '⛎',
+  'orange',                               '🍊',
+  'orange-book',                          '📙',
+  'orange-circle',                        '🟠',
+  'orange-heart',                         '🧡',
+  'orange-square',                        '🟧',
+  'orangebook',                           '📙',
+  'orangecircle',                         '🟠',
+  'orangeheart',                          '🧡',
+  'orangesquare',                         '🟧',
+  'orangutan',                            '🦧',
+  'orthodox-cross',                       '☦️',
+  'orthodoxcross',                        '☦️',
+  'otter',                                '🦦',
+  'outbox-tray',                          '📤',
+  'outboxtray',                           '📤',
+  'owl',                                  '🦉',
+  'ox',                                   '🐂',
+  'oyster',                               '🦪',
+  'package',                              '📦',
+  'page-facing-up',                       '📄',
+  'page-with-curl',                       '📃',
+  'pagefacingup',                         '📄',
+  'pager',                                '📟',
+  'pagewithcurl',                         '📃',
+  'paintbrush',                           '🖌️',
+  'pakistan',                             '🇵🇰',
+  'palau',                                '🇵🇼',
+  'palestinian-territories',              '🇵🇸',
+  'palestinianterritories',               '🇵🇸',
+  'palm-down-hand',                       '🫳',
+  'palm-tree',                            '🌴',
+  'palm-up-hand',                         '🫴',
+  'palmdownhand',                         '🫳',
+  'palms-up-together',                    '🤲',
+  'palmsuptogether',                      '🤲',
+  'palmtree',                             '🌴',
+  'palmuphand',                           '🫴',
+  'panama',                               '🇵🇦',
+  'pancakes',                             '🥞',
+  'panda-face',                           '🐼',
+  'pandaface',                            '🐼',
+  'paperclip',                            '📎',
+  'paperclips',                           '🖇️',
+  'papua-new-guinea',                     '🇵🇬',
+  'papuanewguinea',                       '🇵🇬',
+  'parachute',                            '🪂',
+  'paraguay',                             '🇵🇾',
+  'parasol-on-ground',                    '⛱️',
+  'parasolonground',                      '⛱️',
+  'parking',                              '🅿️',
+  'parrot',                               '🦜',
+  'part-alternation-mark',                '〽️',
+  'partalternationmark',                  '〽️',
+  'partly-sunny',                         '⛅',
+  'partlysunny',                          '⛅',
+  'partying-face',                        '🥳',
+  'partyingface',                         '🥳',
+  'passenger-ship',                       '🛳️',
+  'passengership',                        '🛳️',
+  'passport-control',                     '🛂',
+  'passportcontrol',                      '🛂',
+  'pause-button',                         '⏸️',
+  'pausebutton',                          '⏸️',
+  'paw-prints',                           '🐾',
+  'pawprints',                            '🐾',
+  'pea-pod',                              '🫛',
+  'peace-symbol',                         '☮️',
+  'peacesymbol',                          '☮️',
+  'peach',                                '🍑',
+  'peacock',                              '🦚',
+  'peanuts',                              '🥜',
+  'peapod',                               '🫛',
+  'pear',                                 '🍐',
+  'pen',                                  '🖊️',
+  'pencil',                               '📝',
+  'pencil2',                              '✏️',
+  'penguin',                              '🐧',
+  'pensive',                              '😔',
+  'people-holding-hands',                 '🧑‍🤝‍🧑',
+  'people-hugging',                       '🫂',
+  'peopleholdinghands',                   '🧑‍🤝‍🧑',
+  'peoplehugging',                        '🫂',
+  'performing-arts',                      '🎭',
+  'performingarts',                       '🎭',
+  'persevere',                            '😣',
+  'person-bald',                          '🧑‍🦲',
+  'person-curly-hair',                    '🧑‍🦱',
+  'person-feeding-baby',                  '🧑‍🍼',
+  'person-fencing',                       '🤺',
+  'person-in-manual-wheelchair',          '🧑‍🦽',
+  'person-in-motorized-wheelchair',       '🧑‍🦼',
+  'person-in-tuxedo',                     '🤵',
+  'person-red-hair',                      '🧑‍🦰',
+  'person-white-hair',                    '🧑‍🦳',
+  'person-with-crown',                    '🫅',
+  'person-with-probing-cane',             '🧑‍🦯',
+  'person-with-turban',                   '👳',
+  'person-with-veil',                     '👰',
+  'personbald',                           '🧑‍🦲',
+  'personcurlyhair',                      '🧑‍🦱',
+  'personfeedingbaby',                    '🧑‍🍼',
+  'personfencing',                        '🤺',
+  'personinmanualwheelchair',             '🧑‍🦽',
+  'personinmotorizedwheelchair',          '🧑‍🦼',
+  'personintuxedo',                       '🤵',
+  'personredhair',                        '🧑‍🦰',
+  'personwhitehair',                      '🧑‍🦳',
+  'personwithcrown',                      '🫅',
+  'personwithprobingcane',                '🧑‍🦯',
+  'personwithturban',                     '👳',
+  'personwithveil',                       '👰',
+  'peru',                                 '🇵🇪',
+  'petri-dish',                           '🧫',
+  'petridish',                            '🧫',
+  'philippines',                          '🇵🇭',
+  'phone',                                '☎️',
+  'pick',                                 '⛏️',
+  'pickup-truck',                         '🛻',
+  'pickuptruck',                          '🛻',
+  'pie',                                  '🥧',
+  'pig',                                  '🐷',
+  'pig-nose',                             '🐽',
+  'pig2',                                 '🐖',
+  'pignose',                              '🐽',
+  'pill',                                 '💊',
+  'pilot',                                '🧑‍✈️',
+  'pinata',                               '🪅',
+  'pinched-fingers',                      '🤌',
+  'pinchedfingers',                       '🤌',
+  'pinching-hand',                        '🤏',
+  'pinchinghand',                         '🤏',
+  'pineapple',                            '🍍',
+  'ping-pong',                            '🏓',
+  'pingpong',                             '🏓',
+  'pink-heart',                           '🩷',
+  'pinkheart',                            '🩷',
+  'pirate-flag',                          '🏴‍☠️',
+  'pirateflag',                           '🏴‍☠️',
+  'pisces',                               '♓',
+  'pitcairn-islands',                     '🇵🇳',
+  'pitcairnislands',                      '🇵🇳',
+  'pizza',                                '🍕',
+  'placard',                              '🪧',
+  'place-of-worship',                     '🛐',
+  'placeofworship',                       '🛐',
+  'plate-with-cutlery',                   '🍽️',
+  'platewithcutlery',                     '🍽️',
+  'play-or-pause-button',                 '⏯️',
+  'playground-slide',                     '🛝',
+  'playgroundslide',                      '🛝',
+  'playorpausebutton',                    '⏯️',
+  'pleading-face',                        '🥺',
+  'pleadingface',                         '🥺',
+  'plunger',                              '🪠',
+  'point-down',                           '👇',
+  'point-left',                           '👈',
+  'point-right',                          '👉',
+  'point-up',                             '☝️',
+  'point-up-2',                           '👆',
+  'pointdown',                            '👇',
+  'pointleft',                            '👈',
+  'pointright',                           '👉',
+  'pointup',                              '☝️',
+  'pointup2',                             '👆',
+  'poland',                               '🇵🇱',
+  'polar-bear',                           '🐻‍❄️',
+  'polarbear',                            '🐻‍❄️',
+  'police-car',                           '🚓',
+  'police-officer',                       '👮',
+  'policecar',                            '🚓',
+  'policeman',                            '👮‍♂️',
+  'policeofficer',                        '👮',
+  'policewoman',                          '👮‍♀️',
+  'poodle',                               '🐩',
+  'poop',                                 '💩',
+  'popcorn',                              '🍿',
+  'portugal',                             '🇵🇹',
+  'post-office',                          '🏣',
+  'postal-horn',                          '📯',
+  'postalhorn',                           '📯',
+  'postbox',                              '📮',
+  'postoffice',                           '🏣',
+  'potable-water',                        '🚰',
+  'potablewater',                         '🚰',
+  'potato',                               '🥔',
+  'potted-plant',                         '🪴',
+  'pottedplant',                          '🪴',
+  'pouch',                                '👝',
+  'poultry-leg',                          '🍗',
+  'poultryleg',                           '🍗',
+  'pound',                                '💷',
+  'pouring-liquid',                       '🫗',
+  'pouringliquid',                        '🫗',
+  'pout',                                 '😡',
+  'pouting-cat',                          '😾',
+  'pouting-face',                         '🙎',
+  'pouting-man',                          '🙎‍♂️',
+  'pouting-woman',                        '🙎‍♀️',
+  'poutingcat',                           '😾',
+  'poutingface',                          '🙎',
+  'poutingman',                           '🙎‍♂️',
+  'poutingwoman',                         '🙎‍♀️',
+  'pray',                                 '🙏',
+  'prayer-beads',                         '📿',
+  'prayerbeads',                          '📿',
+  'pregnant-man',                         '🫃',
+  'pregnant-person',                      '🫄',
+  'pregnant-woman',                       '🤰',
+  'pregnantman',                          '🫃',
+  'pregnantperson',                       '🫄',
+  'pregnantwoman',                        '🤰',
+  'pretzel',                              '🥨',
+  'previous-track-button',                '⏮️',
+  'previoustrackbutton',                  '⏮️',
+  'prince',                               '🤴',
+  'princess',                             '👸',
+  'printer',                              '🖨️',
+  'probing-cane',                         '🦯',
+  'probingcane',                          '🦯',
+  'puerto-rico',                          '🇵🇷',
+  'puertorico',                           '🇵🇷',
+  'punch',                                '👊',
+  'purple-circle',                        '🟣',
+  'purple-heart',                         '💜',
+  'purple-square',                        '🟪',
+  'purplecircle',                         '🟣',
+  'purpleheart',                          '💜',
+  'purplesquare',                         '🟪',
+  'purse',                                '👛',
+  'pushpin',                              '📌',
+  'put-litter-in-its-place',              '🚮',
+  'putlitterinitsplace',                  '🚮',
+  'qatar',                                '🇶🇦',
+  'question',                             '❓',
+  'rabbit',                               '🐰',
+  'rabbit2',                              '🐇',
+  'raccoon',                              '🦝',
+  'racehorse',                            '🐎',
+  'racing-car',                           '🏎️',
+  'racingcar',                            '🏎️',
+  'radio',                                '📻',
+  'radio-button',                         '🔘',
+  'radioactive',                          '☢️',
+  'radiobutton',                          '🔘',
+  'rage',                                 '😡',
+  'railway-car',                          '🚃',
+  'railway-track',                        '🛤️',
+  'railwaycar',                           '🚃',
+  'railwaytrack',                         '🛤️',
+  'rainbow',                              '🌈',
+  'rainbow-flag',                         '🏳️‍🌈',
+  'rainbowflag',                          '🏳️‍🌈',
+  'raised-back-of-hand',                  '🤚',
+  'raised-eyebrow',                       '🤨',
+  'raised-hand',                          '✋',
+  'raised-hand-with-fingers-splayed',     '🖐️',
+  'raised-hands',                         '🙌',
+  'raisedbackofhand',                     '🤚',
+  'raisedeyebrow',                        '🤨',
+  'raisedhand',                           '✋',
+  'raisedhands',                          '🙌',
+  'raisedhandwithfingerssplayed',         '🖐️',
+  'raising-hand',                         '🙋',
+  'raising-hand-man',                     '🙋‍♂️',
+  'raising-hand-woman',                   '🙋‍♀️',
+  'raisinghand',                          '🙋',
+  'raisinghandman',                       '🙋‍♂️',
+  'raisinghandwoman',                     '🙋‍♀️',
+  'ram',                                  '🐏',
+  'ramen',                                '🍜',
+  'rat',                                  '🐀',
+  'razor',                                '🪒',
+  'receipt',                              '🧾',
+  'record-button',                        '⏺️',
+  'recordbutton',                         '⏺️',
+  'recycle',                              '♻️',
+  'red-car',                              '🚗',
+  'red-circle',                           '🔴',
+  'red-envelope',                         '🧧',
+  'red-haired-man',                       '👨‍🦰',
+  'red-haired-woman',                     '👩‍🦰',
+  'red-square',                           '🟥',
+  'redcar',                               '🚗',
+  'redcircle',                            '🔴',
+  'redenvelope',                          '🧧',
+  'redhairedman',                         '👨‍🦰',
+  'redhairedwoman',                       '👩‍🦰',
+  'redsquare',                            '🟥',
+  'registered',                           '®️',
+  'relaxed',                              '☺️',
+  'relieved',                             '😌',
+  'reminder-ribbon',                      '🎗️',
+  'reminderribbon',                       '🎗️',
+  'repeat',                               '🔁',
+  'repeat-one',                           '🔂',
+  'repeatone',                            '🔂',
+  'rescue-worker-helmet',                 '⛑️',
+  'rescueworkerhelmet',                   '⛑️',
+  'restroom',                             '🚻',
+  'reunion',                              '🇷🇪',
+  'revolving-hearts',                     '💞',
+  'revolvinghearts',                      '💞',
+  'rewind',                               '⏪',
+  'rhinoceros',                           '🦏',
+  'ribbon',                               '🎀',
+  'rice',                                 '🍚',
+  'rice-ball',                            '🍙',
+  'rice-cracker',                         '🍘',
+  'rice-scene',                           '🎑',
+  'riceball',                             '🍙',
+  'ricecracker',                          '🍘',
+  'ricescene',                            '🎑',
+  'right-anger-bubble',                   '🗯️',
+  'rightangerbubble',                     '🗯️',
+  'rightwards-hand',                      '🫱',
+  'rightwards-pushing-hand',              '🫸',
+  'rightwardshand',                       '🫱',
+  'rightwardspushinghand',                '🫸',
+  'ring',                                 '💍',
+  'ring-buoy',                            '🛟',
+  'ringbuoy',                             '🛟',
+  'ringed-planet',                        '🪐',
+  'ringedplanet',                         '🪐',
+  'robot',                                '🤖',
+  'rock',                                 '🪨',
+  'rocket',                               '🚀',
+  'rofl',                                 '🤣',
+  'roll-eyes',                            '🙄',
+  'roll-of-paper',                        '🧻',
+  'roller-coaster',                       '🎢',
+  'roller-skate',                         '🛼',
+  'rollercoaster',                        '🎢',
+  'rollerskate',                          '🛼',
+  'rolleyes',                             '🙄',
+  'rollofpaper',                          '🧻',
+  'romania',                              '🇷🇴',
+  'rooster',                              '🐓',
+  'rose',                                 '🌹',
+  'rosette',                              '🏵️',
+  'rotating-light',                       '🚨',
+  'rotatinglight',                        '🚨',
+  'round-pushpin',                        '📍',
+  'roundpushpin',                         '📍',
+  'rowboat',                              '🚣',
+  'rowing-man',                           '🚣‍♂️',
+  'rowing-woman',                         '🚣‍♀️',
+  'rowingman',                            '🚣‍♂️',
+  'rowingwoman',                          '🚣‍♀️',
+  'ru',                                   '🇷🇺',
+  'rugby-football',                       '🏉',
+  'rugbyfootball',                        '🏉',
+  'runner',                               '🏃',
+  'running',                              '🏃',
+  'running-man',                          '🏃‍♂️',
+  'running-shirt-with-sash',              '🎽',
+  'running-woman',                        '🏃‍♀️',
+  'runningman',                           '🏃‍♂️',
+  'runningshirtwithsash',                 '🎽',
+  'runningwoman',                         '🏃‍♀️',
+  'rwanda',                               '🇷🇼',
+  'sa',                                   '🈂️',
+  'safety-pin',                           '🧷',
+  'safety-vest',                          '🦺',
+  'safetypin',                            '🧷',
+  'safetyvest',                           '🦺',
+  'sagittarius',                          '♐',
+  'sailboat',                             '⛵',
+  'sake',                                 '🍶',
+  'salt',                                 '🧂',
+  'saluting-face',                        '🫡',
+  'salutingface',                         '🫡',
+  'samoa',                                '🇼🇸',
+  'san-marino',                           '🇸🇲',
+  'sandal',                               '👡',
+  'sandwich',                             '🥪',
+  'sanmarino',                            '🇸🇲',
+  'santa',                                '🎅',
+  'sao-tome-principe',                    '🇸🇹',
+  'saotomeprincipe',                      '🇸🇹',
+  'sari',                                 '🥻',
+  'sassy-man',                            '💁‍♂️',
+  'sassy-woman',                          '💁‍♀️',
+  'sassyman',                             '💁‍♂️',
+  'sassywoman',                           '💁‍♀️',
+  'satellite',                            '📡',
+  'satisfied',                            '😆',
+  'saudi-arabia',                         '🇸🇦',
+  'saudiarabia',                          '🇸🇦',
+  'sauna-man',                            '🧖‍♂️',
+  'sauna-person',                         '🧖',
+  'sauna-woman',                          '🧖‍♀️',
+  'saunaman',                             '🧖‍♂️',
+  'saunaperson',                          '🧖',
+  'saunawoman',                           '🧖‍♀️',
+  'sauropod',                             '🦕',
+  'saxophone',                            '🎷',
+  'scarf',                                '🧣',
+  'school',                               '🏫',
+  'school-satchel',                       '🎒',
+  'schoolsatchel',                        '🎒',
+  'scientist',                            '🧑‍🔬',
+  'scissors',                             '✂️',
+  'scorpion',                             '🦂',
+  'scorpius',                             '♏',
+  'scotland',                             '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+  'scream',                               '😱',
+  'scream-cat',                           '🙀',
+  'screamcat',                            '🙀',
+  'screwdriver',                          '🪛',
+  'scroll',                               '📜',
+  'seal',                                 '🦭',
+  'seat',                                 '💺',
+  'secret',                               '㊙️',
+  'see-no-evil',                          '🙈',
+  'seedling',                             '🌱',
+  'seenoevil',                            '🙈',
+  'selfie',                               '🤳',
+  'senegal',                              '🇸🇳',
+  'serbia',                               '🇷🇸',
+  'service-dog',                          '🐕‍🦺',
+  'servicedog',                           '🐕‍🦺',
+  'seven',                                '7️⃣',
+  'sewing-needle',                        '🪡',
+  'sewingneedle',                         '🪡',
+  'seychelles',                           '🇸🇨',
+  'shaking-face',                         '🫨',
+  'shakingface',                          '🫨',
+  'shallow-pan-of-food',                  '🥘',
+  'shallowpanoffood',                     '🥘',
+  'shamrock',                             '☘️',
+  'shark',                                '🦈',
+  'shaved-ice',                           '🍧',
+  'shavedice',                            '🍧',
+  'sheep',                                '🐑',
+  'shell',                                '🐚',
+  'shield',                               '🛡️',
+  'shinto-shrine',                        '⛩️',
+  'shintoshrine',                         '⛩️',
+  'ship',                                 '🚢',
+  'shirt',                                '👕',
+  'shit',                                 '💩',
+  'shoe',                                 '👞',
+  'shopping',                             '🛍️',
+  'shopping-cart',                        '🛒',
+  'shoppingcart',                         '🛒',
+  'shorts',                               '🩳',
+  'shower',                               '🚿',
+  'shrimp',                               '🦐',
+  'shrug',                                '🤷',
+  'shushing-face',                        '🤫',
+  'shushingface',                         '🤫',
+  'sierra-leone',                         '🇸🇱',
+  'sierraleone',                          '🇸🇱',
+  'signal-strength',                      '📶',
+  'signalstrength',                       '📶',
+  'singapore',                            '🇸🇬',
+  'singer',                               '🧑‍🎤',
+  'sint-maarten',                         '🇸🇽',
+  'sintmaarten',                          '🇸🇽',
+  'six',                                  '6️⃣',
+  'six-pointed-star',                     '🔯',
+  'sixpointedstar',                       '🔯',
+  'skateboard',                           '🛹',
+  'ski',                                  '🎿',
+  'skier',                                '⛷️',
+  'skull',                                '💀',
+  'skull-and-crossbones',                 '☠️',
+  'skullandcrossbones',                   '☠️',
+  'skunk',                                '🦨',
+  'sled',                                 '🛷',
+  'sleeping',                             '😴',
+  'sleeping-bed',                         '🛌',
+  'sleepingbed',                          '🛌',
+  'sleepy',                               '😪',
+  'slightly-frowning-face',               '🙁',
+  'slightly-smiling-face',                '🙂',
+  'slightlyfrowningface',                 '🙁',
+  'slightlysmilingface',                  '🙂',
+  'slot-machine',                         '🎰',
+  'sloth',                                '🦥',
+  'slotmachine',                          '🎰',
+  'slovakia',                             '🇸🇰',
+  'slovenia',                             '🇸🇮',
+  'small-airplane',                       '🛩️',
+  'small-blue-diamond',                   '🔹',
+  'small-orange-diamond',                 '🔸',
+  'small-red-triangle',                   '🔺',
+  'small-red-triangle-down',              '🔻',
+  'smallairplane',                        '🛩️',
+  'smallbluediamond',                     '🔹',
+  'smallorangediamond',                   '🔸',
+  'smallredtriangle',                     '🔺',
+  'smallredtriangledown',                 '🔻',
+  'smile',                                '😄',
+  'smile-cat',                            '😸',
+  'smilecat',                             '😸',
+  'smiley',                               '😃',
+  'smiley-cat',                           '😺',
+  'smileycat',                            '😺',
+  'smiling-face-with-tear',               '🥲',
+  'smiling-face-with-three-hearts',       '🥰',
+  'smiling-imp',                          '😈',
+  'smilingfacewithtear',                  '🥲',
+  'smilingfacewiththreehearts',           '🥰',
+  'smilingimp',                           '😈',
+  'smirk',                                '😏',
+  'smirk-cat',                            '😼',
+  'smirkcat',                             '😼',
+  'smoking',                              '🚬',
+  'snail',                                '🐌',
+  'snake',                                '🐍',
+  'sneezing-face',                        '🤧',
+  'sneezingface',                         '🤧',
+  'snowboarder',                          '🏂',
+  'snowflake',                            '❄️',
+  'snowman',                              '⛄',
+  'snowman-with-snow',                    '☃️',
+  'snowmanwithsnow',                      '☃️',
+  'soap',                                 '🧼',
+  'sob',                                  '😭',
+  'soccer',                               '⚽',
+  'socks',                                '🧦',
+  'softball',                             '🥎',
+  'solomon-islands',                      '🇸🇧',
+  'solomonislands',                       '🇸🇧',
+  'somalia',                              '🇸🇴',
+  'soon',                                 '🔜',
+  'sos',                                  '🆘',
+  'sound',                                '🔉',
+  'south-africa',                         '🇿🇦',
+  'south-georgia-south-sandwich-islands', '🇬🇸',
+  'south-sudan',                          '🇸🇸',
+  'southafrica',                          '🇿🇦',
+  'southgeorgiasouthsandwichislands',     '🇬🇸',
+  'southsudan',                           '🇸🇸',
+  'space-invader',                        '👾',
+  'spaceinvader',                         '👾',
+  'spades',                               '♠️',
+  'spaghetti',                            '🍝',
+  'sparkle',                              '❇️',
+  'sparkler',                             '🎇',
+  'sparkles',                             '✨',
+  'sparkling-heart',                      '💖',
+  'sparklingheart',                       '💖',
+  'speak-no-evil',                        '🙊',
+  'speaker',                              '🔈',
+  'speaking-head',                        '🗣️',
+  'speakinghead',                         '🗣️',
+  'speaknoevil',                          '🙊',
+  'speech-balloon',                       '💬',
+  'speechballoon',                        '💬',
+  'speedboat',                            '🚤',
+  'spider',                               '🕷️',
+  'spider-web',                           '🕸️',
+  'spiderweb',                            '🕸️',
+  'spiral-calendar',                      '🗓️',
+  'spiral-notepad',                       '🗒️',
+  'spiralcalendar',                       '🗓️',
+  'spiralnotepad',                        '🗒️',
+  'sponge',                               '🧽',
+  'spoon',                                '🥄',
+  'squid',                                '🦑',
+  'sri-lanka',                            '🇱🇰',
+  'srilanka',                             '🇱🇰',
+  'st-barthelemy',                        '🇧🇱',
+  'st-helena',                            '🇸🇭',
+  'st-kitts-nevis',                       '🇰🇳',
+  'st-lucia',                             '🇱🇨',
+  'st-martin',                            '🇲🇫',
+  'st-pierre-miquelon',                   '🇵🇲',
+  'st-vincent-grenadines',                '🇻🇨',
+  'stadium',                              '🏟️',
+  'standing-man',                         '🧍‍♂️',
+  'standing-person',                      '🧍',
+  'standing-woman',                       '🧍‍♀️',
+  'standingman',                          '🧍‍♂️',
+  'standingperson',                       '🧍',
+  'standingwoman',                        '🧍‍♀️',
+  'star',                                 '⭐',
+  'star-and-crescent',                    '☪️',
+  'star-of-david',                        '✡️',
+  'star-struck',                          '🤩',
+  'star2',                                '🌟',
+  'starandcrescent',                      '☪️',
+  'starofdavid',                          '✡️',
+  'stars',                                '🌠',
+  'starstruck',                           '🤩',
+  'station',                              '🚉',
+  'statue-of-liberty',                    '🗽',
+  'statueofliberty',                      '🗽',
+  'stbarthelemy',                         '🇧🇱',
+  'steam-locomotive',                     '🚂',
+  'steamlocomotive',                      '🚂',
+  'stethoscope',                          '🩺',
+  'stew',                                 '🍲',
+  'sthelena',                             '🇸🇭',
+  'stkittsnevis',                         '🇰🇳',
+  'stlucia',                              '🇱🇨',
+  'stmartin',                             '🇲🇫',
+  'stop-button',                          '⏹️',
+  'stop-sign',                            '🛑',
+  'stopbutton',                           '⏹️',
+  'stopsign',                             '🛑',
+  'stopwatch',                            '⏱️',
+  'stpierremiquelon',                     '🇵🇲',
+  'straight-ruler',                       '📏',
+  'straightruler',                        '📏',
+  'strawberry',                           '🍓',
+  'stuck-out-tongue',                     '😛',
+  'stuck-out-tongue-closed-eyes',         '😝',
+  'stuck-out-tongue-winking-eye',         '😜',
+  'stuckouttongue',                       '😛',
+  'stuckouttongueclosedeyes',             '😝',
+  'stuckouttonguewinkingeye',             '😜',
+  'student',                              '🧑‍🎓',
+  'studio-microphone',                    '🎙️',
+  'studiomicrophone',                     '🎙️',
+  'stuffed-flatbread',                    '🥙',
+  'stuffedflatbread',                     '🥙',
+  'stvincentgrenadines',                  '🇻🇨',
+  'sudan',                                '🇸🇩',
+  'sun-behind-large-cloud',               '🌥️',
+  'sun-behind-rain-cloud',                '🌦️',
+  'sun-behind-small-cloud',               '🌤️',
+  'sun-with-face',                        '🌞',
+  'sunbehindlargecloud',                  '🌥️',
+  'sunbehindraincloud',                   '🌦️',
+  'sunbehindsmallcloud',                  '🌤️',
+  'sunflower',                            '🌻',
+  'sunglasses',                           '😎',
+  'sunny',                                '☀️',
+  'sunrise',                              '🌅',
+  'sunrise-over-mountains',               '🌄',
+  'sunriseovermountains',                 '🌄',
+  'sunwithface',                          '🌞',
+  'superhero',                            '🦸',
+  'superhero-man',                        '🦸‍♂️',
+  'superhero-woman',                      '🦸‍♀️',
+  'superheroman',                         '🦸‍♂️',
+  'superherowoman',                       '🦸‍♀️',
+  'supervillain',                         '🦹',
+  'supervillain-man',                     '🦹‍♂️',
+  'supervillain-woman',                   '🦹‍♀️',
+  'supervillainman',                      '🦹‍♂️',
+  'supervillainwoman',                    '🦹‍♀️',
+  'surfer',                               '🏄',
+  'surfing-man',                          '🏄‍♂️',
+  'surfing-woman',                        '🏄‍♀️',
+  'surfingman',                           '🏄‍♂️',
+  'surfingwoman',                         '🏄‍♀️',
+  'suriname',                             '🇸🇷',
+  'sushi',                                '🍣',
+  'suspension-railway',                   '🚟',
+  'suspensionrailway',                    '🚟',
+  'svalbard-jan-mayen',                   '🇸🇯',
+  'svalbardjanmayen',                     '🇸🇯',
+  'swan',                                 '🦢',
+  'swaziland',                            '🇸🇿',
+  'sweat',                                '😓',
+  'sweat-drops',                          '💦',
+  'sweat-smile',                          '😅',
+  'sweatdrops',                           '💦',
+  'sweatsmile',                           '😅',
+  'sweden',                               '🇸🇪',
+  'sweet-potato',                         '🍠',
+  'sweetpotato',                          '🍠',
+  'swim-brief',                           '🩲',
+  'swimbrief',                            '🩲',
+  'swimmer',                              '🏊',
+  'swimming-man',                         '🏊‍♂️',
+  'swimming-woman',                       '🏊‍♀️',
+  'swimmingman',                          '🏊‍♂️',
+  'swimmingwoman',                        '🏊‍♀️',
+  'switzerland',                          '🇨🇭',
+  'symbols',                              '🔣',
+  'synagogue',                            '🕍',
+  'syria',                                '🇸🇾',
+  'syringe',                              '💉',
+  't-rex',                                '🦖',
+  'taco',                                 '🌮',
+  'tada',                                 '🎉',
+  'taiwan',                               '🇹🇼',
+  'tajikistan',                           '🇹🇯',
+  'takeout-box',                          '🥡',
+  'takeoutbox',                           '🥡',
+  'tamale',                               '🫔',
+  'tanabata-tree',                        '🎋',
+  'tanabatatree',                         '🎋',
+  'tangerine',                            '🍊',
+  'tanzania',                             '🇹🇿',
+  'taurus',                               '♉',
+  'taxi',                                 '🚕',
+  'tea',                                  '🍵',
+  'teacher',                              '🧑‍🏫',
+  'teapot',                               '🫖',
+  'technologist',                         '🧑‍💻',
+  'teddy-bear',                           '🧸',
+  'teddybear',                            '🧸',
+  'telephone',                            '☎️',
+  'telephone-receiver',                   '📞',
+  'telephonereceiver',                    '📞',
+  'telescope',                            '🔭',
+  'tennis',                               '🎾',
+  'tent',                                 '⛺',
+  'test-tube',                            '🧪',
+  'testtube',                             '🧪',
+  'thailand',                             '🇹🇭',
+  'thermometer',                          '🌡️',
+  'thinking',                             '🤔',
+  'thong-sandal',                         '🩴',
+  'thongsandal',                          '🩴',
+  'thought-balloon',                      '💭',
+  'thoughtballoon',                       '💭',
+  'thread',                               '🧵',
+  'three',                                '3️⃣',
+  'thumbsdown',                           '👎',
+  'thumbsup',                             '👍',
+  'ticket',                               '🎫',
+  'tickets',                              '🎟️',
+  'tiger',                                '🐯',
+  'tiger2',                               '🐅',
+  'timer-clock',                          '⏲️',
+  'timerclock',                           '⏲️',
+  'timor-leste',                          '🇹🇱',
+  'timorleste',                           '🇹🇱',
+  'tipping-hand-man',                     '💁‍♂️',
+  'tipping-hand-person',                  '💁',
+  'tipping-hand-woman',                   '💁‍♀️',
+  'tippinghandman',                       '💁‍♂️',
+  'tippinghandperson',                    '💁',
+  'tippinghandwoman',                     '💁‍♀️',
+  'tired-face',                           '😫',
+  'tiredface',                            '😫',
+  'tm',                                   '™️',
+  'togo',                                 '🇹🇬',
+  'toilet',                               '🚽',
+  'tokelau',                              '🇹🇰',
+  'tokyo-tower',                          '🗼',
+  'tokyotower',                           '🗼',
+  'tomato',                               '🍅',
+  'tonga',                                '🇹🇴',
+  'tongue',                               '👅',
+  'toolbox',                              '🧰',
+  'tooth',                                '🦷',
+  'toothbrush',                           '🪥',
+  'top',                                  '🔝',
+  'tophat',                               '🎩',
+  'tornado',                              '🌪️',
+  'tr',                                   '🇹🇷',
+  'trackball',                            '🖲️',
+  'tractor',                              '🚜',
+  'traffic-light',                        '🚥',
+  'trafficlight',                         '🚥',
+  'train',                                '🚋',
+  'train2',                               '🚆',
+  'tram',                                 '🚊',
+  'transgender-flag',                     '🏳️‍⚧️',
+  'transgender-symbol',                   '⚧️',
+  'transgenderflag',                      '🏳️‍⚧️',
+  'transgendersymbol',                    '⚧️',
+  'triangular-flag-on-post',              '🚩',
+  'triangular-ruler',                     '📐',
+  'triangularflagonpost',                 '🚩',
+  'triangularruler',                      '📐',
+  'trident',                              '🔱',
+  'trinidad-tobago',                      '🇹🇹',
+  'trinidadtobago',                       '🇹🇹',
+  'tristan-da-cunha',                     '🇹🇦',
+  'tristandacunha',                       '🇹🇦',
+  'triumph',                              '😤',
+  'troll',                                '🧌',
+  'trolleybus',                           '🚎',
+  'trophy',                               '🏆',
+  'tropical-drink',                       '🍹',
+  'tropical-fish',                        '🐠',
+  'tropicaldrink',                        '🍹',
+  'tropicalfish',                         '🐠',
+  'truck',                                '🚚',
+  'trumpet',                              '🎺',
+  'tshirt',                               '👕',
+  'tulip',                                '🌷',
+  'tumbler-glass',                        '🥃',
+  'tumblerglass',                         '🥃',
+  'tunisia',                              '🇹🇳',
+  'turkey',                               '🦃',
+  'turkmenistan',                         '🇹🇲',
+  'turks-caicos-islands',                 '🇹🇨',
+  'turkscaicosislands',                   '🇹🇨',
+  'turtle',                               '🐢',
+  'tuvalu',                               '🇹🇻',
+  'tv',                                   '📺',
+  'twisted-rightwards-arrows',            '🔀',
+  'twistedrightwardsarrows',              '🔀',
+  'two',                                  '2️⃣',
+  'two-hearts',                           '💕',
+  'two-men-holding-hands',                '👬',
+  'two-women-holding-hands',              '👭',
+  'twohearts',                            '💕',
+  'twomenholdinghands',                   '👬',
+  'twowomenholdinghands',                 '👭',
+  'u5272',                                '🈹',
+  'u5408',                                '🈴',
+  'u55b6',                                '🈺',
+  'u6307',                                '🈯',
+  'u6708',                                '🈷️',
+  'u6709',                                '🈶',
+  'u6e80',                                '🈵',
+  'u7121',                                '🈚',
+  'u7533',                                '🈸',
+  'u7981',                                '🈲',
+  'u7a7a',                                '🈳',
+  'uganda',                               '🇺🇬',
+  'uk',                                   '🇬🇧',
+  'ukraine',                              '🇺🇦',
+  'umbrella',                             '☔',
+  'unamused',                             '😒',
+  'underage',                             '🔞',
+  'unicorn',                              '🦄',
+  'united-arab-emirates',                 '🇦🇪',
+  'united-nations',                       '🇺🇳',
+  'unitedarabemirates',                   '🇦🇪',
+  'unitednations',                        '🇺🇳',
+  'unlock',                               '🔓',
+  'up',                                   '🆙',
+  'upside-down-face',                     '🙃',
+  'upsidedownface',                       '🙃',
+  'uruguay',                              '🇺🇾',
+  'us',                                   '🇺🇸',
+  'us-outlying-islands',                  '🇺🇲',
+  'us-virgin-islands',                    '🇻🇮',
+  'usoutlyingislands',                    '🇺🇲',
+  'usvirginislands',                      '🇻🇮',
+  'uzbekistan',                           '🇺🇿',
+  'v',                                    '✌️',
+  'vampire',                              '🧛',
+  'vampire-man',                          '🧛‍♂️',
+  'vampire-woman',                        '🧛‍♀️',
+  'vampireman',                           '🧛‍♂️',
+  'vampirewoman',                         '🧛‍♀️',
+  'vanuatu',                              '🇻🇺',
+  'vatican-city',                         '🇻🇦',
+  'vaticancity',                          '🇻🇦',
+  'venezuela',                            '🇻🇪',
+  'vertical-traffic-light',               '🚦',
+  'verticaltrafficlight',                 '🚦',
+  'vhs',                                  '📼',
+  'vibration-mode',                       '📳',
+  'vibrationmode',                        '📳',
+  'video-camera',                         '📹',
+  'video-game',                           '🎮',
+  'videocamera',                          '📹',
+  'videogame',                            '🎮',
+  'vietnam',                              '🇻🇳',
+  'violin',                               '🎻',
+  'virgo',                                '♍',
+  'volcano',                              '🌋',
+  'volleyball',                           '🏐',
+  'vomiting-face',                        '🤮',
+  'vomitingface',                         '🤮',
+  'vs',                                   '🆚',
+  'vulcan-salute',                        '🖖',
+  'vulcansalute',                         '🖖',
+  'waffle',                               '🧇',
+  'wales',                                '🏴󠁧󠁢󠁷󠁬󠁳󠁿',
+  'walking',                              '🚶',
+  'walking-man',                          '🚶‍♂️',
+  'walking-woman',                        '🚶‍♀️',
+  'walkingman',                           '🚶‍♂️',
+  'walkingwoman',                         '🚶‍♀️',
+  'wallis-futuna',                        '🇼🇫',
+  'wallisfutuna',                         '🇼🇫',
+  'waning-crescent-moon',                 '🌘',
+  'waning-gibbous-moon',                  '🌖',
+  'waningcrescentmoon',                   '🌘',
+  'waninggibbousmoon',                    '🌖',
+  'warning',                              '⚠️',
+  'wastebasket',                          '🗑️',
+  'watch',                                '⌚',
+  'water-buffalo',                        '🐃',
+  'water-polo',                           '🤽',
+  'waterbuffalo',                         '🐃',
+  'watermelon',                           '🍉',
+  'waterpolo',                            '🤽',
+  'wave',                                 '👋',
+  'wavy-dash',                            '〰️',
+  'wavydash',                             '〰️',
+  'waxing-crescent-moon',                 '🌒',
+  'waxing-gibbous-moon',                  '🌔',
+  'waxingcrescentmoon',                   '🌒',
+  'waxinggibbousmoon',                    '🌔',
+  'wc',                                   '🚾',
+  'weary',                                '😩',
+  'wedding',                              '💒',
+  'weight-lifting',                       '🏋️',
+  'weight-lifting-man',                   '🏋️‍♂️',
+  'weight-lifting-woman',                 '🏋️‍♀️',
+  'weightlifting',                        '🏋️',
+  'weightliftingman',                     '🏋️‍♂️',
+  'weightliftingwoman',                   '🏋️‍♀️',
+  'western-sahara',                       '🇪🇭',
+  'westernsahara',                        '🇪🇭',
+  'whale',                                '🐳',
+  'whale2',                               '🐋',
+  'wheel',                                '🛞',
+  'wheel-of-dharma',                      '☸️',
+  'wheelchair',                           '♿',
+  'wheelofdharma',                        '☸️',
+  'white-check-mark',                     '✅',
+  'white-circle',                         '⚪',
+  'white-flag',                           '🏳️',
+  'white-flower',                         '💮',
+  'white-haired-man',                     '👨‍🦳',
+  'white-haired-woman',                   '👩‍🦳',
+  'white-heart',                          '🤍',
+  'white-large-square',                   '⬜',
+  'white-medium-small-square',            '◽',
+  'white-medium-square',                  '◻️',
+  'white-small-square',                   '▫️',
+  'white-square-button',                  '🔳',
+  'whitecheckmark',                       '✅',
+  'whitecircle',                          '⚪',
+  'whiteflag',                            '🏳️',
+  'whiteflower',                          '💮',
+  'whitehairedman',                       '👨‍🦳',
+  'whitehairedwoman',                     '👩‍🦳',
+  'whiteheart',                           '🤍',
+  'whitelargesquare',                     '⬜',
+  'whitemediumsmallsquare',               '◽',
+  'whitemediumsquare',                    '◻️',
+  'whitesmallsquare',                     '▫️',
+  'whitesquarebutton',                    '🔳',
+  'wilted-flower',                        '🥀',
+  'wiltedflower',                         '🥀',
+  'wind-chime',                           '🎐',
+  'wind-face',                            '🌬️',
+  'windchime',                            '🎐',
+  'windface',                             '🌬️',
+  'window',                               '🪟',
+  'wine-glass',                           '🍷',
+  'wineglass',                            '🍷',
+  'wing',                                 '🪽',
+  'wink',                                 '😉',
+  'wireless',                             '🛜',
+  'wolf',                                 '🐺',
+  'woman',                                '👩',
+  'woman-artist',                         '👩‍🎨',
+  'woman-astronaut',                      '👩‍🚀',
+  'woman-beard',                          '🧔‍♀️',
+  'woman-cartwheeling',                   '🤸‍♀️',
+  'woman-cook',                           '👩‍🍳',
+  'woman-dancing',                        '💃',
+  'woman-facepalming',                    '🤦‍♀️',
+  'woman-factory-worker',                 '👩‍🏭',
+  'woman-farmer',                         '👩‍🌾',
+  'woman-feeding-baby',                   '👩‍🍼',
+  'woman-firefighter',                    '👩‍🚒',
+  'woman-health-worker',                  '👩‍⚕️',
+  'woman-in-manual-wheelchair',           '👩‍🦽',
+  'woman-in-motorized-wheelchair',        '👩‍🦼',
+  'woman-in-tuxedo',                      '🤵‍♀️',
+  'woman-judge',                          '👩‍⚖️',
+  'woman-juggling',                       '🤹‍♀️',
+  'woman-mechanic',                       '👩‍🔧',
+  'woman-office-worker',                  '👩‍💼',
+  'woman-pilot',                          '👩‍✈️',
+  'woman-playing-handball',               '🤾‍♀️',
+  'woman-playing-water-polo',             '🤽‍♀️',
+  'woman-scientist',                      '👩‍🔬',
+  'woman-shrugging',                      '🤷‍♀️',
+  'woman-singer',                         '👩‍🎤',
+  'woman-student',                        '👩‍🎓',
+  'woman-teacher',                        '👩‍🏫',
+  'woman-technologist',                   '👩‍💻',
+  'woman-with-headscarf',                 '🧕',
+  'woman-with-probing-cane',              '👩‍🦯',
+  'woman-with-turban',                    '👳‍♀️',
+  'woman-with-veil',                      '👰‍♀️',
+  'womanartist',                          '👩‍🎨',
+  'womanastronaut',                       '👩‍🚀',
+  'womanbeard',                           '🧔‍♀️',
+  'womancartwheeling',                    '🤸‍♀️',
+  'womancook',                            '👩‍🍳',
+  'womandancing',                         '💃',
+  'womanfacepalming',                     '🤦‍♀️',
+  'womanfactoryworker',                   '👩‍🏭',
+  'womanfarmer',                          '👩‍🌾',
+  'womanfeedingbaby',                     '👩‍🍼',
+  'womanfirefighter',                     '👩‍🚒',
+  'womanhealthworker',                    '👩‍⚕️',
+  'womaninmanualwheelchair',              '👩‍🦽',
+  'womaninmotorizedwheelchair',           '👩‍🦼',
+  'womanintuxedo',                        '🤵‍♀️',
+  'womanjudge',                           '👩‍⚖️',
+  'womanjuggling',                        '🤹‍♀️',
+  'womanmechanic',                        '👩‍🔧',
+  'womanofficeworker',                    '👩‍💼',
+  'womanpilot',                           '👩‍✈️',
+  'womanplayinghandball',                 '🤾‍♀️',
+  'womanplayingwaterpolo',                '🤽‍♀️',
+  'womans-clothes',                       '👚',
+  'womans-hat',                           '👒',
+  'womanscientist',                       '👩‍🔬',
+  'womansclothes',                        '👚',
+  'womanshat',                            '👒',
+  'womanshrugging',                       '🤷‍♀️',
+  'womansinger',                          '👩‍🎤',
+  'womanstudent',                         '👩‍🎓',
+  'womanteacher',                         '👩‍🏫',
+  'womantechnologist',                    '👩‍💻',
+  'womanwithheadscarf',                   '🧕',
+  'womanwithprobingcane',                 '👩‍🦯',
+  'womanwithturban',                      '👳‍♀️',
+  'womanwithveil',                        '👰‍♀️',
+  'women-wrestling',                      '🤼‍♀️',
+  'womens',                               '🚺',
+  'womenwrestling',                       '🤼‍♀️',
+  'wood',                                 '🪵',
+  'woozy-face',                           '🥴',
+  'woozyface',                            '🥴',
+  'world-map',                            '🗺️',
+  'worldmap',                             '🗺️',
+  'worm',                                 '🪱',
+  'worried',                              '😟',
+  'wrench',                               '🔧',
+  'wrestling',                            '🤼',
+  'writing-hand',                         '✍️',
+  'writinghand',                          '✍️',
+  'x',                                    '❌',
+  'x-ray',                                '🩻',
+  'xray',                                 '🩻',
+  'yarn',                                 '🧶',
+  'yawning-face',                         '🥱',
+  'yawningface',                          '🥱',
+  'yellow-circle',                        '🟡',
+  'yellow-heart',                         '💛',
+  'yellow-square',                        '🟨',
+  'yellowcircle',                         '🟡',
+  'yellowheart',                          '💛',
+  'yellowsquare',                         '🟨',
+  'yemen',                                '🇾🇪',
+  'yen',                                  '💴',
+  'yin-yang',                             '☯️',
+  'yinyang',                              '☯️',
+  'yo-yo',                                '🪀',
+  'yoyo',                                 '🪀',
+  'yum',                                  '😋',
+  'zambia',                               '🇿🇲',
+  'zany-face',                            '🤪',
+  'zanyface',                             '🤪',
+  'zap',                                  '⚡',
+  'zebra',                                '🦓',
+  'zero',                                 '0️⃣',
+  'zimbabwe',                             '🇿🇼',
+  'zipper-mouth-face',                    '🤐',
+  'zippermouthface',                      '🤐',
+  'zombie',                               '🧟',
+  'zombie-man',                           '🧟‍♂️',
+  'zombie-woman',                         '🧟‍♀️',
+  'zombieman',                            '🧟‍♂️',
+  'zombiewoman',                          '🧟‍♀️',
+  'zzz',                                  '💤',
+;
+my constant %reverse =
+  '#️⃣', $(<hash>),
+  '*️⃣', $(<asterisk>),
+  '0️⃣', $(<zero>),
+  '1️⃣', $(<one>),
+  '2️⃣', $(<two>),
+  '3️⃣', $(<three>),
+  '4️⃣', $(<four>),
+  '5️⃣', $(<five>),
+  '6️⃣', $(<six>),
+  '7️⃣', $(<seven>),
+  '8️⃣', $(<eight>),
+  '9️⃣', $(<nine>),
+  '©️', $(<copyright>),
+  '®️', $(<registered>),
+  '‼️', $(<bangbang>),
+  '⁉️', $(<interrobang>),
+  '™️', $(<tm>),
+  'ℹ️', $(<information-source>),
+  '↔️', $(<left-right-arrow>),
+  '↕️', $(<arrow-up-down>),
+  '↖️', $(<arrow-upper-left>),
+  '↗️', $(<arrow-upper-right>),
+  '↘️', $(<arrow-lower-right>),
+  '↙️', $(<arrow-lower-left>),
+  '↩️', $(<leftwards-arrow-with-hook>),
+  '↪️', $(<arrow-right-hook>),
+  '⌚', $(<watch>),
+  '⌛', $(<hourglass>),
+  '⌨️', $(<keyboard>),
+  '⏏️', $(<eject-button>),
+  '⏩', $(<fast-forward>),
+  '⏪', $(<rewind>),
+  '⏫', $(<arrow-double-up>),
+  '⏬', $(<arrow-double-down>),
+  '⏭️', $(<next-track-button>),
+  '⏮️', $(<previous-track-button>),
+  '⏯️', $(<play-or-pause-button>),
+  '⏰', $(<alarm-clock>),
+  '⏱️', $(<stopwatch>),
+  '⏲️', $(<timer-clock>),
+  '⏳', $(<hourglass-flowing-sand>),
+  '⏸️', $(<pause-button>),
+  '⏹️', $(<stop-button>),
+  '⏺️', $(<record-button>),
+  'Ⓜ️', $(<m>),
+  '▪️', $(<black-small-square>),
+  '▫️', $(<white-small-square>),
+  '▶️', $(<arrow-forward>),
+  '◀️', $(<arrow-backward>),
+  '◻️', $(<white-medium-square>),
+  '◼️', $(<black-medium-square>),
+  '◽', $(<white-medium-small-square>),
+  '◾', $(<black-medium-small-square>),
+  '☀️', $(<sunny>),
+  '☁️', $(<cloud>),
+  '☂️', $(<open-umbrella>),
+  '☃️', $(<snowman-with-snow>),
+  '☄️', $(<comet>),
+  '☎️', $(<phone telephone>),
+  '☑️', $(<ballot-box-with-check>),
+  '☔', $(<umbrella>),
+  '☕', $(<coffee>),
+  '☘️', $(<shamrock>),
+  '☝️', $(<point-up>),
+  '☠️', $(<skull-and-crossbones>),
+  '☢️', $(<radioactive>),
+  '☣️', $(<biohazard>),
+  '☦️', $(<orthodox-cross>),
+  '☪️', $(<star-and-crescent>),
+  '☮️', $(<peace-symbol>),
+  '☯️', $(<yin-yang>),
+  '☸️', $(<wheel-of-dharma>),
+  '☹️', $(<frowning-face>),
+  '☺️', $(<relaxed>),
+  '♀️', $(<female-sign>),
+  '♂️', $(<male-sign>),
+  '♈', $(<aries>),
+  '♉', $(<taurus>),
+  '♊', $(<gemini>),
+  '♋', $(<cancer>),
+  '♌', $(<leo>),
+  '♍', $(<virgo>),
+  '♎', $(<libra>),
+  '♏', $(<scorpius>),
+  '♐', $(<sagittarius>),
+  '♑', $(<capricorn>),
+  '♒', $(<aquarius>),
+  '♓', $(<pisces>),
+  '♟️', $(<chess-pawn>),
+  '♠️', $(<spades>),
+  '♣️', $(<clubs>),
+  '♥️', $(<hearts>),
+  '♦️', $(<diamonds>),
+  '♨️', $(<hotsprings>),
+  '♻️', $(<recycle>),
+  '♾️', $(<infinity>),
+  '♿', $(<wheelchair>),
+  '⚒️', $(<hammer-and-pick>),
+  '⚓', $(<anchor>),
+  '⚔️', $(<crossed-swords>),
+  '⚕️', $(<medical-symbol>),
+  '⚖️', $(<balance-scale>),
+  '⚗️', $(<alembic>),
+  '⚙️', $(<gear>),
+  '⚛️', $(<atom-symbol>),
+  '⚜️', $(<fleur-de-lis>),
+  '⚠️', $(<warning>),
+  '⚡', $(<zap>),
+  '⚧️', $(<transgender-symbol>),
+  '⚪', $(<white-circle>),
+  '⚫', $(<black-circle>),
+  '⚰️', $(<coffin>),
+  '⚱️', $(<funeral-urn>),
+  '⚽', $(<soccer>),
+  '⚾', $(<baseball>),
+  '⛄', $(<snowman>),
+  '⛅', $(<partly-sunny>),
+  '⛈️', $(<cloud-with-lightning-and-rain>),
+  '⛎', $(<ophiuchus>),
+  '⛏️', $(<pick>),
+  '⛑️', $(<rescue-worker-helmet>),
+  '⛓️', $(<chains>),
+  '⛔', $(<no-entry>),
+  '⛩️', $(<shinto-shrine>),
+  '⛪', $(<church>),
+  '⛰️', $(<mountain>),
+  '⛱️', $(<parasol-on-ground>),
+  '⛲', $(<fountain>),
+  '⛳', $(<golf>),
+  '⛴️', $(<ferry>),
+  '⛵', $(<boat sailboat>),
+  '⛷️', $(<skier>),
+  '⛸️', $(<ice-skate>),
+  '⛹️', $(<bouncing-ball-person>),
+  '⛹️‍♀️', $(<basketball-woman bouncing-ball-woman>),
+  '⛹️‍♂️', $(<basketball-man bouncing-ball-man>),
+  '⛺', $(<tent>),
+  '⛽', $(<fuelpump>),
+  '✂️', $(<scissors>),
+  '✅', $(<white-check-mark>),
+  '✈️', $(<airplane>),
+  '✉️', $(<envelope>),
+  '✊', $(<fist fist-raised>),
+  '✋', $(<hand raised-hand>),
+  '✌️', $(<v>),
+  '✍️', $(<writing-hand>),
+  '✏️', $(<pencil2>),
+  '✒️', $(<black-nib>),
+  '✔️', $(<heavy-check-mark>),
+  '✖️', $(<heavy-multiplication-x>),
+  '✝️', $(<latin-cross>),
+  '✡️', $(<star-of-david>),
+  '✨', $(<sparkles>),
+  '✳️', $(<eight-spoked-asterisk>),
+  '✴️', $(<eight-pointed-black-star>),
+  '❄️', $(<snowflake>),
+  '❇️', $(<sparkle>),
+  '❌', $(<x>),
+  '❎', $(<negative-squared-cross-mark>),
+  '❓', $(<question>),
+  '❔', $(<grey-question>),
+  '❕', $(<grey-exclamation>),
+  '❗', $(<exclamation heavy-exclamation-mark>),
+  '❣️', $(<heavy-heart-exclamation>),
+  '❤️', $(<heart>),
+  '❤️‍🔥', $(<heart-on-fire>),
+  '❤️‍🩹', $(<mending-heart>),
+  '➕', $(<heavy-plus-sign>),
+  '➖', $(<heavy-minus-sign>),
+  '➗', $(<heavy-division-sign>),
+  '➡️', $(<arrow-right>),
+  '➰', $(<curly-loop>),
+  '➿', $(<loop>),
+  '⤴️', $(<arrow-heading-up>),
+  '⤵️', $(<arrow-heading-down>),
+  '⬅️', $(<arrow-left>),
+  '⬆️', $(<arrow-up>),
+  '⬇️', $(<arrow-down>),
+  '⬛', $(<black-large-square>),
+  '⬜', $(<white-large-square>),
+  '⭐', $(<star>),
+  '⭕', $(<o>),
+  '〰️', $(<wavy-dash>),
+  '〽️', $(<part-alternation-mark>),
+  '㊗️', $(<congratulations>),
+  '㊙️', $(<secret>),
+  '🀄', $(<mahjong>),
+  '🃏', $(<black-joker>),
+  '🅰️', $(<a>),
+  '🅱️', $(<b>),
+  '🅾️', $(<o2>),
+  '🅿️', $(<parking>),
+  '🆎', $(<ab>),
+  '🆑', $(<cl>),
+  '🆒', $(<cool>),
+  '🆓', $(<free>),
+  '🆔', $(<id>),
+  '🆕', $(<new>),
+  '🆖', $(<ng>),
+  '🆗', $(<ok>),
+  '🆘', $(<sos>),
+  '🆙', $(<up>),
+  '🆚', $(<vs>),
+  '🇦🇨', $(<ascension-island>),
+  '🇦🇩', $(<andorra>),
+  '🇦🇪', $(<united-arab-emirates>),
+  '🇦🇫', $(<afghanistan>),
+  '🇦🇬', $(<antigua-barbuda>),
+  '🇦🇮', $(<anguilla>),
+  '🇦🇱', $(<albania>),
+  '🇦🇲', $(<armenia>),
+  '🇦🇴', $(<angola>),
+  '🇦🇶', $(<antarctica>),
+  '🇦🇷', $(<argentina>),
+  '🇦🇸', $(<american-samoa>),
+  '🇦🇹', $(<austria>),
+  '🇦🇺', $(<australia>),
+  '🇦🇼', $(<aruba>),
+  '🇦🇽', $(<aland-islands>),
+  '🇦🇿', $(<azerbaijan>),
+  '🇧🇦', $(<bosnia-herzegovina>),
+  '🇧🇧', $(<barbados>),
+  '🇧🇩', $(<bangladesh>),
+  '🇧🇪', $(<belgium>),
+  '🇧🇫', $(<burkina-faso>),
+  '🇧🇬', $(<bulgaria>),
+  '🇧🇭', $(<bahrain>),
+  '🇧🇮', $(<burundi>),
+  '🇧🇯', $(<benin>),
+  '🇧🇱', $(<st-barthelemy>),
+  '🇧🇲', $(<bermuda>),
+  '🇧🇳', $(<brunei>),
+  '🇧🇴', $(<bolivia>),
+  '🇧🇶', $(<caribbean-netherlands>),
+  '🇧🇷', $(<brazil>),
+  '🇧🇸', $(<bahamas>),
+  '🇧🇹', $(<bhutan>),
+  '🇧🇻', $(<bouvet-island>),
+  '🇧🇼', $(<botswana>),
+  '🇧🇾', $(<belarus>),
+  '🇧🇿', $(<belize>),
+  '🇨🇦', $(<canada>),
+  '🇨🇨', $(<cocos-islands>),
+  '🇨🇩', $(<congo-kinshasa>),
+  '🇨🇫', $(<central-african-republic>),
+  '🇨🇬', $(<congo-brazzaville>),
+  '🇨🇭', $(<switzerland>),
+  '🇨🇮', $(<cote-divoire>),
+  '🇨🇰', $(<cook-islands>),
+  '🇨🇱', $(<chile>),
+  '🇨🇲', $(<cameroon>),
+  '🇨🇳', $(<cn>),
+  '🇨🇴', $(<colombia>),
+  '🇨🇵', $(<clipperton-island>),
+  '🇨🇷', $(<costa-rica>),
+  '🇨🇺', $(<cuba>),
+  '🇨🇻', $(<cape-verde>),
+  '🇨🇼', $(<curacao>),
+  '🇨🇽', $(<christmas-island>),
+  '🇨🇾', $(<cyprus>),
+  '🇨🇿', $(<czech-republic>),
+  '🇩🇪', $(<de>),
+  '🇩🇬', $(<diego-garcia>),
+  '🇩🇯', $(<djibouti>),
+  '🇩🇰', $(<denmark>),
+  '🇩🇲', $(<dominica>),
+  '🇩🇴', $(<dominican-republic>),
+  '🇩🇿', $(<algeria>),
+  '🇪🇦', $(<ceuta-melilla>),
+  '🇪🇨', $(<ecuador>),
+  '🇪🇪', $(<estonia>),
+  '🇪🇬', $(<egypt>),
+  '🇪🇭', $(<western-sahara>),
+  '🇪🇷', $(<eritrea>),
+  '🇪🇸', $(<es>),
+  '🇪🇹', $(<ethiopia>),
+  '🇪🇺', $(<eu european-union>),
+  '🇫🇮', $(<finland>),
+  '🇫🇯', $(<fiji>),
+  '🇫🇰', $(<falkland-islands>),
+  '🇫🇲', $(<micronesia>),
+  '🇫🇴', $(<faroe-islands>),
+  '🇫🇷', $(<fr>),
+  '🇬🇦', $(<gabon>),
+  '🇬🇧', $(<gb uk>),
+  '🇬🇩', $(<grenada>),
+  '🇬🇪', $(<georgia>),
+  '🇬🇫', $(<french-guiana>),
+  '🇬🇬', $(<guernsey>),
+  '🇬🇭', $(<ghana>),
+  '🇬🇮', $(<gibraltar>),
+  '🇬🇱', $(<greenland>),
+  '🇬🇲', $(<gambia>),
+  '🇬🇳', $(<guinea>),
+  '🇬🇵', $(<guadeloupe>),
+  '🇬🇶', $(<equatorial-guinea>),
+  '🇬🇷', $(<greece>),
+  '🇬🇸', $(<south-georgia-south-sandwich-islands>),
+  '🇬🇹', $(<guatemala>),
+  '🇬🇺', $(<guam>),
+  '🇬🇼', $(<guinea-bissau>),
+  '🇬🇾', $(<guyana>),
+  '🇭🇰', $(<hong-kong>),
+  '🇭🇲', $(<heard-mcdonald-islands>),
+  '🇭🇳', $(<honduras>),
+  '🇭🇷', $(<croatia>),
+  '🇭🇹', $(<haiti>),
+  '🇭🇺', $(<hungary>),
+  '🇮🇨', $(<canary-islands>),
+  '🇮🇩', $(<indonesia>),
+  '🇮🇪', $(<ireland>),
+  '🇮🇱', $(<israel>),
+  '🇮🇲', $(<isle-of-man>),
+  '🇮🇳', $(<india>),
+  '🇮🇴', $(<british-indian-ocean-territory>),
+  '🇮🇶', $(<iraq>),
+  '🇮🇷', $(<iran>),
+  '🇮🇸', $(<iceland>),
+  '🇮🇹', $(<it>),
+  '🇯🇪', $(<jersey>),
+  '🇯🇲', $(<jamaica>),
+  '🇯🇴', $(<jordan>),
+  '🇯🇵', $(<jp>),
+  '🇰🇪', $(<kenya>),
+  '🇰🇬', $(<kyrgyzstan>),
+  '🇰🇭', $(<cambodia>),
+  '🇰🇮', $(<kiribati>),
+  '🇰🇲', $(<comoros>),
+  '🇰🇳', $(<st-kitts-nevis>),
+  '🇰🇵', $(<north-korea>),
+  '🇰🇷', $(<kr>),
+  '🇰🇼', $(<kuwait>),
+  '🇰🇾', $(<cayman-islands>),
+  '🇰🇿', $(<kazakhstan>),
+  '🇱🇦', $(<laos>),
+  '🇱🇧', $(<lebanon>),
+  '🇱🇨', $(<st-lucia>),
+  '🇱🇮', $(<liechtenstein>),
+  '🇱🇰', $(<sri-lanka>),
+  '🇱🇷', $(<liberia>),
+  '🇱🇸', $(<lesotho>),
+  '🇱🇹', $(<lithuania>),
+  '🇱🇺', $(<luxembourg>),
+  '🇱🇻', $(<latvia>),
+  '🇱🇾', $(<libya>),
+  '🇲🇦', $(<morocco>),
+  '🇲🇨', $(<monaco>),
+  '🇲🇩', $(<moldova>),
+  '🇲🇪', $(<montenegro>),
+  '🇲🇫', $(<st-martin>),
+  '🇲🇬', $(<madagascar>),
+  '🇲🇭', $(<marshall-islands>),
+  '🇲🇰', $(<macedonia>),
+  '🇲🇱', $(<mali>),
+  '🇲🇲', $(<myanmar>),
+  '🇲🇳', $(<mongolia>),
+  '🇲🇴', $(<macau>),
+  '🇲🇵', $(<northern-mariana-islands>),
+  '🇲🇶', $(<martinique>),
+  '🇲🇷', $(<mauritania>),
+  '🇲🇸', $(<montserrat>),
+  '🇲🇹', $(<malta>),
+  '🇲🇺', $(<mauritius>),
+  '🇲🇻', $(<maldives>),
+  '🇲🇼', $(<malawi>),
+  '🇲🇽', $(<mexico>),
+  '🇲🇾', $(<malaysia>),
+  '🇲🇿', $(<mozambique>),
+  '🇳🇦', $(<namibia>),
+  '🇳🇨', $(<new-caledonia>),
+  '🇳🇪', $(<niger>),
+  '🇳🇫', $(<norfolk-island>),
+  '🇳🇬', $(<nigeria>),
+  '🇳🇮', $(<nicaragua>),
+  '🇳🇱', $(<netherlands>),
+  '🇳🇴', $(<norway>),
+  '🇳🇵', $(<nepal>),
+  '🇳🇷', $(<nauru>),
+  '🇳🇺', $(<niue>),
+  '🇳🇿', $(<new-zealand>),
+  '🇴🇲', $(<oman>),
+  '🇵🇦', $(<panama>),
+  '🇵🇪', $(<peru>),
+  '🇵🇫', $(<french-polynesia>),
+  '🇵🇬', $(<papua-new-guinea>),
+  '🇵🇭', $(<philippines>),
+  '🇵🇰', $(<pakistan>),
+  '🇵🇱', $(<poland>),
+  '🇵🇲', $(<st-pierre-miquelon>),
+  '🇵🇳', $(<pitcairn-islands>),
+  '🇵🇷', $(<puerto-rico>),
+  '🇵🇸', $(<palestinian-territories>),
+  '🇵🇹', $(<portugal>),
+  '🇵🇼', $(<palau>),
+  '🇵🇾', $(<paraguay>),
+  '🇶🇦', $(<qatar>),
+  '🇷🇪', $(<reunion>),
+  '🇷🇴', $(<romania>),
+  '🇷🇸', $(<serbia>),
+  '🇷🇺', $(<ru>),
+  '🇷🇼', $(<rwanda>),
+  '🇸🇦', $(<saudi-arabia>),
+  '🇸🇧', $(<solomon-islands>),
+  '🇸🇨', $(<seychelles>),
+  '🇸🇩', $(<sudan>),
+  '🇸🇪', $(<sweden>),
+  '🇸🇬', $(<singapore>),
+  '🇸🇭', $(<st-helena>),
+  '🇸🇮', $(<slovenia>),
+  '🇸🇯', $(<svalbard-jan-mayen>),
+  '🇸🇰', $(<slovakia>),
+  '🇸🇱', $(<sierra-leone>),
+  '🇸🇲', $(<san-marino>),
+  '🇸🇳', $(<senegal>),
+  '🇸🇴', $(<somalia>),
+  '🇸🇷', $(<suriname>),
+  '🇸🇸', $(<south-sudan>),
+  '🇸🇹', $(<sao-tome-principe>),
+  '🇸🇻', $(<el-salvador>),
+  '🇸🇽', $(<sint-maarten>),
+  '🇸🇾', $(<syria>),
+  '🇸🇿', $(<swaziland>),
+  '🇹🇦', $(<tristan-da-cunha>),
+  '🇹🇨', $(<turks-caicos-islands>),
+  '🇹🇩', $(<chad>),
+  '🇹🇫', $(<french-southern-territories>),
+  '🇹🇬', $(<togo>),
+  '🇹🇭', $(<thailand>),
+  '🇹🇯', $(<tajikistan>),
+  '🇹🇰', $(<tokelau>),
+  '🇹🇱', $(<timor-leste>),
+  '🇹🇲', $(<turkmenistan>),
+  '🇹🇳', $(<tunisia>),
+  '🇹🇴', $(<tonga>),
+  '🇹🇷', $(<tr>),
+  '🇹🇹', $(<trinidad-tobago>),
+  '🇹🇻', $(<tuvalu>),
+  '🇹🇼', $(<taiwan>),
+  '🇹🇿', $(<tanzania>),
+  '🇺🇦', $(<ukraine>),
+  '🇺🇬', $(<uganda>),
+  '🇺🇲', $(<us-outlying-islands>),
+  '🇺🇳', $(<united-nations>),
+  '🇺🇸', $(<us>),
+  '🇺🇾', $(<uruguay>),
+  '🇺🇿', $(<uzbekistan>),
+  '🇻🇦', $(<vatican-city>),
+  '🇻🇨', $(<st-vincent-grenadines>),
+  '🇻🇪', $(<venezuela>),
+  '🇻🇬', $(<british-virgin-islands>),
+  '🇻🇮', $(<us-virgin-islands>),
+  '🇻🇳', $(<vietnam>),
+  '🇻🇺', $(<vanuatu>),
+  '🇼🇫', $(<wallis-futuna>),
+  '🇼🇸', $(<samoa>),
+  '🇽🇰', $(<kosovo>),
+  '🇾🇪', $(<yemen>),
+  '🇾🇹', $(<mayotte>),
+  '🇿🇦', $(<south-africa>),
+  '🇿🇲', $(<zambia>),
+  '🇿🇼', $(<zimbabwe>),
+  '🈁', $(<koko>),
+  '🈂️', $(<sa>),
+  '🈚', $(<u7121>),
+  '🈯', $(<u6307>),
+  '🈲', $(<u7981>),
+  '🈳', $(<u7a7a>),
+  '🈴', $(<u5408>),
+  '🈵', $(<u6e80>),
+  '🈶', $(<u6709>),
+  '🈷️', $(<u6708>),
+  '🈸', $(<u7533>),
+  '🈹', $(<u5272>),
+  '🈺', $(<u55b6>),
+  '🉐', $(<ideograph-advantage>),
+  '🉑', $(<accept>),
+  '🌀', $(<cyclone>),
+  '🌁', $(<foggy>),
+  '🌂', $(<closed-umbrella>),
+  '🌃', $(<night-with-stars>),
+  '🌄', $(<sunrise-over-mountains>),
+  '🌅', $(<sunrise>),
+  '🌆', $(<city-sunset>),
+  '🌇', $(<city-sunrise>),
+  '🌈', $(<rainbow>),
+  '🌉', $(<bridge-at-night>),
+  '🌊', $(<ocean>),
+  '🌋', $(<volcano>),
+  '🌌', $(<milky-way>),
+  '🌍', $(<earth-africa>),
+  '🌎', $(<earth-americas>),
+  '🌏', $(<earth-asia>),
+  '🌐', $(<globe-with-meridians>),
+  '🌑', $(<new-moon>),
+  '🌒', $(<waxing-crescent-moon>),
+  '🌓', $(<first-quarter-moon>),
+  '🌔', $(<moon waxing-gibbous-moon>),
+  '🌕', $(<full-moon>),
+  '🌖', $(<waning-gibbous-moon>),
+  '🌗', $(<last-quarter-moon>),
+  '🌘', $(<waning-crescent-moon>),
+  '🌙', $(<crescent-moon>),
+  '🌚', $(<new-moon-with-face>),
+  '🌛', $(<first-quarter-moon-with-face>),
+  '🌜', $(<last-quarter-moon-with-face>),
+  '🌝', $(<full-moon-with-face>),
+  '🌞', $(<sun-with-face>),
+  '🌟', $(<star2>),
+  '🌠', $(<stars>),
+  '🌡️', $(<thermometer>),
+  '🌤️', $(<sun-behind-small-cloud>),
+  '🌥️', $(<sun-behind-large-cloud>),
+  '🌦️', $(<sun-behind-rain-cloud>),
+  '🌧️', $(<cloud-with-rain>),
+  '🌨️', $(<cloud-with-snow>),
+  '🌩️', $(<cloud-with-lightning>),
+  '🌪️', $(<tornado>),
+  '🌫️', $(<fog>),
+  '🌬️', $(<wind-face>),
+  '🌭', $(<hotdog>),
+  '🌮', $(<taco>),
+  '🌯', $(<burrito>),
+  '🌰', $(<chestnut>),
+  '🌱', $(<seedling>),
+  '🌲', $(<evergreen-tree>),
+  '🌳', $(<deciduous-tree>),
+  '🌴', $(<palm-tree>),
+  '🌵', $(<cactus>),
+  '🌶️', $(<hot-pepper>),
+  '🌷', $(<tulip>),
+  '🌸', $(<cherry-blossom>),
+  '🌹', $(<rose>),
+  '🌺', $(<hibiscus>),
+  '🌻', $(<sunflower>),
+  '🌼', $(<blossom>),
+  '🌽', $(<corn>),
+  '🌾', $(<ear-of-rice>),
+  '🌿', $(<herb>),
+  '🍀', $(<four-leaf-clover>),
+  '🍁', $(<maple-leaf>),
+  '🍂', $(<fallen-leaf>),
+  '🍃', $(<leaves>),
+  '🍄', $(<mushroom>),
+  '🍅', $(<tomato>),
+  '🍆', $(<eggplant>),
+  '🍇', $(<grapes>),
+  '🍈', $(<melon>),
+  '🍉', $(<watermelon>),
+  '🍊', $(<orange mandarin tangerine>),
+  '🍋', $(<lemon>),
+  '🍌', $(<banana>),
+  '🍍', $(<pineapple>),
+  '🍎', $(<apple>),
+  '🍏', $(<green-apple>),
+  '🍐', $(<pear>),
+  '🍑', $(<peach>),
+  '🍒', $(<cherries>),
+  '🍓', $(<strawberry>),
+  '🍔', $(<hamburger>),
+  '🍕', $(<pizza>),
+  '🍖', $(<meat-on-bone>),
+  '🍗', $(<poultry-leg>),
+  '🍘', $(<rice-cracker>),
+  '🍙', $(<rice-ball>),
+  '🍚', $(<rice>),
+  '🍛', $(<curry>),
+  '🍜', $(<ramen>),
+  '🍝', $(<spaghetti>),
+  '🍞', $(<bread>),
+  '🍟', $(<fries>),
+  '🍠', $(<sweet-potato>),
+  '🍡', $(<dango>),
+  '🍢', $(<oden>),
+  '🍣', $(<sushi>),
+  '🍤', $(<fried-shrimp>),
+  '🍥', $(<fish-cake>),
+  '🍦', $(<icecream>),
+  '🍧', $(<shaved-ice>),
+  '🍨', $(<ice-cream>),
+  '🍩', $(<doughnut>),
+  '🍪', $(<cookie>),
+  '🍫', $(<chocolate-bar>),
+  '🍬', $(<candy>),
+  '🍭', $(<lollipop>),
+  '🍮', $(<custard>),
+  '🍯', $(<honey-pot>),
+  '🍰', $(<cake>),
+  '🍱', $(<bento>),
+  '🍲', $(<stew>),
+  '🍳', $(<fried-egg>),
+  '🍴', $(<fork-and-knife>),
+  '🍵', $(<tea>),
+  '🍶', $(<sake>),
+  '🍷', $(<wine-glass>),
+  '🍸', $(<cocktail>),
+  '🍹', $(<tropical-drink>),
+  '🍺', $(<beer>),
+  '🍻', $(<beers>),
+  '🍼', $(<baby-bottle>),
+  '🍽️', $(<plate-with-cutlery>),
+  '🍾', $(<champagne>),
+  '🍿', $(<popcorn>),
+  '🎀', $(<ribbon>),
+  '🎁', $(<gift>),
+  '🎂', $(<birthday>),
+  '🎃', $(<jack-o-lantern>),
+  '🎄', $(<christmas-tree>),
+  '🎅', $(<santa>),
+  '🎆', $(<fireworks>),
+  '🎇', $(<sparkler>),
+  '🎈', $(<balloon>),
+  '🎉', $(<tada>),
+  '🎊', $(<confetti-ball>),
+  '🎋', $(<tanabata-tree>),
+  '🎌', $(<crossed-flags>),
+  '🎍', $(<bamboo>),
+  '🎎', $(<dolls>),
+  '🎏', $(<flags>),
+  '🎐', $(<wind-chime>),
+  '🎑', $(<rice-scene>),
+  '🎒', $(<school-satchel>),
+  '🎓', $(<mortar-board>),
+  '🎖️', $(<medal-military>),
+  '🎗️', $(<reminder-ribbon>),
+  '🎙️', $(<studio-microphone>),
+  '🎚️', $(<level-slider>),
+  '🎛️', $(<control-knobs>),
+  '🎞️', $(<film-strip>),
+  '🎟️', $(<tickets>),
+  '🎠', $(<carousel-horse>),
+  '🎡', $(<ferris-wheel>),
+  '🎢', $(<roller-coaster>),
+  '🎣', $(<fishing-pole-and-fish>),
+  '🎤', $(<microphone>),
+  '🎥', $(<movie-camera>),
+  '🎦', $(<cinema>),
+  '🎧', $(<headphones>),
+  '🎨', $(<art>),
+  '🎩', $(<tophat>),
+  '🎪', $(<circus-tent>),
+  '🎫', $(<ticket>),
+  '🎬', $(<clapper>),
+  '🎭', $(<performing-arts>),
+  '🎮', $(<video-game>),
+  '🎯', $(<dart>),
+  '🎰', $(<slot-machine>),
+  '🎱', $(<8ball>),
+  '🎲', $(<game-die>),
+  '🎳', $(<bowling>),
+  '🎴', $(<flower-playing-cards>),
+  '🎵', $(<musical-note>),
+  '🎶', $(<notes>),
+  '🎷', $(<saxophone>),
+  '🎸', $(<guitar>),
+  '🎹', $(<musical-keyboard>),
+  '🎺', $(<trumpet>),
+  '🎻', $(<violin>),
+  '🎼', $(<musical-score>),
+  '🎽', $(<running-shirt-with-sash>),
+  '🎾', $(<tennis>),
+  '🎿', $(<ski>),
+  '🏀', $(<basketball>),
+  '🏁', $(<checkered-flag>),
+  '🏂', $(<snowboarder>),
+  '🏃', $(<runner running>),
+  '🏃‍♀️', $(<running-woman>),
+  '🏃‍♂️', $(<running-man>),
+  '🏄', $(<surfer>),
+  '🏄‍♀️', $(<surfing-woman>),
+  '🏄‍♂️', $(<surfing-man>),
+  '🏅', $(<medal-sports>),
+  '🏆', $(<trophy>),
+  '🏇', $(<horse-racing>),
+  '🏈', $(<football>),
+  '🏉', $(<rugby-football>),
+  '🏊', $(<swimmer>),
+  '🏊‍♀️', $(<swimming-woman>),
+  '🏊‍♂️', $(<swimming-man>),
+  '🏋️', $(<weight-lifting>),
+  '🏋️‍♀️', $(<weight-lifting-woman>),
+  '🏋️‍♂️', $(<weight-lifting-man>),
+  '🏌️', $(<golfing>),
+  '🏌️‍♀️', $(<golfing-woman>),
+  '🏌️‍♂️', $(<golfing-man>),
+  '🏍️', $(<motorcycle>),
+  '🏎️', $(<racing-car>),
+  '🏏', $(<cricket-game>),
+  '🏐', $(<volleyball>),
+  '🏑', $(<field-hockey>),
+  '🏒', $(<ice-hockey>),
+  '🏓', $(<ping-pong>),
+  '🏔️', $(<mountain-snow>),
+  '🏕️', $(<camping>),
+  '🏖️', $(<beach-umbrella>),
+  '🏗️', $(<building-construction>),
+  '🏘️', $(<houses>),
+  '🏙️', $(<cityscape>),
+  '🏚️', $(<derelict-house>),
+  '🏛️', $(<classical-building>),
+  '🏜️', $(<desert>),
+  '🏝️', $(<desert-island>),
+  '🏞️', $(<national-park>),
+  '🏟️', $(<stadium>),
+  '🏠', $(<house>),
+  '🏡', $(<house-with-garden>),
+  '🏢', $(<office>),
+  '🏣', $(<post-office>),
+  '🏤', $(<european-post-office>),
+  '🏥', $(<hospital>),
+  '🏦', $(<bank>),
+  '🏧', $(<atm>),
+  '🏨', $(<hotel>),
+  '🏩', $(<love-hotel>),
+  '🏪', $(<convenience-store>),
+  '🏫', $(<school>),
+  '🏬', $(<department-store>),
+  '🏭', $(<factory>),
+  '🏮', $(<lantern izakaya-lantern>),
+  '🏯', $(<japanese-castle>),
+  '🏰', $(<european-castle>),
+  '🏳️', $(<white-flag>),
+  '🏳️‍⚧️', $(<transgender-flag>),
+  '🏳️‍🌈', $(<rainbow-flag>),
+  '🏴', $(<black-flag>),
+  '🏴‍☠️', $(<pirate-flag>),
+  '🏴󠁧󠁢󠁥󠁮󠁧󠁿', $(<england>),
+  '🏴󠁧󠁢󠁳󠁣󠁴󠁿', $(<scotland>),
+  '🏴󠁧󠁢󠁷󠁬󠁳󠁿', $(<wales>),
+  '🏵️', $(<rosette>),
+  '🏷️', $(<label>),
+  '🏸', $(<badminton>),
+  '🏹', $(<bow-and-arrow>),
+  '🏺', $(<amphora>),
+  '🐀', $(<rat>),
+  '🐁', $(<mouse2>),
+  '🐂', $(<ox>),
+  '🐃', $(<water-buffalo>),
+  '🐄', $(<cow2>),
+  '🐅', $(<tiger2>),
+  '🐆', $(<leopard>),
+  '🐇', $(<rabbit2>),
+  '🐈', $(<cat2>),
+  '🐈‍⬛', $(<black-cat>),
+  '🐉', $(<dragon>),
+  '🐊', $(<crocodile>),
+  '🐋', $(<whale2>),
+  '🐌', $(<snail>),
+  '🐍', $(<snake>),
+  '🐎', $(<racehorse>),
+  '🐏', $(<ram>),
+  '🐐', $(<goat>),
+  '🐑', $(<sheep>),
+  '🐒', $(<monkey>),
+  '🐓', $(<rooster>),
+  '🐔', $(<chicken>),
+  '🐕', $(<dog2>),
+  '🐕‍🦺', $(<service-dog>),
+  '🐖', $(<pig2>),
+  '🐗', $(<boar>),
+  '🐘', $(<elephant>),
+  '🐙', $(<octopus>),
+  '🐚', $(<shell>),
+  '🐛', $(<bug>),
+  '🐜', $(<ant>),
+  '🐝', $(<bee honeybee>),
+  '🐞', $(<lady-beetle>),
+  '🐟', $(<fish>),
+  '🐠', $(<tropical-fish>),
+  '🐡', $(<blowfish>),
+  '🐢', $(<turtle>),
+  '🐣', $(<hatching-chick>),
+  '🐤', $(<baby-chick>),
+  '🐥', $(<hatched-chick>),
+  '🐦', $(<bird>),
+  '🐦‍⬛', $(<black-bird>),
+  '🐧', $(<penguin>),
+  '🐨', $(<koala>),
+  '🐩', $(<poodle>),
+  '🐪', $(<dromedary-camel>),
+  '🐫', $(<camel>),
+  '🐬', $(<dolphin flipper>),
+  '🐭', $(<mouse>),
+  '🐮', $(<cow>),
+  '🐯', $(<tiger>),
+  '🐰', $(<rabbit>),
+  '🐱', $(<cat>),
+  '🐲', $(<dragon-face>),
+  '🐳', $(<whale>),
+  '🐴', $(<horse>),
+  '🐵', $(<monkey-face>),
+  '🐶', $(<dog>),
+  '🐷', $(<pig>),
+  '🐸', $(<frog>),
+  '🐹', $(<hamster>),
+  '🐺', $(<wolf>),
+  '🐻', $(<bear>),
+  '🐻‍❄️', $(<polar-bear>),
+  '🐼', $(<panda-face>),
+  '🐽', $(<pig-nose>),
+  '🐾', $(<feet paw-prints>),
+  '🐿️', $(<chipmunk>),
+  '👀', $(<eyes>),
+  '👁️', $(<eye>),
+  '👁️‍🗨️', $(<eye-speech-bubble>),
+  '👂', $(<ear>),
+  '👃', $(<nose>),
+  '👄', $(<lips>),
+  '👅', $(<tongue>),
+  '👆', $(<point-up-2>),
+  '👇', $(<point-down>),
+  '👈', $(<point-left>),
+  '👉', $(<point-right>),
+  '👊', $(<punch facepunch fist-oncoming>),
+  '👋', $(<wave>),
+  '👌', $(<ok-hand>),
+  '👍', $(<+1 thumbsup>),
+  '👎', $(<-1 thumbsdown>),
+  '👏', $(<clap>),
+  '👐', $(<open-hands>),
+  '👑', $(<crown>),
+  '👒', $(<womans-hat>),
+  '👓', $(<eyeglasses>),
+  '👔', $(<necktie>),
+  '👕', $(<shirt tshirt>),
+  '👖', $(<jeans>),
+  '👗', $(<dress>),
+  '👘', $(<kimono>),
+  '👙', $(<bikini>),
+  '👚', $(<womans-clothes>),
+  '👛', $(<purse>),
+  '👜', $(<handbag>),
+  '👝', $(<pouch>),
+  '👞', $(<shoe mans-shoe>),
+  '👟', $(<athletic-shoe>),
+  '👠', $(<high-heel>),
+  '👡', $(<sandal>),
+  '👢', $(<boot>),
+  '👣', $(<footprints>),
+  '👤', $(<bust-in-silhouette>),
+  '👥', $(<busts-in-silhouette>),
+  '👦', $(<boy>),
+  '👧', $(<girl>),
+  '👨', $(<man>),
+  '👨‍⚕️', $(<man-health-worker>),
+  '👨‍⚖️', $(<man-judge>),
+  '👨‍✈️', $(<man-pilot>),
+  '👨‍❤️‍👨', $(<couple-with-heart-man-man>),
+  '👨‍❤️‍💋‍👨', $(<couplekiss-man-man>),
+  '👨‍🌾', $(<man-farmer>),
+  '👨‍🍳', $(<man-cook>),
+  '👨‍🍼', $(<man-feeding-baby>),
+  '👨‍🎓', $(<man-student>),
+  '👨‍🎤', $(<man-singer>),
+  '👨‍🎨', $(<man-artist>),
+  '👨‍🏫', $(<man-teacher>),
+  '👨‍🏭', $(<man-factory-worker>),
+  '👨‍👦', $(<family-man-boy>),
+  '👨‍👦‍👦', $(<family-man-boy-boy>),
+  '👨‍👧', $(<family-man-girl>),
+  '👨‍👧‍👦', $(<family-man-girl-boy>),
+  '👨‍👧‍👧', $(<family-man-girl-girl>),
+  '👨‍👨‍👦', $(<family-man-man-boy>),
+  '👨‍👨‍👦‍👦', $(<family-man-man-boy-boy>),
+  '👨‍👨‍👧', $(<family-man-man-girl>),
+  '👨‍👨‍👧‍👦', $(<family-man-man-girl-boy>),
+  '👨‍👨‍👧‍👧', $(<family-man-man-girl-girl>),
+  '👨‍👩‍👦', $(<family-man-woman-boy>),
+  '👨‍👩‍👦‍👦', $(<family-man-woman-boy-boy>),
+  '👨‍👩‍👧', $(<family-man-woman-girl>),
+  '👨‍👩‍👧‍👦', $(<family-man-woman-girl-boy>),
+  '👨‍👩‍👧‍👧', $(<family-man-woman-girl-girl>),
+  '👨‍💻', $(<man-technologist>),
+  '👨‍💼', $(<man-office-worker>),
+  '👨‍🔧', $(<man-mechanic>),
+  '👨‍🔬', $(<man-scientist>),
+  '👨‍🚀', $(<man-astronaut>),
+  '👨‍🚒', $(<man-firefighter>),
+  '👨‍🦯', $(<man-with-probing-cane>),
+  '👨‍🦰', $(<red-haired-man>),
+  '👨‍🦱', $(<curly-haired-man>),
+  '👨‍🦲', $(<bald-man>),
+  '👨‍🦳', $(<white-haired-man>),
+  '👨‍🦼', $(<man-in-motorized-wheelchair>),
+  '👨‍🦽', $(<man-in-manual-wheelchair>),
+  '👩', $(<woman>),
+  '👩‍⚕️', $(<woman-health-worker>),
+  '👩‍⚖️', $(<woman-judge>),
+  '👩‍✈️', $(<woman-pilot>),
+  '👩‍❤️‍👨', $(<couple-with-heart-woman-man>),
+  '👩‍❤️‍👩', $(<couple-with-heart-woman-woman>),
+  '👩‍❤️‍💋‍👨', $(<couplekiss-man-woman>),
+  '👩‍❤️‍💋‍👩', $(<couplekiss-woman-woman>),
+  '👩‍🌾', $(<woman-farmer>),
+  '👩‍🍳', $(<woman-cook>),
+  '👩‍🍼', $(<woman-feeding-baby>),
+  '👩‍🎓', $(<woman-student>),
+  '👩‍🎤', $(<woman-singer>),
+  '👩‍🎨', $(<woman-artist>),
+  '👩‍🏫', $(<woman-teacher>),
+  '👩‍🏭', $(<woman-factory-worker>),
+  '👩‍👦', $(<family-woman-boy>),
+  '👩‍👦‍👦', $(<family-woman-boy-boy>),
+  '👩‍👧', $(<family-woman-girl>),
+  '👩‍👧‍👦', $(<family-woman-girl-boy>),
+  '👩‍👧‍👧', $(<family-woman-girl-girl>),
+  '👩‍👩‍👦', $(<family-woman-woman-boy>),
+  '👩‍👩‍👦‍👦', $(<family-woman-woman-boy-boy>),
+  '👩‍👩‍👧', $(<family-woman-woman-girl>),
+  '👩‍👩‍👧‍👦', $(<family-woman-woman-girl-boy>),
+  '👩‍👩‍👧‍👧', $(<family-woman-woman-girl-girl>),
+  '👩‍💻', $(<woman-technologist>),
+  '👩‍💼', $(<woman-office-worker>),
+  '👩‍🔧', $(<woman-mechanic>),
+  '👩‍🔬', $(<woman-scientist>),
+  '👩‍🚀', $(<woman-astronaut>),
+  '👩‍🚒', $(<woman-firefighter>),
+  '👩‍🦯', $(<woman-with-probing-cane>),
+  '👩‍🦰', $(<red-haired-woman>),
+  '👩‍🦱', $(<curly-haired-woman>),
+  '👩‍🦲', $(<bald-woman>),
+  '👩‍🦳', $(<white-haired-woman>),
+  '👩‍🦼', $(<woman-in-motorized-wheelchair>),
+  '👩‍🦽', $(<woman-in-manual-wheelchair>),
+  '👪', $(<family>),
+  '👫', $(<couple>),
+  '👬', $(<two-men-holding-hands>),
+  '👭', $(<two-women-holding-hands>),
+  '👮', $(<cop police-officer>),
+  '👮‍♀️', $(<policewoman>),
+  '👮‍♂️', $(<policeman>),
+  '👯', $(<dancers>),
+  '👯‍♀️', $(<dancing-women>),
+  '👯‍♂️', $(<dancing-men>),
+  '👰', $(<person-with-veil>),
+  '👰‍♀️', $(<woman-with-veil bride-with-veil>),
+  '👰‍♂️', $(<man-with-veil>),
+  '👱', $(<blond-haired-person>),
+  '👱‍♀️', $(<blonde-woman blond-haired-woman>),
+  '👱‍♂️', $(<blond-haired-man>),
+  '👲', $(<man-with-gua-pi-mao>),
+  '👳', $(<person-with-turban>),
+  '👳‍♀️', $(<woman-with-turban>),
+  '👳‍♂️', $(<man-with-turban>),
+  '👴', $(<older-man>),
+  '👵', $(<older-woman>),
+  '👶', $(<baby>),
+  '👷', $(<construction-worker>),
+  '👷‍♀️', $(<construction-worker-woman>),
+  '👷‍♂️', $(<construction-worker-man>),
+  '👸', $(<princess>),
+  '👹', $(<japanese-ogre>),
+  '👺', $(<japanese-goblin>),
+  '👻', $(<ghost>),
+  '👼', $(<angel>),
+  '👽', $(<alien>),
+  '👾', $(<space-invader>),
+  '👿', $(<imp>),
+  '💀', $(<skull>),
+  '💁', $(<tipping-hand-person information-desk-person>),
+  '💁‍♀️', $(<sassy-woman tipping-hand-woman>),
+  '💁‍♂️', $(<sassy-man tipping-hand-man>),
+  '💂', $(<guard>),
+  '💂‍♀️', $(<guardswoman>),
+  '💂‍♂️', $(<guardsman>),
+  '💃', $(<dancer woman-dancing>),
+  '💄', $(<lipstick>),
+  '💅', $(<nail-care>),
+  '💆', $(<massage>),
+  '💆‍♀️', $(<massage-woman>),
+  '💆‍♂️', $(<massage-man>),
+  '💇', $(<haircut>),
+  '💇‍♀️', $(<haircut-woman>),
+  '💇‍♂️', $(<haircut-man>),
+  '💈', $(<barber>),
+  '💉', $(<syringe>),
+  '💊', $(<pill>),
+  '💋', $(<kiss>),
+  '💌', $(<love-letter>),
+  '💍', $(<ring>),
+  '💎', $(<gem>),
+  '💏', $(<couplekiss>),
+  '💐', $(<bouquet>),
+  '💑', $(<couple-with-heart>),
+  '💒', $(<wedding>),
+  '💓', $(<heartbeat>),
+  '💔', $(<broken-heart>),
+  '💕', $(<two-hearts>),
+  '💖', $(<sparkling-heart>),
+  '💗', $(<heartpulse>),
+  '💘', $(<cupid>),
+  '💙', $(<blue-heart>),
+  '💚', $(<green-heart>),
+  '💛', $(<yellow-heart>),
+  '💜', $(<purple-heart>),
+  '💝', $(<gift-heart>),
+  '💞', $(<revolving-hearts>),
+  '💟', $(<heart-decoration>),
+  '💠', $(<diamond-shape-with-a-dot-inside>),
+  '💡', $(<bulb>),
+  '💢', $(<anger>),
+  '💣', $(<bomb>),
+  '💤', $(<zzz>),
+  '💥', $(<boom collision>),
+  '💦', $(<sweat-drops>),
+  '💧', $(<droplet>),
+  '💨', $(<dash>),
+  '💩', $(<poop shit hankey>),
+  '💪', $(<muscle>),
+  '💫', $(<dizzy>),
+  '💬', $(<speech-balloon>),
+  '💭', $(<thought-balloon>),
+  '💮', $(<white-flower>),
+  '💯', $(<100>),
+  '💰', $(<moneybag>),
+  '💱', $(<currency-exchange>),
+  '💲', $(<heavy-dollar-sign>),
+  '💳', $(<credit-card>),
+  '💴', $(<yen>),
+  '💵', $(<dollar>),
+  '💶', $(<euro>),
+  '💷', $(<pound>),
+  '💸', $(<money-with-wings>),
+  '💹', $(<chart>),
+  '💺', $(<seat>),
+  '💻', $(<computer>),
+  '💼', $(<briefcase>),
+  '💽', $(<minidisc>),
+  '💾', $(<floppy-disk>),
+  '💿', $(<cd>),
+  '📀', $(<dvd>),
+  '📁', $(<file-folder>),
+  '📂', $(<open-file-folder>),
+  '📃', $(<page-with-curl>),
+  '📄', $(<page-facing-up>),
+  '📅', $(<date>),
+  '📆', $(<calendar>),
+  '📇', $(<card-index>),
+  '📈', $(<chart-with-upwards-trend>),
+  '📉', $(<chart-with-downwards-trend>),
+  '📊', $(<bar-chart>),
+  '📋', $(<clipboard>),
+  '📌', $(<pushpin>),
+  '📍', $(<round-pushpin>),
+  '📎', $(<paperclip>),
+  '📏', $(<straight-ruler>),
+  '📐', $(<triangular-ruler>),
+  '📑', $(<bookmark-tabs>),
+  '📒', $(<ledger>),
+  '📓', $(<notebook>),
+  '📔', $(<notebook-with-decorative-cover>),
+  '📕', $(<closed-book>),
+  '📖', $(<book open-book>),
+  '📗', $(<green-book>),
+  '📘', $(<blue-book>),
+  '📙', $(<orange-book>),
+  '📚', $(<books>),
+  '📛', $(<name-badge>),
+  '📜', $(<scroll>),
+  '📝', $(<memo pencil>),
+  '📞', $(<telephone-receiver>),
+  '📟', $(<pager>),
+  '📠', $(<fax>),
+  '📡', $(<satellite>),
+  '📢', $(<loudspeaker>),
+  '📣', $(<mega>),
+  '📤', $(<outbox-tray>),
+  '📥', $(<inbox-tray>),
+  '📦', $(<package>),
+  '📧', $(<email e-mail>),
+  '📨', $(<incoming-envelope>),
+  '📩', $(<envelope-with-arrow>),
+  '📪', $(<mailbox-closed>),
+  '📫', $(<mailbox>),
+  '📬', $(<mailbox-with-mail>),
+  '📭', $(<mailbox-with-no-mail>),
+  '📮', $(<postbox>),
+  '📯', $(<postal-horn>),
+  '📰', $(<newspaper>),
+  '📱', $(<iphone>),
+  '📲', $(<calling>),
+  '📳', $(<vibration-mode>),
+  '📴', $(<mobile-phone-off>),
+  '📵', $(<no-mobile-phones>),
+  '📶', $(<signal-strength>),
+  '📷', $(<camera>),
+  '📸', $(<camera-flash>),
+  '📹', $(<video-camera>),
+  '📺', $(<tv>),
+  '📻', $(<radio>),
+  '📼', $(<vhs>),
+  '📽️', $(<film-projector>),
+  '📿', $(<prayer-beads>),
+  '🔀', $(<twisted-rightwards-arrows>),
+  '🔁', $(<repeat>),
+  '🔂', $(<repeat-one>),
+  '🔃', $(<arrows-clockwise>),
+  '🔄', $(<arrows-counterclockwise>),
+  '🔅', $(<low-brightness>),
+  '🔆', $(<high-brightness>),
+  '🔇', $(<mute>),
+  '🔈', $(<speaker>),
+  '🔉', $(<sound>),
+  '🔊', $(<loud-sound>),
+  '🔋', $(<battery>),
+  '🔌', $(<electric-plug>),
+  '🔍', $(<mag>),
+  '🔎', $(<mag-right>),
+  '🔏', $(<lock-with-ink-pen>),
+  '🔐', $(<closed-lock-with-key>),
+  '🔑', $(<key>),
+  '🔒', $(<lock>),
+  '🔓', $(<unlock>),
+  '🔔', $(<bell>),
+  '🔕', $(<no-bell>),
+  '🔖', $(<bookmark>),
+  '🔗', $(<link>),
+  '🔘', $(<radio-button>),
+  '🔙', $(<back>),
+  '🔚', $(<end>),
+  '🔛', $(<on>),
+  '🔜', $(<soon>),
+  '🔝', $(<top>),
+  '🔞', $(<underage>),
+  '🔟', $(<keycap-ten>),
+  '🔠', $(<capital-abcd>),
+  '🔡', $(<abcd>),
+  '🔢', $(<1234>),
+  '🔣', $(<symbols>),
+  '🔤', $(<abc>),
+  '🔥', $(<fire>),
+  '🔦', $(<flashlight>),
+  '🔧', $(<wrench>),
+  '🔨', $(<hammer>),
+  '🔩', $(<nut-and-bolt>),
+  '🔪', $(<hocho knife>),
+  '🔫', $(<gun>),
+  '🔬', $(<microscope>),
+  '🔭', $(<telescope>),
+  '🔮', $(<crystal-ball>),
+  '🔯', $(<six-pointed-star>),
+  '🔰', $(<beginner>),
+  '🔱', $(<trident>),
+  '🔲', $(<black-square-button>),
+  '🔳', $(<white-square-button>),
+  '🔴', $(<red-circle>),
+  '🔵', $(<large-blue-circle>),
+  '🔶', $(<large-orange-diamond>),
+  '🔷', $(<large-blue-diamond>),
+  '🔸', $(<small-orange-diamond>),
+  '🔹', $(<small-blue-diamond>),
+  '🔺', $(<small-red-triangle>),
+  '🔻', $(<small-red-triangle-down>),
+  '🔼', $(<arrow-up-small>),
+  '🔽', $(<arrow-down-small>),
+  '🕉️', $(<om>),
+  '🕊️', $(<dove>),
+  '🕋', $(<kaaba>),
+  '🕌', $(<mosque>),
+  '🕍', $(<synagogue>),
+  '🕎', $(<menorah>),
+  '🕐', $(<clock1>),
+  '🕑', $(<clock2>),
+  '🕒', $(<clock3>),
+  '🕓', $(<clock4>),
+  '🕔', $(<clock5>),
+  '🕕', $(<clock6>),
+  '🕖', $(<clock7>),
+  '🕗', $(<clock8>),
+  '🕘', $(<clock9>),
+  '🕙', $(<clock10>),
+  '🕚', $(<clock11>),
+  '🕛', $(<clock12>),
+  '🕜', $(<clock130>),
+  '🕝', $(<clock230>),
+  '🕞', $(<clock330>),
+  '🕟', $(<clock430>),
+  '🕠', $(<clock530>),
+  '🕡', $(<clock630>),
+  '🕢', $(<clock730>),
+  '🕣', $(<clock830>),
+  '🕤', $(<clock930>),
+  '🕥', $(<clock1030>),
+  '🕦', $(<clock1130>),
+  '🕧', $(<clock1230>),
+  '🕯️', $(<candle>),
+  '🕰️', $(<mantelpiece-clock>),
+  '🕳️', $(<hole>),
+  '🕴️', $(<business-suit-levitating>),
+  '🕵️', $(<detective>),
+  '🕵️‍♀️', $(<female-detective>),
+  '🕵️‍♂️', $(<male-detective>),
+  '🕶️', $(<dark-sunglasses>),
+  '🕷️', $(<spider>),
+  '🕸️', $(<spider-web>),
+  '🕹️', $(<joystick>),
+  '🕺', $(<man-dancing>),
+  '🖇️', $(<paperclips>),
+  '🖊️', $(<pen>),
+  '🖋️', $(<fountain-pen>),
+  '🖌️', $(<paintbrush>),
+  '🖍️', $(<crayon>),
+  '🖐️', $(<raised-hand-with-fingers-splayed>),
+  '🖕', $(<fu middle-finger>),
+  '🖖', $(<vulcan-salute>),
+  '🖤', $(<black-heart>),
+  '🖥️', $(<desktop-computer>),
+  '🖨️', $(<printer>),
+  '🖱️', $(<computer-mouse>),
+  '🖲️', $(<trackball>),
+  '🖼️', $(<framed-picture>),
+  '🗂️', $(<card-index-dividers>),
+  '🗃️', $(<card-file-box>),
+  '🗄️', $(<file-cabinet>),
+  '🗑️', $(<wastebasket>),
+  '🗒️', $(<spiral-notepad>),
+  '🗓️', $(<spiral-calendar>),
+  '🗜️', $(<clamp>),
+  '🗝️', $(<old-key>),
+  '🗞️', $(<newspaper-roll>),
+  '🗡️', $(<dagger>),
+  '🗣️', $(<speaking-head>),
+  '🗨️', $(<left-speech-bubble>),
+  '🗯️', $(<right-anger-bubble>),
+  '🗳️', $(<ballot-box>),
+  '🗺️', $(<world-map>),
+  '🗻', $(<mount-fuji>),
+  '🗼', $(<tokyo-tower>),
+  '🗽', $(<statue-of-liberty>),
+  '🗾', $(<japan>),
+  '🗿', $(<moyai>),
+  '😀', $(<grinning>),
+  '😁', $(<grin>),
+  '😂', $(<joy>),
+  '😃', $(<smiley>),
+  '😄', $(<smile>),
+  '😅', $(<sweat-smile>),
+  '😆', $(<laughing satisfied>),
+  '😇', $(<innocent>),
+  '😈', $(<smiling-imp>),
+  '😉', $(<wink>),
+  '😊', $(<blush>),
+  '😋', $(<yum>),
+  '😌', $(<relieved>),
+  '😍', $(<heart-eyes>),
+  '😎', $(<sunglasses>),
+  '😏', $(<smirk>),
+  '😐', $(<neutral-face>),
+  '😑', $(<expressionless>),
+  '😒', $(<unamused>),
+  '😓', $(<sweat>),
+  '😔', $(<pensive>),
+  '😕', $(<confused>),
+  '😖', $(<confounded>),
+  '😗', $(<kissing>),
+  '😘', $(<kissing-heart>),
+  '😙', $(<kissing-smiling-eyes>),
+  '😚', $(<kissing-closed-eyes>),
+  '😛', $(<stuck-out-tongue>),
+  '😜', $(<stuck-out-tongue-winking-eye>),
+  '😝', $(<stuck-out-tongue-closed-eyes>),
+  '😞', $(<disappointed>),
+  '😟', $(<worried>),
+  '😠', $(<angry>),
+  '😡', $(<rage pout>),
+  '😢', $(<cry>),
+  '😣', $(<persevere>),
+  '😤', $(<triumph>),
+  '😥', $(<disappointed-relieved>),
+  '😦', $(<frowning>),
+  '😧', $(<anguished>),
+  '😨', $(<fearful>),
+  '😩', $(<weary>),
+  '😪', $(<sleepy>),
+  '😫', $(<tired-face>),
+  '😬', $(<grimacing>),
+  '😭', $(<sob>),
+  '😮', $(<open-mouth>),
+  '😮‍💨', $(<face-exhaling>),
+  '😯', $(<hushed>),
+  '😰', $(<cold-sweat>),
+  '😱', $(<scream>),
+  '😲', $(<astonished>),
+  '😳', $(<flushed>),
+  '😴', $(<sleeping>),
+  '😵', $(<dizzy-face>),
+  '😵‍💫', $(<face-with-spiral-eyes>),
+  '😶', $(<no-mouth>),
+  '😶‍🌫️', $(<face-in-clouds>),
+  '😷', $(<mask>),
+  '😸', $(<smile-cat>),
+  '😹', $(<joy-cat>),
+  '😺', $(<smiley-cat>),
+  '😻', $(<heart-eyes-cat>),
+  '😼', $(<smirk-cat>),
+  '😽', $(<kissing-cat>),
+  '😾', $(<pouting-cat>),
+  '😿', $(<crying-cat-face>),
+  '🙀', $(<scream-cat>),
+  '🙁', $(<slightly-frowning-face>),
+  '🙂', $(<slightly-smiling-face>),
+  '🙃', $(<upside-down-face>),
+  '🙄', $(<roll-eyes>),
+  '🙅', $(<no-good>),
+  '🙅‍♀️', $(<ng-woman no-good-woman>),
+  '🙅‍♂️', $(<ng-man no-good-man>),
+  '🙆', $(<ok-person>),
+  '🙆‍♀️', $(<ok-woman>),
+  '🙆‍♂️', $(<ok-man>),
+  '🙇', $(<bow>),
+  '🙇‍♀️', $(<bowing-woman>),
+  '🙇‍♂️', $(<bowing-man>),
+  '🙈', $(<see-no-evil>),
+  '🙉', $(<hear-no-evil>),
+  '🙊', $(<speak-no-evil>),
+  '🙋', $(<raising-hand>),
+  '🙋‍♀️', $(<raising-hand-woman>),
+  '🙋‍♂️', $(<raising-hand-man>),
+  '🙌', $(<raised-hands>),
+  '🙍', $(<frowning-person>),
+  '🙍‍♀️', $(<frowning-woman>),
+  '🙍‍♂️', $(<frowning-man>),
+  '🙎', $(<pouting-face>),
+  '🙎‍♀️', $(<pouting-woman>),
+  '🙎‍♂️', $(<pouting-man>),
+  '🙏', $(<pray>),
+  '🚀', $(<rocket>),
+  '🚁', $(<helicopter>),
+  '🚂', $(<steam-locomotive>),
+  '🚃', $(<railway-car>),
+  '🚄', $(<bullettrain-side>),
+  '🚅', $(<bullettrain-front>),
+  '🚆', $(<train2>),
+  '🚇', $(<metro>),
+  '🚈', $(<light-rail>),
+  '🚉', $(<station>),
+  '🚊', $(<tram>),
+  '🚋', $(<train>),
+  '🚌', $(<bus>),
+  '🚍', $(<oncoming-bus>),
+  '🚎', $(<trolleybus>),
+  '🚏', $(<busstop>),
+  '🚐', $(<minibus>),
+  '🚑', $(<ambulance>),
+  '🚒', $(<fire-engine>),
+  '🚓', $(<police-car>),
+  '🚔', $(<oncoming-police-car>),
+  '🚕', $(<taxi>),
+  '🚖', $(<oncoming-taxi>),
+  '🚗', $(<car red-car>),
+  '🚘', $(<oncoming-automobile>),
+  '🚙', $(<blue-car>),
+  '🚚', $(<truck>),
+  '🚛', $(<articulated-lorry>),
+  '🚜', $(<tractor>),
+  '🚝', $(<monorail>),
+  '🚞', $(<mountain-railway>),
+  '🚟', $(<suspension-railway>),
+  '🚠', $(<mountain-cableway>),
+  '🚡', $(<aerial-tramway>),
+  '🚢', $(<ship>),
+  '🚣', $(<rowboat>),
+  '🚣‍♀️', $(<rowing-woman>),
+  '🚣‍♂️', $(<rowing-man>),
+  '🚤', $(<speedboat>),
+  '🚥', $(<traffic-light>),
+  '🚦', $(<vertical-traffic-light>),
+  '🚧', $(<construction>),
+  '🚨', $(<rotating-light>),
+  '🚩', $(<triangular-flag-on-post>),
+  '🚪', $(<door>),
+  '🚫', $(<no-entry-sign>),
+  '🚬', $(<smoking>),
+  '🚭', $(<no-smoking>),
+  '🚮', $(<put-litter-in-its-place>),
+  '🚯', $(<do-not-litter>),
+  '🚰', $(<potable-water>),
+  '🚱', $(<non-potable-water>),
+  '🚲', $(<bike>),
+  '🚳', $(<no-bicycles>),
+  '🚴', $(<bicyclist>),
+  '🚴‍♀️', $(<biking-woman>),
+  '🚴‍♂️', $(<biking-man>),
+  '🚵', $(<mountain-bicyclist>),
+  '🚵‍♀️', $(<mountain-biking-woman>),
+  '🚵‍♂️', $(<mountain-biking-man>),
+  '🚶', $(<walking>),
+  '🚶‍♀️', $(<walking-woman>),
+  '🚶‍♂️', $(<walking-man>),
+  '🚷', $(<no-pedestrians>),
+  '🚸', $(<children-crossing>),
+  '🚹', $(<mens>),
+  '🚺', $(<womens>),
+  '🚻', $(<restroom>),
+  '🚼', $(<baby-symbol>),
+  '🚽', $(<toilet>),
+  '🚾', $(<wc>),
+  '🚿', $(<shower>),
+  '🛀', $(<bath>),
+  '🛁', $(<bathtub>),
+  '🛂', $(<passport-control>),
+  '🛃', $(<customs>),
+  '🛄', $(<baggage-claim>),
+  '🛅', $(<left-luggage>),
+  '🛋️', $(<couch-and-lamp>),
+  '🛌', $(<sleeping-bed>),
+  '🛍️', $(<shopping>),
+  '🛎️', $(<bellhop-bell>),
+  '🛏️', $(<bed>),
+  '🛐', $(<place-of-worship>),
+  '🛑', $(<stop-sign>),
+  '🛒', $(<shopping-cart>),
+  '🛕', $(<hindu-temple>),
+  '🛖', $(<hut>),
+  '🛗', $(<elevator>),
+  '🛜', $(<wireless>),
+  '🛝', $(<playground-slide>),
+  '🛞', $(<wheel>),
+  '🛟', $(<ring-buoy>),
+  '🛠️', $(<hammer-and-wrench>),
+  '🛡️', $(<shield>),
+  '🛢️', $(<oil-drum>),
+  '🛣️', $(<motorway>),
+  '🛤️', $(<railway-track>),
+  '🛥️', $(<motor-boat>),
+  '🛩️', $(<small-airplane>),
+  '🛫', $(<flight-departure>),
+  '🛬', $(<flight-arrival>),
+  '🛰️', $(<artificial-satellite>),
+  '🛳️', $(<passenger-ship>),
+  '🛴', $(<kick-scooter>),
+  '🛵', $(<motor-scooter>),
+  '🛶', $(<canoe>),
+  '🛷', $(<sled>),
+  '🛸', $(<flying-saucer>),
+  '🛹', $(<skateboard>),
+  '🛺', $(<auto-rickshaw>),
+  '🛻', $(<pickup-truck>),
+  '🛼', $(<roller-skate>),
+  '🟠', $(<orange-circle>),
+  '🟡', $(<yellow-circle>),
+  '🟢', $(<green-circle>),
+  '🟣', $(<purple-circle>),
+  '🟤', $(<brown-circle>),
+  '🟥', $(<red-square>),
+  '🟦', $(<blue-square>),
+  '🟧', $(<orange-square>),
+  '🟨', $(<yellow-square>),
+  '🟩', $(<green-square>),
+  '🟪', $(<purple-square>),
+  '🟫', $(<brown-square>),
+  '🟰', $(<heavy-equals-sign>),
+  '🤌', $(<pinched-fingers>),
+  '🤍', $(<white-heart>),
+  '🤎', $(<brown-heart>),
+  '🤏', $(<pinching-hand>),
+  '🤐', $(<zipper-mouth-face>),
+  '🤑', $(<money-mouth-face>),
+  '🤒', $(<face-with-thermometer>),
+  '🤓', $(<nerd-face>),
+  '🤔', $(<thinking>),
+  '🤕', $(<face-with-head-bandage>),
+  '🤖', $(<robot>),
+  '🤗', $(<hugs>),
+  '🤘', $(<metal>),
+  '🤙', $(<call-me-hand>),
+  '🤚', $(<raised-back-of-hand>),
+  '🤛', $(<fist-left>),
+  '🤜', $(<fist-right>),
+  '🤝', $(<handshake>),
+  '🤞', $(<crossed-fingers>),
+  '🤟', $(<love-you-gesture>),
+  '🤠', $(<cowboy-hat-face>),
+  '🤡', $(<clown-face>),
+  '🤢', $(<nauseated-face>),
+  '🤣', $(<rofl>),
+  '🤤', $(<drooling-face>),
+  '🤥', $(<lying-face>),
+  '🤦', $(<facepalm>),
+  '🤦‍♀️', $(<woman-facepalming>),
+  '🤦‍♂️', $(<man-facepalming>),
+  '🤧', $(<sneezing-face>),
+  '🤨', $(<raised-eyebrow>),
+  '🤩', $(<star-struck>),
+  '🤪', $(<zany-face>),
+  '🤫', $(<shushing-face>),
+  '🤬', $(<cursing-face>),
+  '🤭', $(<hand-over-mouth>),
+  '🤮', $(<vomiting-face>),
+  '🤯', $(<exploding-head>),
+  '🤰', $(<pregnant-woman>),
+  '🤱', $(<breast-feeding>),
+  '🤲', $(<palms-up-together>),
+  '🤳', $(<selfie>),
+  '🤴', $(<prince>),
+  '🤵', $(<person-in-tuxedo>),
+  '🤵‍♀️', $(<woman-in-tuxedo>),
+  '🤵‍♂️', $(<man-in-tuxedo>),
+  '🤶', $(<mrs-claus>),
+  '🤷', $(<shrug>),
+  '🤷‍♀️', $(<woman-shrugging>),
+  '🤷‍♂️', $(<man-shrugging>),
+  '🤸', $(<cartwheeling>),
+  '🤸‍♀️', $(<woman-cartwheeling>),
+  '🤸‍♂️', $(<man-cartwheeling>),
+  '🤹', $(<juggling-person>),
+  '🤹‍♀️', $(<woman-juggling>),
+  '🤹‍♂️', $(<man-juggling>),
+  '🤺', $(<person-fencing>),
+  '🤼', $(<wrestling>),
+  '🤼‍♀️', $(<women-wrestling>),
+  '🤼‍♂️', $(<men-wrestling>),
+  '🤽', $(<water-polo>),
+  '🤽‍♀️', $(<woman-playing-water-polo>),
+  '🤽‍♂️', $(<man-playing-water-polo>),
+  '🤾', $(<handball-person>),
+  '🤾‍♀️', $(<woman-playing-handball>),
+  '🤾‍♂️', $(<man-playing-handball>),
+  '🤿', $(<diving-mask>),
+  '🥀', $(<wilted-flower>),
+  '🥁', $(<drum>),
+  '🥂', $(<clinking-glasses>),
+  '🥃', $(<tumbler-glass>),
+  '🥄', $(<spoon>),
+  '🥅', $(<goal-net>),
+  '🥇', $(<1st-place-medal>),
+  '🥈', $(<2nd-place-medal>),
+  '🥉', $(<3rd-place-medal>),
+  '🥊', $(<boxing-glove>),
+  '🥋', $(<martial-arts-uniform>),
+  '🥌', $(<curling-stone>),
+  '🥍', $(<lacrosse>),
+  '🥎', $(<softball>),
+  '🥏', $(<flying-disc>),
+  '🥐', $(<croissant>),
+  '🥑', $(<avocado>),
+  '🥒', $(<cucumber>),
+  '🥓', $(<bacon>),
+  '🥔', $(<potato>),
+  '🥕', $(<carrot>),
+  '🥖', $(<baguette-bread>),
+  '🥗', $(<green-salad>),
+  '🥘', $(<shallow-pan-of-food>),
+  '🥙', $(<stuffed-flatbread>),
+  '🥚', $(<egg>),
+  '🥛', $(<milk-glass>),
+  '🥜', $(<peanuts>),
+  '🥝', $(<kiwi-fruit>),
+  '🥞', $(<pancakes>),
+  '🥟', $(<dumpling>),
+  '🥠', $(<fortune-cookie>),
+  '🥡', $(<takeout-box>),
+  '🥢', $(<chopsticks>),
+  '🥣', $(<bowl-with-spoon>),
+  '🥤', $(<cup-with-straw>),
+  '🥥', $(<coconut>),
+  '🥦', $(<broccoli>),
+  '🥧', $(<pie>),
+  '🥨', $(<pretzel>),
+  '🥩', $(<cut-of-meat>),
+  '🥪', $(<sandwich>),
+  '🥫', $(<canned-food>),
+  '🥬', $(<leafy-green>),
+  '🥭', $(<mango>),
+  '🥮', $(<moon-cake>),
+  '🥯', $(<bagel>),
+  '🥰', $(<smiling-face-with-three-hearts>),
+  '🥱', $(<yawning-face>),
+  '🥲', $(<smiling-face-with-tear>),
+  '🥳', $(<partying-face>),
+  '🥴', $(<woozy-face>),
+  '🥵', $(<hot-face>),
+  '🥶', $(<cold-face>),
+  '🥷', $(<ninja>),
+  '🥸', $(<disguised-face>),
+  '🥹', $(<face-holding-back-tears>),
+  '🥺', $(<pleading-face>),
+  '🥻', $(<sari>),
+  '🥼', $(<lab-coat>),
+  '🥽', $(<goggles>),
+  '🥾', $(<hiking-boot>),
+  '🥿', $(<flat-shoe>),
+  '🦀', $(<crab>),
+  '🦁', $(<lion>),
+  '🦂', $(<scorpion>),
+  '🦃', $(<turkey>),
+  '🦄', $(<unicorn>),
+  '🦅', $(<eagle>),
+  '🦆', $(<duck>),
+  '🦇', $(<bat>),
+  '🦈', $(<shark>),
+  '🦉', $(<owl>),
+  '🦊', $(<fox-face>),
+  '🦋', $(<butterfly>),
+  '🦌', $(<deer>),
+  '🦍', $(<gorilla>),
+  '🦎', $(<lizard>),
+  '🦏', $(<rhinoceros>),
+  '🦐', $(<shrimp>),
+  '🦑', $(<squid>),
+  '🦒', $(<giraffe>),
+  '🦓', $(<zebra>),
+  '🦔', $(<hedgehog>),
+  '🦕', $(<sauropod>),
+  '🦖', $(<t-rex>),
+  '🦗', $(<cricket>),
+  '🦘', $(<kangaroo>),
+  '🦙', $(<llama>),
+  '🦚', $(<peacock>),
+  '🦛', $(<hippopotamus>),
+  '🦜', $(<parrot>),
+  '🦝', $(<raccoon>),
+  '🦞', $(<lobster>),
+  '🦟', $(<mosquito>),
+  '🦠', $(<microbe>),
+  '🦡', $(<badger>),
+  '🦢', $(<swan>),
+  '🦣', $(<mammoth>),
+  '🦤', $(<dodo>),
+  '🦥', $(<sloth>),
+  '🦦', $(<otter>),
+  '🦧', $(<orangutan>),
+  '🦨', $(<skunk>),
+  '🦩', $(<flamingo>),
+  '🦪', $(<oyster>),
+  '🦫', $(<beaver>),
+  '🦬', $(<bison>),
+  '🦭', $(<seal>),
+  '🦮', $(<guide-dog>),
+  '🦯', $(<probing-cane>),
+  '🦴', $(<bone>),
+  '🦵', $(<leg>),
+  '🦶', $(<foot>),
+  '🦷', $(<tooth>),
+  '🦸', $(<superhero>),
+  '🦸‍♀️', $(<superhero-woman>),
+  '🦸‍♂️', $(<superhero-man>),
+  '🦹', $(<supervillain>),
+  '🦹‍♀️', $(<supervillain-woman>),
+  '🦹‍♂️', $(<supervillain-man>),
+  '🦺', $(<safety-vest>),
+  '🦻', $(<ear-with-hearing-aid>),
+  '🦼', $(<motorized-wheelchair>),
+  '🦽', $(<manual-wheelchair>),
+  '🦾', $(<mechanical-arm>),
+  '🦿', $(<mechanical-leg>),
+  '🧀', $(<cheese>),
+  '🧁', $(<cupcake>),
+  '🧂', $(<salt>),
+  '🧃', $(<beverage-box>),
+  '🧄', $(<garlic>),
+  '🧅', $(<onion>),
+  '🧆', $(<falafel>),
+  '🧇', $(<waffle>),
+  '🧈', $(<butter>),
+  '🧉', $(<mate>),
+  '🧊', $(<ice-cube>),
+  '🧋', $(<bubble-tea>),
+  '🧌', $(<troll>),
+  '🧍', $(<standing-person>),
+  '🧍‍♀️', $(<standing-woman>),
+  '🧍‍♂️', $(<standing-man>),
+  '🧎', $(<kneeling-person>),
+  '🧎‍♀️', $(<kneeling-woman>),
+  '🧎‍♂️', $(<kneeling-man>),
+  '🧏', $(<deaf-person>),
+  '🧏‍♀️', $(<deaf-woman>),
+  '🧏‍♂️', $(<deaf-man>),
+  '🧐', $(<monocle-face>),
+  '🧑', $(<adult>),
+  '🧑‍⚕️', $(<health-worker>),
+  '🧑‍⚖️', $(<judge>),
+  '🧑‍✈️', $(<pilot>),
+  '🧑‍🌾', $(<farmer>),
+  '🧑‍🍳', $(<cook>),
+  '🧑‍🍼', $(<person-feeding-baby>),
+  '🧑‍🎄', $(<mx-claus>),
+  '🧑‍🎓', $(<student>),
+  '🧑‍🎤', $(<singer>),
+  '🧑‍🎨', $(<artist>),
+  '🧑‍🏫', $(<teacher>),
+  '🧑‍🏭', $(<factory-worker>),
+  '🧑‍💻', $(<technologist>),
+  '🧑‍💼', $(<office-worker>),
+  '🧑‍🔧', $(<mechanic>),
+  '🧑‍🔬', $(<scientist>),
+  '🧑‍🚀', $(<astronaut>),
+  '🧑‍🚒', $(<firefighter>),
+  '🧑‍🤝‍🧑', $(<people-holding-hands>),
+  '🧑‍🦯', $(<person-with-probing-cane>),
+  '🧑‍🦰', $(<person-red-hair>),
+  '🧑‍🦱', $(<person-curly-hair>),
+  '🧑‍🦲', $(<person-bald>),
+  '🧑‍🦳', $(<person-white-hair>),
+  '🧑‍🦼', $(<person-in-motorized-wheelchair>),
+  '🧑‍🦽', $(<person-in-manual-wheelchair>),
+  '🧒', $(<child>),
+  '🧓', $(<older-adult>),
+  '🧔', $(<bearded-person>),
+  '🧔‍♀️', $(<woman-beard>),
+  '🧔‍♂️', $(<man-beard>),
+  '🧕', $(<woman-with-headscarf>),
+  '🧖', $(<sauna-person>),
+  '🧖‍♀️', $(<sauna-woman>),
+  '🧖‍♂️', $(<sauna-man>),
+  '🧗', $(<climbing>),
+  '🧗‍♀️', $(<climbing-woman>),
+  '🧗‍♂️', $(<climbing-man>),
+  '🧘', $(<lotus-position>),
+  '🧘‍♀️', $(<lotus-position-woman>),
+  '🧘‍♂️', $(<lotus-position-man>),
+  '🧙', $(<mage>),
+  '🧙‍♀️', $(<mage-woman>),
+  '🧙‍♂️', $(<mage-man>),
+  '🧚', $(<fairy>),
+  '🧚‍♀️', $(<fairy-woman>),
+  '🧚‍♂️', $(<fairy-man>),
+  '🧛', $(<vampire>),
+  '🧛‍♀️', $(<vampire-woman>),
+  '🧛‍♂️', $(<vampire-man>),
+  '🧜', $(<merperson>),
+  '🧜‍♀️', $(<mermaid>),
+  '🧜‍♂️', $(<merman>),
+  '🧝', $(<elf>),
+  '🧝‍♀️', $(<elf-woman>),
+  '🧝‍♂️', $(<elf-man>),
+  '🧞', $(<genie>),
+  '🧞‍♀️', $(<genie-woman>),
+  '🧞‍♂️', $(<genie-man>),
+  '🧟', $(<zombie>),
+  '🧟‍♀️', $(<zombie-woman>),
+  '🧟‍♂️', $(<zombie-man>),
+  '🧠', $(<brain>),
+  '🧡', $(<orange-heart>),
+  '🧢', $(<billed-cap>),
+  '🧣', $(<scarf>),
+  '🧤', $(<gloves>),
+  '🧥', $(<coat>),
+  '🧦', $(<socks>),
+  '🧧', $(<red-envelope>),
+  '🧨', $(<firecracker>),
+  '🧩', $(<jigsaw>),
+  '🧪', $(<test-tube>),
+  '🧫', $(<petri-dish>),
+  '🧬', $(<dna>),
+  '🧭', $(<compass>),
+  '🧮', $(<abacus>),
+  '🧯', $(<fire-extinguisher>),
+  '🧰', $(<toolbox>),
+  '🧱', $(<bricks>),
+  '🧲', $(<magnet>),
+  '🧳', $(<luggage>),
+  '🧴', $(<lotion-bottle>),
+  '🧵', $(<thread>),
+  '🧶', $(<yarn>),
+  '🧷', $(<safety-pin>),
+  '🧸', $(<teddy-bear>),
+  '🧹', $(<broom>),
+  '🧺', $(<basket>),
+  '🧻', $(<roll-of-paper>),
+  '🧼', $(<soap>),
+  '🧽', $(<sponge>),
+  '🧾', $(<receipt>),
+  '🧿', $(<nazar-amulet>),
+  '🩰', $(<ballet-shoes>),
+  '🩱', $(<one-piece-swimsuit>),
+  '🩲', $(<swim-brief>),
+  '🩳', $(<shorts>),
+  '🩴', $(<thong-sandal>),
+  '🩵', $(<light-blue-heart>),
+  '🩶', $(<grey-heart>),
+  '🩷', $(<pink-heart>),
+  '🩸', $(<drop-of-blood>),
+  '🩹', $(<adhesive-bandage>),
+  '🩺', $(<stethoscope>),
+  '🩻', $(<x-ray>),
+  '🩼', $(<crutch>),
+  '🪀', $(<yo-yo>),
+  '🪁', $(<kite>),
+  '🪂', $(<parachute>),
+  '🪃', $(<boomerang>),
+  '🪄', $(<magic-wand>),
+  '🪅', $(<pinata>),
+  '🪆', $(<nesting-dolls>),
+  '🪇', $(<maracas>),
+  '🪈', $(<flute>),
+  '🪐', $(<ringed-planet>),
+  '🪑', $(<chair>),
+  '🪒', $(<razor>),
+  '🪓', $(<axe>),
+  '🪔', $(<diya-lamp>),
+  '🪕', $(<banjo>),
+  '🪖', $(<military-helmet>),
+  '🪗', $(<accordion>),
+  '🪘', $(<long-drum>),
+  '🪙', $(<coin>),
+  '🪚', $(<carpentry-saw>),
+  '🪛', $(<screwdriver>),
+  '🪜', $(<ladder>),
+  '🪝', $(<hook>),
+  '🪞', $(<mirror>),
+  '🪟', $(<window>),
+  '🪠', $(<plunger>),
+  '🪡', $(<sewing-needle>),
+  '🪢', $(<knot>),
+  '🪣', $(<bucket>),
+  '🪤', $(<mouse-trap>),
+  '🪥', $(<toothbrush>),
+  '🪦', $(<headstone>),
+  '🪧', $(<placard>),
+  '🪨', $(<rock>),
+  '🪩', $(<mirror-ball>),
+  '🪪', $(<identification-card>),
+  '🪫', $(<low-battery>),
+  '🪬', $(<hamsa>),
+  '🪭', $(<folding-hand-fan>),
+  '🪮', $(<hair-pick>),
+  '🪯', $(<khanda>),
+  '🪰', $(<fly>),
+  '🪱', $(<worm>),
+  '🪲', $(<beetle>),
+  '🪳', $(<cockroach>),
+  '🪴', $(<potted-plant>),
+  '🪵', $(<wood>),
+  '🪶', $(<feather>),
+  '🪷', $(<lotus>),
+  '🪸', $(<coral>),
+  '🪹', $(<empty-nest>),
+  '🪺', $(<nest-with-eggs>),
+  '🪻', $(<hyacinth>),
+  '🪼', $(<jellyfish>),
+  '🪽', $(<wing>),
+  '🪿', $(<goose>),
+  '🫀', $(<anatomical-heart>),
+  '🫁', $(<lungs>),
+  '🫂', $(<people-hugging>),
+  '🫃', $(<pregnant-man>),
+  '🫄', $(<pregnant-person>),
+  '🫅', $(<person-with-crown>),
+  '🫎', $(<moose>),
+  '🫏', $(<donkey>),
+  '🫐', $(<blueberries>),
+  '🫑', $(<bell-pepper>),
+  '🫒', $(<olive>),
+  '🫓', $(<flatbread>),
+  '🫔', $(<tamale>),
+  '🫕', $(<fondue>),
+  '🫖', $(<teapot>),
+  '🫗', $(<pouring-liquid>),
+  '🫘', $(<beans>),
+  '🫙', $(<jar>),
+  '🫚', $(<ginger-root>),
+  '🫛', $(<pea-pod>),
+  '🫠', $(<melting-face>),
+  '🫡', $(<saluting-face>),
+  '🫢', $(<face-with-open-eyes-and-hand-over-mouth>),
+  '🫣', $(<face-with-peeking-eye>),
+  '🫤', $(<face-with-diagonal-mouth>),
+  '🫥', $(<dotted-line-face>),
+  '🫦', $(<biting-lip>),
+  '🫧', $(<bubbles>),
+  '🫨', $(<shaking-face>),
+  '🫰', $(<hand-with-index-finger-and-thumb-crossed>),
+  '🫱', $(<rightwards-hand>),
+  '🫲', $(<leftwards-hand>),
+  '🫳', $(<palm-down-hand>),
+  '🫴', $(<palm-up-hand>),
+  '🫵', $(<index-pointing-at-the-viewer>),
+  '🫶', $(<heart-hands>),
+  '🫷', $(<leftwards-pushing-hand>),
+  '🫸', $(<rightwards-pushing-hand>),
+;
 #- PLEASE DON'T CHANGE ANYTHING ABOVE THIS LINE
 #- end of generated part of Text::Emoji
 
