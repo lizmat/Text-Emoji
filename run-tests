@@ -5,6 +5,8 @@ unit sub MAIN(
   :$disable-spesh,
   :$disable-spesh-inline,
   :$disable-JIT,
+  :$enable-spesh-nodelay,
+  :$enable-spesh-blocking,
   :$enable-spesh-log,
 );
 
@@ -31,6 +33,16 @@ if $disable-JIT {
     say "MVM_JIT_DISABLE=1";
 }
 
+if $enable-spesh-nodelay {
+    %*ENV<MVM_SPESH_NODELAY> := 1;
+    say "MVM_SPESH_NODELAY=1";
+}
+
+if $enable-spesh-blocking {
+    %*ENV<MVM_SPESH_BLOCKING> := 1;
+    say "MVM_SPESH_BLOCKING=1";
+}
+
 my $spesh-log;
 if $enable-spesh-log {
     $spesh-log = (
@@ -45,6 +57,8 @@ say ""
   || $disable-spesh
   || $disable-spesh-inline
   || $disable-JIT
+  || $enable-spesh-nodelay
+  || $enable-spesh-blocking
   || $enable-spesh-log;
 
 say "Testing {
