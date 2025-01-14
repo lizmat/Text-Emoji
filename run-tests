@@ -1,5 +1,8 @@
 unit sub MAIN(:a($author), :i($install), :$rmd, :$disable-spesh);
 
+%*ENV<RAKUDO_MODULE_DEBUG> := 1 if $rmd;
+%*ENV<MVM_SPESH_DISABLE>   := 1 if $disable-spesh;
+
 say run(<raku --version>, :out).out.slurp.chomp;
 say "Running on $*DISTRO.gist().\n";
 
@@ -37,9 +40,6 @@ sub process($proc, $filename) {
 
 sub install() {
     my $zef  := $*DISTRO.is-win ?? 'zef.bat' !! 'zef';
-    temp %*ENV;
-    %*ENV<RAKUDO_MODULE_DEBUG> := 1 if $rmd;
-    %*ENV<MVM_SPESH_DISABLE>   := 1 if $disable-spesh;
     my $proc := run $zef, "install", ".", "--verbose", "--/test", :out,:err,:merge;
     process($proc, "*installation*");
 }
