@@ -23,4 +23,4 @@ jobs:
         with:
           raku-version: ${{ matrix.raku-version }}
       - name: Run Special Tests
-        run: raku run-tests -i --enable-spesh-blocking
+        run: raku run-tests -i --enable-spesh-nodelay
