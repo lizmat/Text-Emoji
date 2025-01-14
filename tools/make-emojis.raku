@@ -100,13 +100,17 @@ while @lines {
         last if @lines.shift.starts-with($end);
     }
 
-    say "my constant %lookup =";
-    print $format("'$_.key()',", .value<emoji>) for @emojis;
-    say ";";
+    say 'my %lookup := BEGIN {';
+    say '    my %h;';
+    say "    \%h<$_.key()> := '$_.value(){"emoji"}';" for @emojis;
+    say '    %h.Map';
+    say '}';
 
-    say "my constant %reverse =";
-    say "  '{.key}', \$(<{.value}>)," for %reverse.sort(*.key);
-    say ";";
+    say 'my %reverse := BEGIN {';
+    say '    my %h;';
+    say '    %h<' ~ .key ~ "> := <{.value}>;" for %reverse.sort(*.key);
+    say '    %h.Map';
+    say '}';
 
     # we're done for this role
     say "#- PLEASE DON'T CHANGE ANYTHING ABOVE THIS LINE";
