@@ -118,6 +118,345 @@ I ❤️ 🍺
 The C<em> script converts any text given either on the command line, or
 from STDIN, to emojis where appropriate.
 
+=head1 Mappings provided
+
+=head2 Activities
+
+=begin table
+name | emoji | name | emoji | name | emoji
+-----+-------+------+-------+------+------
+1st-place-medal | 🥇 | 2nd-place-medal | 🥈 | 3rd-place-medal | 🥉
+8ball | 🎱 | art | 🎨 | badminton | 🏸
+balloon | 🎈 | bamboo | 🎍 | baseball | ⚾
+basketball | 🏀 | black-joker | 🃏 | bowling | 🎳
+boxing-glove | 🥊 | chess-pawn | ♟️ | christmas-tree | 🎄
+clubs | ♣️ | confetti-ball | 🎊 | cricket-game | 🏏
+crystal-ball | 🔮 | curling-stone | 🥌 | dart | 🎯
+diamonds | ♦️ | diving-mask | 🤿 | dolls | 🎎
+field-hockey | 🏑 | firecracker | 🧨 | fireworks | 🎆
+fishing-pole-and-fish | 🎣 | flags | 🎏 | flower-playing-cards | 🎴
+flying-disc | 🥏 | football | 🏈 | framed-picture | 🖼️
+game-die | 🎲 | gift | 🎁 | goal-net | 🥅
+golf | ⛳ | gun | 🔫 | hearts | ♥️
+ice-hockey | 🏒 | ice-skate | ⛸️ | jack-o-lantern | 🎃
+jigsaw | 🧩 | joystick | 🕹️ | kite | 🪁
+knot | 🪢 | lacrosse | 🥍 | magic-wand | 🪄
+mahjong | 🀄 | martial-arts-uniform | 🥋 | medal-military | 🎖️
+medal-sports | 🏅 | mirror-ball | 🪩 | nesting-dolls | 🪆
+performing-arts | 🎭 | pinata | 🪅 | ping-pong | 🏓
+red-envelope | 🧧 | reminder-ribbon | 🎗️ | ribbon | 🎀
+rice-scene | 🎑 | rugby-football | 🏉 | running-shirt-with-sash | 🎽
+sewing-needle | 🪡 | ski | 🎿 | sled | 🛷
+slot-machine | 🎰 | soccer | ⚽ | softball | 🥎
+spades | ♠️ | sparkler | 🎇 | sparkles | ✨
+tada | 🎉 | tanabata-tree | 🎋 | teddy-bear | 🧸
+tennis | 🎾 | thread | 🧵 | ticket | 🎫
+tickets | 🎟️ | trophy | 🏆 | video-game | 🎮
+volleyball | 🏐 | wind-chime | 🎐 | yarn | 🧶
+yo-yo | 🪀| | | |
+=end table
+
+=head2 Animals & Nature
+
+=begin table
+name | emoji | name | emoji | name | emoji
+-----+-------+------+-------+------+------
+ant | 🐜 | baby-chick | 🐤 | badger | 🦡
+bat | 🦇 | bear | 🐻 | beaver | 🦫
+bee | 🐝 | beetle | 🪲 | bird | 🐦
+bison | 🦬 | black-bird | 🐦‍⬛ | black-cat | 🐈‍⬛
+blossom | 🌼 | blowfish | 🐡 | boar | 🐗
+bouquet | 💐 | bug | 🐛 | butterfly | 🦋
+cactus | 🌵 | camel | 🐫 | cat | 🐱
+cat2 | 🐈 | cherry-blossom | 🌸 | chicken | 🐔
+chipmunk | 🐿️ | cockroach | 🪳 | coral | 🪸
+cow | 🐮 | cow2 | 🐄 | cricket | 🦗
+crocodile | 🐊 | deciduous-tree | 🌳 | deer | 🦌
+dodo | 🦤 | dog | 🐶 | dog2 | 🐕
+dolphin | 🐬 | donkey | 🫏 | dove | 🕊️
+dragon | 🐉 | dragon-face | 🐲 | dromedary-camel | 🐪
+duck | 🦆 | eagle | 🦅 | ear-of-rice | 🌾
+elephant | 🐘 | empty-nest | 🪹 | evergreen-tree | 🌲
+fallen-leaf | 🍂 | feather | 🪶 | feet | 🐾
+fish | 🐟 | flamingo | 🦩 | fly | 🪰
+four-leaf-clover | 🍀 | fox-face | 🦊 | frog | 🐸
+giraffe | 🦒 | goat | 🐐 | goose | 🪿
+gorilla | 🦍 | guide-dog | 🦮 | hamster | 🐹
+hatched-chick | 🐥 | hatching-chick | 🐣 | hedgehog | 🦔
+herb | 🌿 | hibiscus | 🌺 | hippopotamus | 🦛
+horse | 🐴 | hyacinth | 🪻 | jellyfish | 🪼
+kangaroo | 🦘 | koala | 🐨 | lady-beetle | 🐞
+leaves | 🍃 | leopard | 🐆 | lion | 🦁
+lizard | 🦎 | llama | 🦙 | lotus | 🪷
+mammoth | 🦣 | maple-leaf | 🍁 | microbe | 🦠
+monkey | 🐒 | monkey-face | 🐵 | moose | 🫎
+mosquito | 🦟 | mouse | 🐭 | mouse2 | 🐁
+mushroom | 🍄 | nest-with-eggs | 🪺 | octopus | 🐙
+orangutan | 🦧 | otter | 🦦 | owl | 🦉
+ox | 🐂 | palm-tree | 🌴 | panda-face | 🐼
+parrot | 🦜 | peacock | 🦚 | penguin | 🐧
+pig | 🐷 | pig-nose | 🐽 | pig2 | 🐖
+polar-bear | 🐻‍❄️ | poodle | 🐩 | potted-plant | 🪴
+rabbit | 🐰 | rabbit2 | 🐇 | raccoon | 🦝
+racehorse | 🐎 | ram | 🐏 | rat | 🐀
+rhinoceros | 🦏 | rooster | 🐓 | rose | 🌹
+rosette | 🏵️ | sauropod | 🦕 | scorpion | 🦂
+seal | 🦭 | seedling | 🌱 | service-dog | 🐕‍🦺
+shamrock | ☘️ | shark | 🦈 | sheep | 🐑
+shell | 🐚 | skunk | 🦨 | sloth | 🦥
+snail | 🐌 | snake | 🐍 | spider | 🕷️
+spider-web | 🕸️ | sunflower | 🌻 | swan | 🦢
+t-rex | 🦖 | tiger | 🐯 | tiger2 | 🐅
+tropical-fish | 🐠 | tulip | 🌷 | turkey | 🦃
+turtle | 🐢 | unicorn | 🦄 | water-buffalo | 🐃
+whale | 🐳 | whale2 | 🐋 | white-flower | 💮
+wilted-flower | 🥀 | wing | 🪽 | wolf | 🐺
+worm | 🪱 | zebra | 🦓| |
+=end table
+
+=head2 Flags
+
+=begin table
+name | emoji | name | emoji | name | emoji
+-----+-------+------+-------+------+------
+afghanistan | 🇦🇫 | aland-islands | 🇦🇽 | albania | 🇦🇱
+algeria | 🇩🇿 | american-samoa | 🇦🇸 | andorra | 🇦🇩
+angola | 🇦🇴 | anguilla | 🇦🇮 | antarctica | 🇦🇶
+antigua-barbuda | 🇦🇬 | argentina | 🇦🇷 | armenia | 🇦🇲
+aruba | 🇦🇼 | ascension-island | 🇦🇨 | australia | 🇦🇺
+austria | 🇦🇹 | azerbaijan | 🇦🇿 | bahamas | 🇧🇸
+bahrain | 🇧🇭 | bangladesh | 🇧🇩 | barbados | 🇧🇧
+belarus | 🇧🇾 | belgium | 🇧🇪 | belize | 🇧🇿
+benin | 🇧🇯 | bermuda | 🇧🇲 | bhutan | 🇧🇹
+black-flag | 🏴 | bolivia | 🇧🇴 | bosnia-herzegovina | 🇧🇦
+botswana | 🇧🇼 | bouvet-island | 🇧🇻 | brazil | 🇧🇷
+british-indian-ocean-territory | 🇮🇴 | british-virgin-islands | 🇻🇬 | brunei | 🇧🇳
+bulgaria | 🇧🇬 | burkina-faso | 🇧🇫 | burundi | 🇧🇮
+cambodia | 🇰🇭 | cameroon | 🇨🇲 | canada | 🇨🇦
+canary-islands | 🇮🇨 | cape-verde | 🇨🇻 | caribbean-netherlands | 🇧🇶
+cayman-islands | 🇰🇾 | central-african-republic | 🇨🇫 | ceuta-melilla | 🇪🇦
+chad | 🇹🇩 | checkered-flag | 🏁 | chile | 🇨🇱
+christmas-island | 🇨🇽 | clipperton-island | 🇨🇵 | cn | 🇨🇳
+cocos-islands | 🇨🇨 | colombia | 🇨🇴 | comoros | 🇰🇲
+congo-brazzaville | 🇨🇬 | congo-kinshasa | 🇨🇩 | cook-islands | 🇨🇰
+costa-rica | 🇨🇷 | cote-divoire | 🇨🇮 | croatia | 🇭🇷
+crossed-flags | 🎌 | cuba | 🇨🇺 | curacao | 🇨🇼
+cyprus | 🇨🇾 | czech-republic | 🇨🇿 | de | 🇩🇪
+denmark | 🇩🇰 | diego-garcia | 🇩🇬 | djibouti | 🇩🇯
+dominica | 🇩🇲 | dominican-republic | 🇩🇴 | ecuador | 🇪🇨
+egypt | 🇪🇬 | el-salvador | 🇸🇻 | england | 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+equatorial-guinea | 🇬🇶 | eritrea | 🇪🇷 | es | 🇪🇸
+estonia | 🇪🇪 | ethiopia | 🇪🇹 | eu | 🇪🇺
+falkland-islands | 🇫🇰 | faroe-islands | 🇫🇴 | fiji | 🇫🇯
+finland | 🇫🇮 | fr | 🇫🇷 | french-guiana | 🇬🇫
+french-polynesia | 🇵🇫 | french-southern-territories | 🇹🇫 | gabon | 🇬🇦
+gambia | 🇬🇲 | gb | 🇬🇧 | georgia | 🇬🇪
+ghana | 🇬🇭 | gibraltar | 🇬🇮 | greece | 🇬🇷
+greenland | 🇬🇱 | grenada | 🇬🇩 | guadeloupe | 🇬🇵
+guam | 🇬🇺 | guatemala | 🇬🇹 | guernsey | 🇬🇬
+guinea | 🇬🇳 | guinea-bissau | 🇬🇼 | guyana | 🇬🇾
+haiti | 🇭🇹 | heard-mcdonald-islands | 🇭🇲 | honduras | 🇭🇳
+hong-kong | 🇭🇰 | hungary | 🇭🇺 | iceland | 🇮🇸
+india | 🇮🇳 | indonesia | 🇮🇩 | iran | 🇮🇷
+iraq | 🇮🇶 | ireland | 🇮🇪 | isle-of-man | 🇮🇲
+israel | 🇮🇱 | it | 🇮🇹 | jamaica | 🇯🇲
+jersey | 🇯🇪 | jordan | 🇯🇴 | jp | 🇯🇵
+kazakhstan | 🇰🇿 | kenya | 🇰🇪 | kiribati | 🇰🇮
+kosovo | 🇽🇰 | kr | 🇰🇷 | kuwait | 🇰🇼
+kyrgyzstan | 🇰🇬 | laos | 🇱🇦 | latvia | 🇱🇻
+lebanon | 🇱🇧 | lesotho | 🇱🇸 | liberia | 🇱🇷
+libya | 🇱🇾 | liechtenstein | 🇱🇮 | lithuania | 🇱🇹
+luxembourg | 🇱🇺 | macau | 🇲🇴 | macedonia | 🇲🇰
+madagascar | 🇲🇬 | malawi | 🇲🇼 | malaysia | 🇲🇾
+maldives | 🇲🇻 | mali | 🇲🇱 | malta | 🇲🇹
+marshall-islands | 🇲🇭 | martinique | 🇲🇶 | mauritania | 🇲🇷
+mauritius | 🇲🇺 | mayotte | 🇾🇹 | mexico | 🇲🇽
+micronesia | 🇫🇲 | moldova | 🇲🇩 | monaco | 🇲🇨
+mongolia | 🇲🇳 | montenegro | 🇲🇪 | montserrat | 🇲🇸
+morocco | 🇲🇦 | mozambique | 🇲🇿 | myanmar | 🇲🇲
+namibia | 🇳🇦 | nauru | 🇳🇷 | nepal | 🇳🇵
+netherlands | 🇳🇱 | new-caledonia | 🇳🇨 | new-zealand | 🇳🇿
+nicaragua | 🇳🇮 | niger | 🇳🇪 | nigeria | 🇳🇬
+niue | 🇳🇺 | norfolk-island | 🇳🇫 | north-korea | 🇰🇵
+northern-mariana-islands | 🇲🇵 | norway | 🇳🇴 | oman | 🇴🇲
+pakistan | 🇵🇰 | palau | 🇵🇼 | palestinian-territories | 🇵🇸
+panama | 🇵🇦 | papua-new-guinea | 🇵🇬 | paraguay | 🇵🇾
+peru | 🇵🇪 | philippines | 🇵🇭 | pirate-flag | 🏴‍☠️
+pitcairn-islands | 🇵🇳 | poland | 🇵🇱 | portugal | 🇵🇹
+puerto-rico | 🇵🇷 | qatar | 🇶🇦 | rainbow-flag | 🏳️‍🌈
+reunion | 🇷🇪 | romania | 🇷🇴 | ru | 🇷🇺
+rwanda | 🇷🇼 | samoa | 🇼🇸 | san-marino | 🇸🇲
+sao-tome-principe | 🇸🇹 | saudi-arabia | 🇸🇦 | scotland | 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+senegal | 🇸🇳 | serbia | 🇷🇸 | seychelles | 🇸🇨
+sierra-leone | 🇸🇱 | singapore | 🇸🇬 | sint-maarten | 🇸🇽
+slovakia | 🇸🇰 | slovenia | 🇸🇮 | solomon-islands | 🇸🇧
+somalia | 🇸🇴 | south-africa | 🇿🇦 | south-georgia-south-sandwich-islands | 🇬🇸
+south-sudan | 🇸🇸 | sri-lanka | 🇱🇰 | st-barthelemy | 🇧🇱
+st-helena | 🇸🇭 | st-kitts-nevis | 🇰🇳 | st-lucia | 🇱🇨
+st-martin | 🇲🇫 | st-pierre-miquelon | 🇵🇲 | st-vincent-grenadines | 🇻🇨
+sudan | 🇸🇩 | suriname | 🇸🇷 | svalbard-jan-mayen | 🇸🇯
+swaziland | 🇸🇿 | sweden | 🇸🇪 | switzerland | 🇨🇭
+syria | 🇸🇾 | taiwan | 🇹🇼 | tajikistan | 🇹🇯
+tanzania | 🇹🇿 | thailand | 🇹🇭 | timor-leste | 🇹🇱
+togo | 🇹🇬 | tokelau | 🇹🇰 | tonga | 🇹🇴
+tr | 🇹🇷 | transgender-flag | 🏳️‍⚧️ | triangular-flag-on-post | 🚩
+trinidad-tobago | 🇹🇹 | tristan-da-cunha | 🇹🇦 | tunisia | 🇹🇳
+turkmenistan | 🇹🇲 | turks-caicos-islands | 🇹🇨 | tuvalu | 🇹🇻
+uganda | 🇺🇬 | ukraine | 🇺🇦 | united-arab-emirates | 🇦🇪
+united-nations | 🇺🇳 | uruguay | 🇺🇾 | us | 🇺🇸
+us-outlying-islands | 🇺🇲 | us-virgin-islands | 🇻🇮 | uzbekistan | 🇺🇿
+vanuatu | 🇻🇺 | vatican-city | 🇻🇦 | venezuela | 🇻🇪
+vietnam | 🇻🇳 | wales | 🏴󠁧󠁢󠁷󠁬󠁳󠁿 | wallis-futuna | 🇼🇫
+western-sahara | 🇪🇭 | white-flag | 🏳️ | yemen | 🇾🇪
+zambia | 🇿🇲 | zimbabwe | 🇿🇼| |
+=end table
+
+=head2 Food & Drink
+
+=begin table
+name | emoji | name | emoji | name | emoji
+-----+-------+------+-------+------+------
+amphora | 🏺 | apple | 🍎 | avocado | 🥑
+baby-bottle | 🍼 | bacon | 🥓 | bagel | 🥯
+baguette-bread | 🥖 | banana | 🍌 | beans | 🫘
+beer | 🍺 | beers | 🍻 | bell-pepper | 🫑
+bento | 🍱 | beverage-box | 🧃 | birthday | 🎂
+blueberries | 🫐 | bowl-with-spoon | 🥣 | bread | 🍞
+broccoli | 🥦 | bubble-tea | 🧋 | burrito | 🌯
+butter | 🧈 | cake | 🍰 | candy | 🍬
+canned-food | 🥫 | carrot | 🥕 | champagne | 🍾
+cheese | 🧀 | cherries | 🍒 | chestnut | 🌰
+chocolate-bar | 🍫 | chopsticks | 🥢 | clinking-glasses | 🥂
+cocktail | 🍸 | coconut | 🥥 | coffee | ☕
+cookie | 🍪 | corn | 🌽 | crab | 🦀
+croissant | 🥐 | cucumber | 🥒 | cup-with-straw | 🥤
+cupcake | 🧁 | curry | 🍛 | custard | 🍮
+cut-of-meat | 🥩 | dango | 🍡 | doughnut | 🍩
+dumpling | 🥟 | egg | 🥚 | eggplant | 🍆
+falafel | 🧆 | fish-cake | 🍥 | flatbread | 🫓
+fondue | 🫕 | fork-and-knife | 🍴 | fortune-cookie | 🥠
+fried-egg | 🍳 | fried-shrimp | 🍤 | fries | 🍟
+garlic | 🧄 | ginger-root | 🫚 | grapes | 🍇
+green-apple | 🍏 | green-salad | 🥗 | hamburger | 🍔
+hocho | 🔪 | honey-pot | 🍯 | hot-pepper | 🌶️
+hotdog | 🌭 | ice-cream | 🍨 | ice-cube | 🧊
+icecream | 🍦 | jar | 🫙 | kiwi-fruit | 🥝
+leafy-green | 🥬 | lemon | 🍋 | lobster | 🦞
+lollipop | 🍭 | mango | 🥭 | mate | 🧉
+meat-on-bone | 🍖 | melon | 🍈 | milk-glass | 🥛
+moon-cake | 🥮 | oden | 🍢 | olive | 🫒
+onion | 🧅 | oyster | 🦪 | pancakes | 🥞
+pea-pod | 🫛 | peach | 🍑 | peanuts | 🥜
+pear | 🍐 | pie | 🥧 | pineapple | 🍍
+pizza | 🍕 | plate-with-cutlery | 🍽️ | popcorn | 🍿
+potato | 🥔 | poultry-leg | 🍗 | pouring-liquid | 🫗
+pretzel | 🥨 | ramen | 🍜 | rice | 🍚
+rice-ball | 🍙 | rice-cracker | 🍘 | sake | 🍶
+salt | 🧂 | sandwich | 🥪 | shallow-pan-of-food | 🥘
+shaved-ice | 🍧 | shrimp | 🦐 | spaghetti | 🍝
+spoon | 🥄 | squid | 🦑 | stew | 🍲
+strawberry | 🍓 | stuffed-flatbread | 🥙 | sushi | 🍣
+sweet-potato | 🍠 | taco | 🌮 | takeout-box | 🥡
+tamale | 🫔 | tangerine | 🍊 | tea | 🍵
+teapot | 🫖 | tomato | 🍅 | tropical-drink | 🍹
+tumbler-glass | 🥃 | waffle | 🧇 | watermelon | 🍉
+wine-glass | 🍷| | | |
+=end table
+
+=head2 Objects
+
+=begin table
+name | emoji | name | emoji | name | emoji
+-----+-------+------+-------+------+------
+abacus | 🧮 | accordion | 🪗 | adhesive-bandage | 🩹
+alembic | ⚗️ | athletic-shoe | 👟 | axe | 🪓
+balance-scale | ⚖️ | ballet-shoes | 🩰 | ballot-box | 🗳️
+banjo | 🪕 | bar-chart | 📊 | basket | 🧺
+bathtub | 🛁 | battery | 🔋 | bed | 🛏️
+bell | 🔔 | bikini | 👙 | billed-cap | 🧢
+black-nib | ✒️ | blue-book | 📘 | bomb | 💣
+book | 📖 | bookmark | 🔖 | bookmark-tabs | 📑
+books | 📚 | boomerang | 🪃 | boot | 👢
+bow-and-arrow | 🏹 | briefcase | 💼 | broom | 🧹
+bubbles | 🫧 | bucket | 🪣 | bulb | 💡
+calendar | 📆 | calling | 📲 | camera | 📷
+camera-flash | 📸 | candle | 🕯️ | card-file-box | 🗃️
+card-index | 📇 | card-index-dividers | 🗂️ | carpentry-saw | 🪚
+cd | 💿 | chains | ⛓️ | chair | 🪑
+chart | 💹 | chart-with-downwards-trend | 📉 | chart-with-upwards-trend | 📈
+clamp | 🗜️ | clapper | 🎬 | clipboard | 📋
+closed-book | 📕 | closed-lock-with-key | 🔐 | coat | 🧥
+coffin | ⚰️ | coin | 🪙 | computer | 💻
+computer-mouse | 🖱️ | control-knobs | 🎛️ | couch-and-lamp | 🛋️
+crayon | 🖍️ | credit-card | 💳 | crossed-swords | ⚔️
+crown | 👑 | crutch | 🩼 | dagger | 🗡️
+dark-sunglasses | 🕶️ | date | 📅 | desktop-computer | 🖥️
+diya-lamp | 🪔 | dna | 🧬 | dollar | 💵
+door | 🚪 | dress | 👗 | drop-of-blood | 🩸
+drum | 🥁 | dvd | 📀 | electric-plug | 🔌
+elevator | 🛗 | email | 📧 | envelope | ✉️
+envelope-with-arrow | 📩 | euro | 💶 | eyeglasses | 👓
+fax | 📠 | file-cabinet | 🗄️ | file-folder | 📁
+film-projector | 📽️ | film-strip | 🎞️ | fire-extinguisher | 🧯
+flashlight | 🔦 | flat-shoe | 🥿 | floppy-disk | 💾
+flute | 🪈 | folding-hand-fan | 🪭 | fountain-pen | 🖋️
+funeral-urn | ⚱️ | gear | ⚙️ | gem | 💎
+gloves | 🧤 | goggles | 🥽 | green-book | 📗
+guitar | 🎸 | hair-pick | 🪮 | hammer | 🔨
+hammer-and-pick | ⚒️ | hammer-and-wrench | 🛠️ | hamsa | 🪬
+handbag | 👜 | headphones | 🎧 | headstone | 🪦
+high-heel | 👠 | hiking-boot | 🥾 | hook | 🪝
+identification-card | 🪪 | inbox-tray | 📥 | incoming-envelope | 📨
+iphone | 📱 | izakaya-lantern | 🏮 | jeans | 👖
+key | 🔑 | keyboard | ⌨️ | kimono | 👘
+lab-coat | 🥼 | label | 🏷️ | ladder | 🪜
+ledger | 📒 | level-slider | 🎚️ | link | 🔗
+lipstick | 💄 | lock | 🔒 | lock-with-ink-pen | 🔏
+long-drum | 🪘 | lotion-bottle | 🧴 | loud-sound | 🔊
+loudspeaker | 📢 | low-battery | 🪫 | mag | 🔍
+mag-right | 🔎 | magnet | 🧲 | mailbox | 📫
+mailbox-closed | 📪 | mailbox-with-mail | 📬 | mailbox-with-no-mail | 📭
+mans-shoe | 👞 | maracas | 🪇 | mega | 📣
+memo | 📝 | microphone | 🎤 | microscope | 🔬
+military-helmet | 🪖 | minidisc | 💽 | mirror | 🪞
+money-with-wings | 💸 | moneybag | 💰 | mortar-board | 🎓
+mouse-trap | 🪤 | movie-camera | 🎥 | moyai | 🗿
+musical-keyboard | 🎹 | musical-note | 🎵 | musical-score | 🎼
+mute | 🔇 | nazar-amulet | 🧿 | necktie | 👔
+newspaper | 📰 | newspaper-roll | 🗞️ | no-bell | 🔕
+notebook | 📓 | notebook-with-decorative-cover | 📔 | notes | 🎶
+nut-and-bolt | 🔩 | old-key | 🗝️ | one-piece-swimsuit | 🩱
+open-file-folder | 📂 | orange-book | 📙 | outbox-tray | 📤
+package | 📦 | page-facing-up | 📄 | page-with-curl | 📃
+pager | 📟 | paintbrush | 🖌️ | paperclip | 📎
+paperclips | 🖇️ | pen | 🖊️ | pencil2 | ✏️
+petri-dish | 🧫 | phone | ☎️ | pick | ⛏️
+pill | 💊 | placard | 🪧 | plunger | 🪠
+postal-horn | 📯 | postbox | 📮 | pouch | 👝
+pound | 💷 | prayer-beads | 📿 | printer | 🖨️
+probing-cane | 🦯 | purse | 👛 | pushpin | 📌
+radio | 📻 | razor | 🪒 | receipt | 🧾
+rescue-worker-helmet | ⛑️ | ring | 💍 | roll-of-paper | 🧻
+round-pushpin | 📍 | safety-pin | 🧷 | safety-vest | 🦺
+sandal | 👡 | sari | 🥻 | satellite | 📡
+saxophone | 🎷 | scarf | 🧣 | school-satchel | 🎒
+scissors | ✂️ | screwdriver | 🪛 | scroll | 📜
+shield | 🛡️ | shirt | 👕 | shopping | 🛍️
+shopping-cart | 🛒 | shorts | 🩳 | shower | 🚿
+smoking | 🚬 | soap | 🧼 | socks | 🧦
+sound | 🔉 | speaker | 🔈 | spiral-calendar | 🗓️
+spiral-notepad | 🗒️ | sponge | 🧽 | stethoscope | 🩺
+straight-ruler | 📏 | studio-microphone | 🎙️ | swim-brief | 🩲
+syringe | 💉 | telephone-receiver | 📞 | telescope | 🔭
+test-tube | 🧪 | thong-sandal | 🩴 | toilet | 🚽
+toolbox | 🧰 | toothbrush | 🪥 | tophat | 🎩
+trackball | 🖲️ | triangular-ruler | 📐 | trumpet | 🎺
+tv | 📺 | unlock | 🔓 | vhs | 📼
+video-camera | 📹 | violin | 🎻 | wastebasket | 🗑️
+window | 🪟 | womans-clothes | 👚 | womans-hat | 👒
+wrench | 🔧 | x-ray | 🩻 | yen | 💴
+=end table
+
 =head1 INSPIRATION
 
 Inspired by Simon Harms' L<C<Avolution::Emoji>|https://github.com/ukn-ubi/Avolution-Emoji>
