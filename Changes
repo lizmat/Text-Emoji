@@ -2,6 +2,9 @@ Revision history for Text::Emoji
 
 {{$NEXT}}
 
+0.0.8  2025-02-22T20:53:22+01:00
+    - Provide overview of supported emojies by category
+
 0.0.7  2024-12-29T21:10:49+01:00
     - Also allow :TADA: (aka make lookup case-insensitive)
     - Remove "emoji" field in raw data: it lives in the key
