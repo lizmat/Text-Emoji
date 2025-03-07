@@ -1,6 +1,9 @@
 Revision history for Text::Emoji
 
 {{$NEXT}}
+    - Make reverse lookup table less memory hungry, which
+      should hopefully fix installation issue on low memory
+      systems
 
 0.0.8  2025-02-22T20:53:22+01:00
     - Provide overview of supported emojies by category

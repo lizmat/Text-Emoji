@@ -105,7 +105,13 @@ while @lines {
     say ";";
 
     say "my constant %reverse =";
-    say "  '{.key}', \$(<{.value}>)," for %reverse.sort(*.key);
+    for %reverse.sort(*.key) {
+        my $key := .key;
+        my @values = .value<>;
+        say @values.elems > 1
+          ?? "  '$key', \$(<@values[]>),"
+          !! "  '$key', @values.head.raku(),";
+    }
     say ";";
 
     # we're done for this role
