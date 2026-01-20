@@ -65,6 +65,18 @@ possible C<:word:> form known for that emoji.
 The same type of additional map information as can be specified with
 C<to-emoji>, can be specified with C<to-text>.
 
+=head2 by-tag
+
+=begin code :lang<raku>
+say by-tag<birthday>;  # 🥳🎈🎁
+say by-tag{/^wh/};     # (😌 🤭 🥃 😫)
+=end code
+
+The C<by-tag> subroutine returns a L<C<Map::Match>|https://raku.land/zef:lizmat/Map::Match>
+object with the tags found in the raw emoji data, and their associated
+emojis as a single string.  This allows easy searching for tags by a
+string, but also by a regex.
+
 =head2 raw-emoji-data
 
 =begin code :lang<raku>

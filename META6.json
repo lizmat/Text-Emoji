@@ -4,6 +4,7 @@
     "Elizabeth Mattijsen"
   ],
   "depends": [
+    "Map::Match:ver<0.0.8+>:auth<zef:lizmat>"
   ],
   "description": "Provide :text: to emoji translation",
   "license": "Artistic-2.0",
@@ -15,7 +16,8 @@
   "resources": [
     "emojis",
     "emojis.json",
-    "sijome"
+    "sijome",
+    "tags"
   ],
   "support": {
     "bugtracker": "https://github.com/lizmat/Text-Emoji/issues",

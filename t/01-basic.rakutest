@@ -2,7 +2,7 @@ use Test;
 
 use Text::Emoji;
 
-plan 17;
+plan 21;
 
 my %direct   is Map = :love<❤️>;
 my %indirect is Map = :love<heart>;
@@ -63,5 +63,12 @@ is-deeply $raw<❤️ >,
     :unicode_version(""),
   ).Map,
   'the raw emoji data looks ok';
+
+my $by-tag := by-tag;
+isa-ok $by-tag, Map::Match, 'tag data comes as a Map::Match';
+is $by-tag.elems, 461, 'does the tag data have the right size';
+
+is-deeply $by-tag<birthday>, ("🥳🎈🎁",).Slip, 'does birthday work';
+is-deeply $by-tag{/^wh/}.sort,  <😌 😫 🤭 🥃>, 'does /^wh/ work';
 
 # vim: expandtab shiftwidth=4

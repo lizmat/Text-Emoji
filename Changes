@@ -1,10 +1,13 @@
 Revision history for Text::Emoji
 
 {{$NEXT}}
+    - Add dependency on Map::Match
+    - Add support for "by-tag"
     - Further reduction on memory usage, by reading pre-
       processed files at compilation time to set up lookup
       table
     - Modernize META
+    - Coverage testing at 100%
     - Update copyright year
 
 0.0.9  2025-03-07T11:45:24+01:00

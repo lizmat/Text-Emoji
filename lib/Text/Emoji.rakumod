@@ -1,12 +1,17 @@
+use Map::Match:ver<0.0.8+>:auth<zef:lizmat>;
+
 #- set up lookup Maps ----------------------------------------------------------
 my constant %lookup = %?RESOURCES<emojis>.lines.map: {
-    .split(/ \s+ /, 2).Slip if $_ && !.starts-with('#');
+    .split(/ \s+ /, 2).Slip if $_ && !.starts-with('#')  # UNCOVERABLE
 }
 my constant %reverse = %?RESOURCES<sijome>.lines.map: {
-    if $_ && !.starts-with("#") {
+    if $_ && !.starts-with("#") {  # UNCOVERABLE
         my @words = .words;
-        @words.pop => @words.List
+        @words.pop => @words.List  # UNCOVERABLE
     }
+}
+my $by-tag := BEGIN my %by-tag is Map::Match = %?RESOURCES<tags>.lines.map: {
+    Pair.new(|.split(/ \s+ /, 2)) if $_ && !.starts-with("#") # UNCOVERABLE
 }
 
 #- to-emoji --------------------------------------------------------------------
@@ -44,7 +49,7 @@ my multi sub to-text(Str:D $text) is default {
         if %reverse{$grapheme} -> $alternatives {
             @parts.push: $text.substr($from, $to - $from);
             @parts.push: ":$alternatives.head():";
-            $from = ++$to;
+            $from = ++$to;  # UNCOVERABLE
         }
         else {
             ++$to;
@@ -74,7 +79,7 @@ my multi sub to-text(Str:D $text, %extra) {
         if %additional{$grapheme} || %reverse{$grapheme} -> $alternatives {
             @parts.push: $text.substr($from, $to - $from);
             @parts.push: ":$alternatives.head():";
-            $from = ++$to;
+            $from = ++$to;  # UNCOVERABLE
         }
         else {
             ++$to;
@@ -101,5 +106,10 @@ my sub raw-emoji-data() is export {
       %?RESOURCES<emojis.json>.slurp
     ).map({ .<emoji>:delete => .Map }).Map)
 }
+
+# vim: expandtab shiftwidth=4
+
+#- by-tag ----------------------------------------------------------------------
+my sub by-tag() is export { $by-tag }
 
 # vim: expandtab shiftwidth=4
