@@ -1,6 +1,8 @@
 Revision history for Text::Emoji
 
 {{$NEXT}}
+
+0.0.10  2026-01-20T15:59:43+01:00
     - Add dependency on Map::Match
     - Add support for "by-tag"
     - Further reduction on memory usage, by reading pre-

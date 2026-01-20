@@ -3,6 +3,8 @@
   "authors": [
     "Elizabeth Mattijsen"
   ],
+  "build-depends": [
+  ],
   "depends": [
     "Map::Match:ver<0.0.8+>:auth<zef:lizmat>"
   ],
@@ -19,6 +21,7 @@
     "sijome",
     "tags"
   ],
+  "source-url": "https://github.com/lizmat/Text-Emoji.git",
   "support": {
     "bugtracker": "https://github.com/lizmat/Text-Emoji/issues",
     "email": "liz@raku.rocks",
@@ -29,5 +32,7 @@
     "EMOJI",
     "UNICODE"
   ],
-  "version": "0.0.9"
+  "test-depends": [
+  ],
+  "version": "0.0.10"
 }

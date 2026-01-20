@@ -59,6 +59,16 @@ The `to-text` subroutine in its simplest form takes a string as the first argume
 
 The same type of additional map information as can be specified with `to-emoji`, can be specified with `to-text`.
 
+by-tag
+------
+
+```raku
+say by-tag<birthday>;  # 🥳🎈🎁
+say by-tag{/^wh/};     # (😌 🤭 🥃 😫)
+```
+
+The `by-tag` subroutine returns a [`Map::Match`](https://raku.land/zef:lizmat/Map::Match) object with the tags found in the raw emoji data, and their associated emojis as a single string. This allows easy searching for tags by a string, but also by a regex.
+
 raw-emoji-data
 --------------
 
