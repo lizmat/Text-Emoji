@@ -15,7 +15,8 @@
     "Text::Emoji": "lib/Text/Emoji.rakumod"
   },
   "resources": [
-    "emojis.json"
+    "emojis",
+    "sijome"
   ],
   "source-url": "https://github.com/lizmat/Text-Emoji.git",
   "tags": [

@@ -7,7 +7,7 @@
 # always use highest version of Raku
 use v6.*;
 
-my $emojis-io := $*PROGRAM.parent(2).add("resources/emojis.json");
+my $emojis-io := $*PROGRAM.sibling("emojis.json");
 my @emojis;
 my %reverse;
 my $width;

@@ -71,36 +71,6 @@ possible C<:word:> form known for that emoji.
 The same type of additional map information as can be specified with
 C<to-emoji>, can be specified with C<to-text>.
 
-=head2 raw-emoji-data
-
-=begin code :lang<raku>
-
-say raw-emoji-data<❤️>.keys;
-# (aliases category description emoji ios_version tags unicode_version)
-
-=end code
-
-The C<raw-emoji-data> subroutine returns a C<Map>, keyed to the supported
-emojis.  The value associated with is a C<Map> as well, which can be best
-described by its JSON representation:
-
-=begin output
-
-{
-  "description": "red heart",
-  "category": "Smileys & Emotion",
-  "aliases": [
-    "heart"
-  ],
-  "tags": [
-    "love"
-  ],
-  "unicode_version": "",
-  "ios_version": "6.0"
-}
-
-=end output
-
 =head1 SCRIPTS
 
 =head2 em
@@ -1449,7 +1419,7 @@ deal to me!
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2024 Elizabeth Mattijsen
+Copyright 2024, 2026 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
