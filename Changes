@@ -1,6 +1,11 @@
 Revision history for Text::Emoji
 
 {{$NEXT}}
+    - Further reduction on memory usage, by reading pre-
+      processed files at compilation time to set up lookup
+      table
+    - Modernize META
+    - Update copyright year
 
 0.0.9  2025-03-07T11:45:24+01:00
     - Make reverse lookup table less memory hungry, which

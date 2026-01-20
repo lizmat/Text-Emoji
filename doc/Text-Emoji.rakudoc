@@ -7,13 +7,11 @@ Text::Emoji - provide :text: to emoji translation
 =head1 SYNOPSIS
 
 =begin code :lang<raku>
-
 use Text::Emoji;
 
 say to-emoji("I :heart: :beer:");  # I ❤️ 🍺
 
 say to-text(":I: ❤️ 🍺");  # I :heart: :beer:
-
 =end code
 
 =head1 DESCRIPTION
@@ -30,7 +28,6 @@ emojis any arguments from the command line or from standard input.
 =head2 to-emoji
 
 =begin code :lang<raku>
-
 say to-emoji("I :heart: :beer:");                     # I ❤️ 🍺
 
 say to-emoji("I :love: :beer:", :love<❤️>);           # I ❤️ 🍺
@@ -39,7 +36,6 @@ say to-emoji("I :love: :beer:", %(love => "❤️"));     # I ❤️ 🍺
 say to-emoji("I :love: :beer:", %(love => "heart"));  # I ❤️ 🍺
 
 say to-emoji("baby: :baby-bottle::babybottle:");  # baby: 🍼🍼
-
 =end code
 
 The C<to-emoji> subroutine in its simplest form takes a string as the
@@ -55,13 +51,11 @@ text in these additional mappings, should be in B<lowercase> only.
 =head2 to-text
 
 =begin code :lang<raku>
-
 say to-text("I ❤️ 🍺");                      # I :heart: :beer:
 say to-text("I ❤️ 🍺", :love<❤️>);           # I :love: :beer:
 say to-text("I ❤️ 🍺", :love<heart>);        # I :love: :beer:
 say to-text("I ❤️ 🍺", %(love => "❤️"));     # I :love: :beer:
 say to-text("I ❤️ 🍺", %(love => "heart"));  # I :love: :beer:
-
 =end code
 
 The C<to-text> subroutine in its simplest form takes a string as the
@@ -71,18 +65,42 @@ possible C<:word:> form known for that emoji.
 The same type of additional map information as can be specified with
 C<to-emoji>, can be specified with C<to-text>.
 
+=head2 raw-emoji-data
+
+=begin code :lang<raku>
+say raw-emoji-data<❤️>.keys;
+# (aliases category description emoji ios_version tags unicode_version)
+=end code
+
+The C<raw-emoji-data> subroutine returns a C<Map>, keyed to the supported
+emojis.  The value associated with is a C<Map> as well, which can be best
+described by its JSON representation:
+
+=begin output
+{
+  "description": "red heart",
+  "category": "Smileys & Emotion",
+  "aliases": [
+    "heart"
+  ],
+  "tags": [
+    "love"
+  ],
+  "unicode_version": "",
+  "ios_version": "6.0"
+}
+=end output
+
 =head1 SCRIPTS
 
 =head2 em
 
 =begin output
-
 $ em I :heart: :beer:
 I ❤️ 🍺
 
 $ echo I :heart: :beer: | em
 I ❤️ 🍺
-
 =end output
 
 The C<em> script converts any text given either on the command line, or
@@ -1419,7 +1437,7 @@ deal to me!
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2024, 2026 Elizabeth Mattijsen
+Copyright 2024, 2025, 2026 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

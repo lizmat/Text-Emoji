@@ -3,28 +3,29 @@
   "authors": [
     "Elizabeth Mattijsen"
   ],
-  "build-depends": [
-  ],
   "depends": [
   ],
   "description": "Provide :text: to emoji translation",
   "license": "Artistic-2.0",
   "name": "Text::Emoji",
-  "perl": "6.d",
   "provides": {
     "Text::Emoji": "lib/Text/Emoji.rakumod"
   },
+  "raku": "6.d",
   "resources": [
     "emojis",
+    "emojis.json",
     "sijome"
   ],
-  "source-url": "https://github.com/lizmat/Text-Emoji.git",
+  "support": {
+    "bugtracker": "https://github.com/lizmat/Text-Emoji/issues",
+    "email": "liz@raku.rocks",
+    "source": "https://github.com/lizmat/Text-Emoji.git"
+  },
   "tags": [
     "TEXT",
     "EMOJI",
     "UNICODE"
-  ],
-  "test-depends": [
   ],
   "version": "0.0.9"
 }

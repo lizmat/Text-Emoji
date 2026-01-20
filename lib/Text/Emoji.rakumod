@@ -1,10 +1,12 @@
 #- set up lookup Maps ----------------------------------------------------------
 my constant %lookup = %?RESOURCES<emojis>.lines.map: {
-    .split(/ \s+ /, 2).Slip
+    .split(/ \s+ /, 2).Slip if $_ && !.starts-with('#');
 }
 my constant %reverse = %?RESOURCES<sijome>.lines.map: {
-    my ($key,@words) = .words;
-    $key => @words.List
+    if $_ && !.starts-with("#") {
+        my @words = .words;
+        @words.pop => @words.List
+    }
 }
 
 #- to-emoji --------------------------------------------------------------------
@@ -91,5 +93,13 @@ my multi sub to-text(Str:D $text, %extra) {
     }
 }
 my multi sub to-text(Str:D $text, *%_) { to-text($text, %_) }
+
+#- raw-emoji-data --------------------------------------------------------------
+my $raw;
+my sub raw-emoji-data() is export {
+    $raw // ($raw := Rakudo::Internals::JSON.from-json(
+      %?RESOURCES<emojis.json>.slurp
+    ).map({ .<emoji>:delete => .Map }).Map)
+}
 
 # vim: expandtab shiftwidth=4
