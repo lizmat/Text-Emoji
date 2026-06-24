@@ -6,7 +6,7 @@
   "build-depends": [
   ],
   "depends": [
-    "Map::Match:ver<0.0.8+>:auth<zef:lizmat>"
+    "Map::Match:ver<0.0.10+>:auth<zef:lizmat>"
   ],
   "description": "Provide :text: to emoji translation",
   "license": "Artistic-2.0",

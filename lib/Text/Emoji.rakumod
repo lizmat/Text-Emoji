@@ -1,4 +1,4 @@
-use Map::Match:ver<0.0.8+>:auth<zef:lizmat>;
+use Map::Match:ver<0.0.10+>:auth<zef:lizmat>;
 
 #- set up lookup Maps ----------------------------------------------------------
 my constant %lookup = %?RESOURCES<emojis>.lines.map: {

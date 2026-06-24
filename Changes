@@ -1,6 +1,7 @@
 Revision history for Text::Emoji
 
 {{$NEXT}}
+    - Bump dependency on Map::Match
 
 0.0.10  2026-01-20T15:59:43+01:00
     - Add dependency on Map::Match
