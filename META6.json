@@ -23,9 +23,9 @@
   ],
   "source-url": "https://codeberg.org/lizmat/Text-Emoji.git",
   "support": {
-    "bugtracker": "https://github.com/lizmat/Text-Emoji/issues",
+    "bugtracker": "https://codeberg.org/lizmat/Text-Emoji/issues",
     "email": "liz@raku.rocks",
-    "source": "https://github.com/lizmat/Text-Emoji.git"
+    "source": "https://codeberg.org/lizmat/Text-Emoji.git"
   },
   "tags": [
     "TEXT",
