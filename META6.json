@@ -21,7 +21,7 @@
     "sijome",
     "tags"
   ],
-  "source-url": "https://github.com/lizmat/Text-Emoji.git",
+  "source-url": "https://codeberg.org/lizmat/Text-Emoji.git",
   "support": {
     "bugtracker": "https://github.com/lizmat/Text-Emoji/issues",
     "email": "liz@raku.rocks",
@@ -34,5 +34,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.10"
+  "version": "0.0.11"
 }

@@ -4,7 +4,7 @@
   "specVersion": "1.6",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-01-20T15:00:17+00:00",
+    "timestamp": "2026-06-24T16:57:41+00:00",
     "lifecycles": [
       {
         "phase": "pre-build"
@@ -19,7 +19,7 @@
     "component": {
       "type": "library",
       "mime-type": "text/plain",
-      "bom-ref": "pkg:raku/zef:lizmat/Text::Emoji@0.0.10",
+      "bom-ref": "pkg:raku/zef:lizmat/Text::Emoji@0.0.11",
       "authors": [
         {
           "bom-ref": "ElizabethMattijsen",
@@ -29,7 +29,7 @@
       "publisher": "zef",
       "group": "zef:lizmat",
       "name": "Text::Emoji",
-      "version": "0.0.10",
+      "version": "0.0.11",
       "description": "Provide :text: to emoji translation",
       "scope": "required",
       "licenses": [
@@ -41,14 +41,14 @@
           }
         }
       ],
-      "purl": "pkg:raku/zef:lizmat/Text::Emoji@0.0.10",
+      "purl": "pkg:raku/zef:lizmat/Text::Emoji@0.0.11",
       "externalReferences": [
         {
           "url": "https://github.com/lizmat/Text-Emoji",
           "type": "distribution"
         },
         {
-          "url": "https://raku.land/zef:lizmat/Text::Emoji?v=0.0.10",
+          "url": "https://raku.land/zef:lizmat/Text::Emoji?v=0.0.11",
           "type": "documentation"
         },
         {
@@ -60,7 +60,7 @@
           "type": "license"
         },
         {
-          "url": "https://github.com/lizmat/Text-Emoji/archive/refs/tags/0.0.10.zip",
+          "url": "https://github.com/lizmat/Text-Emoji/archive/refs/tags/0.0.11.zip",
           "type": "source-distribution"
         },
         {
@@ -88,7 +88,7 @@
         {
           "type": "library",
           "mime-type": "text/plain",
-          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.12",
+          "bom-ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.13",
           "authors": [
             {
               "bom-ref": "ElizabethMattijsen",
@@ -98,7 +98,7 @@
           "publisher": "zef",
           "group": "zef:lizmat",
           "name": "SBOM::Raku",
-          "version": "0.0.12",
+          "version": "0.0.13",
           "description": "Raku specific SBOM functionality",
           "scope": "required",
           "licenses": [
@@ -110,14 +110,14 @@
               }
             }
           ],
-          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.12",
+          "purl": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.13",
           "externalReferences": [
             {
               "url": "https://github.com/lizmat/SBOM-Raku",
               "type": "distribution"
             },
             {
-              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.12",
+              "url": "https://raku.land/zef:lizmat/SBOM::Raku?v=0.0.13",
               "type": "documentation"
             },
             {
@@ -129,7 +129,7 @@
               "type": "license"
             },
             {
-              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.12.zip",
+              "url": "https://github.com/lizmat/SBOM-Raku/archive/refs/tags/0.0.13.zip",
               "type": "source-distribution"
             },
             {
@@ -159,7 +159,7 @@
       "publisher": "Rakudo Core Developers",
       "group": "Rakudo Core Developers",
       "name": "Rakudo",
-      "version": "2025.12-34-g971b2fa43",
+      "version": "2026.05-159-gc9d0f81cc",
       "description": "The Rakudo™ Compiler implementing the Raku® Programming Language",
       "scope": "required",
       "licenses": [
@@ -182,7 +182,7 @@
           "type": "issue-tracker"
         },
         {
-          "url": "https://github.com/rakudo/rakudo/archive/971b2fa43.zip",
+          "url": "https://github.com/rakudo/rakudo/archive/c9d0f81cc.zip",
           "type": "source-distribution"
         },
         {
@@ -203,7 +203,7 @@
       "publisher": "The MoarVM Team",
       "group": "The MoarVM Team",
       "name": "Moar",
-      "version": "2025.12-5-g5eb2ccf33",
+      "version": "2026.05.1-11-gc68094f8b",
       "description": "Short for \"Metamodel On A Runtime\", MoarVM is a modern virtual machine built for the Rakudo compiler and the NQP Compiler Toolchain.",
       "scope": "required",
       "licenses": [
@@ -230,7 +230,7 @@
           "type": "chat"
         },
         {
-          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/5eb2ccf33.zip",
+          "url": "https://github.com/MoarVM/MoarVM.git/archive/refs/tags/c68094f8b.zip",
           "type": "source-distribution"
         }
       ]
@@ -238,7 +238,7 @@
     {
       "type": "library",
       "mime-type": "text/plain",
-      "bom-ref": "pkg:raku/zef:lizmat/Hash::Agnostic@0.0.16",
+      "bom-ref": "pkg:raku/zef:lizmat/Hash::Agnostic?vers=vers:raku/%3E=0.0.20",
       "authors": [
         {
           "bom-ref": "ElizabethMattijsen",
@@ -248,7 +248,7 @@
       "publisher": "zef",
       "group": "zef:lizmat",
       "name": "Hash::Agnostic",
-      "version": "0.0.16",
+      "version": "0.0.20",
       "description": "be a hash without knowing how",
       "scope": "required",
       "licenses": [
@@ -260,18 +260,18 @@
           }
         }
       ],
-      "purl": "pkg:raku/zef:lizmat/Hash::Agnostic@0.0.16",
+      "purl": "pkg:raku/zef:lizmat/Hash::Agnostic@0.0.20",
       "externalReferences": [
         {
-          "url": "https://github.com/lizmat/Hash-Agnostic",
+          "url": "https://coeberg.org/lizmat/Hash-Agnostic",
           "type": "distribution"
         },
         {
-          "url": "https://raku.land/zef:lizmat/Hash::Agnostic?v=0.0.16",
+          "url": "https://raku.land/zef:lizmat/Hash::Agnostic?v=0.0.20",
           "type": "documentation"
         },
         {
-          "url": "https://github.com/lizmat/Hash-Agnostic/issues",
+          "url": "https://codeberg.org/lizmat/Hash-Agnostic/issues",
           "type": "issue-tracker"
         },
         {
@@ -279,18 +279,20 @@
           "type": "license"
         },
         {
-          "url": "https://github.com/lizmat/Hash-Agnostic/archive/refs/tags/0.0.16.zip",
-          "type": "source-distribution"
+          "url": "mailto:liz@raku.rocks",
+          "type": "support"
         }
       ],
       "tags": [
-        "UTILS"
+        "HASH",
+        "UTILS",
+        "ROLE"
       ]
     },
     {
       "type": "library",
       "mime-type": "text/plain",
-      "bom-ref": "pkg:raku/zef:lizmat/Map::Agnostic@0.0.10",
+      "bom-ref": "pkg:raku/zef:lizmat/Map::Agnostic?vers=vers:raku/%3E=0.0.13",
       "authors": [
         {
           "bom-ref": "ElizabethMattijsen",
@@ -300,8 +302,8 @@
       "publisher": "zef",
       "group": "zef:lizmat",
       "name": "Map::Agnostic",
-      "version": "0.0.10",
-      "description": "be a map without knowing how",
+      "version": "0.0.14",
+      "description": "be a Map without knowing how",
       "scope": "required",
       "licenses": [
         {
@@ -312,18 +314,18 @@
           }
         }
       ],
-      "purl": "pkg:raku/zef:lizmat/Map::Agnostic@0.0.10",
+      "purl": "pkg:raku/zef:lizmat/Map::Agnostic@0.0.14",
       "externalReferences": [
         {
-          "url": "https://github.com/lizmat/Map-Agnostic",
+          "url": "https://codeberg.org/lizmat/Map-Agnostic",
           "type": "distribution"
         },
         {
-          "url": "https://raku.land/zef:lizmat/Map::Agnostic?v=0.0.10",
+          "url": "https://raku.land/zef:lizmat/Map::Agnostic?v=0.0.14",
           "type": "documentation"
         },
         {
-          "url": "https://github.com/lizmat/Map-Agnostic/issues",
+          "url": "https://codeberg.org/lizmat/Map-Agnostic/issues",
           "type": "issue-tracker"
         },
         {
@@ -331,18 +333,19 @@
           "type": "license"
         },
         {
-          "url": "https://github.com/lizmat/Map-Agnostic/archive/refs/tags/0.0.10.zip",
-          "type": "source-distribution"
+          "url": "mailto:liz@raku.rocks",
+          "type": "support"
         }
       ],
       "tags": [
+        "MAP",
         "UTILS"
       ]
     },
     {
       "type": "library",
       "mime-type": "text/plain",
-      "bom-ref": "pkg:raku/zef:lizmat/Map::Match?vers=vers:raku/%3E=0.0.8",
+      "bom-ref": "pkg:raku/zef:lizmat/Map::Match?vers=vers:raku/%3E=0.0.10",
       "authors": [
         {
           "bom-ref": "ElizabethMattijsen",
@@ -352,7 +355,7 @@
       "publisher": "zef",
       "group": "zef:lizmat",
       "name": "Map::Match",
-      "version": "0.0.8",
+      "version": "0.0.10",
       "description": "Provide a Map where keys are regular expressions",
       "scope": "required",
       "licenses": [
@@ -364,18 +367,18 @@
           }
         }
       ],
-      "purl": "pkg:raku/zef:lizmat/Map::Match@0.0.8",
+      "purl": "pkg:raku/zef:lizmat/Map::Match@0.0.10",
       "externalReferences": [
         {
-          "url": "https://github.com/lizmat/Map-Match",
+          "url": "https://codeberg.org/lizmat/Map-Match",
           "type": "distribution"
         },
         {
-          "url": "https://raku.land/zef:lizmat/Map::Match?v=0.0.8",
+          "url": "https://raku.land/zef:lizmat/Map::Match?v=0.0.10",
           "type": "documentation"
         },
         {
-          "url": "https://github.com/lizmat/Map-Match/issues",
+          "url": "https://codeberg.org/lizmat/Map-Match/issues",
           "type": "issue-tracker"
         },
         {
@@ -383,13 +386,14 @@
           "type": "license"
         },
         {
-          "url": "https://github.com/lizmat/Map-Match/archive/refs/tags/0.0.8.zip",
-          "type": "source-distribution"
+          "url": "mailto:liz@raku.rocks",
+          "type": "support"
         }
       ],
       "tags": [
         "REGEX",
-        "MAP"
+        "MAP",
+        "MATCH"
       ]
     }
   ],
@@ -399,7 +403,7 @@
       "type": "distribution"
     },
     {
-      "url": "https://raku.land/zef:lizmat/Text::Emoji?v=0.0.10",
+      "url": "https://raku.land/zef:lizmat/Text::Emoji?v=0.0.11",
       "type": "documentation"
     },
     {
@@ -411,7 +415,7 @@
       "type": "license"
     },
     {
-      "url": "https://github.com/lizmat/Text-Emoji/archive/refs/tags/0.0.10.zip",
+      "url": "https://github.com/lizmat/Text-Emoji/archive/refs/tags/0.0.11.zip",
       "type": "source-distribution"
     },
     {
@@ -427,14 +431,14 @@
       ]
     },
     {
-      "ref": "pkg:raku/zef:lizmat/Map::Match?vers=vers:raku/%3E=0.0.8",
+      "ref": "pkg:raku/zef:lizmat/Map::Match?vers=vers:raku/%3E=0.0.10",
       "dependsOn": [
-        "pkg:raku/zef:lizmat/Hash::Agnostic@0.0.16",
-        "pkg:raku/zef:lizmat/Map::Agnostic@0.0.10"
+        "pkg:raku/zef:lizmat/Hash::Agnostic?vers=vers:raku/%3E=0.0.20",
+        "pkg:raku/zef:lizmat/Map::Agnostic?vers=vers:raku/%3E=0.0.13"
       ]
     },
     {
-      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.12",
+      "ref": "pkg:raku/zef:lizmat/SBOM::Raku@0.0.13",
       "dependsOn": [
         "Rakudo"
       ]

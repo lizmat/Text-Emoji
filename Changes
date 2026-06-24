@@ -1,6 +1,9 @@
 Revision history for Text::Emoji
 
 {{$NEXT}}
+
+0.0.11  2026-06-24T18:57:07+02:00
+    - Modernize META
     - Bump dependency on Map::Match
 
 0.0.10  2026-01-20T15:59:43+01:00
